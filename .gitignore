@@ -1,1 +1,4 @@
-build/
+venv
+.venv
+build
+node_modules
