@@ -174,7 +174,7 @@ these instances:
 make stop
 ```
 
-## Next Steps
+### Next Steps
 
 Congratulations, your implementation works! Move onto the next assignment
-[Basic Tunneling](../basic_tunnel)
+[Basic Tunneling](#basic-tunneling)

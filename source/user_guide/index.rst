@@ -10,7 +10,7 @@ Welcome to the P4 Tutorial! We've prepared a set of exercises to help you get st
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    installation
    forward/index
