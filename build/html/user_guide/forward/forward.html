@@ -1,0 +1,686 @@
+
+<!DOCTYPE html>
+
+
+<html lang="y" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Basic Forwarding &#8212; P4 Documentation 0.0.1 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=362ab14a" />
+    <link rel="icon" sizes="16x16" type="image/png" href="https://secure.example.com/favicon/favicon-16x16.png" />
+    <link rel="icon" sizes="32x32" type="image/png" href="../../_static/favicon-32x32.png?v=4a4e5bb8" />
+    <link rel="apple-touch-icon" sizes="180x180" type="image/png" href="../../_static/apple-touch-icon.png?v=bfc66853" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../../_static/documentation_options.js?v=9de75638"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'user_guide/forward/forward';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Relevant Documentation" href="../inverse/index.html" />
+    <link rel="prev" title="Introduction and Language Basics" href="index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="y"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/P4.png" class="logo__image only-light" alt="P4 Documentation 0.0.1 documentation - Home"/>
+    <script>document.write(`<img src="../../_static/P4.png" class="logo__image only-dark" alt="P4 Documentation 0.0.1 documentation - Home"/>`);</script>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="../index.html">
+                        Tutorials
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/p4lang" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="../index.html">
+                        Tutorials
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/p4lang" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Obtaining required software guideline [Pre-requisite]</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Introduction and Language Basics</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Basic Forwarding</a></li>
+
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../inverse/index.html">Relevant Documentation</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../index.html" class="nav-link">Tutorials</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">Introduction and Language Basics</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">Basic Forwarding</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="basic-forwarding">
+<h1>Basic Forwarding<a class="headerlink" href="#basic-forwarding" title="Link to this heading">#</a></h1>
+<p><small>In this exercise, you'll learn to implement basic IPv4 packet forwarding using P4. By extending the provided <code class="docutils literal notranslate"><span class="pre">basic.p4</span></code> skeleton, you'll develop logic for updating MAC addresses, decrementing TTL values, and forwarding packets based on predefined rules. Through practical implementation and testing on a fat-tree topology in Mininet, you'll gain insights into designing and deploying data plane logic for network switches.</small></p>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
+<p>The objective of this exercise is to write a P4 program that
+implements basic forwarding. To keep things simple, we will just
+implement forwarding for IPv4.</p>
+<p>With IPv4 forwarding, the switch must perform the following actions
+for every packet: (i) update the source and destination MAC addresses,
+(ii) decrement the time-to-live (TTL) in the IP header, and (iii)
+forward the packet out the appropriate port.</p>
+<p>Your switch will have a single table, which the control plane will
+populate with static rules. Each rule will map an IP address to the
+MAC address and output port for the next hop. We have already defined
+the control plane rules, so you only need to implement the data plane
+logic of your P4 program.</p>
+<p>We will use the following topology for this exercise. It is a single
+pod of a fat-tree topology and henceforth referred to as pod-topo:
+<img alt="pod-topo" src="../../_images/pod-topo.png" /></p>
+<p>Our P4 program will be written for the V1Model architecture implemented
+on P4.org's bmv2 software switch. The architecture file for the V1Model
+can be found at: /usr/local/share/p4c/p4include/v1model.p4. This file
+desribes the interfaces of the P4 programmable elements in the architecture,
+the supported externs, as well as the architecture's standard metadata
+fields. We encourage you to take a look at it.</p>
+<blockquote>
+<div><p><strong>Spoiler alert:</strong> There is a reference solution in the <code class="docutils literal notranslate"><span class="pre">solution</span></code>
+sub-directory. Feel free to compare your implementation to the
+reference.</p>
+</div></blockquote>
+</section>
+<section id="prerequisite">
+<h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Link to this heading">#</a></h2>
+<p>To ensure a smooth experience with the tutorials, it's essential to review and follow the <a class="reference external" href="https://github.com/p4lang/tutorials#obtaining-required-software">Obtaining required software guidelines</a> to install required development tools.</p>
+</section>
+<section id="step-1-run-the-incomplete-starter-code">
+<h2>Step 1: Run the (incomplete) starter code<a class="headerlink" href="#step-1-run-the-incomplete-starter-code" title="Link to this heading">#</a></h2>
+<p>The directory with this README also contains a skeleton P4 program,
+<code class="docutils literal notranslate"><span class="pre">basic.p4</span></code>, which initially drops all packets. Your job will be to
+extend this skeleton program to properly forward IPv4 packets.</p>
+<p>Before that, let's compile the incomplete <code class="docutils literal notranslate"><span class="pre">basic.p4</span></code> and bring
+up a switch in Mininet to test its behavior.</p>
+<ol class="arabic">
+<li><p>In your shell, run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span>run
+</pre></div>
+</div>
+<p>This will:</p>
+<ul class="simple">
+<li><p>compile <code class="docutils literal notranslate"><span class="pre">basic.p4</span></code>, and</p></li>
+<li><p>start the pod-topo in Mininet and configure all switches with
+the appropriate P4 program + table entries, and</p></li>
+<li><p>configure all hosts with the commands listed in
+<a class="reference download internal" download="" href="../../_downloads/73aa2261b06c7f9bb0d44e4f9ea4664a/topology.json"><span class="xref download myst">pod-topo/topology.json</span></a></p></li>
+</ul>
+</li>
+<li><p>You should now see a Mininet command prompt. Try to ping between
+hosts in the topology:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mininet&gt;<span class="w"> </span>h1<span class="w"> </span>ping<span class="w"> </span>h2
+mininet&gt;<span class="w"> </span>pingall
+</pre></div>
+</div>
+</li>
+<li><p>Type <code class="docutils literal notranslate"><span class="pre">exit</span></code> to leave each xterm and the Mininet command line.
+Then, to stop mininet:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span>stop
+</pre></div>
+</div>
+<p>And to delete all pcaps, build files, and logs:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span>clean
+</pre></div>
+</div>
+</li>
+</ol>
+<p>The ping failed because each switch is programmed
+according to <code class="docutils literal notranslate"><span class="pre">basic.p4</span></code>, which drops all packets on arrival.
+Your job is to extend this file so it forwards packets.</p>
+</section>
+<section id="a-note-about-the-control-plane">
+<h2>A note about the control plane<a class="headerlink" href="#a-note-about-the-control-plane" title="Link to this heading">#</a></h2>
+<p>A P4 program defines a packet-processing pipeline, but the rules
+within each table are inserted by the control plane. When a rule
+matches a packet, its action is invoked with parameters supplied by
+the control plane as part of the rule.</p>
+<p>In this exercise, we have already implemented the control plane
+logic for you. As part of bringing up the Mininet instance, the
+<code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">run</span></code> command will install packet-processing rules in the tables of
+each switch. These are defined in the <code class="docutils literal notranslate"><span class="pre">sX-runtime.json</span></code> files, where
+<code class="docutils literal notranslate"><span class="pre">X</span></code> corresponds to the switch number.</p>
+<p><strong>Important:</strong> We use P4Runtime to install the control plane rules. The
+content of files <code class="docutils literal notranslate"><span class="pre">sX-runtime.json</span></code> refer to specific names of tables, keys, and
+actions, as defined in the P4Info file produced by the compiler (look for the
+file <code class="docutils literal notranslate"><span class="pre">build/basic.p4.p4info.txt</span></code> after executing <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">run</span></code>). Any changes in the P4
+program that add or rename tables, keys, or actions will need to be reflected in
+these <code class="docutils literal notranslate"><span class="pre">sX-runtime.json</span></code> files.</p>
+</section>
+<section id="step-2-implement-l3-forwarding">
+<h2>Step 2: Implement L3 forwarding<a class="headerlink" href="#step-2-implement-l3-forwarding" title="Link to this heading">#</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">basic.p4</span></code> file contains a skeleton P4 program with key pieces of
+logic replaced by <code class="docutils literal notranslate"><span class="pre">TODO</span></code> comments. Your implementation should follow
+the structure given in this file---replace each <code class="docutils literal notranslate"><span class="pre">TODO</span></code> with logic
+implementing the missing piece.</p>
+<p>A complete <code class="docutils literal notranslate"><span class="pre">basic.p4</span></code> will contain the following components:</p>
+<ol class="arabic">
+<li><p>Header type definitions for Ethernet (<code class="docutils literal notranslate"><span class="pre">ethernet_t</span></code>) and IPv4 (<code class="docutils literal notranslate"><span class="pre">ipv4_t</span></code>).</p></li>
+<li><p><strong>TODO:</strong> Parsers for Ethernet and IPv4 that populate <code class="docutils literal notranslate"><span class="pre">ethernet_t</span></code> and <code class="docutils literal notranslate"><span class="pre">ipv4_t</span></code> fields.</p></li>
+<li><p>An action to drop a packet, using <code class="docutils literal notranslate"><span class="pre">mark_to_drop()</span></code>.</p></li>
+<li><p><strong>TODO:</strong> An action (called <code class="docutils literal notranslate"><span class="pre">ipv4_forward</span></code>) that:</p>
+<ol class="arabic simple">
+<li><p>Sets the egress port for the next hop.</p></li>
+<li><p>Updates the ethernet destination address with the address of the next hop.</p></li>
+<li><p>Updates the ethernet source address with the address of the switch.</p></li>
+<li><p>Decrements the TTL.</p></li>
+</ol>
+</li>
+<li><p><strong>TODO:</strong> A control that:</p>
+<ol class="arabic simple">
+<li><p>Defines a table that will read an IPv4 destination address, and
+invoke either <code class="docutils literal notranslate"><span class="pre">drop</span></code> or <code class="docutils literal notranslate"><span class="pre">ipv4_forward</span></code>.</p></li>
+<li><p>An <code class="docutils literal notranslate"><span class="pre">apply</span></code> block that applies the table.</p></li>
+</ol>
+</li>
+<li><p><strong>TODO:</strong> A deparser that selects the order
+in which fields inserted into the outgoing packet.</p></li>
+<li><p>A <code class="docutils literal notranslate"><span class="pre">package</span></code> instantiation supplied with the parser, control, and deparser.</p>
+<blockquote>
+<div><p>In general, a package also requires instances of checksum verification
+and recomputation controls. These are not necessary for this tutorial
+and are replaced with instantiations of empty controls.</p>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="step-3-run-your-solution">
+<h2>Step 3: Run your solution<a class="headerlink" href="#step-3-run-your-solution" title="Link to this heading">#</a></h2>
+<p>Follow the instructions from Step 1. This time, you should be able to
+sucessfully ping between any two hosts in the topology.</p>
+</section>
+<section id="food-for-thought">
+<h2>Food for thought<a class="headerlink" href="#food-for-thought" title="Link to this heading">#</a></h2>
+<p>The &quot;test suite&quot; for your solution---sending pings between hosts in the
+topology---is not very robust. What else should you test to be confident
+that you implementation is correct?</p>
+<blockquote>
+<div><p>Although the Python <code class="docutils literal notranslate"><span class="pre">scapy</span></code> library is outside the scope of this tutorial,
+it can be used to generate packets for testing. The <code class="docutils literal notranslate"><span class="pre">send.py</span></code> file shows how
+to use it.</p>
+</div></blockquote>
+<p>Other questions to consider:</p>
+<ul class="simple">
+<li><p>How would you enhance your program to respond to ARP requests?</p></li>
+<li><p>How would you enhance your program to support traceroute?</p></li>
+<li><p>How would you enhance your program to support next hops?</p></li>
+<li><p>Is this program enough to replace a router?  What's missing?</p></li>
+</ul>
+</section>
+<section id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">#</a></h2>
+<p>There are several problems that might manifest as you develop your program:</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">basic.p4</span></code> might fail to compile. In this case, <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">run</span></code> will
+report the error emitted from the compiler and halt.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">basic.p4</span></code> might compile but fail to support the control plane
+rules in the <code class="docutils literal notranslate"><span class="pre">s1-runtime.json</span></code> through <code class="docutils literal notranslate"><span class="pre">s3-runtime.json</span></code> files that
+<code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">run</span></code> tries to install using P4Runtime. In this case, <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">run</span></code> will
+report errors if control plane rules cannot be installed. Use these error
+messages to fix your <code class="docutils literal notranslate"><span class="pre">basic.p4</span></code> implementation.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">basic.p4</span></code> might compile, and the control plane rules might be
+installed, but the switch might not process packets in the desired
+way. The <code class="docutils literal notranslate"><span class="pre">logs/sX.log</span></code> files contain detailed logs
+that describing how each switch processes each packet. The output is
+detailed and can help pinpoint logic errors in your implementation.</p></li>
+</ol>
+<section id="cleaning-up-mininet">
+<h3>Cleaning up Mininet<a class="headerlink" href="#cleaning-up-mininet" title="Link to this heading">#</a></h3>
+<p>In the latter two cases above, <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">run</span></code> may leave a Mininet instance
+running in the background. Use the following command to clean up
+these instances:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span>stop
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+<section id="next-steps">
+<h1>Next Steps<a class="headerlink" href="#next-steps" title="Link to this heading">#</a></h1>
+<p>Congratulations, your implementation works! Move onto the next assignment
+<a class="reference internal" href="#../basic_tunnel"><span class="xref myst">Basic Tunneling</span></a></p>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Introduction and Language Basics</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../inverse/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Relevant Documentation</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Basic Forwarding</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisite">Prerequisite</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-run-the-incomplete-starter-code">Step 1: Run the (incomplete) starter code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-note-about-the-control-plane">A note about the control plane</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-implement-l3-forwarding">Step 2: Implement L3 forwarding</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-run-your-solution">Step 3: Run your solution</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#food-for-thought">Food for thought</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cleaning-up-mininet">Cleaning up Mininet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#next-steps">Next Steps</a></li>
+</ul>
+
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../_sources/user_guide/forward/forward.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Adarsh.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
