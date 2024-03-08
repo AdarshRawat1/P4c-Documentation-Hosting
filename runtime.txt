@@ -1,0 +1,5 @@
+echo "3.7" > runtime.txt    # This declares that you're going to use python 3.7, not the default of python 2.7
+# These commands only work if you have poetry installed.
+poetry init
+poetry add sphinx
+poetry export -f requirements.txt -o requirements.txt
