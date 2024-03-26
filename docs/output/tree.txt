@@ -1,0 +1,26 @@
+#
+.
+├── api
+│  ├── conf.py
+│  ├── header.rst
+│  ├── index.rst
+│  ├── main.rst
+│  └── requirements.txt
+├── cmake
+│  ├── CMakeLists.txt
+│  ├── doxygen
+│  │  └── CMakeLists.txt
+│  ├── module
+│  │  └── FindSphinx.cmake
+│  └── sphinx
+│     ├── CMakeLists.txt
+│     └── conf.in.py
+├── CMakeLists.txt
+├── lib
+│  ├── CMakeLists.txt
+│  ├── header.cxx
+│  └── header.hxx
+└── src
+   ├── CMakeLists.txt
+   └── main.cxx
+#
