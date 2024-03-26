@@ -16,8 +16,9 @@ Welcome to p4 Compiler's documentation!
 .. toctree::
    :maxdepth: 2
 
-
-   getting_started/index
-   tutorials/index
-   user_guide/index
-   P4 14/index
+   about
+   api/library_root
+   .. getting_started/index
+   .. tutorials/index
+   .. user_guide/index
+   .. P4 14/index
