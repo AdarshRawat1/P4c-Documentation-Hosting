@@ -6,7 +6,7 @@ Welcome to the P4 Tutorial! We've prepared a set of exercises to help you get st
 
 .. note::
 
-    This page is currently under development🔨. Please come back later, or better yet, contribute! See :ref:`developer-guide` for guidance on how to contribute documentation.
+    This page is currently under development. Please come back later, or better yet, contribute! See :ref:`developer-guide` for guidance on how to contribute documentation.
 
 
 .. toctree::
