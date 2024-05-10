@@ -1,7 +1,0 @@
-<map id="P4::CheckTableSize" name="P4::CheckTableSize">
-<area shape="rect" id="Node000001" title="Checks some possible misuses of the table size property." alt="" coords="5,155,145,181"/>
-<area shape="rect" id="Node000002" href="$class_modifier.html" title=" " alt="" coords="42,80,108,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,122,78,154,72,154,72,122"/>
-<area shape="rect" id="Node000003" href="$class_visitor.html" title=" " alt="" coords="46,5,104,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,48,78,80,72,80,72,48"/>
-</map>

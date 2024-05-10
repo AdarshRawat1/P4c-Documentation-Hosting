@@ -1,7 +1,0 @@
-<map id="P4::NameGenerator" name="P4::NameGenerator">
-<area shape="rect" id="Node000001" title=" " alt="" coords="117,5,254,32"/>
-<area shape="rect" id="Node000002" href="$class_p4_1_1_minimal_name_generator.html" title=" " alt="" coords="5,80,187,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,44,113,82,110,78,156,40"/>
-<area shape="rect" id="Node000003" href="$class_p4_1_1_reference_map.html" title="Class used to encode maps from paths to declarations." alt="" coords="211,80,339,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="214,40,261,78,258,82,211,44"/>
-</map>

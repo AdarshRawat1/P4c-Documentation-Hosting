@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_b_m_v2_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_v1_m_o_d_e_l_01_4.html" title=" " alt="" coords="5,39,204,81"/>
-<area shape="rect" id="Node000001" href="$struct_b_m_v2_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_v1_m_o_d_e_l2020_01_4.html" title=" " alt="" coords="256,5,458,48"/>
-<area shape="poly" id="edge10_Node000000_Node000001" title=" " alt="" coords="219,42,255,37,256,43,220,48"/>
-<area shape="rect" id="Node000003" href="$struct_b_m_v2_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_v1_m_o_d_e_l_01_4.html" title=" " alt="" coords="252,72,462,115"/>
-<area shape="poly" id="edge12_Node000000_Node000003" title=" " alt="" coords="219,72,251,77,251,82,219,78"/>
-<area shape="rect" id="Node000002" href="$struct_b_m_v2_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_v1_m_o_d_e_l2020_01_4.html" title=" " alt="" coords="510,5,720,48"/>
-<area shape="poly" id="edge11_Node000001_Node000002" title=" " alt="" coords="474,24,510,24,510,29,474,29"/>
-</map>

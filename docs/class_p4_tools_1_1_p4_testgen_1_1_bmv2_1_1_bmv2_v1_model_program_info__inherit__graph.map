@@ -1,9 +1,0 @@
-<map id="P4Tools::P4Testgen::Bmv2::Bmv2V1ModelProgramInfo" name="P4Tools::P4Testgen::Bmv2::Bmv2V1ModelProgramInfo">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,245,227,288"/>
-<area shape="rect" id="Node000002" href="$class_p4_tools_1_1_p4_testgen_1_1_program_info.html" title="Stores target&#45;specific information about a P4 program." alt="" coords="47,155,185,197"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,213,119,245,113,245,113,213"/>
-<area shape="rect" id="Node000003" href="$class_i_castable.html" title=" " alt="" coords="78,80,154,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,122,119,154,113,154,113,122"/>
-<area shape="rect" id="Node000004" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="73,5,159,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="119,48,119,80,113,80,113,48"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="P4::ProgramMap" name="P4::ProgramMap">
-<area shape="rect" id="Node000001" title=" " alt="" coords="78,80,197,107"/>
-<area shape="rect" id="Node000003" href="$class_p4_1_1_reference_map.html" title="Class used to encode maps from paths to declarations." alt="" coords="5,155,134,181"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,120,83,156,79,152,113,116"/>
-<area shape="rect" id="Node000004" href="$class_p4_1_1_type_map.html" title=" " alt="" coords="158,155,256,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,116,197,152,193,156,158,120"/>
-<area shape="rect" id="Node000002" href="$class_i_has_db_print.html" title=" " alt="" coords="92,5,183,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,48,140,80,135,80,135,48"/>
-</map>

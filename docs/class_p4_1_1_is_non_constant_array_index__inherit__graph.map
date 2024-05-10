@@ -1,9 +1,0 @@
-<map id="P4::IsNonConstantArrayIndex" name="P4::IsNonConstantArrayIndex">
-<area shape="rect" id="Node000001" title=" " alt="" coords="28,155,221,181"/>
-<area shape="rect" id="Node000002" href="$class_p4_1_1_key_is_simple.html" title=" " alt="" coords="5,80,124,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,117,116,153,112,156,82,120"/>
-<area shape="rect" id="Node000003" href="$class_inspector.html" title=" " alt="" coords="147,80,222,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,120,137,156,133,153,162,117"/>
-<area shape="rect" id="Node000004" href="$class_visitor.html" title=" " alt="" coords="155,5,214,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="187,48,187,80,182,80,182,48"/>
-</map>

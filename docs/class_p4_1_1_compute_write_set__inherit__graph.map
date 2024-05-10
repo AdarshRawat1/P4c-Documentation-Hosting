@@ -1,9 +1,0 @@
-<map id="P4::ComputeWriteSet" name="P4::ComputeWriteSet">
-<area shape="rect" id="Node000001" title=" " alt="" coords="22,155,170,181"/>
-<area shape="rect" id="Node000002" href="$class_inspector.html" title=" " alt="" coords="5,80,80,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,118,89,153,85,156,59,121"/>
-<area shape="rect" id="Node000003" href="$class_visitor.html" title=" " alt="" coords="13,5,72,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="45,48,45,80,40,80,40,48"/>
-<area shape="rect" id="Node000004" href="$class_i_has_db_print.html" title=" " alt="" coords="104,80,194,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="133,121,107,156,103,153,129,118"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="P4::DoReplaceTuples" name="P4::DoReplaceTuples">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,152,181"/>
-<area shape="rect" id="Node000002" href="$class_transform.html" title=" " alt="" coords="39,80,118,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,122,81,154,76,154,76,122"/>
-<area shape="rect" id="Node000003" href="$class_visitor.html" title=" " alt="" coords="49,5,108,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="81,48,81,80,76,80,76,48"/>
-</map>

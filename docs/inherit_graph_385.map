@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,13,105,40"/>
-<area shape="rect" id="Node000001" title=" " alt="" coords="153,13,306,40"/>
-<area shape="poly" id="edge1009_Node000000_Node000001" title=" " alt="" coords="120,24,152,24,152,29,120,29"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="354,5,486,48"/>
-<area shape="poly" id="edge1010_Node000001_Node000002" title=" " alt="" coords="322,24,353,24,353,29,322,29"/>
-<area shape="rect" id="Node000003" href="$classonullstream.html" title=" " alt="" coords="534,13,698,40"/>
-<area shape="poly" id="edge1011_Node000002_Node000003" title=" " alt="" coords="502,24,534,24,534,29,502,29"/>
-</map>

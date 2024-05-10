@@ -1,7 +1,0 @@
-<map id="P4Tools::P4Testgen::Bmv2::PropagateP4RuntimeTranslation" name="P4Tools::P4Testgen::Bmv2::PropagateP4RuntimeTranslation">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,198,213"/>
-<area shape="rect" id="Node000002" href="$class_transform.html" title=" " alt="" coords="62,80,141,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,123,104,154,99,154,99,123"/>
-<area shape="rect" id="Node000003" href="$class_visitor.html" title=" " alt="" coords="72,5,131,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,48,104,80,99,80,99,48"/>
-</map>

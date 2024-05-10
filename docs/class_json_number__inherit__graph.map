@@ -1,9 +1,0 @@
-<map id="JsonNumber" name="JsonNumber">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,99,256"/>
-<area shape="rect" id="Node000002" href="$class_json_data.html" title=" " alt="" coords="14,155,90,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,197,55,229,49,229,49,197"/>
-<area shape="rect" id="Node000003" href="$class_i_castable.html" title=" " alt="" coords="14,80,90,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="55,122,55,154,49,154,49,122"/>
-<area shape="rect" id="Node000004" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="9,5,95,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="55,48,55,80,49,80,49,48"/>
-</map>

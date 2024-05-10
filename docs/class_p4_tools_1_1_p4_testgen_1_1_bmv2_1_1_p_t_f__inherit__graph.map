@@ -1,7 +1,0 @@
-<map id="P4Tools::P4Testgen::Bmv2::PTF" name="P4Tools::P4Testgen::Bmv2::PTF">
-<area shape="rect" id="Node000001" title="Extracts information from the @testSpec to emit a PTF test case." alt="" coords="31,187,170,229"/>
-<area shape="rect" id="Node000002" href="$class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_test_framework.html" title="Bmv2TestFramework provides common utility functions for BMv2&#45;style test frameworks." alt="" coords="5,96,196,139"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,154,103,186,98,186,98,154"/>
-<area shape="rect" id="Node000003" href="$class_p4_tools_1_1_p4_testgen_1_1_test_framework.html" title=" " alt="" coords="31,5,170,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,64,103,96,98,96,98,64"/>
-</map>

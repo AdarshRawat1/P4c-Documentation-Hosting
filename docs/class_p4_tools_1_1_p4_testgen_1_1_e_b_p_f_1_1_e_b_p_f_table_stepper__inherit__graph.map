@@ -1,5 +1,0 @@
-<map id="P4Tools::P4Testgen::EBPF::EBPFTableStepper" name="P4Tools::P4Testgen::EBPF::EBPFTableStepper">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,96,189,139"/>
-<area shape="rect" id="Node000002" href="$class_p4_tools_1_1_p4_testgen_1_1_table_stepper.html" title="Implements small&#45;step operational semantics for tables." alt="" coords="28,5,166,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,64,100,96,94,96,94,64"/>
-</map>

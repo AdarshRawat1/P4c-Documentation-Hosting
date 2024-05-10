@@ -1,9 +1,0 @@
-<map id="P4::ComplexValues::Component" name="P4::ComplexValues::Component">
-<area shape="rect" id="Node000001" title=" " alt="" coords="89,80,234,123"/>
-<area shape="rect" id="Node000003" href="$struct_p4_1_1_complex_values_1_1_fields_map.html" title=" " alt="" coords="5,171,150,213"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="133,136,99,172,95,169,130,132"/>
-<area shape="rect" id="Node000004" href="$struct_p4_1_1_complex_values_1_1_final_name.html" title=" " alt="" coords="173,171,318,213"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="193,132,228,169,224,172,190,136"/>
-<area shape="rect" id="Node000002" href="$class_i_has_db_print.html" title=" " alt="" coords="116,5,207,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,48,164,80,159,80,159,48"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="P4::DoResetHeaders" name="P4::DoResetHeaders">
-<area shape="rect" id="Node000001" title="Explicitly invalidate uninitialized header variables." alt="" coords="5,155,149,181"/>
-<area shape="rect" id="Node000002" href="$class_transform.html" title=" " alt="" coords="38,80,116,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,122,80,154,74,154,74,122"/>
-<area shape="rect" id="Node000003" href="$class_visitor.html" title=" " alt="" coords="48,5,106,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,48,80,80,74,80,74,48"/>
-</map>

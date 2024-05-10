@@ -1,9 +1,0 @@
-<map id="DBPrint::setflags_helper" name="DBPrint::setflags_helper">
-<area shape="rect" id="Node000001" title=" " alt="" coords="114,5,275,32"/>
-<area shape="rect" id="Node000002" href="$struct_d_b_print_1_1clrflag.html" title=" " alt="" coords="5,80,114,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,42,84,82,82,77,156,37"/>
-<area shape="rect" id="Node000003" href="$struct_d_b_print_1_1setflag.html" title=" " alt="" coords="138,80,250,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,48,197,80,192,80,192,48"/>
-<area shape="rect" id="Node000004" href="$struct_d_b_print_1_1setprec.html" title=" " alt="" coords="274,80,392,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="233,37,310,77,307,82,231,42"/>
-</map>

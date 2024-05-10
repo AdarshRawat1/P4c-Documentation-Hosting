@@ -1,9 +1,0 @@
-<map id="graphs::EdgeTypeIface" name="graphs::EdgeTypeIface">
-<area shape="rect" id="Node000001" title=" " alt="" coords="126,5,280,32"/>
-<area shape="rect" id="Node000002" href="$classgraphs_1_1_edge_if.html" title=" " alt="" coords="5,80,110,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,42,84,82,82,77,163,37"/>
-<area shape="rect" id="Node000003" href="$classgraphs_1_1_edge_switch.html" title=" " alt="" coords="134,80,272,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,48,206,80,200,80,200,48"/>
-<area shape="rect" id="Node000004" href="$classgraphs_1_1_edge_unconditional.html" title=" " alt="" coords="296,80,472,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="249,36,353,77,351,82,248,41"/>
-</map>
