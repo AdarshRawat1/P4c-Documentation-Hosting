@@ -1,0 +1,9 @@
+<map id="P4::FunctionsInliner" name="P4::FunctionsInliner">
+<area shape="rect" id="Node000001" title=" " alt="" coords="25,261,162,288"/>
+<area shape="rect" id="Node000002" href="$class_p4_1_1_abstract_inliner.html" title=" " alt="" coords="5,155,182,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,229,96,261,91,261,91,229"/>
+<area shape="rect" id="Node000003" href="$class_transform.html" title=" " alt="" coords="54,80,133,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,123,96,154,91,154,91,123"/>
+<area shape="rect" id="Node000004" href="$class_visitor.html" title=" " alt="" coords="64,5,123,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="96,48,96,80,91,80,91,48"/>
+</map>

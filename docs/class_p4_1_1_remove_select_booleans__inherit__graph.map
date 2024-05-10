@@ -1,0 +1,10 @@
+<map id="P4::RemoveSelectBooleans" name="P4::RemoveSelectBooleans">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,188,256"/>
+<area shape="rect" id="Node000002" href="$class_pass_manager.html" title=" " alt="" coords="46,155,147,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,197,99,229,94,229,94,197"/>
+<area shape="rect" id="Node000003" href="$class_visitor.html" title=" " alt="" coords="67,5,126,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,48,86,80,88,121,95,154,90,155,82,121,81,80,87,47"/>
+<area shape="rect" id="Node000004" href="$class_backtrack.html" title=" " alt="" coords="95,80,175,107"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="113,45,131,78,126,81,108,47"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="124,122,106,156,101,153,119,119"/>
+</map>

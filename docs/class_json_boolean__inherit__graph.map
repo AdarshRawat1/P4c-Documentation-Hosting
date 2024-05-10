@@ -1,0 +1,9 @@
+<map id="JsonBoolean" name="JsonBoolean">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,101,256"/>
+<area shape="rect" id="Node000002" href="$class_json_data.html" title=" " alt="" coords="15,155,91,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,197,56,229,50,229,50,197"/>
+<area shape="rect" id="Node000003" href="$class_i_castable.html" title=" " alt="" coords="15,80,91,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="56,122,56,154,50,154,50,122"/>
+<area shape="rect" id="Node000004" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="10,5,96,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="56,48,56,80,50,80,50,48"/>
+</map>

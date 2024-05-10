@@ -1,0 +1,5 @@
+<map id="graphs::EdgeUnconditional" name="graphs::EdgeUnconditional">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,182,107"/>
+<area shape="rect" id="Node000002" href="$classgraphs_1_1_edge_type_iface.html" title=" " alt="" coords="17,5,170,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,48,96,80,91,80,91,48"/>
+</map>

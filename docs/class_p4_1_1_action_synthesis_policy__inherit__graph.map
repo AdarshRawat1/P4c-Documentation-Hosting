@@ -1,0 +1,7 @@
+<map id="P4::ActionSynthesisPolicy" name="P4::ActionSynthesisPolicy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="70,5,246,32"/>
+<area shape="rect" id="Node000002" href="$class_b_m_v2_1_1_skip_controls.html" title=" " alt="" coords="5,80,145,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,45,91,82,87,78,130,40"/>
+<area shape="rect" id="Node000003" href="$class_p4_test_1_1_skip_controls.html" title=" " alt="" coords="168,80,313,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,40,228,78,224,82,182,45"/>
+</map>

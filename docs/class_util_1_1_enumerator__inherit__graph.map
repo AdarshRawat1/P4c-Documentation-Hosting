@@ -1,0 +1,9 @@
+<map id="Util::Enumerator&lt; T &gt;" name="Util::Enumerator&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Type&#45;erased Enumerator interface." alt="" coords="5,56,152,83"/>
+<area shape="rect" id="Node000002" href="$class_util_1_1_concat_enumerator.html" title="Concatenation." alt="" coords="200,5,387,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,49,233,30,234,35,154,54"/>
+<area shape="rect" id="Node000003" href="$class_util_1_1_empty_enumerator.html" title="Always empty iterator (equivalent to end())" alt="" coords="201,56,386,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,67,201,67,201,72,168,72"/>
+<area shape="rect" id="Node000004" href="$class_util_1_1_filter_enumerator.html" title=" " alt="" coords="221,107,366,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="145,85,222,106,220,111,144,90"/>
+</map>

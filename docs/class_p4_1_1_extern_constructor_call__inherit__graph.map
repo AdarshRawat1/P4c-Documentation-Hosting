@@ -1,0 +1,11 @@
+<map id="P4::ExternConstructorCall" name="P4::ExternConstructorCall">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,304,178,331"/>
+<area shape="rect" id="Node000002" href="$class_p4_1_1_constructor_call.html" title=" " alt="" coords="24,229,159,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,272,94,304,89,304,89,272"/>
+<area shape="rect" id="Node000003" href="$class_p4_1_1_instance_base.html" title=" " alt="" coords="29,155,154,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,197,94,229,89,229,89,197"/>
+<area shape="rect" id="Node000004" href="$class_i_castable.html" title=" " alt="" coords="54,80,129,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,122,94,154,89,154,89,122"/>
+<area shape="rect" id="Node000005" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="49,5,134,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,48,94,80,89,80,89,48"/>
+</map>

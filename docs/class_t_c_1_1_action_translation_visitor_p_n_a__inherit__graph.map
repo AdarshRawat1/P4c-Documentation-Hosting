@@ -1,0 +1,16 @@
+<map id="TC::ActionTranslationVisitorPNA" name="TC::ActionTranslationVisitorPNA">
+<area shape="rect" id="Node000001" title=" " alt="" coords="113,379,323,405"/>
+<area shape="rect" id="Node000002" href="$class_e_b_p_f_1_1_action_translation_visitor.html" title=" " alt="" coords="5,304,207,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,337,200,376,197,380,137,342"/>
+<area shape="rect" id="Node000003" href="$class_e_b_p_f_1_1_code_gen_inspector.html" title=" " alt="" coords="132,155,304,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,196,118,305,113,302,197,192"/>
+<area shape="rect" id="Node000007" href="$class_e_b_p_f_1_1_control_body_translator.html" title=" " alt="" coords="211,229,404,256"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="247,189,294,227,290,231,244,194"/>
+<area shape="rect" id="Node000004" href="$class_inspector.html" title=" " alt="" coords="181,80,255,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="221,122,221,154,215,154,215,122"/>
+<area shape="rect" id="Node000005" href="$class_visitor.html" title=" " alt="" coords="189,5,247,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="221,48,221,80,215,80,215,48"/>
+<area shape="rect" id="Node000006" href="$class_t_c_1_1_control_body_translator_p_n_a.html" title=" " alt="" coords="231,304,432,331"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="300,342,239,380,236,376,297,337"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="319,270,330,303,325,304,314,272"/>
+</map>

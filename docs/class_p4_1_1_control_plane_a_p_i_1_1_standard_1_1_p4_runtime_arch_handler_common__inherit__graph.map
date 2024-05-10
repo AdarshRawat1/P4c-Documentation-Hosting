@@ -1,0 +1,25 @@
+<map id="P4::ControlPlaneAPI::Standard::P4RuntimeArchHandlerCommon&lt; arch &gt;" name="P4::ControlPlaneAPI::Standard::P4RuntimeArchHandlerCommon&lt; arch &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="245,212,469,271"/>
+<area shape="rect" id="Node000003" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler.html" title=" " alt="" coords="517,5,742,64"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="387,198,443,135,478,102,516,74,536,62,539,67,518,78,481,106,447,139,391,202"/>
+<area shape="rect" id="Node000005" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler.html" title=" " alt="" coords="517,88,742,147"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="424,202,516,156,544,145,546,150,518,161,426,207"/>
+<area shape="rect" id="Node000007" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_s_a_p_n_a.html" title=" " alt="" coords="518,171,742,229"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="484,219,517,214,518,220,485,225"/>
+<area shape="rect" id="Node000009" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_s_a_p_n_a.html" title=" " alt="" coords="518,253,742,312"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="485,258,518,263,517,268,484,263"/>
+<area shape="rect" id="Node000011" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler.html" title=" " alt="" coords="517,336,742,395"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="426,276,518,322,546,333,544,338,516,326,424,281"/>
+<area shape="rect" id="Node000012" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_s_a_p_n_a.html" title=" " alt="" coords="518,419,742,477"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="391,281,447,344,481,376,518,404,539,416,536,421,516,409,478,380,443,348,387,285"/>
+<area shape="rect" id="Node000002" href="$class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_arch_handler_iface.html" title=" " alt="" coords="5,220,197,263"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,239,244,239,244,244,213,244"/>
+<area shape="rect" id="Node000004" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler_p_n_a.html" title=" " alt="" coords="790,13,1043,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="758,32,790,32,790,37,758,37"/>
+<area shape="rect" id="Node000006" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler_p_s_a.html" title=" " alt="" coords="790,96,1043,139"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="758,115,790,115,790,120,758,120"/>
+<area shape="rect" id="Node000008" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_n_a.html" title=" " alt="" coords="791,179,1042,221"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="758,197,790,197,790,203,758,203"/>
+<area shape="rect" id="Node000010" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_s_a.html" title=" " alt="" coords="791,261,1042,304"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="758,280,790,280,790,285,758,285"/>
+</map>

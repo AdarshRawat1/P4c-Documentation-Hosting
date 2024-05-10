@@ -1,0 +1,13 @@
+<map id="BMV2::BMV2Options" name="BMV2::BMV2Options">
+<area shape="rect" id="Node000001" title=" " alt="" coords="121,229,267,256"/>
+<area shape="rect" id="Node000005" href="$class_b_m_v2_1_1_psa_switch_options.html" title=" " alt="" coords="5,304,178,331"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="165,268,111,306,108,301,162,263"/>
+<area shape="rect" id="Node000006" href="$class_b_m_v2_1_1_simple_switch_options.html" title=" " alt="" coords="202,304,392,331"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="226,263,280,301,277,306,223,268"/>
+<area shape="rect" id="Node000002" href="$class_compiler_options.html" title=" " alt="" coords="136,155,253,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,197,197,229,192,229,192,197"/>
+<area shape="rect" id="Node000003" href="$class_parser_options.html" title=" " alt="" coords="142,80,246,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="197,122,197,154,192,154,192,122"/>
+<area shape="rect" id="Node000004" href="$class_util_1_1_options.html" title=" " alt="" coords="148,5,241,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="197,48,197,80,192,80,192,48"/>
+</map>

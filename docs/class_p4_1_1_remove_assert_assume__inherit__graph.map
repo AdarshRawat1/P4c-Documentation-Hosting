@@ -1,0 +1,10 @@
+<map id="P4::RemoveAssertAssume" name="P4::RemoveAssertAssume">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,183,256"/>
+<area shape="rect" id="Node000002" href="$class_pass_manager.html" title=" " alt="" coords="43,155,145,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,197,97,229,91,229,91,197"/>
+<area shape="rect" id="Node000003" href="$class_visitor.html" title=" " alt="" coords="65,5,123,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,48,83,80,85,121,93,154,87,155,80,121,78,80,84,47"/>
+<area shape="rect" id="Node000004" href="$class_backtrack.html" title=" " alt="" coords="93,80,173,107"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="110,45,128,78,124,81,106,47"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="121,122,103,156,98,153,116,119"/>
+</map>
