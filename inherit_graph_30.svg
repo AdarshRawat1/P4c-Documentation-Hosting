@@ -8,11 +8,12 @@
  viewBox="0.00 0.00 513.00 104.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 100)">
 <title>Graphical Class Hierarchy</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-100 509,-100 509,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
 <g id="a_node1"><a xlink:href="class_b_m_v2_1_1_program_structure.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-38.5 0,-57.5 137,-57.5 137,-38.5 0,-38.5"/>
+<polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 137,-57.5 137,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="68.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::ProgramStructure</text>
 </a>
 </g>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node1</title>
 <g id="a_node2"><a xlink:href="class_b_m_v2_1_1_psa_program_structure.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="173,-76.5 173,-95.5 327,-95.5 327,-76.5 173,-76.5"/>
+<polygon fill="white" stroke="black" points="173,-76.5 173,-95.5 327,-95.5 327,-76.5 173,-76.5"/>
 <text text-anchor="middle" x="250" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::PsaProgramStructure</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node4" class="node">
 <title>Node3</title>
 <g id="a_node4"><a xlink:href="class_b_m_v2_1_1_v1_program_structure.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="175.5,-38.5 175.5,-57.5 324.5,-57.5 324.5,-38.5 175.5,-38.5"/>
+<polygon fill="white" stroke="black" points="175.5,-38.5 175.5,-57.5 324.5,-57.5 324.5,-38.5 175.5,-38.5"/>
 <text text-anchor="middle" x="250" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::V1ProgramStructure</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node5" class="node">
 <title>Node4</title>
 <g id="a_node5"><a xlink:href="class_t_c_1_1_pna_program_structure.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="181,-0.5 181,-19.5 319,-19.5 319,-0.5 181,-0.5"/>
+<polygon fill="white" stroke="black" points="181,-0.5 181,-19.5 319,-19.5 319,-0.5 181,-0.5"/>
 <text text-anchor="middle" x="250" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TC::PnaProgramStructure</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node3" class="node">
 <title>Node2</title>
 <g id="a_node3"><a xlink:href="class_b_m_v2_1_1_psa_code_generator.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="363,-76.5 363,-95.5 505,-95.5 505,-76.5 363,-76.5"/>
+<polygon fill="white" stroke="black" points="363,-76.5 363,-95.5 505,-95.5 505,-76.5 363,-76.5"/>
 <text text-anchor="middle" x="434" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::PsaCodeGenerator</text>
 </a>
 </g>

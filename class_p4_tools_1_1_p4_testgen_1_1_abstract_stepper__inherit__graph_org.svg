@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 854.00 284.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 280)">
 <title>P4Tools::P4Testgen::AbstractStepper</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-280 850,-280 850,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_cmd_stepper.html" target="_top" xlink:title="Implements small&#45;step operational semantics for commands.">
-<polygon fill="none" stroke="black" points="327,-171.5 327,-201.5 436,-201.5 436,-171.5 327,-171.5"/>
+<polygon fill="white" stroke="black" points="327,-171.5 327,-201.5 436,-201.5 436,-171.5 327,-171.5"/>
 <text text-anchor="start" x="335" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="381.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">::CmdStepper</text>
 </a>
@@ -38,7 +39,7 @@
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_expr_stepper.html" target="_top" xlink:title="Implements small&#45;step operational semantics for expressions.">
-<polygon fill="none" stroke="black" points="327,-74.5 327,-104.5 436,-104.5 436,-74.5 327,-74.5"/>
+<polygon fill="white" stroke="black" points="327,-74.5 327,-104.5 436,-104.5 436,-74.5 327,-74.5"/>
 <text text-anchor="start" x="335" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="381.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ExprStepper</text>
 </a>
@@ -54,7 +55,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_inspector.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="84,-104 84,-123 146,-123 146,-104 84,-104"/>
+<polygon fill="white" stroke="black" points="84,-104 84,-123 146,-123 146,-104 84,-104"/>
 <text text-anchor="middle" x="115" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00">Inspector</text>
 </a>
 </g>
@@ -69,7 +70,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_visitor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-104 0,-123 48,-123 48,-104 0,-104"/>
+<polygon fill="white" stroke="black" points="0,-104 0,-123 48,-123 48,-104 0,-104"/>
 <text text-anchor="middle" x="24" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00">Visitor</text>
 </a>
 </g>
@@ -84,7 +85,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_cmd_stepper.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="472,-245.5 472,-275.5 660,-275.5 660,-245.5 472,-245.5"/>
+<polygon fill="white" stroke="black" points="472,-245.5 472,-275.5 660,-275.5 660,-245.5 472,-245.5"/>
 <text text-anchor="start" x="480" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="566" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::Bmv2V1ModelCmdStepper</text>
 </a>
@@ -100,7 +101,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_e_b_p_f_1_1_e_b_p_f_cmd_stepper.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="497.5,-196.5 497.5,-226.5 634.5,-226.5 634.5,-196.5 497.5,-196.5"/>
+<polygon fill="white" stroke="black" points="497.5,-196.5 497.5,-226.5 634.5,-226.5 634.5,-196.5 497.5,-196.5"/>
 <text text-anchor="start" x="505.5" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="566" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">::EBPF::EBPFCmdStepper</text>
 </a>
@@ -116,7 +117,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_cmd_stepper.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="487,-147.5 487,-177.5 645,-177.5 645,-147.5 487,-147.5"/>
+<polygon fill="white" stroke="black" points="487,-147.5 487,-177.5 645,-177.5 645,-147.5 487,-147.5"/>
 <text text-anchor="start" x="495" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="566" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Pna::SharedPnaCmdStepper</text>
 </a>
@@ -132,7 +133,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_pna_1_1_pna_dpdk_cmd_stepper.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="696,-147.5 696,-177.5 846,-177.5 846,-147.5 696,-147.5"/>
+<polygon fill="white" stroke="black" points="696,-147.5 696,-177.5 846,-177.5 846,-147.5 696,-147.5"/>
 <text text-anchor="start" x="704" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="771" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Pna::PnaDpdkCmdStepper</text>
 </a>
@@ -148,7 +149,7 @@
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_expr_stepper.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="472,-98.5 472,-128.5 660,-128.5 660,-98.5 472,-98.5"/>
+<polygon fill="white" stroke="black" points="472,-98.5 472,-128.5 660,-128.5 660,-98.5 472,-98.5"/>
 <text text-anchor="start" x="480" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="566" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::Bmv2V1ModelExprStepper</text>
 </a>
@@ -164,7 +165,7 @@
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_e_b_p_f_1_1_e_b_p_f_expr_stepper.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="497.5,-49.5 497.5,-79.5 634.5,-79.5 634.5,-49.5 497.5,-49.5"/>
+<polygon fill="white" stroke="black" points="497.5,-49.5 497.5,-79.5 634.5,-79.5 634.5,-49.5 497.5,-49.5"/>
 <text text-anchor="start" x="505.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="566" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::EBPF::EBPFExprStepper</text>
 </a>
@@ -180,7 +181,7 @@
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_expr_stepper.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="487,-0.5 487,-30.5 645,-30.5 645,-0.5 487,-0.5"/>
+<polygon fill="white" stroke="black" points="487,-0.5 487,-30.5 645,-30.5 645,-0.5 487,-0.5"/>
 <text text-anchor="start" x="495" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="566" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Pna::SharedPnaExprStepper</text>
 </a>
@@ -196,7 +197,7 @@
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_pna_1_1_pna_dpdk_expr_stepper.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="696.5,-0.5 696.5,-30.5 845.5,-30.5 845.5,-0.5 696.5,-0.5"/>
+<polygon fill="white" stroke="black" points="696.5,-0.5 696.5,-30.5 845.5,-30.5 845.5,-0.5 696.5,-0.5"/>
 <text text-anchor="start" x="704.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="771" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Pna::PnaDpdkExprStepper</text>
 </a>

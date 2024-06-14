@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 146.00 252.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 248)">
 <title>BMV2::PsaSwitchOptions</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-248 142,-248 142,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_b_m_v2_1_1_b_m_v2_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="10.5,-56.5 10.5,-75.5 127.5,-75.5 127.5,-56.5 10.5,-56.5"/>
+<polygon fill="white" stroke="black" points="10.5,-56.5 10.5,-75.5 127.5,-75.5 127.5,-56.5 10.5,-56.5"/>
 <text text-anchor="middle" x="69" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::BMV2Options</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_compiler_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="20,-112.5 20,-131.5 118,-131.5 118,-112.5 20,-112.5"/>
+<polygon fill="white" stroke="black" points="20,-112.5 20,-131.5 118,-131.5 118,-112.5 20,-112.5"/>
 <text text-anchor="middle" x="69" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">CompilerOptions</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_parser_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="27,-168.5 27,-187.5 111,-187.5 111,-168.5 27,-168.5"/>
+<polygon fill="white" stroke="black" points="27,-168.5 27,-187.5 111,-187.5 111,-168.5 27,-168.5"/>
 <text text-anchor="middle" x="69" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserOptions</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_util_1_1_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="30.5,-224.5 30.5,-243.5 107.5,-243.5 107.5,-224.5 30.5,-224.5"/>
+<polygon fill="white" stroke="black" points="30.5,-224.5 30.5,-243.5 107.5,-243.5 107.5,-224.5 30.5,-224.5"/>
 <text text-anchor="middle" x="69" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Options</text>
 </a>
 </g>

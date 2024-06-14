@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 285.50 252.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 248)">
 <title>P4::SymbolicError</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-248 281.5,-248 281.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_p4_1_1_symbolic_exception.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 128,-19.5 128,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 128,-19.5 128,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="64" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::SymbolicException</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_p4_1_1_symbolic_static_error.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="146.5,-0.5 146.5,-19.5 277.5,-19.5 277.5,-0.5 146.5,-0.5"/>
+<polygon fill="white" stroke="black" points="146.5,-0.5 146.5,-19.5 277.5,-19.5 277.5,-0.5 146.5,-0.5"/>
 <text text-anchor="middle" x="212" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::SymbolicStaticError</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_1_1_symbolic_value.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="84.5,-112.5 84.5,-131.5 191.5,-131.5 191.5,-112.5 84.5,-112.5"/>
+<polygon fill="white" stroke="black" points="84.5,-112.5 84.5,-131.5 191.5,-131.5 191.5,-112.5 84.5,-112.5"/>
 <text text-anchor="middle" x="138" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::SymbolicValue</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_i_has_db_print.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="58,-168.5 58,-187.5 132,-187.5 132,-168.5 58,-168.5"/>
+<polygon fill="white" stroke="black" points="58,-168.5 58,-187.5 132,-187.5 132,-168.5 58,-168.5"/>
 <text text-anchor="middle" x="95" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">IHasDbPrint</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="150,-168.5 150,-187.5 212,-187.5 212,-168.5 150,-168.5"/>
+<polygon fill="white" stroke="black" points="150,-168.5 150,-187.5 212,-187.5 212,-168.5 150,-168.5"/>
 <text text-anchor="middle" x="181" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="147,-224.5 147,-243.5 215,-243.5 215,-224.5 147,-224.5"/>
+<polygon fill="white" stroke="black" points="147,-224.5 147,-243.5 215,-243.5 215,-224.5 147,-224.5"/>
 <text text-anchor="middle" x="181" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>

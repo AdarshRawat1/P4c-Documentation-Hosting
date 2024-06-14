@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 145.00 106.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 102)">
 <title>P4Tools::P4Testgen::EBPF::EBPFTestBackend</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-102 141,-102 141,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_test_back_end.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="14,-67.5 14,-97.5 123,-97.5 123,-67.5 14,-67.5"/>
+<polygon fill="white" stroke="black" points="14,-67.5 14,-97.5 123,-97.5 123,-67.5 14,-67.5"/>
 <text text-anchor="start" x="22" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="68.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">::TestBackEnd</text>
 </a>

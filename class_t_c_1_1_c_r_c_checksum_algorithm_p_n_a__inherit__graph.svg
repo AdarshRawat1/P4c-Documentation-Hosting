@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 398.00 364.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 360)">
 <title>TC::CRCChecksumAlgorithmPNA</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-360 394,-360 394,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_t_c_1_1_c_r_c16_checksum_algorithm_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 186,-19.5 186,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 186,-19.5 186,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="93" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TC::CRC16ChecksumAlgorithmPNA</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_t_c_1_1_c_r_c32_checksum_algorithm_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="204,-0.5 204,-19.5 390,-19.5 390,-0.5 204,-0.5"/>
+<polygon fill="white" stroke="black" points="204,-0.5 204,-19.5 390,-19.5 390,-0.5 204,-0.5"/>
 <text text-anchor="middle" x="297" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TC::CRC32ChecksumAlgorithmPNA</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_e_b_p_f_1_1_c_r_c_checksum_algorithm.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="112,-112.5 112,-131.5 278,-131.5 278,-112.5 112,-112.5"/>
+<polygon fill="white" stroke="black" points="112,-112.5 112,-131.5 278,-131.5 278,-112.5 112,-112.5"/>
 <text text-anchor="middle" x="195" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::CRCChecksumAlgorithm</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_hash_algorithm_p_s_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="113,-168.5 113,-187.5 277,-187.5 277,-168.5 113,-168.5"/>
+<polygon fill="white" stroke="black" points="113,-168.5 113,-187.5 277,-187.5 277,-168.5 113,-168.5"/>
 <text text-anchor="middle" x="195" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFHashAlgorithmPSA</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_object.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="143.5,-224.5 143.5,-243.5 246.5,-243.5 246.5,-224.5 143.5,-224.5"/>
+<polygon fill="white" stroke="black" points="143.5,-224.5 143.5,-243.5 246.5,-243.5 246.5,-224.5 143.5,-224.5"/>
 <text text-anchor="middle" x="195" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFObject</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="164,-280.5 164,-299.5 226,-299.5 226,-280.5 164,-280.5"/>
+<polygon fill="white" stroke="black" points="164,-280.5 164,-299.5 226,-299.5 226,-280.5 164,-280.5"/>
 <text text-anchor="middle" x="195" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -111,7 +112,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="161,-336.5 161,-355.5 229,-355.5 229,-336.5 161,-336.5"/>
+<polygon fill="white" stroke="black" points="161,-336.5 161,-355.5 229,-355.5 229,-336.5 161,-336.5"/>
 <text text-anchor="middle" x="195" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>

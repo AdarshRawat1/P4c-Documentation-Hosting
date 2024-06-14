@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 386.00 267.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 263.5)">
 <title>P4WriteContext</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-263.5 382,-263.5 382,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_p4_1_1_compute_def_use.html" target="_top" xlink:title="Compute defuse info within P4Parser and P4Control blocks in the midend.">
-<polygon fill="none" stroke="black" points="238,-240 238,-259 353,-259 353,-240 238,-240"/>
+<polygon fill="white" stroke="black" points="238,-240 238,-259 353,-259 353,-240 238,-240"/>
 <text text-anchor="middle" x="295.5" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ComputeDefUse</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_1_1_do_local_copy_propagation.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="217,-202 217,-221 374,-221 374,-202 217,-202"/>
+<polygon fill="white" stroke="black" points="217,-202 217,-221 374,-221 374,-202 217,-202"/>
 <text text-anchor="middle" x="295.5" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00">P4::DoLocalCopyPropagation</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_p4_1_1_do_simplify_expressions.html" target="_top" xlink:title="Convert expressions so that each expression contains at most one side effect.">
-<polygon fill="none" stroke="black" points="222.5,-164 222.5,-183 368.5,-183 368.5,-164 222.5,-164"/>
+<polygon fill="white" stroke="black" points="222.5,-164 222.5,-183 368.5,-183 368.5,-164 222.5,-164"/>
 <text text-anchor="middle" x="295.5" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00">P4::DoSimplifyExpressions</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_p4_1_1_replace_headers.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="238.5,-126 238.5,-145 352.5,-145 352.5,-126 238.5,-126"/>
+<polygon fill="white" stroke="black" points="238.5,-126 238.5,-145 352.5,-145 352.5,-126 238.5,-126"/>
 <text text-anchor="middle" x="295.5" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ReplaceHeaders</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_p4_1_1_replace_log_msg.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="240,-88 240,-107 351,-107 351,-88 240,-88"/>
+<polygon fill="white" stroke="black" points="240,-88 240,-107 351,-107 351,-88 240,-88"/>
 <text text-anchor="middle" x="295.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ReplaceLogMsg</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_p4_1_1_replace_structs.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="242,-50 242,-69 349,-69 349,-50 242,-50"/>
+<polygon fill="white" stroke="black" points="242,-50 242,-69 349,-69 349,-50 242,-50"/>
 <text text-anchor="middle" x="295.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ReplaceStructs</text>
 </a>
 </g>
@@ -111,7 +112,7 @@
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_type_check_1_1_make_implicit_casts_explicit.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="213,-0.5 213,-30.5 378,-30.5 378,-0.5 213,-0.5"/>
+<polygon fill="white" stroke="black" points="213,-0.5 213,-30.5 378,-30.5 378,-0.5 213,-0.5"/>
 <text text-anchor="start" x="221" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">TypeCheck::MakeImplicitCasts</text>
 <text text-anchor="middle" x="295.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Explicit</text>
 </a>
@@ -127,7 +128,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_visitor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-126 0,-145 48,-145 48,-126 0,-126"/>
+<polygon fill="white" stroke="black" points="0,-126 0,-145 48,-145 48,-126 0,-126"/>
 <text text-anchor="middle" x="24" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">Visitor</text>
 </a>
 </g>

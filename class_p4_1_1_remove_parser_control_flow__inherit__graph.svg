@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 172.00 252.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 248)">
 <title>P4::RemoveParserControlFlow</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-248 168,-248 168,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_pass_repeated.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="39.5,-56.5 39.5,-75.5 124.5,-75.5 124.5,-56.5 39.5,-56.5"/>
+<polygon fill="white" stroke="black" points="39.5,-56.5 39.5,-75.5 124.5,-75.5 124.5,-56.5 39.5,-56.5"/>
 <text text-anchor="middle" x="82" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">PassRepeated</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_pass_manager.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="41.5,-112.5 41.5,-131.5 122.5,-131.5 122.5,-112.5 41.5,-112.5"/>
+<polygon fill="white" stroke="black" points="41.5,-112.5 41.5,-131.5 122.5,-131.5 122.5,-112.5 41.5,-112.5"/>
 <text text-anchor="middle" x="82" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">PassManager</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_visitor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="58,-224.5 58,-243.5 106,-243.5 106,-224.5 58,-224.5"/>
+<polygon fill="white" stroke="black" points="58,-224.5 58,-243.5 106,-243.5 106,-224.5 58,-224.5"/>
 <text text-anchor="middle" x="82" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">Visitor</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_backtrack.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="80.5,-168.5 80.5,-187.5 145.5,-187.5 145.5,-168.5 80.5,-168.5"/>
+<polygon fill="white" stroke="black" points="80.5,-168.5 80.5,-187.5 145.5,-187.5 145.5,-168.5 80.5,-168.5"/>
 <text text-anchor="middle" x="113" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">Backtrack</text>
 </a>
 </g>

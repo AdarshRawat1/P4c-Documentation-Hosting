@@ -8,11 +8,12 @@
  viewBox="0.00 0.00 357.00 218.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 214)">
 <title>Graphical Class Hierarchy</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-214 353,-214 353,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
 <g id="a_node1"><a xlink:href="class_p4_1_1_choose_enum_representation.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-95.5 0,-114.5 173,-114.5 173,-95.5 0,-95.5"/>
+<polygon fill="white" stroke="black" points="0,-95.5 0,-114.5 173,-114.5 173,-95.5 0,-95.5"/>
 <text text-anchor="middle" x="86.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ChooseEnumRepresentation</text>
 </a>
 </g>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node1</title>
 <g id="a_node2"><a xlink:href="class_b_m_v2_1_1_enum_on32_bits.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="217.5,-190.5 217.5,-209.5 340.5,-209.5 340.5,-190.5 217.5,-190.5"/>
+<polygon fill="white" stroke="black" points="217.5,-190.5 217.5,-209.5 340.5,-209.5 340.5,-190.5 217.5,-190.5"/>
 <text text-anchor="middle" x="279" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::EnumOn32Bits</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node3" class="node">
 <title>Node2</title>
 <g id="a_node3"><a xlink:href="class_b_m_v2_1_1_psa_enum_on32_bits.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="209,-152.5 209,-171.5 349,-171.5 349,-152.5 209,-152.5"/>
+<polygon fill="white" stroke="black" points="209,-152.5 209,-171.5 349,-171.5 349,-152.5 209,-152.5"/>
 <text text-anchor="middle" x="279" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::PsaEnumOn32Bits</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node4" class="node">
 <title>Node3</title>
 <g id="a_node4"><a xlink:href="class_d_p_d_k_1_1_enum_on32_bits.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="218,-114.5 218,-133.5 340,-133.5 340,-114.5 218,-114.5"/>
+<polygon fill="white" stroke="black" points="218,-114.5 218,-133.5 340,-133.5 340,-114.5 218,-114.5"/>
 <text text-anchor="middle" x="279" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPDK::EnumOn32Bits</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node5" class="node">
 <title>Node4</title>
 <g id="a_node5"><a xlink:href="class_e_b_p_f_1_1_enum_on32_bits.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="219.5,-76.5 219.5,-95.5 338.5,-95.5 338.5,-76.5 219.5,-76.5"/>
+<polygon fill="white" stroke="black" points="219.5,-76.5 219.5,-95.5 338.5,-95.5 338.5,-76.5 219.5,-76.5"/>
 <text text-anchor="middle" x="279" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EnumOn32Bits</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node6" class="node">
 <title>Node5</title>
 <g id="a_node6"><a xlink:href="class_p4_1_1_enum_on32_bits.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="225.5,-38.5 225.5,-57.5 332.5,-57.5 332.5,-38.5 225.5,-38.5"/>
+<polygon fill="white" stroke="black" points="225.5,-38.5 225.5,-57.5 332.5,-57.5 332.5,-38.5 225.5,-38.5"/>
 <text text-anchor="middle" x="279" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::EnumOn32Bits</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node7" class="node">
 <title>Node6</title>
 <g id="a_node7"><a xlink:href="class_u_b_p_f_1_1_enum_on32_bits.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="219,-0.5 219,-19.5 339,-19.5 339,-0.5 219,-0.5"/>
+<polygon fill="white" stroke="black" points="219,-0.5 219,-19.5 339,-19.5 339,-0.5 219,-0.5"/>
 <text text-anchor="middle" x="279" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UBPF::EnumOn32Bits</text>
 </a>
 </g>

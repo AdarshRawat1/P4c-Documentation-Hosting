@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 460.50 84.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 80)">
 <title>Model::Model</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-80 456.5,-80 456.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 101,-19.5 101,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 101,-19.5 101,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="50.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFModel</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_p4_1_1_p4_core_library.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="119,-0.5 119,-19.5 222,-19.5 222,-0.5 119,-0.5"/>
+<polygon fill="white" stroke="black" points="119,-0.5 119,-19.5 222,-19.5 222,-0.5 119,-0.5"/>
 <text text-anchor="middle" x="170.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::P4CoreLibrary</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_v1_1_1_v1_model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="240.5,-0.5 240.5,-19.5 330.5,-19.5 330.5,-0.5 240.5,-0.5"/>
+<polygon fill="white" stroke="black" points="240.5,-0.5 240.5,-19.5 330.5,-19.5 330.5,-0.5 240.5,-0.5"/>
 <text text-anchor="middle" x="285.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::V1Model</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_u_b_p_f_1_1_u_b_p_f_model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="348.5,-0.5 348.5,-19.5 452.5,-19.5 452.5,-0.5 348.5,-0.5"/>
+<polygon fill="white" stroke="black" points="348.5,-0.5 348.5,-19.5 452.5,-19.5 452.5,-0.5 348.5,-0.5"/>
 <text text-anchor="middle" x="400.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UBPF::UBPFModel</text>
 </a>
 </g>

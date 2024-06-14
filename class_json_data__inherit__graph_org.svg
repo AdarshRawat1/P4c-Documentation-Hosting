@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 509.50 196.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 192)">
 <title>JsonData</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-192 505.5,-192 505.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_json_boolean.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 77,-19.5 77,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 77,-19.5 77,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="38.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonBoolean</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_json_null.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="95.5,-0.5 95.5,-19.5 151.5,-19.5 151.5,-0.5 95.5,-0.5"/>
+<polygon fill="white" stroke="black" points="95.5,-0.5 95.5,-19.5 151.5,-19.5 151.5,-0.5 95.5,-0.5"/>
 <text text-anchor="middle" x="123.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonNull</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_json_number.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="169.5,-0.5 169.5,-19.5 245.5,-19.5 245.5,-0.5 169.5,-0.5"/>
+<polygon fill="white" stroke="black" points="169.5,-0.5 169.5,-19.5 245.5,-19.5 245.5,-0.5 169.5,-0.5"/>
 <text text-anchor="middle" x="207.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonNumber</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_json_object.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="263.5,-0.5 263.5,-19.5 331.5,-19.5 331.5,-0.5 263.5,-0.5"/>
+<polygon fill="white" stroke="black" points="263.5,-0.5 263.5,-19.5 331.5,-19.5 331.5,-0.5 263.5,-0.5"/>
 <text text-anchor="middle" x="297.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonObject</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_json_string.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="350,-0.5 350,-19.5 415,-19.5 415,-0.5 350,-0.5"/>
+<polygon fill="white" stroke="black" points="350,-0.5 350,-19.5 415,-19.5 415,-0.5 350,-0.5"/>
 <text text-anchor="middle" x="382.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonString</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_json_vector.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="433.5,-0.5 433.5,-19.5 501.5,-19.5 501.5,-0.5 433.5,-0.5"/>
+<polygon fill="white" stroke="black" points="433.5,-0.5 433.5,-19.5 501.5,-19.5 501.5,-0.5 433.5,-0.5"/>
 <text text-anchor="middle" x="467.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonVector</text>
 </a>
 </g>
@@ -111,7 +112,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="221.5,-112.5 221.5,-131.5 283.5,-131.5 283.5,-112.5 221.5,-112.5"/>
+<polygon fill="white" stroke="black" points="221.5,-112.5 221.5,-131.5 283.5,-131.5 283.5,-112.5 221.5,-112.5"/>
 <text text-anchor="middle" x="252.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -126,7 +127,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="218.5,-168.5 218.5,-187.5 286.5,-187.5 286.5,-168.5 218.5,-168.5"/>
+<polygon fill="white" stroke="black" points="218.5,-168.5 218.5,-187.5 286.5,-187.5 286.5,-168.5 218.5,-168.5"/>
 <text text-anchor="middle" x="252.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>

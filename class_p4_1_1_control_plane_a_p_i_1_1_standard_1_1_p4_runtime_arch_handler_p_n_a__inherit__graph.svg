@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 214.00 262.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 258)">
 <title>P4::ControlPlaneAPI::Standard::P4RuntimeArchHandlerPNA</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-258 210,-258 210,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_s_a_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="10.5,-67.5 10.5,-108.5 195.5,-108.5 195.5,-67.5 10.5,-67.5"/>
+<polygon fill="white" stroke="black" points="10.5,-67.5 10.5,-108.5 195.5,-108.5 195.5,-67.5 10.5,-67.5"/>
 <text text-anchor="start" x="18.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="start" x="18.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::P4RuntimeArchHandler</text>
 <text text-anchor="middle" x="103" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">PSAPNA&lt; Arch::PNA &gt;</text>
@@ -39,7 +40,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_common.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="10.5,-145.5 10.5,-186.5 195.5,-186.5 195.5,-145.5 10.5,-145.5"/>
+<polygon fill="white" stroke="black" points="10.5,-145.5 10.5,-186.5 195.5,-186.5 195.5,-145.5 10.5,-145.5"/>
 <text text-anchor="start" x="18.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="start" x="18.5" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::P4RuntimeArchHandler</text>
 <text text-anchor="middle" x="103" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">Common&lt; arch &gt;</text>
@@ -56,7 +57,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_arch_handler_iface.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="23,-223.5 23,-253.5 183,-253.5 183,-223.5 23,-223.5"/>
+<polygon fill="white" stroke="black" points="23,-223.5 23,-253.5 183,-253.5 183,-223.5 23,-223.5"/>
 <text text-anchor="start" x="31" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="middle" x="103" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">::P4RuntimeArchHandlerIface</text>
 </a>

@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 458.00 235.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 231)">
 <title>P4Tools::P4Testgen::Bmv2::Bmv2TestFramework</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-231 454,-231 454,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_metadata.html" target="_top" xlink:title="Extracts information from the @testSpec to emit a Metadata test case.">
-<polygon fill="none" stroke="black" points="341,-196.5 341,-226.5 450,-226.5 450,-196.5 341,-196.5"/>
+<polygon fill="white" stroke="black" points="341,-196.5 341,-226.5 450,-226.5 450,-196.5 341,-196.5"/>
 <text text-anchor="start" x="349" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="395.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::Metadata</text>
 </a>
@@ -38,7 +39,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_p_t_f.html" target="_top" xlink:title="Extracts information from the @testSpec to emit a PTF test case.">
-<polygon fill="none" stroke="black" points="341,-147.5 341,-177.5 450,-177.5 450,-147.5 341,-147.5"/>
+<polygon fill="white" stroke="black" points="341,-147.5 341,-177.5 450,-177.5 450,-147.5 341,-147.5"/>
 <text text-anchor="start" x="349" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="395.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::PTF</text>
 </a>
@@ -54,7 +55,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_protobuf.html" target="_top" xlink:title="Extracts information from the @testSpec to emit a Protobuf test case.">
-<polygon fill="none" stroke="black" points="341,-98.5 341,-128.5 450,-128.5 450,-98.5 341,-98.5"/>
+<polygon fill="white" stroke="black" points="341,-98.5 341,-128.5 450,-128.5 450,-98.5 341,-98.5"/>
 <text text-anchor="start" x="349" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="395.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::Protobuf</text>
 </a>
@@ -70,7 +71,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_protobuf_ir.html" target="_top" xlink:title="Extracts information from the @testSpec to emit a Protobuf IR test case.">
-<polygon fill="none" stroke="black" points="341,-49.5 341,-79.5 450,-79.5 450,-49.5 341,-49.5"/>
+<polygon fill="white" stroke="black" points="341,-49.5 341,-79.5 450,-79.5 450,-49.5 341,-49.5"/>
 <text text-anchor="start" x="349" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="395.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::ProtobufIr</text>
 </a>
@@ -86,7 +87,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_s_t_f.html" target="_top" xlink:title="Extracts information from the @testSpec to emit a STF test case.">
-<polygon fill="none" stroke="black" points="341,-0.5 341,-30.5 450,-30.5 450,-0.5 341,-0.5"/>
+<polygon fill="white" stroke="black" points="341,-0.5 341,-30.5 450,-30.5 450,-0.5 341,-0.5"/>
 <text text-anchor="start" x="349" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="395.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::STF</text>
 </a>
@@ -102,7 +103,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_test_framework.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-98.5 0,-128.5 109,-128.5 109,-98.5 0,-98.5"/>
+<polygon fill="white" stroke="black" points="0,-98.5 0,-128.5 109,-128.5 109,-98.5 0,-98.5"/>
 <text text-anchor="start" x="8" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="54.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::TestFramework</text>
 </a>

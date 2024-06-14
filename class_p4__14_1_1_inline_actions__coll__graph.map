@@ -1,0 +1,8 @@
+<map id="P4_14::InlineActions" name="P4_14::InlineActions">
+<area shape="rect" id="node1" title="Special inliner which works directly on P4&#45;14 representation." alt="" coords="5,279,159,305"/>
+<area shape="rect" id="node2" href="$class_transform.html" title=" " alt="" coords="39,188,125,215"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="185,97,249,124"/>
+<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="225,279,374,305"/>
+<area shape="rect" id="node6" title=" " alt="" coords="212,188,387,215"/>
+<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="183,7,250,33"/>
+</map>

@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 154.00 364.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 360)">
 <title>EBPF::XDPIngressPipeline</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-360 150,-360 150,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_ingress_pipeline.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-56.5 0,-75.5 146,-75.5 146,-56.5 0,-56.5"/>
+<polygon fill="white" stroke="black" points="0,-56.5 0,-75.5 146,-75.5 146,-56.5 0,-56.5"/>
 <text text-anchor="middle" x="73" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFIngressPipeline</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_pipeline.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="18,-112.5 18,-131.5 128,-131.5 128,-112.5 18,-112.5"/>
+<polygon fill="white" stroke="black" points="18,-112.5 18,-131.5 128,-131.5 128,-112.5 18,-112.5"/>
 <text text-anchor="middle" x="73" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFPipeline</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_program.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="16.5,-168.5 16.5,-187.5 129.5,-187.5 129.5,-168.5 16.5,-168.5"/>
+<polygon fill="white" stroke="black" points="16.5,-168.5 16.5,-187.5 129.5,-187.5 129.5,-168.5 16.5,-168.5"/>
 <text text-anchor="middle" x="73" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFProgram</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_object.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="21.5,-224.5 21.5,-243.5 124.5,-243.5 124.5,-224.5 21.5,-224.5"/>
+<polygon fill="white" stroke="black" points="21.5,-224.5 21.5,-243.5 124.5,-243.5 124.5,-224.5 21.5,-224.5"/>
 <text text-anchor="middle" x="73" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFObject</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="42,-280.5 42,-299.5 104,-299.5 104,-280.5 42,-280.5"/>
+<polygon fill="white" stroke="black" points="42,-280.5 42,-299.5 104,-299.5 104,-280.5 42,-280.5"/>
 <text text-anchor="middle" x="73" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="39,-336.5 39,-355.5 107,-355.5 107,-336.5 39,-336.5"/>
+<polygon fill="white" stroke="black" points="39,-336.5 39,-355.5 107,-355.5 107,-336.5 39,-336.5"/>
 <text text-anchor="middle" x="73" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>

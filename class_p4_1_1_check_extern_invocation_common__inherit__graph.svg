@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 191.00 207.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 203)">
 <title>P4::CheckExternInvocationCommon</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-203 187,-203 187,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_d_p_d_k_1_1_check_p_n_a_extern_invocation.html" target="_top" xlink:title="Class for checking constraints for invocations of PNA architecture extern methods and functions.">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 183,-19.5 183,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 183,-19.5 183,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="91.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPDK::CheckPNAExternInvocation</text>
 </a>
 </g>
@@ -37,7 +38,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_inspector.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="60.5,-123.5 60.5,-142.5 122.5,-142.5 122.5,-123.5 60.5,-123.5"/>
+<polygon fill="white" stroke="black" points="60.5,-123.5 60.5,-142.5 122.5,-142.5 122.5,-123.5 60.5,-123.5"/>
 <text text-anchor="middle" x="91.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">Inspector</text>
 </a>
 </g>
@@ -52,7 +53,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_visitor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="67.5,-179.5 67.5,-198.5 115.5,-198.5 115.5,-179.5 67.5,-179.5"/>
+<polygon fill="white" stroke="black" points="67.5,-179.5 67.5,-198.5 115.5,-198.5 115.5,-179.5 67.5,-179.5"/>
 <text text-anchor="middle" x="91.5" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00">Visitor</text>
 </a>
 </g>

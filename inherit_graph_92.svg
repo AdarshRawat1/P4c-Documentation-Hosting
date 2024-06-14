@@ -8,11 +8,12 @@
  viewBox="0.00 0.00 545.00 88.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84)">
 <title>Graphical Class Hierarchy</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-84 541,-84 541,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
 <g id="a_node1"><a xlink:href="class_i_compile_context.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-30 0,-49 98,-49 98,-30 0,-30"/>
+<polygon fill="white" stroke="black" points="0,-30 0,-49 98,-49 98,-30 0,-30"/>
 <text text-anchor="middle" x="49" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">ICompileContext</text>
 </a>
 </g>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node1</title>
 <g id="a_node2"><a xlink:href="class_base_compile_context.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="134,-30 134,-49 253,-49 253,-30 134,-30"/>
+<polygon fill="white" stroke="black" points="134,-30 134,-49 253,-49 253,-30 134,-30"/>
 <text text-anchor="middle" x="193.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">BaseCompileContext</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node3" class="node">
 <title>Node2</title>
 <g id="a_node3"><a xlink:href="class_p4_c_context.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="289,-30 289,-49 363,-49 363,-30 289,-30"/>
+<polygon fill="white" stroke="black" points="289,-30 289,-49 363,-49 363,-30 289,-30"/>
 <text text-anchor="middle" x="326" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">P4CContext</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node4" class="node">
 <title>Node3</title>
 <g id="a_node4"><a xlink:href="class_p4_c_context_with_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="401,-49.5 401,-79.5 535,-79.5 535,-49.5 401,-49.5"/>
+<polygon fill="white" stroke="black" points="401,-49.5 401,-79.5 535,-79.5 535,-49.5 401,-49.5"/>
 <text text-anchor="start" x="409" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4CContextWithOptions</text>
 <text text-anchor="middle" x="468" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; OptionsType &gt;</text>
 </a>
@@ -67,7 +68,7 @@
 <g id="node5" class="node">
 <title>Node4</title>
 <g id="a_node5"><a xlink:href="class_p4_tools_1_1_compile_context.html" target="_top" xlink:title="A compilation context for P4Tools that provides a custom compiler configuration.">
-<polygon fill="none" stroke="black" points="399,-0.5 399,-30.5 537,-30.5 537,-0.5 399,-0.5"/>
+<polygon fill="white" stroke="black" points="399,-0.5 399,-30.5 537,-30.5 537,-0.5 399,-0.5"/>
 <text text-anchor="start" x="407" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::CompileContext</text>
 <text text-anchor="middle" x="468" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; OptionsType &gt;</text>
 </a>

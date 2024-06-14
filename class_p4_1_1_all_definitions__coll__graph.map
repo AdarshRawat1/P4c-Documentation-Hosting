@@ -1,0 +1,11 @@
+<map id="P4::AllDefinitions" name="P4::AllDefinitions">
+<area shape="rect" id="node1" title=" " alt="" coords="5,352,139,379"/>
+<area shape="rect" id="node2" href="$class_i_has_db_print.html" title=" " alt="" coords="51,7,149,33"/>
+<area shape="rect" id="node3" href="$class_p4_1_1_storage_map.html" title="Maps a declaration to its associated storage." alt="" coords="111,263,235,289"/>
+<area shape="rect" id="node5" href="$class_p4_1_1_program_map.html" title=" " alt="" coords="139,97,269,124"/>
+<area shape="rect" id="node4" href="$class_p4_1_1_type_map.html" title=" " alt="" coords="143,173,247,200"/>
+<area shape="rect" id="node7" href="$class_p4_1_1_reference_map.html" title="Class used to encode maps from paths to declarations." alt="" coords="285,173,425,200"/>
+<area shape="rect" id="node6" href="$classcstring.html" title=" " alt="" coords="173,7,240,33"/>
+<area shape="rect" id="node8" href="$class_p4_1_1_name_generator.html" title=" " alt="" coords="293,97,443,124"/>
+<area shape="rect" id="node9" href="$class_p4_1_1_declaration_lookup.html" title=" " alt="" coords="467,97,634,124"/>
+</map>

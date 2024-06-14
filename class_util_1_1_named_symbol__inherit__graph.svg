@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 316.00 252.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 248)">
 <title>Util::NamedSymbol</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-248 312,-248 312,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_util_1_1_namespace.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="6,-56.5 6,-75.5 104,-75.5 104,-56.5 6,-56.5"/>
+<polygon fill="white" stroke="black" points="6,-56.5 6,-75.5 104,-75.5 104,-56.5 6,-56.5"/>
 <text text-anchor="middle" x="55" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Namespace</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_util_1_1_object.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="122.5,-56.5 122.5,-75.5 193.5,-75.5 193.5,-56.5 122.5,-56.5"/>
+<polygon fill="white" stroke="black" points="122.5,-56.5 122.5,-75.5 193.5,-75.5 193.5,-56.5 122.5,-56.5"/>
 <text text-anchor="middle" x="158" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Object</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_util_1_1_simple_type.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="212,-56.5 212,-75.5 308,-75.5 308,-56.5 212,-56.5"/>
+<polygon fill="white" stroke="black" points="212,-56.5 212,-75.5 308,-75.5 308,-56.5 212,-56.5"/>
 <text text-anchor="middle" x="260" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::SimpleType</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="127,-168.5 127,-187.5 189,-187.5 189,-168.5 127,-168.5"/>
+<polygon fill="white" stroke="black" points="127,-168.5 127,-187.5 189,-187.5 189,-168.5 127,-168.5"/>
 <text text-anchor="middle" x="158" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="124,-224.5 124,-243.5 192,-243.5 192,-224.5 124,-224.5"/>
+<polygon fill="white" stroke="black" points="124,-224.5 124,-243.5 192,-243.5 192,-224.5 124,-224.5"/>
 <text text-anchor="middle" x="158" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_util_1_1_container_type.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 110,-19.5 110,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 110,-19.5 110,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="55" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::ContainerType</text>
 </a>
 </g>

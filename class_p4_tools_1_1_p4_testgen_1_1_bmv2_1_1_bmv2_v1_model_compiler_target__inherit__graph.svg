@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 181.00 229.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 225)">
 <title>P4Tools::P4Testgen::Bmv2::Bmv2V1ModelCompilerTarget</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-225 177,-225 177,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -23,7 +24,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_testgen_compiler_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="19.5,-78.5 19.5,-108.5 153.5,-108.5 153.5,-78.5 19.5,-78.5"/>
+<polygon fill="white" stroke="black" points="19.5,-78.5 19.5,-108.5 153.5,-108.5 153.5,-78.5 19.5,-78.5"/>
 <text text-anchor="start" x="27.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="86.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">::TestgenCompilerTarget</text>
 </a>
@@ -39,7 +40,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_p4_tools_1_1_compiler_target.html" target="_top" xlink:title="Encapsulates the details of invoking the P4 compiler for a target device and architecture.">
-<polygon fill="none" stroke="black" points="19.5,-145.5 19.5,-164.5 153.5,-164.5 153.5,-145.5 19.5,-145.5"/>
+<polygon fill="white" stroke="black" points="19.5,-145.5 19.5,-164.5 153.5,-164.5 153.5,-145.5 19.5,-145.5"/>
 <text text-anchor="middle" x="86.5" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::CompilerTarget</text>
 </a>
 </g>
@@ -54,7 +55,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_tools_1_1_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="42,-201.5 42,-220.5 131,-220.5 131,-201.5 42,-201.5"/>
+<polygon fill="white" stroke="black" points="42,-201.5 42,-220.5 131,-220.5 131,-201.5 42,-201.5"/>
 <text text-anchor="middle" x="86.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::Target</text>
 </a>
 </g>

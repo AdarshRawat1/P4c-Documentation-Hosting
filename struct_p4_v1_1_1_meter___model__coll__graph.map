@@ -1,0 +1,11 @@
+<map id="P4V1::Meter_Model" name="P4V1::Meter_Model">
+<area shape="rect" id="node1" title=" " alt="" coords="447,576,595,603"/>
+<area shape="rect" id="node2" href="$struct_p4_v1_1_1_counter_or_meter___model.html" title=" " alt="" coords="353,485,520,527"/>
+<area shape="rect" id="node3" href="$struct_model_1_1_extern___model.html" title="Extern_Model : Type_Model." alt="" coords="312,345,471,372"/>
+<area shape="rect" id="node4" href="$struct_model_1_1_type___model.html" title=" " alt="" coords="286,173,433,200"/>
+<area shape="rect" id="node8" href="$struct_model_1_1_enum___model.html" title="Enum_Model : Type_Model." alt="" coords="219,293,374,320"/>
+<area shape="rect" id="node5" href="$struct_model_1_1_elem.html" title=" " alt="" coords="308,97,411,124"/>
+<area shape="rect" id="node7" href="$struct_p4_v1_1_1_counter_type___model.html" title=" " alt="" coords="5,396,196,423"/>
+<area shape="rect" id="node9" href="$struct_p4_v1_1_1_meter_type___model.html" title=" " alt="" coords="221,396,399,423"/>
+<area shape="rect" id="node6" href="$classcstring.html" title=" " alt="" coords="326,7,393,33"/>
+</map>

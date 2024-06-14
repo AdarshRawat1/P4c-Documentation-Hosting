@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 333.50 420.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 416)">
 <title>EBPF::TCIngressPipeline</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-416 329.5,-416 329.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_e_b_p_f_1_1_t_c_traffic_manager_for_x_d_p.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 166,-19.5 166,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 166,-19.5 166,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="83" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::TCTrafficManagerForXDP</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_t_c_1_1_t_c_ingress_pipeline_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="184.5,-0.5 184.5,-19.5 325.5,-19.5 325.5,-0.5 184.5,-0.5"/>
+<polygon fill="white" stroke="black" points="184.5,-0.5 184.5,-19.5 325.5,-19.5 325.5,-0.5 184.5,-0.5"/>
 <text text-anchor="middle" x="255" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TC::TCIngressPipelinePNA</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_ingress_pipeline.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="96,-112.5 96,-131.5 242,-131.5 242,-112.5 96,-112.5"/>
+<polygon fill="white" stroke="black" points="96,-112.5 96,-131.5 242,-131.5 242,-112.5 96,-112.5"/>
 <text text-anchor="middle" x="169" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFIngressPipeline</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_pipeline.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="114,-168.5 114,-187.5 224,-187.5 224,-168.5 114,-168.5"/>
+<polygon fill="white" stroke="black" points="114,-168.5 114,-187.5 224,-187.5 224,-168.5 114,-168.5"/>
 <text text-anchor="middle" x="169" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFPipeline</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_program.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="112.5,-224.5 112.5,-243.5 225.5,-243.5 225.5,-224.5 112.5,-224.5"/>
+<polygon fill="white" stroke="black" points="112.5,-224.5 112.5,-243.5 225.5,-243.5 225.5,-224.5 112.5,-224.5"/>
 <text text-anchor="middle" x="169" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFProgram</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_object.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="117.5,-280.5 117.5,-299.5 220.5,-299.5 220.5,-280.5 117.5,-280.5"/>
+<polygon fill="white" stroke="black" points="117.5,-280.5 117.5,-299.5 220.5,-299.5 220.5,-280.5 117.5,-280.5"/>
 <text text-anchor="middle" x="169" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFObject</text>
 </a>
 </g>
@@ -111,7 +112,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="138,-336.5 138,-355.5 200,-355.5 200,-336.5 138,-336.5"/>
+<polygon fill="white" stroke="black" points="138,-336.5 138,-355.5 200,-355.5 200,-336.5 138,-336.5"/>
 <text text-anchor="middle" x="169" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -126,7 +127,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="135,-392.5 135,-411.5 203,-411.5 203,-392.5 135,-392.5"/>
+<polygon fill="white" stroke="black" points="135,-392.5 135,-411.5 203,-411.5 203,-392.5 135,-392.5"/>
 <text text-anchor="middle" x="169" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>

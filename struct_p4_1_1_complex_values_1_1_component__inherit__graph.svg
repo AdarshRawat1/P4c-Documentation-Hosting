@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 258.00 162.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 158)">
 <title>P4::ComplexValues::Component</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-158 254,-158 254,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="struct_p4_1_1_complex_values_1_1_fields_map.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-30.5 116,-30.5 116,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 116,-30.5 116,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ComplexValues::</text>
 <text text-anchor="middle" x="58" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FieldsMap</text>
 </a>
@@ -38,7 +39,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="struct_p4_1_1_complex_values_1_1_final_name.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="134,-0.5 134,-30.5 250,-30.5 250,-0.5 134,-0.5"/>
+<polygon fill="white" stroke="black" points="134,-0.5 134,-30.5 250,-30.5 250,-0.5 134,-0.5"/>
 <text text-anchor="start" x="142" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ComplexValues::</text>
 <text text-anchor="middle" x="192" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FinalName</text>
 </a>
@@ -54,7 +55,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_i_has_db_print.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="88,-134.5 88,-153.5 162,-153.5 162,-134.5 88,-134.5"/>
+<polygon fill="white" stroke="black" points="88,-134.5 88,-153.5 162,-153.5 162,-134.5 88,-134.5"/>
 <text text-anchor="middle" x="125" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">IHasDbPrint</text>
 </a>
 </g>

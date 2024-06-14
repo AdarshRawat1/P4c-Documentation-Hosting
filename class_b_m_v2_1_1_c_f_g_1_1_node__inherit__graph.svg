@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 424.00 196.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 192)">
 <title>BMV2::CFG::Node</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-192 420,-192 420,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_b_m_v2_1_1_c_f_g_1_1_dummy_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 142,-19.5 142,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 142,-19.5 142,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="71" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::CFG::DummyNode</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_b_m_v2_1_1_c_f_g_1_1_if_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="160,-0.5 160,-19.5 270,-19.5 270,-0.5 160,-0.5"/>
+<polygon fill="white" stroke="black" points="160,-0.5 160,-19.5 270,-19.5 270,-0.5 160,-0.5"/>
 <text text-anchor="middle" x="215" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::CFG::IfNode</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_b_m_v2_1_1_c_f_g_1_1_table_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="288,-0.5 288,-19.5 416,-19.5 416,-0.5 288,-0.5"/>
+<polygon fill="white" stroke="black" points="288,-0.5 288,-19.5 416,-19.5 416,-0.5 288,-0.5"/>
 <text text-anchor="middle" x="352" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::CFG::TableNode</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_i_has_db_print.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="135,-112.5 135,-131.5 209,-131.5 209,-112.5 135,-112.5"/>
+<polygon fill="white" stroke="black" points="135,-112.5 135,-131.5 209,-131.5 209,-112.5 135,-112.5"/>
 <text text-anchor="middle" x="172" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">IHasDbPrint</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="227,-112.5 227,-131.5 289,-131.5 289,-112.5 227,-112.5"/>
+<polygon fill="white" stroke="black" points="227,-112.5 227,-131.5 289,-131.5 289,-112.5 227,-112.5"/>
 <text text-anchor="middle" x="258" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="224,-168.5 224,-187.5 292,-187.5 292,-168.5 224,-168.5"/>
+<polygon fill="white" stroke="black" points="224,-168.5 224,-187.5 292,-187.5 292,-168.5 224,-168.5"/>
 <text text-anchor="middle" x="258" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>

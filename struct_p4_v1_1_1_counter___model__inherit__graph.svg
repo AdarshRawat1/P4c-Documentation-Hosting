@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 133.00 263.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 259)">
 <title>P4V1::Counter_Model</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-259 129,-259 129,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="struct_p4_v1_1_1_counter_or_meter___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-56.5 0,-86.5 125,-86.5 125,-56.5 0,-56.5"/>
+<polygon fill="white" stroke="black" points="0,-56.5 0,-86.5 125,-86.5 125,-56.5 0,-56.5"/>
 <text text-anchor="start" x="8" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::CounterOrMeter</text>
 <text text-anchor="middle" x="62.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_Model</text>
 </a>
@@ -37,7 +38,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="struct_model_1_1_extern___model.html" target="_top" xlink:title="Extern_Model : Type_Model.">
-<polygon fill="none" stroke="black" points="3,-123.5 3,-142.5 122,-142.5 122,-123.5 3,-123.5"/>
+<polygon fill="white" stroke="black" points="3,-123.5 3,-142.5 122,-142.5 122,-123.5 3,-123.5"/>
 <text text-anchor="middle" x="62.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model::Extern_Model</text>
 </a>
 </g>
@@ -52,7 +53,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="struct_model_1_1_type___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="7.5,-179.5 7.5,-198.5 117.5,-198.5 117.5,-179.5 7.5,-179.5"/>
+<polygon fill="white" stroke="black" points="7.5,-179.5 7.5,-198.5 117.5,-198.5 117.5,-179.5 7.5,-179.5"/>
 <text text-anchor="middle" x="62.5" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model::Type_Model</text>
 </a>
 </g>
@@ -67,7 +68,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="struct_model_1_1_elem.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="24,-235.5 24,-254.5 101,-254.5 101,-235.5 24,-235.5"/>
+<polygon fill="white" stroke="black" points="24,-235.5 24,-254.5 101,-254.5 101,-235.5 24,-235.5"/>
 <text text-anchor="middle" x="62.5" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model::Elem</text>
 </a>
 </g>

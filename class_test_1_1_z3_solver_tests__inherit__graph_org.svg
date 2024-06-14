@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 453.00 779.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 775)">
 <title>Test::Z3SolverTests</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-775 449,-775 449,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_add.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="280,-751.5 280,-770.5 423,-770.5 423,-751.5 280,-751.5"/>
+<polygon fill="white" stroke="black" points="280,-751.5 280,-770.5 423,-770.5 423,-751.5 280,-751.5"/>
 <text text-anchor="middle" x="351.5" y="-758.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverAdd</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_b_and.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="277,-713.5 277,-732.5 426,-732.5 426,-713.5 277,-713.5"/>
+<polygon fill="white" stroke="black" points="277,-713.5 277,-732.5 426,-732.5 426,-713.5 277,-713.5"/>
 <text text-anchor="middle" x="351.5" y="-720.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverBAnd</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_b_o_r.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="279,-675.5 279,-694.5 424,-694.5 424,-675.5 279,-675.5"/>
+<polygon fill="white" stroke="black" points="279,-675.5 279,-694.5 424,-694.5 424,-675.5 279,-675.5"/>
 <text text-anchor="middle" x="351.5" y="-682.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverBOR</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_b_xor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278,-637.5 278,-656.5 425,-656.5 425,-637.5 278,-637.5"/>
+<polygon fill="white" stroke="black" points="278,-637.5 278,-656.5 425,-656.5 425,-637.5 278,-637.5"/>
 <text text-anchor="middle" x="351.5" y="-644.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverBXor</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_cast_bit2_bool.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278.5,-588 278.5,-618 424.5,-618 424.5,-588 278.5,-588"/>
+<polygon fill="white" stroke="black" points="278.5,-588 278.5,-618 424.5,-618 424.5,-588 278.5,-588"/>
 <text text-anchor="start" x="286.5" y="-606" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverCast</text>
 <text text-anchor="middle" x="351.5" y="-595" font-family="Helvetica,sans-Serif" font-size="10.00">Bit2Bool</text>
 </a>
@@ -97,7 +98,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_cast_bit2_equal_bit.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278.5,-539 278.5,-569 424.5,-569 424.5,-539 278.5,-539"/>
+<polygon fill="white" stroke="black" points="278.5,-539 278.5,-569 424.5,-569 424.5,-539 278.5,-539"/>
 <text text-anchor="start" x="286.5" y="-557" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverCast</text>
 <text text-anchor="middle" x="351.5" y="-546" font-family="Helvetica,sans-Serif" font-size="10.00">Bit2EqualBit</text>
 </a>
@@ -113,7 +114,7 @@
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_cast_bit2_larger_bit.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278.5,-490 278.5,-520 424.5,-520 424.5,-490 278.5,-490"/>
+<polygon fill="white" stroke="black" points="278.5,-490 278.5,-520 424.5,-520 424.5,-490 278.5,-490"/>
 <text text-anchor="start" x="286.5" y="-508" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverCast</text>
 <text text-anchor="middle" x="351.5" y="-497" font-family="Helvetica,sans-Serif" font-size="10.00">Bit2LargerBit</text>
 </a>
@@ -129,7 +130,7 @@
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_cast_bit2_less_bit.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278.5,-441 278.5,-471 424.5,-471 424.5,-441 278.5,-441"/>
+<polygon fill="white" stroke="black" points="278.5,-441 278.5,-471 424.5,-471 424.5,-441 278.5,-441"/>
 <text text-anchor="start" x="286.5" y="-459" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverCast</text>
 <text text-anchor="middle" x="351.5" y="-448" font-family="Helvetica,sans-Serif" font-size="10.00">Bit2LessBit</text>
 </a>
@@ -145,7 +146,7 @@
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_cast_bool2_bit.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278.5,-392 278.5,-422 424.5,-422 424.5,-392 278.5,-392"/>
+<polygon fill="white" stroke="black" points="278.5,-392 278.5,-422 424.5,-422 424.5,-392 278.5,-392"/>
 <text text-anchor="start" x="286.5" y="-410" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverCast</text>
 <text text-anchor="middle" x="351.5" y="-399" font-family="Helvetica,sans-Serif" font-size="10.00">Bool2Bit</text>
 </a>
@@ -161,7 +162,7 @@
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_cast_in_assignment.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278.5,-343 278.5,-373 424.5,-373 424.5,-343 278.5,-343"/>
+<polygon fill="white" stroke="black" points="278.5,-343 278.5,-373 424.5,-373 424.5,-343 278.5,-343"/>
 <text text-anchor="start" x="286.5" y="-361" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverCast</text>
 <text text-anchor="middle" x="351.5" y="-350" font-family="Helvetica,sans-Serif" font-size="10.00">InAssignment</text>
 </a>
@@ -177,7 +178,7 @@
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_complement.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="258,-304.5 258,-323.5 445,-323.5 445,-304.5 258,-304.5"/>
+<polygon fill="white" stroke="black" points="258,-304.5 258,-323.5 445,-323.5 445,-304.5 258,-304.5"/>
 <text text-anchor="middle" x="351.5" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverComplement</text>
 </a>
 </g>
@@ -192,7 +193,7 @@
 <g id="node14" class="node">
 <title>Node14</title>
 <g id="a_node14"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_conc.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="277.5,-266.5 277.5,-285.5 425.5,-285.5 425.5,-266.5 277.5,-266.5"/>
+<polygon fill="white" stroke="black" points="277.5,-266.5 277.5,-285.5 425.5,-285.5 425.5,-266.5 277.5,-266.5"/>
 <text text-anchor="middle" x="351.5" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverConc</text>
 </a>
 </g>
@@ -207,7 +208,7 @@
 <g id="node15" class="node">
 <title>Node15</title>
 <g id="a_node15"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_i_t_e.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="282,-228.5 282,-247.5 421,-247.5 421,-228.5 282,-228.5"/>
+<polygon fill="white" stroke="black" points="282,-228.5 282,-247.5 421,-247.5 421,-228.5 282,-228.5"/>
 <text text-anchor="middle" x="351.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverITE</text>
 </a>
 </g>
@@ -222,7 +223,7 @@
 <g id="node16" class="node">
 <title>Node16</title>
 <g id="a_node16"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_mod.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="279,-190.5 279,-209.5 424,-209.5 424,-190.5 279,-190.5"/>
+<polygon fill="white" stroke="black" points="279,-190.5 279,-209.5 424,-209.5 424,-190.5 279,-190.5"/>
 <text text-anchor="middle" x="351.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverMod</text>
 </a>
 </g>
@@ -237,7 +238,7 @@
 <g id="node17" class="node">
 <title>Node17</title>
 <g id="a_node17"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_mult.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278.5,-152.5 278.5,-171.5 424.5,-171.5 424.5,-152.5 278.5,-152.5"/>
+<polygon fill="white" stroke="black" points="278.5,-152.5 278.5,-171.5 424.5,-171.5 424.5,-152.5 278.5,-152.5"/>
 <text text-anchor="middle" x="351.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverMult</text>
 </a>
 </g>
@@ -252,7 +253,7 @@
 <g id="node18" class="node">
 <title>Node18</title>
 <g id="a_node18"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_shl.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="282,-114.5 282,-133.5 421,-133.5 421,-114.5 282,-114.5"/>
+<polygon fill="white" stroke="black" points="282,-114.5 282,-133.5 421,-133.5 421,-114.5 282,-114.5"/>
 <text text-anchor="middle" x="351.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverShl</text>
 </a>
 </g>
@@ -267,7 +268,7 @@
 <g id="node19" class="node">
 <title>Node19</title>
 <g id="a_node19"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_shr_s.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278.5,-76.5 278.5,-95.5 424.5,-95.5 424.5,-76.5 278.5,-76.5"/>
+<polygon fill="white" stroke="black" points="278.5,-76.5 278.5,-95.5 424.5,-95.5 424.5,-76.5 278.5,-76.5"/>
 <text text-anchor="middle" x="351.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverShrS</text>
 </a>
 </g>
@@ -282,7 +283,7 @@
 <g id="node20" class="node">
 <title>Node20</title>
 <g id="a_node20"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_shr_u.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="278,-38.5 278,-57.5 425,-57.5 425,-38.5 278,-38.5"/>
+<polygon fill="white" stroke="black" points="278,-38.5 278,-57.5 425,-57.5 425,-38.5 278,-38.5"/>
 <text text-anchor="middle" x="351.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverShrU</text>
 </a>
 </g>
@@ -297,7 +298,7 @@
 <g id="node21" class="node">
 <title>Node21</title>
 <g id="a_node21"><a xlink:href="class_test_1_1_z3_test_1_1_z3_solver_sub.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="280.5,-0.5 280.5,-19.5 422.5,-19.5 422.5,-0.5 280.5,-0.5"/>
+<polygon fill="white" stroke="black" points="280.5,-0.5 280.5,-19.5 422.5,-19.5 422.5,-0.5 280.5,-0.5"/>
 <text text-anchor="middle" x="351.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3Test::Z3SolverSub</text>
 </a>
 </g>
@@ -312,7 +313,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="0,-348.5 0,-367.5 76,-367.5 76,-348.5 0,-348.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="0,-348.5 0,-367.5 76,-367.5 76,-348.5 0,-348.5"/>
 <text text-anchor="middle" x="38" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">testing::Test</text>
 </a>
 </g>

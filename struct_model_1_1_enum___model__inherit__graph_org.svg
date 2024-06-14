@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 562.00 180.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 176)">
 <title>Model::Enum_Model</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-176 558,-176 558,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="struct_p4_v1_1_1_algorithm___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="417,-152.5 417,-171.5 548,-171.5 548,-152.5 417,-152.5"/>
+<polygon fill="white" stroke="black" points="417,-152.5 417,-171.5 548,-171.5 548,-152.5 417,-152.5"/>
 <text text-anchor="middle" x="482.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::Algorithm_Model</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="struct_p4_v1_1_1_clone_type___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="416,-114.5 416,-133.5 549,-133.5 549,-114.5 416,-114.5"/>
+<polygon fill="white" stroke="black" points="416,-114.5 416,-133.5 549,-133.5 549,-114.5 416,-114.5"/>
 <text text-anchor="middle" x="482.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::CloneType_Model</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="struct_p4_v1_1_1_counter_type___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="411,-76.5 411,-95.5 554,-95.5 554,-76.5 411,-76.5"/>
+<polygon fill="white" stroke="black" points="411,-76.5 411,-95.5 554,-95.5 554,-76.5 411,-76.5"/>
 <text text-anchor="middle" x="482.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::CounterType_Model</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="struct_p4_v1_1_1_meter_type___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="415.5,-38.5 415.5,-57.5 549.5,-57.5 549.5,-38.5 415.5,-38.5"/>
+<polygon fill="white" stroke="black" points="415.5,-38.5 415.5,-57.5 549.5,-57.5 549.5,-38.5 415.5,-38.5"/>
 <text text-anchor="middle" x="482.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::MeterType_Model</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="struct_u_b_p_f_1_1_algorithm___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="417,-0.5 417,-19.5 548,-19.5 548,-0.5 417,-0.5"/>
+<polygon fill="white" stroke="black" points="417,-0.5 417,-19.5 548,-19.5 548,-0.5 417,-0.5"/>
 <text text-anchor="middle" x="482.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UBPF::Algorithm_Model</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="struct_model_1_1_type___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="113,-76.5 113,-95.5 223,-95.5 223,-76.5 113,-76.5"/>
+<polygon fill="white" stroke="black" points="113,-76.5 113,-95.5 223,-95.5 223,-76.5 113,-76.5"/>
 <text text-anchor="middle" x="168" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model::Type_Model</text>
 </a>
 </g>
@@ -111,7 +112,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="struct_model_1_1_elem.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-76.5 0,-95.5 77,-95.5 77,-76.5 0,-76.5"/>
+<polygon fill="white" stroke="black" points="0,-76.5 0,-95.5 77,-95.5 77,-76.5 0,-76.5"/>
 <text text-anchor="middle" x="38.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model::Elem</text>
 </a>
 </g>

@@ -8,11 +8,12 @@
  viewBox="0.00 0.00 328.00 115.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 111.5)">
 <title>Graphical Class Hierarchy</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-111.5 324,-111.5 324,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
 <g id="a_node1"><a xlink:href="class_util_1_1_enumerator.html" target="_top" xlink:title="Type&#45;erased Enumerator interface.">
-<polygon fill="none" stroke="black" points="0,-50 0,-69 125,-69 125,-50 0,-50"/>
+<polygon fill="white" stroke="black" points="0,-50 0,-69 125,-69 125,-50 0,-50"/>
 <text text-anchor="middle" x="62.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Enumerator&lt; T &gt;</text>
 </a>
 </g>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node1</title>
 <g id="a_node2"><a xlink:href="class_util_1_1_concat_enumerator.html" target="_top" xlink:title="Concatenation.">
-<polygon fill="none" stroke="black" points="161,-88 161,-107 320,-107 320,-88 161,-88"/>
+<polygon fill="white" stroke="black" points="161,-88 161,-107 320,-107 320,-88 161,-88"/>
 <text text-anchor="middle" x="240.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">Util::ConcatEnumerator&lt; T &gt;</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node3" class="node">
 <title>Node2</title>
 <g id="a_node3"><a xlink:href="class_util_1_1_empty_enumerator.html" target="_top" xlink:title="Always empty iterator (equivalent to end())">
-<polygon fill="none" stroke="black" points="162,-50 162,-69 319,-69 319,-50 162,-50"/>
+<polygon fill="white" stroke="black" points="162,-50 162,-69 319,-69 319,-50 162,-50"/>
 <text text-anchor="middle" x="240.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">Util::EmptyEnumerator&lt; T &gt;</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node4" class="node">
 <title>Node3</title>
 <g id="a_node4"><a xlink:href="class_util_1_1_filter_enumerator.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="179.5,-0.5 179.5,-30.5 301.5,-30.5 301.5,-0.5 179.5,-0.5"/>
+<polygon fill="white" stroke="black" points="179.5,-0.5 179.5,-30.5 301.5,-30.5 301.5,-0.5 179.5,-0.5"/>
 <text text-anchor="start" x="187.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::FilterEnumerator</text>
 <text text-anchor="middle" x="240.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; T, Filter &gt;</text>
 </a>

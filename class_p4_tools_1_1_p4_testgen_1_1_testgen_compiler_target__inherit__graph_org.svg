@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 646.00 148.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 144.5)">
 <title>P4Tools::P4Testgen::TestgenCompilerTarget</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-144.5 642,-144.5 642,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_compiler_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="465,-99 465,-140 638,-140 638,-99 465,-99"/>
+<polygon fill="white" stroke="black" points="465,-99 465,-140 638,-140 638,-99 465,-99"/>
 <text text-anchor="start" x="473" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="start" x="473" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::Bmv2V1ModelCompiler</text>
 <text text-anchor="middle" x="551.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">Target</text>
@@ -39,7 +40,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_e_b_p_f_1_1_e_b_p_f_compiler_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="475.5,-49.5 475.5,-79.5 627.5,-79.5 627.5,-49.5 475.5,-49.5"/>
+<polygon fill="white" stroke="black" points="475.5,-49.5 475.5,-79.5 627.5,-79.5 627.5,-49.5 475.5,-49.5"/>
 <text text-anchor="start" x="483.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="551.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::EBPF::EBPFCompilerTarget</text>
 </a>
@@ -55,7 +56,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_pna_1_1_pna_dpdk_compiler_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="469.5,-0.5 469.5,-30.5 633.5,-30.5 633.5,-0.5 469.5,-0.5"/>
+<polygon fill="white" stroke="black" points="469.5,-0.5 469.5,-30.5 633.5,-30.5 633.5,-0.5 469.5,-0.5"/>
 <text text-anchor="start" x="477.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="551.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Pna::PnaDpdkCompilerTarget</text>
 </a>
@@ -71,7 +72,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_tools_1_1_compiler_target.html" target="_top" xlink:title="Encapsulates the details of invoking the P4 compiler for a target device and architecture.">
-<polygon fill="none" stroke="black" points="125,-55 125,-74 259,-74 259,-55 125,-55"/>
+<polygon fill="white" stroke="black" points="125,-55 125,-74 259,-74 259,-55 125,-55"/>
 <text text-anchor="middle" x="192" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::CompilerTarget</text>
 </a>
 </g>
@@ -86,7 +87,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_p4_tools_1_1_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-55 0,-74 89,-74 89,-55 0,-55"/>
+<polygon fill="white" stroke="black" points="0,-55 0,-74 89,-74 89,-55 0,-55"/>
 <text text-anchor="middle" x="44.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::Target</text>
 </a>
 </g>

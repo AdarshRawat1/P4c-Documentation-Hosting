@@ -54,6 +54,7 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>P4Tools::TraceEvent</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-476 640,-476 640,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -67,7 +68,7 @@ var sectionId = 'dynsection-0';
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_assignment_statement.html" target="_top" xlink:title="Represents an assignment statement.">
-<polygon fill="none" stroke="black" points="351,-441.5 351,-471.5 482,-471.5 482,-441.5 351,-441.5"/>
+<polygon fill="white" stroke="black" points="351,-441.5 351,-471.5 482,-471.5 482,-441.5 351,-441.5"/>
 <text text-anchor="start" x="359" y="-459.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-448.5" font-family="Helvetica,sans-Serif" font-size="10.00">::AssignmentStatement</text>
 </a>
@@ -83,7 +84,7 @@ var sectionId = 'dynsection-0';
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_emit.html" target="_top" xlink:title="A field being emitted by a deparser.">
-<polygon fill="none" stroke="black" points="357.5,-392.5 357.5,-422.5 475.5,-422.5 475.5,-392.5 357.5,-392.5"/>
+<polygon fill="white" stroke="black" points="357.5,-392.5 357.5,-422.5 475.5,-422.5 475.5,-392.5 357.5,-392.5"/>
 <text text-anchor="start" x="365.5" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Emit</text>
 </a>
@@ -99,7 +100,7 @@ var sectionId = 'dynsection-0';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_extract_failure.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="357.5,-343.5 357.5,-373.5 475.5,-373.5 475.5,-343.5 357.5,-343.5"/>
+<polygon fill="white" stroke="black" points="357.5,-343.5 357.5,-373.5 475.5,-373.5 475.5,-343.5 357.5,-343.5"/>
 <text text-anchor="start" x="365.5" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ExtractFailure</text>
 </a>
@@ -115,7 +116,7 @@ var sectionId = 'dynsection-0';
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_extract_success.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="357.5,-294.5 357.5,-324.5 475.5,-324.5 475.5,-294.5 357.5,-294.5"/>
+<polygon fill="white" stroke="black" points="357.5,-294.5 357.5,-324.5 475.5,-324.5 475.5,-294.5 357.5,-294.5"/>
 <text text-anchor="start" x="365.5" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ExtractSuccess</text>
 </a>
@@ -131,7 +132,7 @@ var sectionId = 'dynsection-0';
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_generic.html" target="_top" xlink:title="A generic event that only takes in a string as label.">
-<polygon fill="none" stroke="black" points="357.5,-245.5 357.5,-275.5 475.5,-275.5 475.5,-245.5 357.5,-245.5"/>
+<polygon fill="white" stroke="black" points="357.5,-245.5 357.5,-275.5 475.5,-275.5 475.5,-245.5 357.5,-245.5"/>
 <text text-anchor="start" x="365.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Generic</text>
 </a>
@@ -147,7 +148,7 @@ var sectionId = 'dynsection-0';
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_if_statement_condition.html" target="_top" xlink:title="Represents an if statement condition.">
-<polygon fill="none" stroke="black" points="353,-196.5 353,-226.5 480,-226.5 480,-196.5 353,-196.5"/>
+<polygon fill="white" stroke="black" points="353,-196.5 353,-226.5 480,-226.5 480,-196.5 353,-196.5"/>
 <text text-anchor="start" x="361" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">::IfStatementCondition</text>
 </a>
@@ -163,7 +164,7 @@ var sectionId = 'dynsection-0';
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_method_call.html" target="_top" xlink:title="Label dedicated to method call expression.">
-<polygon fill="none" stroke="black" points="357.5,-147.5 357.5,-177.5 475.5,-177.5 475.5,-147.5 357.5,-147.5"/>
+<polygon fill="white" stroke="black" points="357.5,-147.5 357.5,-177.5 475.5,-177.5 475.5,-147.5 357.5,-147.5"/>
 <text text-anchor="start" x="365.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MethodCall</text>
 </a>
@@ -179,7 +180,7 @@ var sectionId = 'dynsection-0';
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_packet.html" target="_top" xlink:title="A packet that is either presented to a parser or emitted from a deparser.">
-<polygon fill="none" stroke="black" points="357.5,-98.5 357.5,-128.5 475.5,-128.5 475.5,-98.5 357.5,-98.5"/>
+<polygon fill="white" stroke="black" points="357.5,-98.5 357.5,-128.5 475.5,-128.5 475.5,-98.5 357.5,-98.5"/>
 <text text-anchor="start" x="365.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Packet</text>
 </a>
@@ -195,7 +196,7 @@ var sectionId = 'dynsection-0';
 <g id="node14" class="node">
 <title>Node14</title>
 <g id="a_node14"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_parser_start.html" target="_top" xlink:title="Marks the start of a parser.">
-<polygon fill="none" stroke="black" points="357.5,-49.5 357.5,-79.5 475.5,-79.5 475.5,-49.5 357.5,-49.5"/>
+<polygon fill="white" stroke="black" points="357.5,-49.5 357.5,-79.5 475.5,-79.5 475.5,-49.5 357.5,-49.5"/>
 <text text-anchor="start" x="365.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ParserStart</text>
 </a>
@@ -211,7 +212,7 @@ var sectionId = 'dynsection-0';
 <g id="node15" class="node">
 <title>Node15</title>
 <g id="a_node15"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_parser_state.html" target="_top" xlink:title="Marks the entry into a parser state.">
-<polygon fill="none" stroke="black" points="357.5,-0.5 357.5,-30.5 475.5,-30.5 475.5,-0.5 357.5,-0.5"/>
+<polygon fill="white" stroke="black" points="357.5,-0.5 357.5,-30.5 475.5,-30.5 475.5,-0.5 357.5,-0.5"/>
 <text text-anchor="start" x="365.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="416.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ParserState</text>
 </a>
@@ -227,7 +228,7 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="104,-226 104,-245 166,-245 166,-226 104,-226"/>
+<polygon fill="white" stroke="black" points="104,-226 104,-245 166,-245 166,-226 104,-226"/>
 <text text-anchor="middle" x="135" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -242,7 +243,7 @@ var sectionId = 'dynsection-0';
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-226 0,-245 68,-245 68,-226 0,-226"/>
+<polygon fill="white" stroke="black" points="0,-226 0,-245 68,-245 68,-226 0,-226"/>
 <text text-anchor="middle" x="34" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>
@@ -257,7 +258,7 @@ var sectionId = 'dynsection-0';
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_expression.html" target="_top" xlink:title="A simple event that stores the provided expression.">
-<polygon fill="none" stroke="black" points="518,-269.5 518,-299.5 636,-299.5 636,-269.5 518,-269.5"/>
+<polygon fill="white" stroke="black" points="518,-269.5 518,-299.5 636,-299.5 636,-269.5 518,-269.5"/>
 <text text-anchor="start" x="526" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="577" y="-276.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Expression</text>
 </a>
@@ -273,7 +274,7 @@ var sectionId = 'dynsection-0';
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_p4_tools_1_1_trace_events_1_1_generic_description.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="518,-220.5 518,-250.5 636,-250.5 636,-220.5 518,-220.5"/>
+<polygon fill="white" stroke="black" points="518,-220.5 518,-250.5 636,-250.5 636,-220.5 518,-220.5"/>
 <text text-anchor="start" x="526" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvents</text>
 <text text-anchor="middle" x="577" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GenericDescription</text>
 </a>

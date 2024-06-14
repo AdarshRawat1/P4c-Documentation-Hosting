@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 684.00 99.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 95.5)">
 <title>P4Tools::P4Testgen::Bmv2::IndexMap</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-95.5 680,-95.5 680,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_meter_value.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="492,-61 492,-91 676,-91 676,-61 492,-61"/>
+<polygon fill="white" stroke="black" points="492,-61 492,-91 676,-91 676,-61 492,-61"/>
 <text text-anchor="start" x="500" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="584" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::Bmv2V1ModelMeterValue</text>
 </a>
@@ -38,7 +39,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_register_value.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="499.5,-0.5 499.5,-41.5 668.5,-41.5 668.5,-0.5 499.5,-0.5"/>
+<polygon fill="white" stroke="black" points="499.5,-0.5 499.5,-41.5 668.5,-41.5 668.5,-0.5 499.5,-0.5"/>
 <text text-anchor="start" x="507.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="start" x="507.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::Bmv2V1ModelRegister</text>
 <text text-anchor="middle" x="584" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Value</text>
@@ -55,7 +56,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_test_object.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="202,-33 202,-63 311,-63 311,-33 202,-33"/>
+<polygon fill="white" stroke="black" points="202,-33 202,-63 311,-63 311,-33 202,-33"/>
 <text text-anchor="start" x="210" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="256.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">::TestObject</text>
 </a>
@@ -71,7 +72,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="104,-38.5 104,-57.5 166,-57.5 166,-38.5 104,-38.5"/>
+<polygon fill="white" stroke="black" points="104,-38.5 104,-57.5 166,-57.5 166,-38.5 104,-38.5"/>
 <text text-anchor="middle" x="135" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -86,7 +87,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-38.5 0,-57.5 68,-57.5 68,-38.5 0,-38.5"/>
+<polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 68,-57.5 68,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="34" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>

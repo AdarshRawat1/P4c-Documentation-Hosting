@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 718.00 313.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 309)">
 <title>ParserOptions</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-309 714,-309 714,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_compiler_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="233,-133.5 233,-152.5 331,-152.5 331,-133.5 233,-133.5"/>
+<polygon fill="white" stroke="black" points="233,-133.5 233,-152.5 331,-152.5 331,-133.5 233,-133.5"/>
 <text text-anchor="middle" x="282" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">CompilerOptions</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_util_1_1_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-133.5 0,-152.5 77,-152.5 77,-133.5 0,-133.5"/>
+<polygon fill="white" stroke="black" points="0,-133.5 0,-152.5 77,-152.5 77,-133.5 0,-133.5"/>
 <text text-anchor="middle" x="38.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::Options</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_b_m_v2_1_1_b_m_v2_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="384.5,-266.5 384.5,-285.5 501.5,-285.5 501.5,-266.5 384.5,-266.5"/>
+<polygon fill="white" stroke="black" points="384.5,-266.5 384.5,-285.5 501.5,-285.5 501.5,-266.5 384.5,-266.5"/>
 <text text-anchor="middle" x="443" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::BMV2Options</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_d_p_d_k_1_1_dpdk_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="386.5,-228.5 386.5,-247.5 499.5,-247.5 499.5,-228.5 386.5,-228.5"/>
+<polygon fill="white" stroke="black" points="386.5,-228.5 386.5,-247.5 499.5,-247.5 499.5,-228.5 386.5,-228.5"/>
 <text text-anchor="middle" x="443" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPDK::DpdkOptions</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_ebpf_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="405,-190.5 405,-209.5 481,-209.5 481,-190.5 405,-190.5"/>
+<polygon fill="white" stroke="black" points="405,-190.5 405,-209.5 481,-209.5 481,-190.5 405,-190.5"/>
 <text text-anchor="middle" x="443" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">EbpfOptions</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_p4_test_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="400,-152.5 400,-171.5 486,-171.5 486,-152.5 400,-152.5"/>
+<polygon fill="white" stroke="black" points="400,-152.5 400,-171.5 486,-171.5 486,-152.5 400,-152.5"/>
 <text text-anchor="middle" x="443" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4TestOptions</text>
 </a>
 </g>
@@ -111,7 +112,7 @@
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_t_c_1_1_t_c_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="401,-114.5 401,-133.5 485,-133.5 485,-114.5 401,-114.5"/>
+<polygon fill="white" stroke="black" points="401,-114.5 401,-133.5 485,-133.5 485,-114.5 401,-114.5"/>
 <text text-anchor="middle" x="443" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">TC::TCOptions</text>
 </a>
 </g>
@@ -126,7 +127,7 @@
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="class_test_1_1_p4_reachability_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="367,-76.5 367,-95.5 519,-95.5 519,-76.5 367,-76.5"/>
+<polygon fill="white" stroke="black" points="367,-76.5 367,-95.5 519,-95.5 519,-76.5 367,-76.5"/>
 <text text-anchor="middle" x="443" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::P4ReachabilityOptions</text>
 </a>
 </g>
@@ -141,7 +142,7 @@
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="class_test_1_1_p4_test_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="387.5,-38.5 387.5,-57.5 498.5,-57.5 498.5,-38.5 387.5,-38.5"/>
+<polygon fill="white" stroke="black" points="387.5,-38.5 387.5,-57.5 498.5,-57.5 498.5,-38.5 387.5,-38.5"/>
 <text text-anchor="middle" x="443" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::P4TestOptions</text>
 </a>
 </g>
@@ -156,7 +157,7 @@
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="classgraphs_1_1_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="396.5,-0.5 396.5,-19.5 489.5,-19.5 489.5,-0.5 396.5,-0.5"/>
+<polygon fill="white" stroke="black" points="396.5,-0.5 396.5,-19.5 489.5,-19.5 489.5,-0.5 396.5,-0.5"/>
 <text text-anchor="middle" x="443" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">graphs::Options</text>
 </a>
 </g>
@@ -171,7 +172,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_b_m_v2_1_1_psa_switch_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="563.5,-285.5 563.5,-304.5 701.5,-304.5 701.5,-285.5 563.5,-285.5"/>
+<polygon fill="white" stroke="black" points="563.5,-285.5 563.5,-304.5 701.5,-304.5 701.5,-285.5 563.5,-285.5"/>
 <text text-anchor="middle" x="632.5" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::PsaSwitchOptions</text>
 </a>
 </g>
@@ -186,7 +187,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_b_m_v2_1_1_simple_switch_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="555,-247.5 555,-266.5 710,-266.5 710,-247.5 555,-247.5"/>
+<polygon fill="white" stroke="black" points="555,-247.5 555,-266.5 710,-266.5 710,-247.5 555,-247.5"/>
 <text text-anchor="middle" x="632.5" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::SimpleSwitchOptions</text>
 </a>
 </g>

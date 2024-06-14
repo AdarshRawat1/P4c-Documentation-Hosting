@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 375.50 140.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 136)">
 <title>EBPF::EbpfCodeGenerator</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-136 371.5,-136 371.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_e_b_p_f_1_1_p_s_a_ebpf_generator.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="87.5,-56.5 87.5,-75.5 224.5,-75.5 224.5,-56.5 87.5,-56.5"/>
+<polygon fill="white" stroke="black" points="87.5,-56.5 87.5,-75.5 224.5,-75.5 224.5,-56.5 87.5,-56.5"/>
 <text text-anchor="middle" x="156" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::PSAEbpfGenerator</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_t_c_1_1_p_n_a_ebpf_generator.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="242.5,-56.5 242.5,-75.5 367.5,-75.5 367.5,-56.5 242.5,-56.5"/>
+<polygon fill="white" stroke="black" points="242.5,-56.5 242.5,-75.5 367.5,-75.5 367.5,-56.5 242.5,-56.5"/>
 <text text-anchor="middle" x="305" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">TC::PNAEbpfGenerator</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_e_b_p_f_1_1_p_s_a_arch_t_c.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 100,-19.5 100,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 100,-19.5 100,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="50" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::PSAArchTC</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_e_b_p_f_1_1_p_s_a_arch_x_d_p.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="118,-0.5 118,-19.5 226,-19.5 226,-0.5 118,-0.5"/>
+<polygon fill="white" stroke="black" points="118,-0.5 118,-19.5 226,-19.5 226,-0.5 118,-0.5"/>
 <text text-anchor="middle" x="172" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::PSAArchXDP</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_t_c_1_1_p_n_a_arch_t_c.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="260.5,-0.5 260.5,-19.5 349.5,-19.5 349.5,-0.5 260.5,-0.5"/>
+<polygon fill="white" stroke="black" points="260.5,-0.5 260.5,-19.5 349.5,-19.5 349.5,-0.5 260.5,-0.5"/>
 <text text-anchor="middle" x="305" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TC::PNAArchTC</text>
 </a>
 </g>

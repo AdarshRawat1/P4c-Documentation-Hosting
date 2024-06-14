@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 196.00 218.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 214)">
 <title>P4Tools::P4Testgen::Bmv2::Bmv2V1ModelProgramInfo</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-214 192,-214 192,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_program_info.html" target="_top" xlink:title="Stores target&#45;specific information about a P4 program.">
-<polygon fill="none" stroke="black" points="39.5,-67.5 39.5,-97.5 148.5,-97.5 148.5,-67.5 39.5,-67.5"/>
+<polygon fill="white" stroke="black" points="39.5,-67.5 39.5,-97.5 148.5,-97.5 148.5,-67.5 39.5,-67.5"/>
 <text text-anchor="start" x="47.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="94" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ProgramInfo</text>
 </a>
@@ -38,7 +39,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="63,-134.5 63,-153.5 125,-153.5 125,-134.5 63,-134.5"/>
+<polygon fill="white" stroke="black" points="63,-134.5 63,-153.5 125,-153.5 125,-134.5 63,-134.5"/>
 <text text-anchor="middle" x="94" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -53,7 +54,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="struct_r_t_t_i_1_1_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="60,-190.5 60,-209.5 128,-209.5 128,-190.5 60,-190.5"/>
+<polygon fill="white" stroke="black" points="60,-190.5 60,-209.5 128,-209.5 128,-190.5 60,-190.5"/>
 <text text-anchor="middle" x="94" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">RTTI::Base</text>
 </a>
 </g>

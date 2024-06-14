@@ -8,11 +8,12 @@
  viewBox="0.00 0.00 300.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>Graphical Class Hierarchy</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-62 296,-62 296,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
 <g id="a_node1"><a xlink:href="class_split_flow_visit__base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-19.5 0,-38.5 112,-38.5 112,-19.5 0,-19.5"/>
+<polygon fill="white" stroke="black" points="0,-19.5 0,-38.5 112,-38.5 112,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="56" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">SplitFlowVisit_base</text>
 </a>
 </g>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node1</title>
 <g id="a_node2"><a xlink:href="class_split_flow_visit.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="163.5,-38.5 163.5,-57.5 276.5,-57.5 276.5,-38.5 163.5,-38.5"/>
+<polygon fill="white" stroke="black" points="163.5,-38.5 163.5,-57.5 276.5,-57.5 276.5,-38.5 163.5,-38.5"/>
 <text text-anchor="middle" x="220" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SplitFlowVisit&lt; N &gt;</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node3" class="node">
 <title>Node2</title>
 <g id="a_node3"><a xlink:href="class_split_flow_visit_vector.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="148,-0.5 148,-19.5 292,-19.5 292,-0.5 148,-0.5"/>
+<polygon fill="white" stroke="black" points="148,-0.5 148,-19.5 292,-19.5 292,-0.5 148,-0.5"/>
 <text text-anchor="middle" x="220" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SplitFlowVisitVector&lt; N &gt;</text>
 </a>
 </g>

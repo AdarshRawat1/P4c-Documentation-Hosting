@@ -54,6 +54,7 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>RTTI::Base</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-1210 725,-1210 725,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -67,7 +68,7 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_i_castable.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="104,-388.5 104,-407.5 166,-407.5 166,-388.5 104,-388.5"/>
+<polygon fill="white" stroke="black" points="104,-388.5 104,-407.5 166,-407.5 166,-388.5 104,-388.5"/>
 <text text-anchor="middle" x="135" y="-395.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICastable</text>
 </a>
 </g>
@@ -82,7 +83,7 @@ var sectionId = 'dynsection-0';
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_abstract_solver.html" target="_top" xlink:title="Provides a higher&#45;level interface for an SMT solver.">
-<polygon fill="none" stroke="black" points="238,-1167.5 238,-1186.5 326,-1186.5 326,-1167.5 238,-1167.5"/>
+<polygon fill="white" stroke="black" points="238,-1167.5 238,-1186.5 326,-1186.5 326,-1167.5 238,-1167.5"/>
 <text text-anchor="middle" x="282" y="-1174.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbstractSolver</text>
 </a>
 </g>
@@ -97,7 +98,7 @@ var sectionId = 'dynsection-0';
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_b_m_v2_1_1_c_f_g_1_1_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="230.5,-1091.5 230.5,-1110.5 333.5,-1110.5 333.5,-1091.5 230.5,-1091.5"/>
+<polygon fill="white" stroke="black" points="230.5,-1091.5 230.5,-1110.5 333.5,-1110.5 333.5,-1091.5 230.5,-1091.5"/>
 <text text-anchor="middle" x="282" y="-1098.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::CFG::Node</text>
 </a>
 </g>
@@ -112,7 +113,7 @@ var sectionId = 'dynsection-0';
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="struct_backtrack_1_1trigger.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="230,-825.5 230,-844.5 334,-844.5 334,-825.5 230,-825.5"/>
+<polygon fill="white" stroke="black" points="230,-825.5 230,-844.5 334,-844.5 334,-825.5 230,-825.5"/>
 <text text-anchor="middle" x="282" y="-832.5" font-family="Helvetica,sans-Serif" font-size="10.00">Backtrack::trigger</text>
 </a>
 </g>
@@ -127,7 +128,7 @@ var sectionId = 'dynsection-0';
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_object.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="230.5,-787.5 230.5,-806.5 333.5,-806.5 333.5,-787.5 230.5,-787.5"/>
+<polygon fill="white" stroke="black" points="230.5,-787.5 230.5,-806.5 333.5,-806.5 333.5,-787.5 230.5,-787.5"/>
 <text text-anchor="middle" x="282" y="-794.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFObject</text>
 </a>
 </g>
@@ -142,7 +143,7 @@ var sectionId = 'dynsection-0';
 <g id="node30" class="node">
 <title>Node83</title>
 <g id="a_node30"><a xlink:href="class_e_b_p_f_1_1_i_has_width.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="431.5,-578.5 431.5,-597.5 528.5,-597.5 528.5,-578.5 431.5,-578.5"/>
+<polygon fill="white" stroke="black" points="431.5,-578.5 431.5,-597.5 528.5,-597.5 528.5,-578.5 431.5,-578.5"/>
 <text text-anchor="middle" x="480" y="-585.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::IHasWidth</text>
 </a>
 </g>
@@ -157,7 +158,7 @@ var sectionId = 'dynsection-0';
 <g id="node31" class="node">
 <title>Node84</title>
 <g id="a_node31"><a xlink:href="class_i_r_1_1_i_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="251.5,-540.5 251.5,-559.5 312.5,-559.5 312.5,-540.5 251.5,-540.5"/>
+<polygon fill="white" stroke="black" points="251.5,-540.5 251.5,-559.5 312.5,-559.5 312.5,-540.5 251.5,-540.5"/>
 <text text-anchor="middle" x="282" y="-547.5" font-family="Helvetica,sans-Serif" font-size="10.00">IR::INode</text>
 </a>
 </g>
@@ -172,7 +173,7 @@ var sectionId = 'dynsection-0';
 <g id="node34" class="node">
 <title>Node113</title>
 <g id="a_node34"><a xlink:href="class_json_data.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="252,-502.5 252,-521.5 312,-521.5 312,-502.5 252,-502.5"/>
+<polygon fill="white" stroke="red" points="252,-502.5 252,-521.5 312,-521.5 312,-502.5 252,-502.5"/>
 <text text-anchor="middle" x="282" y="-509.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonData</text>
 </a>
 </g>
@@ -187,7 +188,7 @@ var sectionId = 'dynsection-0';
 <g id="node38" class="node">
 <title>Node120</title>
 <g id="a_node38"><a xlink:href="class_p4_1_1_instance_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="232,-464.5 232,-483.5 332,-483.5 332,-464.5 232,-464.5"/>
+<polygon fill="white" stroke="red" points="232,-464.5 232,-483.5 332,-483.5 332,-464.5 232,-464.5"/>
 <text text-anchor="middle" x="282" y="-471.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::InstanceBase</text>
 </a>
 </g>
@@ -202,7 +203,7 @@ var sectionId = 'dynsection-0';
 <g id="node39" class="node">
 <title>Node139</title>
 <g id="a_node39"><a xlink:href="class_p4_1_1_storage_location.html" target="_top" xlink:title="Abstraction for something that is has a left value (variable, parameter)">
-<polygon fill="none" stroke="red" points="225.5,-426.5 225.5,-445.5 338.5,-445.5 338.5,-426.5 225.5,-426.5"/>
+<polygon fill="white" stroke="red" points="225.5,-426.5 225.5,-445.5 338.5,-445.5 338.5,-426.5 225.5,-426.5"/>
 <text text-anchor="middle" x="282" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::StorageLocation</text>
 </a>
 </g>
@@ -217,7 +218,7 @@ var sectionId = 'dynsection-0';
 <g id="node40" class="node">
 <title>Node146</title>
 <g id="a_node40"><a xlink:href="class_p4_1_1_symbolic_value.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="228.5,-388.5 228.5,-407.5 335.5,-407.5 335.5,-388.5 228.5,-388.5"/>
+<polygon fill="white" stroke="red" points="228.5,-388.5 228.5,-407.5 335.5,-407.5 335.5,-388.5 228.5,-388.5"/>
 <text text-anchor="middle" x="282" y="-395.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::SymbolicValue</text>
 </a>
 </g>
@@ -232,7 +233,7 @@ var sectionId = 'dynsection-0';
 <g id="node41" class="node">
 <title>Node164</title>
 <g id="a_node41"><a xlink:href="class_p4_1_1_type_constraint.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="228.5,-350.5 228.5,-369.5 335.5,-369.5 335.5,-350.5 228.5,-350.5"/>
+<polygon fill="white" stroke="red" points="228.5,-350.5 228.5,-369.5 335.5,-369.5 335.5,-350.5 228.5,-350.5"/>
 <text text-anchor="middle" x="282" y="-357.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::TypeConstraint</text>
 </a>
 </g>
@@ -247,7 +248,7 @@ var sectionId = 'dynsection-0';
 <g id="node42" class="node">
 <title>Node168</title>
 <g id="a_node42"><a xlink:href="class_p4_tools_1_1_abstract_rep_checked_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="202,-301 202,-331 362,-331 362,-301 202,-301"/>
+<polygon fill="white" stroke="black" points="202,-301 202,-331 362,-331 362,-301 202,-301"/>
 <text text-anchor="start" x="210" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::AbstractRepChecked</text>
 <text text-anchor="middle" x="282" y="-308" font-family="Helvetica,sans-Serif" font-size="10.00">Node&lt; Self, Node &gt;</text>
 </a>
@@ -263,7 +264,7 @@ var sectionId = 'dynsection-0';
 <g id="node43" class="node">
 <title>Node169</title>
 <g id="a_node43"><a xlink:href="class_p4_tools_1_1_compiler_result.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="215,-262.5 215,-281.5 349,-281.5 349,-262.5 215,-262.5"/>
+<polygon fill="white" stroke="red" points="215,-262.5 215,-281.5 349,-281.5 349,-262.5 215,-262.5"/>
 <text text-anchor="middle" x="282" y="-269.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::CompilerResult</text>
 </a>
 </g>
@@ -278,7 +279,7 @@ var sectionId = 'dynsection-0';
 <g id="node44" class="node">
 <title>Node172</title>
 <g id="a_node44"><a xlink:href="struct_p4_tools_1_1_p4_testgen_1_1_abstract_test.html" target="_top" xlink:title="Type definitions for abstract tests.">
-<polygon fill="none" stroke="red" points="227.5,-213 227.5,-243 336.5,-243 336.5,-213 227.5,-213"/>
+<polygon fill="white" stroke="red" points="227.5,-213 227.5,-243 336.5,-243 336.5,-213 227.5,-213"/>
 <text text-anchor="start" x="235.5" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="282" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">::AbstractTest</text>
 </a>
@@ -294,7 +295,7 @@ var sectionId = 'dynsection-0';
 <g id="node45" class="node">
 <title>Node175</title>
 <g id="a_node45"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_program_info.html" target="_top" xlink:title="Stores target&#45;specific information about a P4 program.">
-<polygon fill="none" stroke="red" points="227.5,-164 227.5,-194 336.5,-194 336.5,-164 227.5,-164"/>
+<polygon fill="white" stroke="red" points="227.5,-164 227.5,-194 336.5,-194 336.5,-164 227.5,-164"/>
 <text text-anchor="start" x="235.5" y="-182" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="282" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00">::ProgramInfo</text>
 </a>
@@ -310,7 +311,7 @@ var sectionId = 'dynsection-0';
 <g id="node46" class="node">
 <title>Node180</title>
 <g id="a_node46"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_test_object.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="227.5,-115 227.5,-145 336.5,-145 336.5,-115 227.5,-115"/>
+<polygon fill="white" stroke="red" points="227.5,-115 227.5,-145 336.5,-145 336.5,-115 227.5,-115"/>
 <text text-anchor="start" x="235.5" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="282" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">::TestObject</text>
 </a>
@@ -326,7 +327,7 @@ var sectionId = 'dynsection-0';
 <g id="node47" class="node">
 <title>Node208</title>
 <g id="a_node47"><a xlink:href="class_p4_tools_1_1_trace_event.html" target="_top" xlink:title="An event in a trace of the execution of a P4 program.">
-<polygon fill="none" stroke="red" points="225.5,-76.5 225.5,-95.5 338.5,-95.5 338.5,-76.5 225.5,-76.5"/>
+<polygon fill="white" stroke="red" points="225.5,-76.5 225.5,-95.5 338.5,-95.5 338.5,-76.5 225.5,-76.5"/>
 <text text-anchor="middle" x="282" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::TraceEvent</text>
 </a>
 </g>
@@ -341,7 +342,7 @@ var sectionId = 'dynsection-0';
 <g id="node48" class="node">
 <title>Node221</title>
 <g id="a_node48"><a xlink:href="class_util_1_1_i_json.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="250.5,-38.5 250.5,-57.5 313.5,-57.5 313.5,-38.5 250.5,-38.5"/>
+<polygon fill="white" stroke="red" points="250.5,-38.5 250.5,-57.5 313.5,-57.5 313.5,-38.5 250.5,-38.5"/>
 <text text-anchor="middle" x="282" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::IJson</text>
 </a>
 </g>
@@ -356,7 +357,7 @@ var sectionId = 'dynsection-0';
 <g id="node49" class="node">
 <title>Node225</title>
 <g id="a_node49"><a xlink:href="class_util_1_1_named_symbol.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="226,-0.5 226,-19.5 338,-19.5 338,-0.5 226,-0.5"/>
+<polygon fill="white" stroke="red" points="226,-0.5 226,-19.5 338,-19.5 338,-0.5 226,-0.5"/>
 <text text-anchor="middle" x="282" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Util::NamedSymbol</text>
 </a>
 </g>
@@ -371,7 +372,7 @@ var sectionId = 'dynsection-0';
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_tools_1_1_z3_solver.html" target="_top" xlink:title="A Z3&#45;based implementation of AbstractSolver. Encapsulates a z3::solver and a z3::context.">
-<polygon fill="none" stroke="black" points="428.5,-1186.5 428.5,-1205.5 531.5,-1205.5 531.5,-1186.5 428.5,-1186.5"/>
+<polygon fill="white" stroke="black" points="428.5,-1186.5 428.5,-1205.5 531.5,-1205.5 531.5,-1186.5 428.5,-1186.5"/>
 <text text-anchor="middle" x="480" y="-1193.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::Z3Solver</text>
 </a>
 </g>
@@ -386,7 +387,7 @@ var sectionId = 'dynsection-0';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_b_m_v2_1_1_c_f_g_1_1_dummy_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="409,-1148.5 409,-1167.5 551,-1167.5 551,-1148.5 409,-1148.5"/>
+<polygon fill="white" stroke="black" points="409,-1148.5 409,-1167.5 551,-1167.5 551,-1148.5 409,-1148.5"/>
 <text text-anchor="middle" x="480" y="-1155.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::CFG::DummyNode</text>
 </a>
 </g>
@@ -401,7 +402,7 @@ var sectionId = 'dynsection-0';
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_b_m_v2_1_1_c_f_g_1_1_if_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="425,-1110.5 425,-1129.5 535,-1129.5 535,-1110.5 425,-1110.5"/>
+<polygon fill="white" stroke="black" points="425,-1110.5 425,-1129.5 535,-1129.5 535,-1110.5 425,-1110.5"/>
 <text text-anchor="middle" x="480" y="-1117.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::CFG::IfNode</text>
 </a>
 </g>
@@ -416,7 +417,7 @@ var sectionId = 'dynsection-0';
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_b_m_v2_1_1_c_f_g_1_1_table_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="416,-1072.5 416,-1091.5 544,-1091.5 544,-1072.5 416,-1072.5"/>
+<polygon fill="white" stroke="black" points="416,-1072.5 416,-1091.5 544,-1091.5 544,-1072.5 416,-1072.5"/>
 <text text-anchor="middle" x="480" y="-1079.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::CFG::TableNode</text>
 </a>
 </g>
@@ -431,7 +432,7 @@ var sectionId = 'dynsection-0';
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_checksum_p_s_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="409,-806.5 409,-825.5 551,-825.5 551,-806.5 409,-806.5"/>
+<polygon fill="white" stroke="red" points="409,-806.5 409,-825.5 551,-825.5 551,-806.5 409,-806.5"/>
 <text text-anchor="middle" x="480" y="-813.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFChecksumPSA</text>
 </a>
 </g>
@@ -446,7 +447,7 @@ var sectionId = 'dynsection-0';
 <g id="node12" class="node">
 <title>Node14</title>
 <g id="a_node12"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_control.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="426.5,-768.5 426.5,-787.5 533.5,-787.5 533.5,-768.5 426.5,-768.5"/>
+<polygon fill="white" stroke="red" points="426.5,-768.5 426.5,-787.5 533.5,-787.5 533.5,-768.5 426.5,-768.5"/>
 <text text-anchor="middle" x="480" y="-775.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFControl</text>
 </a>
 </g>
@@ -461,7 +462,7 @@ var sectionId = 'dynsection-0';
 <g id="node13" class="node">
 <title>Node27</title>
 <g id="a_node13"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_digest_p_s_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="419,-730.5 419,-749.5 541,-749.5 541,-730.5 419,-730.5"/>
+<polygon fill="white" stroke="black" points="419,-730.5 419,-749.5 541,-749.5 541,-730.5 419,-730.5"/>
 <text text-anchor="middle" x="480" y="-737.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFDigestPSA</text>
 </a>
 </g>
@@ -476,7 +477,7 @@ var sectionId = 'dynsection-0';
 <g id="node14" class="node">
 <title>Node28</title>
 <g id="a_node14"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_hash_algorithm_p_s_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="398,-692.5 398,-711.5 562,-711.5 562,-692.5 398,-692.5"/>
+<polygon fill="white" stroke="red" points="398,-692.5 398,-711.5 562,-711.5 562,-692.5 398,-692.5"/>
 <text text-anchor="middle" x="480" y="-699.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFHashAlgorithmPSA</text>
 </a>
 </g>
@@ -491,7 +492,7 @@ var sectionId = 'dynsection-0';
 <g id="node15" class="node">
 <title>Node36</title>
 <g id="a_node15"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_parser.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="429.5,-654.5 429.5,-673.5 530.5,-673.5 530.5,-654.5 429.5,-654.5"/>
+<polygon fill="white" stroke="red" points="429.5,-654.5 429.5,-673.5 530.5,-673.5 530.5,-654.5 429.5,-654.5"/>
 <text text-anchor="middle" x="480" y="-661.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFParser</text>
 </a>
 </g>
@@ -506,7 +507,7 @@ var sectionId = 'dynsection-0';
 <g id="node16" class="node">
 <title>Node40</title>
 <g id="a_node16"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_parser_state.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="416.5,-616.5 416.5,-635.5 543.5,-635.5 543.5,-616.5 416.5,-616.5"/>
+<polygon fill="white" stroke="red" points="416.5,-616.5 416.5,-635.5 543.5,-635.5 543.5,-616.5 416.5,-616.5"/>
 <text text-anchor="middle" x="480" y="-623.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFParserState</text>
 </a>
 </g>
@@ -521,7 +522,7 @@ var sectionId = 'dynsection-0';
 <g id="node17" class="node">
 <title>Node42</title>
 <g id="a_node17"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_program.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="423.5,-1034.5 423.5,-1053.5 536.5,-1053.5 536.5,-1034.5 423.5,-1034.5"/>
+<polygon fill="white" stroke="red" points="423.5,-1034.5 423.5,-1053.5 536.5,-1053.5 536.5,-1034.5 423.5,-1034.5"/>
 <text text-anchor="middle" x="480" y="-1041.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFProgram</text>
 </a>
 </g>
@@ -536,7 +537,7 @@ var sectionId = 'dynsection-0';
 <g id="node18" class="node">
 <title>Node54</title>
 <g id="a_node18"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_random_p_s_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="414.5,-996.5 414.5,-1015.5 545.5,-1015.5 545.5,-996.5 414.5,-996.5"/>
+<polygon fill="white" stroke="black" points="414.5,-996.5 414.5,-1015.5 545.5,-1015.5 545.5,-996.5 414.5,-996.5"/>
 <text text-anchor="middle" x="480" y="-1003.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFRandomPSA</text>
 </a>
 </g>
@@ -551,7 +552,7 @@ var sectionId = 'dynsection-0';
 <g id="node19" class="node">
 <title>Node55</title>
 <g id="a_node19"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_table_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="420,-958.5 420,-977.5 540,-977.5 540,-958.5 420,-958.5"/>
+<polygon fill="white" stroke="red" points="420,-958.5 420,-977.5 540,-977.5 540,-958.5 420,-958.5"/>
 <text text-anchor="middle" x="480" y="-965.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFTableBase</text>
 </a>
 </g>
@@ -566,7 +567,7 @@ var sectionId = 'dynsection-0';
 <g id="node20" class="node">
 <title>Node67</title>
 <g id="a_node20"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_type.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="433.5,-920.5 433.5,-939.5 526.5,-939.5 526.5,-920.5 433.5,-920.5"/>
+<polygon fill="white" stroke="black" points="433.5,-920.5 433.5,-939.5 526.5,-939.5 526.5,-920.5 433.5,-920.5"/>
 <text text-anchor="middle" x="480" y="-927.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFType</text>
 </a>
 </g>
@@ -581,7 +582,7 @@ var sectionId = 'dynsection-0';
 <g id="node28" class="node">
 <title>Node79</title>
 <g id="a_node28"><a xlink:href="class_u_b_p_f_1_1_u_b_p_f_deparser.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="420.5,-882.5 420.5,-901.5 539.5,-901.5 539.5,-882.5 420.5,-882.5"/>
+<polygon fill="white" stroke="black" points="420.5,-882.5 420.5,-901.5 539.5,-901.5 539.5,-882.5 420.5,-882.5"/>
 <text text-anchor="middle" x="480" y="-889.5" font-family="Helvetica,sans-Serif" font-size="10.00">UBPF::UBPFDeparser</text>
 </a>
 </g>
@@ -596,7 +597,7 @@ var sectionId = 'dynsection-0';
 <g id="node29" class="node">
 <title>Node80</title>
 <g id="a_node29"><a xlink:href="class_u_b_p_f_1_1_u_b_p_f_table_base.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="418.5,-844.5 418.5,-863.5 541.5,-863.5 541.5,-844.5 418.5,-844.5"/>
+<polygon fill="white" stroke="red" points="418.5,-844.5 418.5,-863.5 541.5,-863.5 541.5,-844.5 418.5,-844.5"/>
 <text text-anchor="middle" x="480" y="-851.5" font-family="Helvetica,sans-Serif" font-size="10.00">UBPF::UBPFTableBase</text>
 </a>
 </g>
@@ -611,7 +612,7 @@ var sectionId = 'dynsection-0';
 <g id="node21" class="node">
 <title>Node68</title>
 <g id="a_node21"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_bool_type.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="601.5,-635.5 601.5,-654.5 717.5,-654.5 717.5,-635.5 601.5,-635.5"/>
+<polygon fill="white" stroke="red" points="601.5,-635.5 601.5,-654.5 717.5,-654.5 717.5,-635.5 601.5,-635.5"/>
 <text text-anchor="middle" x="659.5" y="-642.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFBoolType</text>
 </a>
 </g>
@@ -626,7 +627,7 @@ var sectionId = 'dynsection-0';
 <g id="node22" class="node">
 <title>Node70</title>
 <g id="a_node22"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_enum_type.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="598.5,-919.5 598.5,-938.5 720.5,-938.5 720.5,-919.5 598.5,-919.5"/>
+<polygon fill="white" stroke="red" points="598.5,-919.5 598.5,-938.5 720.5,-938.5 720.5,-919.5 598.5,-919.5"/>
 <text text-anchor="middle" x="659.5" y="-926.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFEnumType</text>
 </a>
 </g>
@@ -641,7 +642,7 @@ var sectionId = 'dynsection-0';
 <g id="node23" class="node">
 <title>Node72</title>
 <g id="a_node23"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_scalar_type.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="598,-880.5 598,-899.5 721,-899.5 721,-880.5 598,-880.5"/>
+<polygon fill="white" stroke="red" points="598,-880.5 598,-899.5 721,-899.5 721,-880.5 598,-880.5"/>
 <text text-anchor="middle" x="659.5" y="-887.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFScalarType</text>
 </a>
 </g>
@@ -656,7 +657,7 @@ var sectionId = 'dynsection-0';
 <g id="node24" class="node">
 <title>Node74</title>
 <g id="a_node24"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_stack_type.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="599.5,-840.5 599.5,-859.5 719.5,-859.5 719.5,-840.5 599.5,-840.5"/>
+<polygon fill="white" stroke="black" points="599.5,-840.5 599.5,-859.5 719.5,-859.5 719.5,-840.5 599.5,-840.5"/>
 <text text-anchor="middle" x="659.5" y="-847.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFStackType</text>
 </a>
 </g>
@@ -671,7 +672,7 @@ var sectionId = 'dynsection-0';
 <g id="node25" class="node">
 <title>Node75</title>
 <g id="a_node25"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_struct_type.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="598.5,-798.5 598.5,-817.5 720.5,-817.5 720.5,-798.5 598.5,-798.5"/>
+<polygon fill="white" stroke="red" points="598.5,-798.5 598.5,-817.5 720.5,-817.5 720.5,-798.5 598.5,-798.5"/>
 <text text-anchor="middle" x="659.5" y="-805.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFStructType</text>
 </a>
 </g>
@@ -686,7 +687,7 @@ var sectionId = 'dynsection-0';
 <g id="node26" class="node">
 <title>Node77</title>
 <g id="a_node26"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_type_name.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="598.5,-753.5 598.5,-772.5 720.5,-772.5 720.5,-753.5 598.5,-753.5"/>
+<polygon fill="white" stroke="black" points="598.5,-753.5 598.5,-772.5 720.5,-772.5 720.5,-753.5 598.5,-753.5"/>
 <text text-anchor="middle" x="659.5" y="-760.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFTypeName</text>
 </a>
 </g>
@@ -701,7 +702,7 @@ var sectionId = 'dynsection-0';
 <g id="node27" class="node">
 <title>Node78</title>
 <g id="a_node27"><a xlink:href="class_u_b_p_f_1_1_u_b_p_f_list_type.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="602.5,-701.5 602.5,-720.5 716.5,-720.5 716.5,-701.5 602.5,-701.5"/>
+<polygon fill="white" stroke="black" points="602.5,-701.5 602.5,-720.5 716.5,-720.5 716.5,-701.5 602.5,-701.5"/>
 <text text-anchor="middle" x="659.5" y="-708.5" font-family="Helvetica,sans-Serif" font-size="10.00">UBPF::UBPFListType</text>
 </a>
 </g>
@@ -758,7 +759,7 @@ var sectionId = 'dynsection-0';
 <g id="node32" class="node">
 <title>Node85</title>
 <g id="a_node32"><a xlink:href="class_i_r_1_1_i_declaration.html" target="_top" xlink:title="The Declaration interface, representing objects with names.">
-<polygon fill="none" stroke="black" points="434,-540.5 434,-559.5 526,-559.5 526,-540.5 434,-540.5"/>
+<polygon fill="white" stroke="black" points="434,-540.5 434,-559.5 526,-559.5 526,-540.5 434,-540.5"/>
 <text text-anchor="middle" x="480" y="-547.5" font-family="Helvetica,sans-Serif" font-size="10.00">IR::IDeclaration</text>
 </a>
 </g>
@@ -773,7 +774,7 @@ var sectionId = 'dynsection-0';
 <g id="node33" class="node">
 <title>Node86</title>
 <g id="a_node33"><a xlink:href="class_i_r_1_1_node.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="red" points="451,-502.5 451,-521.5 509,-521.5 509,-502.5 451,-502.5"/>
+<polygon fill="white" stroke="red" points="451,-502.5 451,-521.5 509,-521.5 509,-502.5 451,-502.5"/>
 <text text-anchor="middle" x="480" y="-509.5" font-family="Helvetica,sans-Serif" font-size="10.00">IR::Node</text>
 </a>
 </g>
@@ -788,7 +789,7 @@ var sectionId = 'dynsection-0';
 <g id="node35" class="node">
 <title>Node114</title>
 <g id="a_node35"><a xlink:href="class_json_boolean.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="441.5,-464.5 441.5,-483.5 518.5,-483.5 518.5,-464.5 441.5,-464.5"/>
+<polygon fill="white" stroke="black" points="441.5,-464.5 441.5,-483.5 518.5,-483.5 518.5,-464.5 441.5,-464.5"/>
 <text text-anchor="middle" x="480" y="-471.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonBoolean</text>
 </a>
 </g>
@@ -803,7 +804,7 @@ var sectionId = 'dynsection-0';
 <g id="node36" class="node">
 <title>Node115</title>
 <g id="a_node36"><a xlink:href="class_json_null.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="452,-426.5 452,-445.5 508,-445.5 508,-426.5 452,-426.5"/>
+<polygon fill="white" stroke="black" points="452,-426.5 452,-445.5 508,-445.5 508,-426.5 452,-426.5"/>
 <text text-anchor="middle" x="480" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonNull</text>
 </a>
 </g>
@@ -818,7 +819,7 @@ var sectionId = 'dynsection-0';
 <g id="node37" class="node">
 <title>Node116</title>
 <g id="a_node37"><a xlink:href="class_json_number.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="442,-388.5 442,-407.5 518,-407.5 518,-388.5 442,-388.5"/>
+<polygon fill="white" stroke="black" points="442,-388.5 442,-407.5 518,-407.5 518,-388.5 442,-388.5"/>
 <text text-anchor="middle" x="480" y="-395.5" font-family="Helvetica,sans-Serif" font-size="10.00">JsonNumber</text>
 </a>
 </g>

@@ -54,6 +54,7 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>P4::ControlPlaneAPI::Standard::P4RuntimeArchHandlerCommon&lt; arch &gt;</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-346 849,-346 849,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -69,7 +70,7 @@ var sectionId = 'dynsection-0';
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="417,-300.5 417,-341.5 603,-341.5 603,-300.5 417,-300.5"/>
+<polygon fill="white" stroke="black" points="417,-300.5 417,-341.5 603,-341.5 603,-300.5 417,-300.5"/>
 <text text-anchor="start" x="425" y="-329.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="start" x="425" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::BFRuntimeArchHandler</text>
 <text text-anchor="middle" x="510" y="-307.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Arch::PSA &gt;</text>
@@ -86,7 +87,7 @@ var sectionId = 'dynsection-0';
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="417,-240.5 417,-281.5 603,-281.5 603,-240.5 417,-240.5"/>
+<polygon fill="white" stroke="black" points="417,-240.5 417,-281.5 603,-281.5 603,-240.5 417,-240.5"/>
 <text text-anchor="start" x="425" y="-269.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="start" x="425" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::BFRuntimeArchHandler</text>
 <text text-anchor="middle" x="510" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Arch::PNA &gt;</text>
@@ -103,7 +104,7 @@ var sectionId = 'dynsection-0';
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_s_a_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="417.5,-180.5 417.5,-221.5 602.5,-221.5 602.5,-180.5 417.5,-180.5"/>
+<polygon fill="white" stroke="black" points="417.5,-180.5 417.5,-221.5 602.5,-221.5 602.5,-180.5 417.5,-180.5"/>
 <text text-anchor="start" x="425.5" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="start" x="425.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::P4RuntimeArchHandler</text>
 <text text-anchor="middle" x="510" y="-187.5" font-family="Helvetica,sans-Serif" font-size="10.00">PSAPNA&lt; Arch::PSA &gt;</text>
@@ -120,7 +121,7 @@ var sectionId = 'dynsection-0';
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_s_a_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="417.5,-120.5 417.5,-161.5 602.5,-161.5 602.5,-120.5 417.5,-120.5"/>
+<polygon fill="white" stroke="black" points="417.5,-120.5 417.5,-161.5 602.5,-161.5 602.5,-120.5 417.5,-120.5"/>
 <text text-anchor="start" x="425.5" y="-149.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="start" x="425.5" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::P4RuntimeArchHandler</text>
 <text text-anchor="middle" x="510" y="-127.5" font-family="Helvetica,sans-Serif" font-size="10.00">PSAPNA&lt; Arch::PNA &gt;</text>
@@ -137,7 +138,7 @@ var sectionId = 'dynsection-0';
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="417,-60.5 417,-101.5 603,-101.5 603,-60.5 417,-60.5"/>
+<polygon fill="white" stroke="black" points="417,-60.5 417,-101.5 603,-101.5 603,-60.5 417,-60.5"/>
 <text text-anchor="start" x="425" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="start" x="425" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::BFRuntimeArchHandler</text>
 <text text-anchor="middle" x="510" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; arch &gt;</text>
@@ -154,7 +155,7 @@ var sectionId = 'dynsection-0';
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_s_a_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="417.5,-0.5 417.5,-41.5 602.5,-41.5 602.5,-0.5 417.5,-0.5"/>
+<polygon fill="white" stroke="black" points="417.5,-0.5 417.5,-41.5 602.5,-41.5 602.5,-0.5 417.5,-0.5"/>
 <text text-anchor="start" x="425.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="start" x="425.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::P4RuntimeArchHandler</text>
 <text text-anchor="middle" x="510" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PSAPNA&lt; arch &gt;</text>
@@ -171,7 +172,7 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_arch_handler_iface.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-156 0,-186 160,-186 160,-156 0,-156"/>
+<polygon fill="white" stroke="black" points="0,-156 0,-186 160,-186 160,-156 0,-156"/>
 <text text-anchor="start" x="8" y="-174" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="middle" x="80" y="-163" font-family="Helvetica,sans-Serif" font-size="10.00">::P4RuntimeArchHandlerIface</text>
 </a>
@@ -187,7 +188,7 @@ var sectionId = 'dynsection-0';
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler_p_s_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="639,-306 639,-336 845,-336 845,-306 639,-306"/>
+<polygon fill="white" stroke="black" points="639,-306 639,-336 845,-336 845,-306 639,-306"/>
 <text text-anchor="start" x="647" y="-324" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="middle" x="742" y="-313" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::BFRuntimeArchHandlerPSA</text>
 </a>
@@ -203,7 +204,7 @@ var sectionId = 'dynsection-0';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_b_f_runtime_arch_handler_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="639,-246 639,-276 845,-276 845,-246 639,-246"/>
+<polygon fill="white" stroke="black" points="639,-246 639,-276 845,-276 845,-246 639,-246"/>
 <text text-anchor="start" x="647" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="middle" x="742" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::BFRuntimeArchHandlerPNA</text>
 </a>
@@ -219,7 +220,7 @@ var sectionId = 'dynsection-0';
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_s_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="639.5,-186 639.5,-216 844.5,-216 844.5,-186 639.5,-186"/>
+<polygon fill="white" stroke="black" points="639.5,-186 639.5,-216 844.5,-216 844.5,-186 639.5,-186"/>
 <text text-anchor="start" x="647.5" y="-204" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="middle" x="742" y="-193" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::P4RuntimeArchHandlerPSA</text>
 </a>
@@ -235,7 +236,7 @@ var sectionId = 'dynsection-0';
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="639,-126 639,-156 845,-156 845,-126 639,-126"/>
+<polygon fill="white" stroke="black" points="639,-126 639,-156 845,-156 845,-126 639,-126"/>
 <text text-anchor="start" x="647" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">P4::ControlPlaneAPI</text>
 <text text-anchor="middle" x="742" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">::Standard::P4RuntimeArchHandlerPNA</text>
 </a>

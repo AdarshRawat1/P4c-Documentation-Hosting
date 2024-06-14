@@ -54,6 +54,7 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>EBPF::EBPFTablePsaPropertyVisitor</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-133 571,-133 571,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -68,7 +69,7 @@ var sectionId = 'dynsection-0';
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_table_p_s_a_direct_counter_property_visitor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="397.5,-98.5 397.5,-128.5 542.5,-128.5 542.5,-98.5 397.5,-98.5"/>
+<polygon fill="white" stroke="black" points="397.5,-98.5 397.5,-128.5 542.5,-128.5 542.5,-98.5 397.5,-98.5"/>
 <text text-anchor="start" x="405.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFTablePSADirect</text>
 <text text-anchor="middle" x="470" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">CounterPropertyVisitor</text>
 </a>
@@ -84,7 +85,7 @@ var sectionId = 'dynsection-0';
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_table_p_s_a_direct_meter_property_visitor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="397.5,-49.5 397.5,-79.5 542.5,-79.5 542.5,-49.5 397.5,-49.5"/>
+<polygon fill="white" stroke="black" points="397.5,-49.5 397.5,-79.5 542.5,-79.5 542.5,-49.5 397.5,-49.5"/>
 <text text-anchor="start" x="405.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFTablePSADirect</text>
 <text text-anchor="middle" x="470" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">MeterPropertyVisitor</text>
 </a>
@@ -100,7 +101,7 @@ var sectionId = 'dynsection-0';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_e_b_p_f_1_1_e_b_p_f_table_p_s_a_implementation_property_visitor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="373,-0.5 373,-30.5 567,-30.5 567,-0.5 373,-0.5"/>
+<polygon fill="white" stroke="black" points="373,-0.5 373,-30.5 567,-30.5 567,-0.5 373,-0.5"/>
 <text text-anchor="start" x="381" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::EBPFTablePSAImplementation</text>
 <text text-anchor="middle" x="470" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyVisitor</text>
 </a>
@@ -116,7 +117,7 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_inspector.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="84,-55 84,-74 146,-74 146,-55 84,-55"/>
+<polygon fill="white" stroke="black" points="84,-55 84,-74 146,-74 146,-55 84,-55"/>
 <text text-anchor="middle" x="115" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">Inspector</text>
 </a>
 </g>
@@ -131,7 +132,7 @@ var sectionId = 'dynsection-0';
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_visitor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-55 0,-74 48,-74 48,-55 0,-55"/>
+<polygon fill="white" stroke="black" points="0,-55 0,-74 48,-74 48,-55 0,-55"/>
 <text text-anchor="middle" x="24" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">Visitor</text>
 </a>
 </g>

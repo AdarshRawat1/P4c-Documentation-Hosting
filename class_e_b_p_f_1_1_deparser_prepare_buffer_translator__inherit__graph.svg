@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 392.00 319.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 315)">
 <title>EBPF::DeparserPrepareBufferTranslator</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-315 388,-315 388,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -22,7 +23,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_e_b_p_f_1_1_deparser_hdr_emit_translator.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 179,-19.5 179,-0.5 0,-0.5"/>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 179,-19.5 179,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="89.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::DeparserHdrEmitTranslator</text>
 </a>
 </g>
@@ -37,7 +38,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_t_c_1_1_deparser_hdr_emit_translator_p_n_a.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="197,-0.5 197,-19.5 384,-19.5 384,-0.5 197,-0.5"/>
+<polygon fill="white" stroke="black" points="197,-0.5 197,-19.5 384,-19.5 384,-0.5 197,-0.5"/>
 <text text-anchor="middle" x="290.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TC::DeparserHdrEmitTranslatorPNA</text>
 </a>
 </g>
@@ -52,7 +53,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_e_b_p_f_1_1_control_body_translator.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="112,-123.5 112,-142.5 267,-142.5 267,-123.5 112,-123.5"/>
+<polygon fill="white" stroke="black" points="112,-123.5 112,-142.5 267,-142.5 267,-123.5 112,-123.5"/>
 <text text-anchor="middle" x="189.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::ControlBodyTranslator</text>
 </a>
 </g>
@@ -67,7 +68,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_e_b_p_f_1_1_code_gen_inspector.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="121.5,-179.5 121.5,-198.5 257.5,-198.5 257.5,-179.5 121.5,-179.5"/>
+<polygon fill="white" stroke="black" points="121.5,-179.5 121.5,-198.5 257.5,-198.5 257.5,-179.5 121.5,-179.5"/>
 <text text-anchor="middle" x="189.5" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00">EBPF::CodeGenInspector</text>
 </a>
 </g>
@@ -82,7 +83,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_inspector.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="158.5,-235.5 158.5,-254.5 220.5,-254.5 220.5,-235.5 158.5,-235.5"/>
+<polygon fill="white" stroke="black" points="158.5,-235.5 158.5,-254.5 220.5,-254.5 220.5,-235.5 158.5,-235.5"/>
 <text text-anchor="middle" x="189.5" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">Inspector</text>
 </a>
 </g>
@@ -97,7 +98,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_visitor.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="165.5,-291.5 165.5,-310.5 213.5,-310.5 213.5,-291.5 165.5,-291.5"/>
+<polygon fill="white" stroke="black" points="165.5,-291.5 165.5,-310.5 213.5,-310.5 213.5,-291.5 165.5,-291.5"/>
 <text text-anchor="middle" x="189.5" y="-298.5" font-family="Helvetica,sans-Serif" font-size="10.00">Visitor</text>
 </a>
 </g>

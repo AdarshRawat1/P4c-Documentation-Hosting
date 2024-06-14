@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 394.00 294.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 290)">
 <title>Test::P4ToolsTest</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-290 390,-290 390,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_test_1_1_format_test.html" target="_top" xlink:title="Helper methods to build configurations for Format Tests.">
-<polygon fill="none" stroke="black" points="268,-266.5 268,-285.5 364,-285.5 364,-266.5 268,-266.5"/>
+<polygon fill="white" stroke="black" points="268,-266.5 268,-285.5 364,-285.5 364,-266.5 268,-266.5"/>
 <text text-anchor="middle" x="316" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::FormatTest</text>
 </a>
 </g>
@@ -36,7 +37,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_test_1_1_p4_asserts_parser_test.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="246,-228.5 246,-247.5 386,-247.5 386,-228.5 246,-228.5"/>
+<polygon fill="white" stroke="black" points="246,-228.5 246,-247.5 386,-247.5 386,-228.5 246,-228.5"/>
 <text text-anchor="middle" x="316" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::P4AssertsParserTest</text>
 </a>
 </g>
@@ -51,7 +52,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_test_1_1_p4_runtime_api_test.html" target="_top" xlink:title="Helper methods to build configurations for P4RuntimeApi Tests.">
-<polygon fill="none" stroke="black" points="250.5,-190.5 250.5,-209.5 381.5,-209.5 381.5,-190.5 250.5,-190.5"/>
+<polygon fill="white" stroke="black" points="250.5,-190.5 250.5,-209.5 381.5,-209.5 381.5,-190.5 250.5,-190.5"/>
 <text text-anchor="middle" x="316" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::P4RuntimeApiTest</text>
 </a>
 </g>
@@ -66,7 +67,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_test_1_1_p_t_f_test.html" target="_top" xlink:title="Helper methods to build configurations for PTF Tests.">
-<polygon fill="none" stroke="black" points="276.5,-152.5 276.5,-171.5 355.5,-171.5 355.5,-152.5 276.5,-152.5"/>
+<polygon fill="white" stroke="black" points="276.5,-152.5 276.5,-171.5 355.5,-171.5 355.5,-152.5 276.5,-152.5"/>
 <text text-anchor="middle" x="316" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::PTFTest</text>
 </a>
 </g>
@@ -81,7 +82,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_test_1_1_s_t_f_test.html" target="_top" xlink:title="Helper methods to build configurations for STF Tests.">
-<polygon fill="none" stroke="black" points="276.5,-114.5 276.5,-133.5 355.5,-133.5 355.5,-114.5 276.5,-114.5"/>
+<polygon fill="white" stroke="black" points="276.5,-114.5 276.5,-133.5 355.5,-133.5 355.5,-114.5 276.5,-114.5"/>
 <text text-anchor="middle" x="316" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::STFTest</text>
 </a>
 </g>
@@ -96,7 +97,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_test_1_1_small_step_test.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="260.5,-76.5 260.5,-95.5 371.5,-95.5 371.5,-76.5 260.5,-76.5"/>
+<polygon fill="white" stroke="black" points="260.5,-76.5 260.5,-95.5 371.5,-95.5 371.5,-76.5 260.5,-76.5"/>
 <text text-anchor="middle" x="316" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::SmallStepTest</text>
 </a>
 </g>
@@ -111,7 +112,7 @@
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_test_1_1_taint_test.html" target="_top" xlink:title="Helper methods to build configurations for Taint Tests.">
-<polygon fill="none" stroke="black" points="273.5,-38.5 273.5,-57.5 358.5,-57.5 358.5,-38.5 273.5,-38.5"/>
+<polygon fill="white" stroke="black" points="273.5,-38.5 273.5,-57.5 358.5,-57.5 358.5,-38.5 273.5,-38.5"/>
 <text text-anchor="middle" x="316" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::TaintTest</text>
 </a>
 </g>
@@ -126,7 +127,7 @@
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_test_1_1_z3_solver_test.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="263.5,-0.5 263.5,-19.5 368.5,-19.5 368.5,-0.5 263.5,-0.5"/>
+<polygon fill="white" stroke="black" points="263.5,-0.5 263.5,-19.5 368.5,-19.5 368.5,-0.5 263.5,-0.5"/>
 <text text-anchor="middle" x="316" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::Z3SolverTest</text>
 </a>
 </g>
@@ -141,7 +142,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="0,-133.5 0,-152.5 76,-152.5 76,-133.5 0,-133.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="0,-133.5 0,-152.5 76,-152.5 76,-133.5 0,-133.5"/>
 <text text-anchor="middle" x="38" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">testing::Test</text>
 </a>
 </g>

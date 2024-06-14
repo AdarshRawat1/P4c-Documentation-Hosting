@@ -54,6 +54,7 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>P4Tools::Target</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-254.5 674,-254.5 674,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -67,7 +68,7 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_tools_1_1_compiler_target.html" target="_top" xlink:title="Encapsulates the details of invoking the P4 compiler for a target device and architecture.">
-<polygon fill="none" stroke="black" points="125,-145 125,-164 259,-164 259,-145 125,-145"/>
+<polygon fill="white" stroke="black" points="125,-145 125,-164 259,-164 259,-145 125,-145"/>
 <text text-anchor="middle" x="192" y="-152" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::CompilerTarget</text>
 </a>
 </g>
@@ -82,7 +83,7 @@ var sectionId = 'dynsection-0';
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_testgen_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="137.5,-76.5 137.5,-106.5 246.5,-106.5 246.5,-76.5 137.5,-76.5"/>
+<polygon fill="white" stroke="black" points="137.5,-76.5 137.5,-106.5 246.5,-106.5 246.5,-76.5 137.5,-76.5"/>
 <text text-anchor="start" x="145.5" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="192" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">::TestgenTarget</text>
 </a>
@@ -98,7 +99,7 @@ var sectionId = 'dynsection-0';
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_testgen_compiler_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="311,-159.5 311,-189.5 445,-189.5 445,-159.5 311,-159.5"/>
+<polygon fill="white" stroke="black" points="311,-159.5 311,-189.5 445,-189.5 445,-159.5 311,-159.5"/>
 <text text-anchor="start" x="319" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="378" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">::TestgenCompilerTarget</text>
 </a>
@@ -114,7 +115,7 @@ var sectionId = 'dynsection-0';
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_compiler_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="497,-209 497,-250 670,-250 670,-209 497,-209"/>
+<polygon fill="white" stroke="black" points="497,-209 497,-250 670,-250 670,-209 497,-209"/>
 <text text-anchor="start" x="505" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="start" x="505" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::Bmv2V1ModelCompiler</text>
 <text text-anchor="middle" x="583.5" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">Target</text>
@@ -131,7 +132,7 @@ var sectionId = 'dynsection-0';
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_e_b_p_f_1_1_e_b_p_f_compiler_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="507.5,-159.5 507.5,-189.5 659.5,-189.5 659.5,-159.5 507.5,-159.5"/>
+<polygon fill="white" stroke="black" points="507.5,-159.5 507.5,-189.5 659.5,-189.5 659.5,-159.5 507.5,-159.5"/>
 <text text-anchor="start" x="515.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="583.5" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">::EBPF::EBPFCompilerTarget</text>
 </a>
@@ -147,7 +148,7 @@ var sectionId = 'dynsection-0';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_pna_1_1_pna_dpdk_compiler_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="501.5,-110.5 501.5,-140.5 665.5,-140.5 665.5,-110.5 501.5,-110.5"/>
+<polygon fill="white" stroke="black" points="501.5,-110.5 501.5,-140.5 665.5,-140.5 665.5,-110.5 501.5,-110.5"/>
 <text text-anchor="start" x="509.5" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="583.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Pna::PnaDpdkCompilerTarget</text>
 </a>
@@ -163,7 +164,7 @@ var sectionId = 'dynsection-0';
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_testgen_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="295,-99 295,-140 461,-140 461,-99 295,-99"/>
+<polygon fill="white" stroke="black" points="295,-99 295,-140 461,-140 461,-99 295,-99"/>
 <text text-anchor="start" x="303" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="start" x="303" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">::Bmv2::Bmv2V1ModelTestgen</text>
 <text text-anchor="middle" x="378" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">Target</text>
@@ -180,7 +181,7 @@ var sectionId = 'dynsection-0';
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_e_b_p_f_1_1_e_b_p_f_testgen_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="306,-49.5 306,-79.5 450,-79.5 450,-49.5 306,-49.5"/>
+<polygon fill="white" stroke="black" points="306,-49.5 306,-79.5 450,-79.5 450,-49.5 306,-49.5"/>
 <text text-anchor="start" x="314" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="378" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::EBPF::EBPFTestgenTarget</text>
 </a>
@@ -196,7 +197,7 @@ var sectionId = 'dynsection-0';
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_pna_1_1_pna_dpdk_testgen_target.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="299,-0.5 299,-30.5 457,-30.5 457,-0.5 299,-0.5"/>
+<polygon fill="white" stroke="black" points="299,-0.5 299,-30.5 457,-30.5 457,-0.5 299,-0.5"/>
 <text text-anchor="start" x="307" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="378" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Pna::PnaDpdkTestgenTarget</text>
 </a>

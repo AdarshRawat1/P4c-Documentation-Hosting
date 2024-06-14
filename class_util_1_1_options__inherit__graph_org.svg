@@ -8,6 +8,7 @@
  viewBox="0.00 0.00 782.00 313.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 309)">
 <title>Util::Options</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-309 778,-309 778,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -21,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="class_p4_tools_1_1_abstract_p4c_tool_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="113,-172 113,-202 250,-202 250,-172 113,-172"/>
+<polygon fill="white" stroke="black" points="113,-172 113,-202 250,-202 250,-172 113,-172"/>
 <text text-anchor="start" x="121" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::AbstractP4cTool</text>
 <text text-anchor="middle" x="181.5" y="-179" font-family="Helvetica,sans-Serif" font-size="10.00">Options</text>
 </a>
@@ -37,7 +38,7 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="class_parser_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="139.5,-133.5 139.5,-152.5 223.5,-152.5 223.5,-133.5 139.5,-133.5"/>
+<polygon fill="white" stroke="black" points="139.5,-133.5 139.5,-152.5 223.5,-152.5 223.5,-133.5 139.5,-133.5"/>
 <text text-anchor="middle" x="181.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParserOptions</text>
 </a>
 </g>
@@ -52,7 +53,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="class_p4_tools_1_1_p4_testgen_1_1_testgen_options.html" target="_top" xlink:title="Encapsulates and processes command&#45;line options for P4Testgen.">
-<polygon fill="none" stroke="black" points="286,-172 286,-202 395,-202 395,-172 286,-172"/>
+<polygon fill="white" stroke="black" points="286,-172 286,-202 395,-202 395,-172 286,-172"/>
 <text text-anchor="start" x="294" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00">P4Tools::P4Testgen</text>
 <text text-anchor="middle" x="340.5" y="-179" font-family="Helvetica,sans-Serif" font-size="10.00">::TestgenOptions</text>
 </a>
@@ -68,7 +69,7 @@
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="class_compiler_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="291.5,-133.5 291.5,-152.5 389.5,-152.5 389.5,-133.5 291.5,-133.5"/>
+<polygon fill="white" stroke="black" points="291.5,-133.5 291.5,-152.5 389.5,-152.5 389.5,-133.5 291.5,-133.5"/>
 <text text-anchor="middle" x="340.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">CompilerOptions</text>
 </a>
 </g>
@@ -83,7 +84,7 @@
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_b_m_v2_1_1_b_m_v2_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="448.5,-266.5 448.5,-285.5 565.5,-285.5 565.5,-266.5 448.5,-266.5"/>
+<polygon fill="white" stroke="black" points="448.5,-266.5 448.5,-285.5 565.5,-285.5 565.5,-266.5 448.5,-266.5"/>
 <text text-anchor="middle" x="507" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::BMV2Options</text>
 </a>
 </g>
@@ -98,7 +99,7 @@
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="class_d_p_d_k_1_1_dpdk_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="450.5,-228.5 450.5,-247.5 563.5,-247.5 563.5,-228.5 450.5,-228.5"/>
+<polygon fill="white" stroke="black" points="450.5,-228.5 450.5,-247.5 563.5,-247.5 563.5,-228.5 450.5,-228.5"/>
 <text text-anchor="middle" x="507" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPDK::DpdkOptions</text>
 </a>
 </g>
@@ -113,7 +114,7 @@
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="class_ebpf_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="469,-190.5 469,-209.5 545,-209.5 545,-190.5 469,-190.5"/>
+<polygon fill="white" stroke="black" points="469,-190.5 469,-209.5 545,-209.5 545,-190.5 469,-190.5"/>
 <text text-anchor="middle" x="507" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">EbpfOptions</text>
 </a>
 </g>
@@ -128,7 +129,7 @@
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="class_p4_test_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="464,-152.5 464,-171.5 550,-171.5 550,-152.5 464,-152.5"/>
+<polygon fill="white" stroke="black" points="464,-152.5 464,-171.5 550,-171.5 550,-152.5 464,-152.5"/>
 <text text-anchor="middle" x="507" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4TestOptions</text>
 </a>
 </g>
@@ -143,7 +144,7 @@
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="class_t_c_1_1_t_c_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="465,-114.5 465,-133.5 549,-133.5 549,-114.5 465,-114.5"/>
+<polygon fill="white" stroke="black" points="465,-114.5 465,-133.5 549,-133.5 549,-114.5 465,-114.5"/>
 <text text-anchor="middle" x="507" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">TC::TCOptions</text>
 </a>
 </g>
@@ -158,7 +159,7 @@
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="class_test_1_1_p4_reachability_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="431,-76.5 431,-95.5 583,-95.5 583,-76.5 431,-76.5"/>
+<polygon fill="white" stroke="black" points="431,-76.5 431,-95.5 583,-95.5 583,-76.5 431,-76.5"/>
 <text text-anchor="middle" x="507" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::P4ReachabilityOptions</text>
 </a>
 </g>
@@ -173,7 +174,7 @@
 <g id="node14" class="node">
 <title>Node14</title>
 <g id="a_node14"><a xlink:href="class_test_1_1_p4_test_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="451.5,-38.5 451.5,-57.5 562.5,-57.5 562.5,-38.5 451.5,-38.5"/>
+<polygon fill="white" stroke="black" points="451.5,-38.5 451.5,-57.5 562.5,-57.5 562.5,-38.5 451.5,-38.5"/>
 <text text-anchor="middle" x="507" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Test::P4TestOptions</text>
 </a>
 </g>
@@ -188,7 +189,7 @@
 <g id="node15" class="node">
 <title>Node15</title>
 <g id="a_node15"><a xlink:href="classgraphs_1_1_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="460.5,-0.5 460.5,-19.5 553.5,-19.5 553.5,-0.5 460.5,-0.5"/>
+<polygon fill="white" stroke="black" points="460.5,-0.5 460.5,-19.5 553.5,-19.5 553.5,-0.5 460.5,-0.5"/>
 <text text-anchor="middle" x="507" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">graphs::Options</text>
 </a>
 </g>
@@ -203,7 +204,7 @@
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="class_b_m_v2_1_1_psa_switch_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="627.5,-285.5 627.5,-304.5 765.5,-304.5 765.5,-285.5 627.5,-285.5"/>
+<polygon fill="white" stroke="black" points="627.5,-285.5 627.5,-304.5 765.5,-304.5 765.5,-285.5 627.5,-285.5"/>
 <text text-anchor="middle" x="696.5" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::PsaSwitchOptions</text>
 </a>
 </g>
@@ -218,7 +219,7 @@
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="class_b_m_v2_1_1_simple_switch_options.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="619,-247.5 619,-266.5 774,-266.5 774,-247.5 619,-247.5"/>
+<polygon fill="white" stroke="black" points="619,-247.5 619,-266.5 774,-266.5 774,-247.5 619,-247.5"/>
 <text text-anchor="middle" x="696.5" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">BMV2::SimpleSwitchOptions</text>
 </a>
 </g>

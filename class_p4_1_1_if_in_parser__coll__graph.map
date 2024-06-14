@@ -1,0 +1,8 @@
+<map id="P4::IfInParser" name="P4::IfInParser">
+<area shape="rect" id="node1" title="Detect whether the program contains an &#39;if&#39; statement in a parser." alt="" coords="5,279,112,305"/>
+<area shape="rect" id="node2" href="$class_inspector.html" title=" " alt="" coords="17,188,100,215"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="159,97,223,124"/>
+<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="199,279,348,305"/>
+<area shape="rect" id="node6" title=" " alt="" coords="186,188,361,215"/>
+<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="157,7,224,33"/>
+</map>

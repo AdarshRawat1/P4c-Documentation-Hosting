@@ -54,6 +54,7 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>P4V1::CounterOrMeter_Model</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-150 719,-150 719,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -68,7 +69,7 @@ var sectionId = 'dynsection-0';
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="struct_p4_v1_1_1_counter___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="584.5,-126.5 584.5,-145.5 705.5,-145.5 705.5,-126.5 584.5,-126.5"/>
+<polygon fill="white" stroke="black" points="584.5,-126.5 584.5,-145.5 705.5,-145.5 705.5,-126.5 584.5,-126.5"/>
 <text text-anchor="middle" x="645" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::Counter_Model</text>
 </a>
 </g>
@@ -83,7 +84,7 @@ var sectionId = 'dynsection-0';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="struct_p4_v1_1_1_direct_counter___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="587.5,-77 587.5,-107 702.5,-107 702.5,-77 587.5,-77"/>
+<polygon fill="white" stroke="black" points="587.5,-77 587.5,-107 702.5,-107 702.5,-77 587.5,-77"/>
 <text text-anchor="start" x="595.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::DirectCounter</text>
 <text text-anchor="middle" x="645" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">_Model</text>
 </a>
@@ -99,7 +100,7 @@ var sectionId = 'dynsection-0';
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="struct_p4_v1_1_1_direct_meter___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="575,-38.5 575,-57.5 715,-57.5 715,-38.5 575,-38.5"/>
+<polygon fill="white" stroke="black" points="575,-38.5 575,-57.5 715,-57.5 715,-38.5 575,-38.5"/>
 <text text-anchor="middle" x="645" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::DirectMeter_Model</text>
 </a>
 </g>
@@ -114,7 +115,7 @@ var sectionId = 'dynsection-0';
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="struct_p4_v1_1_1_meter___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="589.5,-0.5 589.5,-19.5 700.5,-19.5 700.5,-0.5 589.5,-0.5"/>
+<polygon fill="white" stroke="black" points="589.5,-0.5 589.5,-19.5 700.5,-19.5 700.5,-0.5 589.5,-0.5"/>
 <text text-anchor="middle" x="645" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">P4V1::Meter_Model</text>
 </a>
 </g>
@@ -129,7 +130,7 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="struct_model_1_1_extern___model.html" target="_top" xlink:title="Extern_Model : Type_Model.">
-<polygon fill="none" stroke="black" points="259,-60.5 259,-79.5 378,-79.5 378,-60.5 259,-60.5"/>
+<polygon fill="white" stroke="black" points="259,-60.5 259,-79.5 378,-79.5 378,-60.5 259,-60.5"/>
 <text text-anchor="middle" x="318.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model::Extern_Model</text>
 </a>
 </g>
@@ -144,7 +145,7 @@ var sectionId = 'dynsection-0';
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="struct_model_1_1_type___model.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="113,-60.5 113,-79.5 223,-79.5 223,-60.5 113,-60.5"/>
+<polygon fill="white" stroke="black" points="113,-60.5 113,-79.5 223,-79.5 223,-60.5 113,-60.5"/>
 <text text-anchor="middle" x="168" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model::Type_Model</text>
 </a>
 </g>
@@ -159,7 +160,7 @@ var sectionId = 'dynsection-0';
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="struct_model_1_1_elem.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-60.5 0,-79.5 77,-79.5 77,-60.5 0,-60.5"/>
+<polygon fill="white" stroke="black" points="0,-60.5 0,-79.5 77,-79.5 77,-60.5 0,-60.5"/>
 <text text-anchor="middle" x="38.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model::Elem</text>
 </a>
 </g>
