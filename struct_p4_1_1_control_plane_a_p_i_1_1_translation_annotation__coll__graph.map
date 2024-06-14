@@ -1,6 +1,0 @@
-<map id="P4::ControlPlaneAPI::TranslationAnnotation" name="P4::ControlPlaneAPI::TranslationAnnotation">
-<area shape="rect" id="node1" title="Payload of @p4runtime_translation annotation." alt="" coords="63,200,235,241"/>
-<area shape="rect" id="node2" href="$struct_p4_1_1_control_plane_a_p_i_1_1_controller_type.html" title="See section &quot;User&#45;defined types&quot; in P4RT specification." alt="" coords="5,96,156,137"/>
-<area shape="rect" id="node3" title=" " alt="" coords="180,103,267,130"/>
-<area shape="rect" id="node4" title=" " alt="" coords="154,5,293,47"/>
-</map>

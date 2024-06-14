@@ -1,8 +1,0 @@
-<map id="TC::ConvertToEbpfPNA" name="TC::ConvertToEbpfPNA">
-<area shape="rect" id="node1" title=" " alt="" coords="5,279,172,305"/>
-<area shape="rect" id="node2" href="$class_transform.html" title=" " alt="" coords="45,188,132,215"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="191,97,255,124"/>
-<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="231,279,381,305"/>
-<area shape="rect" id="node6" title=" " alt="" coords="219,188,393,215"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="190,7,257,33"/>
-</map>

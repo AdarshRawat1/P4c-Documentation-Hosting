@@ -1,8 +1,0 @@
-<map id="P4::ReferenceMap" name="P4::ReferenceMap">
-<area shape="rect" id="node1" title="Class used to encode maps from paths to declarations." alt="" coords="170,173,310,200"/>
-<area shape="rect" id="node2" href="$class_p4_1_1_program_map.html" title=" " alt="" coords="11,97,141,124"/>
-<area shape="rect" id="node3" href="$class_i_has_db_print.html" title=" " alt="" coords="5,7,104,33"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="128,7,195,33"/>
-<area shape="rect" id="node5" href="$class_p4_1_1_name_generator.html" title=" " alt="" coords="165,97,315,124"/>
-<area shape="rect" id="node6" href="$class_p4_1_1_declaration_lookup.html" title=" " alt="" coords="339,97,506,124"/>
-</map>

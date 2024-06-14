@@ -1,8 +1,0 @@
-<map id="P4::HSIndexTransform" name="P4::HSIndexTransform">
-<area shape="rect" id="node1" title="This class substitutes index of a header stack in all occurences of found header stack." alt="" coords="5,279,171,305"/>
-<area shape="rect" id="node2" href="$class_transform.html" title=" " alt="" coords="45,188,131,215"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="191,97,255,124"/>
-<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="231,279,380,305"/>
-<area shape="rect" id="node6" title=" " alt="" coords="218,188,393,215"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="189,7,256,33"/>
-</map>

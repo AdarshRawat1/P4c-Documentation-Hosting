@@ -1,8 +1,0 @@
-<map id="DPDK::AlignHdrMetaField" name="DPDK::AlignHdrMetaField">
-<area shape="rect" id="node1" title=" " alt="" coords="5,279,192,305"/>
-<area shape="rect" id="node2" href="$class_transform.html" title=" " alt="" coords="55,188,142,215"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="201,97,265,124"/>
-<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="241,279,391,305"/>
-<area shape="rect" id="node6" title=" " alt="" coords="229,188,403,215"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="200,7,267,33"/>
-</map>

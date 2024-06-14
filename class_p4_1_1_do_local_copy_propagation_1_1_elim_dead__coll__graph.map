@@ -1,8 +1,0 @@
-<map id="P4::DoLocalCopyPropagation::ElimDead" name="P4::DoLocalCopyPropagation::ElimDead">
-<area shape="rect" id="node1" title=" " alt="" coords="5,279,215,320"/>
-<area shape="rect" id="node2" href="$class_transform.html" title=" " alt="" coords="67,188,153,215"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="213,97,277,124"/>
-<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="253,286,402,313"/>
-<area shape="rect" id="node6" title=" " alt="" coords="240,188,415,215"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="211,7,278,33"/>
-</map>

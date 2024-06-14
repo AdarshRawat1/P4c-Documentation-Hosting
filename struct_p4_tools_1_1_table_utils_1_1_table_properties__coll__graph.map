@@ -1,7 +1,0 @@
-<map id="P4Tools::TableUtils::TableProperties" name="P4Tools::TableUtils::TableProperties">
-<area shape="rect" id="node1" title="Basic table properties that are set when initializing the TableStepper." alt="" coords="55,347,197,388"/>
-<area shape="rect" id="node2" title=" " alt="" coords="23,243,229,284"/>
-<area shape="rect" id="node3" href="$struct_p4_tools_1_1_table_utils_1_1_key_properties.html" title="KeyProperties define properties of table keys that are useful for execution." alt="" coords="55,112,197,153"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="93,7,159,33"/>
-<area shape="rect" id="node5" title=" " alt="" coords="203,177,345,219"/>
-</map>

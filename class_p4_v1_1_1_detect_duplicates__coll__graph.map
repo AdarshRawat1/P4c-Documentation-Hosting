@@ -1,8 +1,0 @@
-<map id="P4V1::DetectDuplicates" name="P4V1::DetectDuplicates">
-<area shape="rect" id="node1" title=" " alt="" coords="5,279,180,305"/>
-<area shape="rect" id="node2" href="$class_inspector.html" title=" " alt="" coords="51,188,134,215"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="193,97,257,124"/>
-<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="233,279,382,305"/>
-<area shape="rect" id="node6" title=" " alt="" coords="220,188,395,215"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="191,7,258,33"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="P4Tools::P4Testgen::Pna::PnaDpdkCompilerTarget" name="P4Tools::P4Testgen::Pna::PnaDpdkCompilerTarget">
-<area shape="rect" id="node1" title=" " alt="" coords="5,532,224,573"/>
-<area shape="rect" id="node2" href="$class_p4_tools_1_1_p4_testgen_1_1_testgen_compiler_target.html" title=" " alt="" coords="25,441,204,483"/>
-<area shape="rect" id="node3" href="$class_p4_tools_1_1_compiler_target.html" title="Encapsulates the details of invoking the P4 compiler for a target device and architecture." alt="" coords="25,365,204,392"/>
-<area shape="rect" id="node4" href="$class_p4_tools_1_1_target.html" title=" " alt="" coords="55,289,174,316"/>
-<area shape="rect" id="node5" title=" " alt="" coords="71,96,158,123"/>
-<area shape="rect" id="node7" href="$struct_p4_tools_1_1_target_1_1_spec.html" title="Specifies a target device and architecture by their names in lower case." alt="" coords="187,200,346,227"/>
-<area shape="rect" id="node6" title=" " alt="" coords="45,5,184,47"/>
-</map>

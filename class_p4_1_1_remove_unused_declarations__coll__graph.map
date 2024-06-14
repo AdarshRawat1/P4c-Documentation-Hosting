@@ -1,8 +1,0 @@
-<map id="P4::RemoveUnusedDeclarations" name="P4::RemoveUnusedDeclarations">
-<area shape="rect" id="node1" title="Removes unused declarations." alt="" coords="5,279,236,305"/>
-<area shape="rect" id="node2" href="$class_transform.html" title=" " alt="" coords="77,188,164,215"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="223,97,287,124"/>
-<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="263,279,413,305"/>
-<area shape="rect" id="node6" title=" " alt="" coords="251,188,425,215"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="222,7,289,33"/>
-</map>

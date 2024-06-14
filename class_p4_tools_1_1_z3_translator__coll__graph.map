@@ -1,8 +1,0 @@
-<map id="P4Tools::Z3Translator" name="P4Tools::Z3Translator">
-<area shape="rect" id="node1" title="Translates P4 expressions into Z3. Any variables encountered are declared to a Z3 instance." alt="" coords="5,279,165,305"/>
-<area shape="rect" id="node2" href="$class_inspector.html" title=" " alt="" coords="44,188,127,215"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="185,97,249,124"/>
-<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="225,279,375,305"/>
-<area shape="rect" id="node6" title=" " alt="" coords="213,188,387,215"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="184,7,251,33"/>
-</map>

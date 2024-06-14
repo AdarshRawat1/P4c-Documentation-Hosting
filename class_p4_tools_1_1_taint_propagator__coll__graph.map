@@ -1,8 +1,0 @@
-<map id="P4Tools::TaintPropagator" name="P4Tools::TaintPropagator">
-<area shape="rect" id="node1" title=" " alt="" coords="5,279,187,305"/>
-<area shape="rect" id="node2" href="$class_transform.html" title=" " alt="" coords="53,188,139,215"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="199,97,263,124"/>
-<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="239,279,388,305"/>
-<area shape="rect" id="node6" title=" " alt="" coords="226,188,401,215"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="197,7,264,33"/>
-</map>

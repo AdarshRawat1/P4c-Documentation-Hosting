@@ -1,7 +1,0 @@
-<map id="P4::StorageLocation" name="P4::StorageLocation">
-<area shape="rect" id="node1" title="Abstraction for something that is has a left value (variable, parameter)" alt="" coords="94,173,245,200"/>
-<area shape="rect" id="node2" href="$class_i_has_db_print.html" title=" " alt="" coords="5,83,104,109"/>
-<area shape="rect" id="node3" href="$class_i_castable.html" title=" " alt="" coords="128,83,211,109"/>
-<area shape="rect" id="node4" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="124,5,215,32"/>
-<area shape="rect" id="node5" href="$classcstring.html" title=" " alt="" coords="235,83,301,109"/>
-</map>

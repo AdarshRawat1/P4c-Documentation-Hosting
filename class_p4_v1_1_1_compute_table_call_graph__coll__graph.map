@@ -1,8 +1,0 @@
-<map id="P4V1::ComputeTableCallGraph" name="P4V1::ComputeTableCallGraph">
-<area shape="rect" id="node1" title=" " alt="" coords="5,279,225,305"/>
-<area shape="rect" id="node2" href="$class_inspector.html" title=" " alt="" coords="74,188,157,215"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title=" " alt="" coords="215,97,279,124"/>
-<area shape="rect" id="node5" href="$class_split_flow_visit__base.html" title=" " alt="" coords="255,279,405,305"/>
-<area shape="rect" id="node6" title=" " alt="" coords="243,188,417,215"/>
-<area shape="rect" id="node4" href="$classcstring.html" title=" " alt="" coords="214,7,281,33"/>
-</map>
