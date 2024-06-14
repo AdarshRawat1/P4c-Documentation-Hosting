@@ -270,7 +270,37 @@ var NAVTREE =
           [ "Changes to the TC Back End", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md219", null ],
           [ "Changes to the P4Tools Back End", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md220", null ],
           [ "Other Changes", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md221", null ]
-        ] ]
+        ] ],
+        [ "Release v1.2.4.11 [<a href=\"https://github.com/p4lang/p4c/pull/4646\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md222", [
+          [ "Changes to the Compiler Core", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md223", null ],
+          [ "Changes to the eBPF Back Ends", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md224", null ],
+          [ "Changes to the TC Back End", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md225", null ],
+          [ "Changes to the P4Tools Back End", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md226", null ],
+          [ "Other Changes", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md227", null ]
+        ] ],
+        [ "Release v1.2.4.10 [<a href=\"https://github.com/p4lang/p4c/pull/4587\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md228", null ],
+        [ "Release v1.2.4.9 [<a href=\"https://github.com/p4lang/p4c/pull/4490\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md229", null ],
+        [ "Release v1.2.4.8 [<a href=\"https://github.com/p4lang/p4c/pull/4386\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md230", null ],
+        [ "Release v1.2.4.7 [<a href=\"https://github.com/p4lang/p4c/pull/4312\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md231", null ],
+        [ "Release v1.2.4.6 [<a href=\"https://github.com/p4lang/p4c/pull/4271\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md232", null ],
+        [ "Release v1.2.4.5 [<a href=\"https://github.com/p4lang/p4c/pull/4217\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md233", null ],
+        [ "Release v1.2.4.4 [<a href=\"https://github.com/p4lang/p4c/pull/4180\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md234", null ],
+        [ "Release v1.2.4.3 [<a href=\"https://github.com/p4lang/p4c/pull/4124\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md235", null ],
+        [ "Release v1.2.4.1 [<a href=\"https://github.com/p4lang/p4c/pull/4052\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md236", null ],
+        [ "Release v1.2.4", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md237", null ],
+        [ "Release v1.2.3.9 [<a href=\"https://github.com/p4lang/p4c/pull/3998\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md238", null ],
+        [ "Release v1.2.3.8 [<a href=\"https://github.com/p4lang/p4c/pull/3957\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md239", null ],
+        [ "Release v1.2.3.7 [<a href=\"https://github.com/p4lang/p4c/pull/3909\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md240", null ],
+        [ "Release v1.2.3.6 [<a href=\"https://github.com/p4lang/p4c/pull/3871\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md241", null ],
+        [ "Release v1.2.3.5 [<a href=\"https://github.com/p4lang/p4c/pull/3815\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md242", null ],
+        [ "Release v1.2.3.4 [<a href=\"https://github.com/p4lang/p4c/pull/3747\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md243", null ],
+        [ "Release v1.2.3.3 [<a href=\"https://github.com/p4lang/p4c/pull/3648\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md244", null ],
+        [ "Release v1.2.3.2 [<a href=\"https://github.com/p4lang/p4c/pull/3546\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md245", null ],
+        [ "Release v1.2.3.1 [<a href=\"https://github.com/p4lang/p4c/pull/3505\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md246", null ],
+        [ "Release v1.2.3.0 [<a href=\"https://github.com/p4lang/p4c/pull/3466\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md247", null ],
+        [ "Release v1.2.2.3 [<a href=\"https://github.com/p4lang/p4c/pull/3418\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md248", null ],
+        [ "Release 1.2.2.2 [<a href=\"https://github.com/p4lang/p4c/pull/3247\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md249", null ],
+        [ "Release 1.2.2.1 [<a href=\"https://github.com/p4lang/p4c/pull/3085\">view</a>]", "md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting__c_h_a_n_g_e_l_o_g.html#autotoc_md250", null ]
       ] ]
     ] ],
     [ "Deprecated List", "deprecated.html", null ],
@@ -343,13 +373,13 @@ var NAVTREEINDEX =
 "classhvec__map.html#a9796b9cab97633b3056bb190bcee25ad",
 "enumerator_8h.html#a7fe7ef18a07379df9ac177803fad4bfa",
 "irutils_8cpp.html#ab69ebd812a25543e8effea808e783daf",
-"modules.html",
-"namespace_p4_tools.html#ac0010409e8f958ec781a437ddd4e25b9",
-"struct_closed_range.html#a79c990cc1967512cfb3bf077ce5075c0",
-"struct_p4_1_1_b_f_r_t_1_1_b_f_runtime_generator_1_1_counter.html#a79499f010dd1858e4b9b5050c922d869",
-"struct_p4_1_1_per_instance_substitutions.html#a955e62d0934da3a6f6bab304639bac95",
-"struct_string_ref.html#a8dabdee8b281d982fcf11582c4c4f2eb",
-""
+"md__home_runner_work__p4c__documentation__hosting__p4c__documentation__hosting_docs__r_e_a_d_m_e.html#autotoc_md2",
+"namespace_p4_tools.html#a2a2e402892ac46fd5286876d9c95b583",
+"struct_bit_range_1_1_from_to.html#a248a6f26a838148759a0d42421ed2d66",
+"struct_model_1_1_elem.html#a4f490175a3cefe2262a589856c374048",
+"struct_p4_1_1_nested_struct_map.html#a736bdbede80c51896ca9cfb052847511",
+"struct_r_t_t_i_1_1detail_1_1_type_name_holder.html",
+"table__utils_8cpp.html#ac62f40c25f0330fe0b3a2f7acd16952f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
