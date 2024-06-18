@@ -1,8 +1,13 @@
 <map id="P4::DeclarationLookup" name="P4::DeclarationLookup">
-<area shape="rect" id="node1" title=" " alt="" coords="91,5,257,32"/>
-<area shape="rect" id="node2" href="$class_p4_1_1_reference_map.html" title="Class used to encode maps from paths to declarations." alt="" coords="16,80,156,107"/>
-<area shape="rect" id="node3" href="$class_p4_1_1_resolution_context.html" title="Visitor mixin for looking up names in enclosing scopes from the Visitor::Context." alt="" coords="180,80,347,107"/>
-<area shape="rect" id="node4" href="$class_p4_1_1_compute_def_use.html" title="Compute defuse info within P4Parser and P4Control blocks in the midend." alt="" coords="5,162,159,189"/>
-<area shape="rect" id="node5" href="$class_p4_1_1_compute_def_use_1_1_setup_join_points.html" title=" " alt="" coords="183,155,344,196"/>
-<area shape="rect" id="node6" href="$class_p4_1_1_resolve_references.html" title=" " alt="" coords="369,162,539,189"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="91,5,257,31"/>
+<area shape="rect" id="Node000002" href="$class_p4_1_1_reference_map.html" title="Class used to encode maps from paths to declarations." alt="" coords="16,79,156,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,41,102,81,99,76,148,37"/>
+<area shape="rect" id="Node000003" href="$class_p4_1_1_resolution_context.html" title="Visitor mixin for looking up names in enclosing scopes from the Visitor::Context." alt="" coords="180,79,347,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,37,250,76,247,81,197,41"/>
+<area shape="rect" id="Node000004" href="$class_p4_1_1_compute_def_use.html" title="Compute defuse info within P4Parser and P4Control blocks in the midend." alt="" coords="5,159,159,185"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="225,112,109,162,107,157,223,107"/>
+<area shape="rect" id="Node000005" href="$class_p4_1_1_compute_def_use_1_1_setup_join_points.html" title=" " alt="" coords="183,152,344,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="266,118,266,152,261,152,261,118"/>
+<area shape="rect" id="Node000006" href="$class_p4_1_1_resolve_references.html" title=" " alt="" coords="369,159,539,185"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="305,107,427,157,425,162,303,112"/>
 </map>
