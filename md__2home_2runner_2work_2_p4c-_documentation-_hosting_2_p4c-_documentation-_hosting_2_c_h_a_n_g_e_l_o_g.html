@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>P4C: CHANGELOG</title>
+<title>P4C: Changelog {Changlog}</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -99,38 +99,35 @@ $(function(){initNavTree('md__2home_2runner_2work_2_p4c-_documentation-_hosting_
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">CHANGELOG</div></div>
+  <div class="headertitle"><div class="title">Changelog {Changlog}</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md212"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md212"></a> </p>
+<h1><a class="anchor" id="autotoc_md213"></a>
 Semantic Versioning</h1>
 <p>We follow a monthly release cadence. Our versioning scheme is as follows:</p><ul>
 <li><b>Major.Minor.Patch</b> versions align with the <a class="el" href="namespace_p4.html">P4</a> specification.</li>
 <li><b>Revision</b> (the last number) is incremented with each monthly release.</li>
 </ul>
 <blockquote class="doxtable">
-<p>&zwj;</p><dl class="section note"><dt>Note</dt><dd>The commit history prior to the release <a href="https://github.com/p4lang/p4c/releases/tag/v1.2.2">v1.2.2</a> is not included here but is available in the <a href="https://github.com/p4lang/p4c/commits/main/">commit history</a>. </dd></dl>
+<p>&zwj;</p><dl class="section note"><dt>Note</dt><dd>The commit history prior to the release <a href="https://github.com/p4lang/p4c/pull/3085">1.2.2.1</a> is not included here but is available in the <a href="https://github.com/p4lang/p4c/commits/main/">commit history</a>. </dd></dl>
 </blockquote>
-<p>Hello</p>
-<blockquote class="doxtable">
-<p>&zwj;**_NOTE:_** The note content. </p>
-</blockquote>
-<h2><a class="anchor" id="autotoc_md213"></a>
-Release v1.2.4.12 [<a href="https://github.com/p4lang/p4c/pull/4699">view</a>]</h2>
-<h3><a class="anchor" id="autotoc_md214"></a>
-Breaking Changes 🛠</h3>
+<h1><a class="anchor" id="autotoc_md214"></a>
+Release v1.2.4.12 [<a href="https://github.com/p4lang/p4c/pull/4699">view</a>]</h1>
+<h2><a class="anchor" id="autotoc_md215"></a>
+Breaking Changes 🛠</h2>
 <ul>
 <li>Replace IR::getBitType with IR::Type_Bits::get. [<a href="https://github.com/p4lang/p4c/pull/4669">view</a>]</li>
 <li>Make the new operator protected for some IR types. [<a href="https://github.com/p4lang/p4c/pull/4670">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md215"></a>
-P4 Specification Implementation</h3>
+<h2><a class="anchor" id="autotoc_md216"></a>
+P4 Specification Implementation</h2>
 <ul>
 <li>[#4656] Explicitly delay constant folding of only action enum <code>IR::SwitchCase</code> <code>label</code> expressions, instead of delaying constant folding of all <code>IR::Mux</code> expressions [<a href="https://github.com/p4lang/p4c/pull/4657">view</a>]</li>
 <li>Changes for for loops [<a href="https://github.com/p4lang/p4c/pull/4562">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md216"></a>
-Changes to the Compiler Core</h3>
+<h2><a class="anchor" id="autotoc_md217"></a>
+Changes to the Compiler Core</h2>
 <ul>
 <li>Use check_include_file_cxx instead of check_include_file to find mm_malloc.h [<a href="https://github.com/p4lang/p4c/pull/4649">view</a>]</li>
 <li>Move IRUtils Literal get functions to the respective IR members. Add stringliteral get function. [<a href="https://github.com/p4lang/p4c/pull/4623">view</a>]</li>
@@ -147,30 +144,30 @@ Changes to the Compiler Core</h3>
 <li>Workaround for gcc-11.4/draft 2x spec flaw [<a href="https://github.com/p4lang/p4c/pull/4679">view</a>]</li>
 <li>irgen: Generate explicit instantiations [<a href="https://github.com/p4lang/p4c/pull/4681">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md217"></a>
-Changes to the Control Plane</h3>
+<h2><a class="anchor" id="autotoc_md218"></a>
+Changes to the Control Plane</h2>
 <ul>
 <li>Add support for new platform property annotations for P4Runtime. [<a href="https://github.com/p4lang/p4c/pull/4611">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md218"></a>
-Changes to the eBPF Back Ends</h3>
+<h2><a class="anchor" id="autotoc_md219"></a>
+Changes to the eBPF Back Ends</h2>
 <ul>
 <li>Fix missing declaration of custom externs in the generated eBPF/uBPF header file. [<a href="https://github.com/p4lang/p4c/pull/4644">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md219"></a>
-Changes to the TC Back End</h3>
+<h2><a class="anchor" id="autotoc_md220"></a>
+Changes to the TC Back End</h2>
 <ul>
 <li>Support for Register Extern in P4TC [<a href="https://github.com/p4lang/p4c/pull/4671">view</a>]</li>
 <li>Added changes for default hit actions for tc backend [<a href="https://github.com/p4lang/p4c/pull/4673">view</a>]</li>
 <li>Fix extern pipeline name in template file [<a href="https://github.com/p4lang/p4c/pull/4675">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md220"></a>
-Changes to the P4Tools Back End</h3>
+<h2><a class="anchor" id="autotoc_md221"></a>
+Changes to the P4Tools Back End</h2>
 <ul>
 <li>Merge TestgenCompilerTarget into TestgenTarget. [<a href="https://github.com/p4lang/p4c/pull/4650">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md221"></a>
-Other Changes</h3>
+<h2><a class="anchor" id="autotoc_md222"></a>
+Other Changes</h2>
 <ul>
 <li>Change parameter for kfunc 'bpf_p4tc_entry_create_on_miss' [<a href="https://github.com/p4lang/p4c/pull/4637">view</a>]</li>
 <li>Add support for a clang-tidy linter. Add a files utility function. [<a href="https://github.com/p4lang/p4c/pull/4254">view</a>]</li>
@@ -180,10 +177,10 @@ Other Changes</h3>
 <li>Add a release template to the compiler. [<a href="https://github.com/p4lang/p4c/pull/4692">view</a>]</li>
 </ul>
 <p><a href="https://github.com/p4lang/p4c/compare/v1.2.4.11...v1.2.4.12">Click here to find Full Changelog</a></p>
-<h2><a class="anchor" id="autotoc_md222"></a>
-Release v1.2.4.11 [<a href="https://github.com/p4lang/p4c/pull/4646">view</a>]</h2>
-<h3><a class="anchor" id="autotoc_md223"></a>
-Changes to the Compiler Core</h3>
+<h1><a class="anchor" id="autotoc_md223"></a>
+Release v1.2.4.11 [<a href="https://github.com/p4lang/p4c/pull/4646">view</a>]</h1>
+<h2><a class="anchor" id="autotoc_md224"></a>
+Changes to the Compiler Core</h2>
 <ul>
 <li>Introduce guard for aarch64 GCC compilation. [<a href="https://github.com/p4lang/p4c/pull/4647">view</a>]</li>
 <li>Update MacOS brew version. [<a href="https://github.com/p4lang/p4c/pull/4642">view</a>]</li>
@@ -200,26 +197,26 @@ Changes to the Compiler Core</h3>
 <li>restore missing parentheses [<a href="https://github.com/p4lang/p4c/pull/4600">view</a>]</li>
 <li>allow disabling of p4 input count check [<a href="https://github.com/p4lang/p4c/pull/4446">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md224"></a>
-Changes to the eBPF Back Ends</h3>
+<h2><a class="anchor" id="autotoc_md225"></a>
+Changes to the eBPF Back Ends</h2>
 <ul>
 <li>Do not swallow the test output when checking for the static binary functionality. [<a href="https://github.com/p4lang/p4c/pull/4601">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md225"></a>
-Changes to the TC Back End</h3>
+<h2><a class="anchor" id="autotoc_md226"></a>
+Changes to the TC Back End</h2>
 <ul>
 <li>Handle Arithmetic operations for fields which are in network order [<a href="https://github.com/p4lang/p4c/pull/4566">view</a>]</li>
 <li>P4TC - Emit 'NoAction' in table actions list in template file [<a href="https://github.com/p4lang/p4c/pull/4622">view</a>]</li>
 <li>Use <code>IR::Annotation::nameAnnotation</code> everywhere instead of hard-coding <code>@name</code> annotation name [<a href="https://github.com/p4lang/p4c/pull/4628">view</a>]</li>
 <li>P4TC - Add permission annotations to tables [<a href="https://github.com/p4lang/p4c/pull/4610">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md226"></a>
-Changes to the P4Tools Back End</h3>
+<h2><a class="anchor" id="autotoc_md227"></a>
+Changes to the P4Tools Back End</h2>
 <ul>
 <li>Miscellaneous cleanups for P4Testgen. [<a href="https://github.com/p4lang/p4c/pull/4613">view</a>]</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md227"></a>
-Other Changes</h3>
+<h2><a class="anchor" id="autotoc_md228"></a>
+Other Changes</h2>
 <ul>
 <li>Add -mbmi flag to Abseil for GCC versions greater than 14. [<a href="https://github.com/p4lang/p4c/pull/4638">view</a>]</li>
 <li>Rename reused-counter.p4 as reused-counter-bmv2.p4 so a test is created for it [<a href="https://github.com/p4lang/p4c/pull/4636">view</a>]</li>
@@ -244,8 +241,8 @@ Other Changes</h3>
 <li>Fix spurious failure when two tests try to remove <code>ptf.log</code> at the same time. [<a href="https://github.com/p4lang/p4c/pull/4591">view</a>]</li>
 <li>Revert using Abseil system includes. [<a href="https://github.com/p4lang/p4c/pull/4594">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md228"></a>
-Release v1.2.4.10 [<a href="https://github.com/p4lang/p4c/pull/4587">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md229"></a>
+Release v1.2.4.10 [<a href="https://github.com/p4lang/p4c/pull/4587">view</a>]</h1>
 <ul>
 <li>[doc] backends: Add Doxygen-style documentation for BMV2 JSONObjects [<a href="https://github.com/p4lang/p4c/pull/4554">view</a>]</li>
 <li>Add Comment Style Guide [<a href="https://github.com/p4lang/p4c/pull/4573">view</a>]</li>
@@ -309,8 +306,8 @@ Release v1.2.4.10 [<a href="https://github.com/p4lang/p4c/pull/4587">view</a>]</
 <li>warn on unused controls/parsers [<a href="https://github.com/p4lang/p4c/pull/4440">view</a>]</li>
 <li>[P4Testgen] Add a rudimentary P4Testgen benchmark with via GTest. [<a href="https://github.com/p4lang/p4c/pull/4475">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md229"></a>
-Release v1.2.4.9 [<a href="https://github.com/p4lang/p4c/pull/4490">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md230"></a>
+Release v1.2.4.9 [<a href="https://github.com/p4lang/p4c/pull/4490">view</a>]</h1>
 <ul>
 <li>Move out of place comment in gc.cpp [<a href="https://github.com/p4lang/p4c/pull/4494">view</a>]</li>
 <li>Use abseil maps even more [<a href="https://github.com/p4lang/p4c/pull/4473">view</a>]</li>
@@ -394,8 +391,8 @@ Release v1.2.4.9 [<a href="https://github.com/p4lang/p4c/pull/4490">view</a>]</h
 <li>Use proper Github actions syntax. [<a href="https://github.com/p4lang/p4c/pull/4394">view</a>]</li>
 <li>Allow one more round of type inference after specialization [<a href="https://github.com/p4lang/p4c/pull/4291">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md230"></a>
-Release v1.2.4.8 [<a href="https://github.com/p4lang/p4c/pull/4386">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md231"></a>
+Release v1.2.4.8 [<a href="https://github.com/p4lang/p4c/pull/4386">view</a>]</h1>
 <ul>
 <li>Add a P4Info API to the control-plane folder and <a class="el" href="namespace_p4_tools.html">P4Tools</a>. [<a href="https://github.com/p4lang/p4c/pull/4381">view</a>]</li>
 <li>[NFC] Eliminate the majority of <code>dynamic_cast</code> usage in the codebase in favor of <a class="el" href="class_i_castable.html">ICastable</a> interface [<a href="https://github.com/p4lang/p4c/pull/4382">view</a>]</li>
@@ -440,8 +437,8 @@ Release v1.2.4.8 [<a href="https://github.com/p4lang/p4c/pull/4386">view</a>]</h
 <li>keep P4Control-&gt;body-&gt;srcInfo during init move [<a href="https://github.com/p4lang/p4c/pull/4317">view</a>]</li>
 <li>[P4Testgen] Implement coverage tracking of actions [<a href="https://github.com/p4lang/p4c/pull/4307">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md231"></a>
-Release v1.2.4.7 [<a href="https://github.com/p4lang/p4c/pull/4312">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md232"></a>
+Release v1.2.4.7 [<a href="https://github.com/p4lang/p4c/pull/4312">view</a>]</h1>
 <ul>
 <li>Fix some problems with the Protobuf CMake file [<a href="https://github.com/p4lang/p4c/pull/4262">view</a>]</li>
 <li>Fix actionparams type field in introspection.json [<a href="https://github.com/p4lang/p4c/pull/4313">view</a>]</li>
@@ -465,8 +462,8 @@ Release v1.2.4.7 [<a href="https://github.com/p4lang/p4c/pull/4312">view</a>]</h
 <li>[P4Testgen] Move static helpers from TestgenTarget and ProgramInfo to common/lib/utils [<a href="https://github.com/p4lang/p4c/pull/4268">view</a>]</li>
 <li>[P4Testgen] Resolve method call arguments before stepping into an extern - preserve InOut references [<a href="https://github.com/p4lang/p4c/pull/4255">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md232"></a>
-Release v1.2.4.6 [<a href="https://github.com/p4lang/p4c/pull/4271">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md233"></a>
+Release v1.2.4.6 [<a href="https://github.com/p4lang/p4c/pull/4271">view</a>]</h1>
 <ul>
 <li>Remove stale XFail. [<a href="https://github.com/p4lang/p4c/pull/4270">view</a>]</li>
 <li>[P4Testgen] Introduce a new Protobuf backend which uses <a class="el" href="namespace_p4.html">P4</a> PDPI instead of P4Runtime [<a href="https://github.com/p4lang/p4c/pull/4221">view</a>]</li>
@@ -501,8 +498,8 @@ Release v1.2.4.6 [<a href="https://github.com/p4lang/p4c/pull/4271">view</a>]</h
 <li>Ignore flaky test in P4Testgen eBPF back end. [<a href="https://github.com/p4lang/p4c/pull/4224">view</a>]</li>
 <li>Still parse STF files, even when BMv2 model is not present in system. [<a href="https://github.com/p4lang/p4c/pull/4222">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md233"></a>
-Release v1.2.4.5 [<a href="https://github.com/p4lang/p4c/pull/4217">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md234"></a>
+Release v1.2.4.5 [<a href="https://github.com/p4lang/p4c/pull/4217">view</a>]</h1>
 <ul>
 <li>Benchmarking fixes for P4Testgen. [<a href="https://github.com/p4lang/p4c/pull/4205">view</a>]</li>
 <li>Add a testgen.p4 file with custom extern definitions such as testgen_assert and testgen_assume. [<a href="https://github.com/p4lang/p4c/pull/4214">view</a>]</li>
@@ -536,8 +533,8 @@ Release v1.2.4.5 [<a href="https://github.com/p4lang/p4c/pull/4217">view</a>]</h
 <li>[P4Testgen] Add more trace information to P4Testgen [<a href="https://github.com/p4lang/p4c/pull/4157">view</a>]</li>
 <li>Add an option to only generate tests which improve coverage. [<a href="https://github.com/p4lang/p4c/pull/4163">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md234"></a>
-Release v1.2.4.4 [<a href="https://github.com/p4lang/p4c/pull/4180">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md235"></a>
+Release v1.2.4.4 [<a href="https://github.com/p4lang/p4c/pull/4180">view</a>]</h1>
 <ul>
 <li>Get host architecture dynamically while downloading <code>protoc</code> binary [<a href="https://github.com/p4lang/p4c/pull/4179">view</a>]</li>
 <li>Change PNA port width to 32 instead of 9. [<a href="https://github.com/p4lang/p4c/pull/4177">view</a>]</li>
@@ -567,8 +564,8 @@ Release v1.2.4.4 [<a href="https://github.com/p4lang/p4c/pull/4180">view</a>]</h
 <li>Resolve P4tc ebpf c issues [<a href="https://github.com/p4lang/p4c/pull/4115">view</a>]</li>
 <li>ci/release: enable push [<a href="https://github.com/p4lang/p4c/pull/4128">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md235"></a>
-Release v1.2.4.3 [<a href="https://github.com/p4lang/p4c/pull/4124">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md236"></a>
+Release v1.2.4.3 [<a href="https://github.com/p4lang/p4c/pull/4124">view</a>]</h1>
 <ul>
 <li>ci/release: create tagged container images [<a href="https://github.com/p4lang/p4c/pull/4125">view</a>]</li>
 <li>Remove P4Testgen codeowners file. [<a href="https://github.com/p4lang/p4c/pull/4119">view</a>]</li>
@@ -603,8 +600,8 @@ Release v1.2.4.3 [<a href="https://github.com/p4lang/p4c/pull/4124">view</a>]</h
 <li>Fix #4067: Add static casts required by newer versions of G++ [<a href="https://github.com/p4lang/p4c/pull/4074">view</a>]</li>
 <li>Fix MacOS installation typo. [<a href="https://github.com/p4lang/p4c/pull/4071">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md236"></a>
-Release v1.2.4.1 [<a href="https://github.com/p4lang/p4c/pull/4052">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md237"></a>
+Release v1.2.4.1 [<a href="https://github.com/p4lang/p4c/pull/4052">view</a>]</h1>
 <ul>
 <li>[P4Testgen] Make the ranges of supported ports a command line parameter for P4Testgen [<a href="https://github.com/p4lang/p4c/pull/4069">view</a>]</li>
 <li>Allow building the compiler without P4TEST enabled [<a href="https://github.com/p4lang/p4c/pull/4065">view</a>]</li>
@@ -637,8 +634,8 @@ Release v1.2.4.1 [<a href="https://github.com/p4lang/p4c/pull/4052">view</a>]</h
 <li>Implement support for non-const table entries [<a href="https://github.com/p4lang/p4c/pull/3748">view</a>]</li>
 <li>Also suppress no-gnu-zero-variadic-macro-arguments warnings for MacOs. [<a href="https://github.com/p4lang/p4c/pull/4023">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md237"></a>
-Release v1.2.4</h2>
+<h1><a class="anchor" id="autotoc_md238"></a>
+Release v1.2.4</h1>
 <ul>
 <li>[P4Testgen] Open up P4Testgen interface. [<a href="https://github.com/p4lang/p4c/pull/4014">view</a>]</li>
 <li>[P4Testgen] Create abstract execution state with utility functions - move copy-in/out to control/parser blocks. [<a href="https://github.com/p4lang/p4c/pull/4011">view</a>]</li>
@@ -659,8 +656,8 @@ Release v1.2.4</h2>
 <li>NVFMSA-2399 Fix initialization-order-fiasco of P4CoreLibrary instance [<a href="https://github.com/p4lang/p4c/pull/3994">view</a>]</li>
 <li>[P4Testgen] Implement meter support for the BMv2 V1model PTF test back end [<a href="https://github.com/p4lang/p4c/pull/3974">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md238"></a>
-Release v1.2.3.9 [<a href="https://github.com/p4lang/p4c/pull/3998">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md239"></a>
+Release v1.2.3.9 [<a href="https://github.com/p4lang/p4c/pull/3998">view</a>]</h1>
 <ul>
 <li>[P4Testgen] Clean up the implementation of the BMv2 clone externs. [<a href="https://github.com/p4lang/p4c/pull/3976">view</a>]</li>
 <li>Split state variables and symbolic variables. Stricter type checking. [<a href="https://github.com/p4lang/p4c/pull/3987">view</a>]</li>
@@ -686,8 +683,8 @@ Release v1.2.3.9 [<a href="https://github.com/p4lang/p4c/pull/3998">view</a>]</h
 <li>Remove boost variant from Tools. [<a href="https://github.com/p4lang/p4c/pull/3960">view</a>]</li>
 <li>Fix the following issues [<a href="https://github.com/p4lang/p4c/pull/3958">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md239"></a>
-Release v1.2.3.8 [<a href="https://github.com/p4lang/p4c/pull/3957">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md240"></a>
+Release v1.2.3.8 [<a href="https://github.com/p4lang/p4c/pull/3957">view</a>]</h1>
 <ul>
 <li>Add documentation on adding test data [<a href="https://github.com/p4lang/p4c/pull/3954">view</a>]</li>
 <li>Make cpplint use python3 explicitely. [<a href="https://github.com/p4lang/p4c/pull/3956">view</a>]</li>
@@ -725,8 +722,8 @@ Release v1.2.3.8 [<a href="https://github.com/p4lang/p4c/pull/3957">view</a>]</h
 <li>CMake build tweaks [<a href="https://github.com/p4lang/p4c/pull/3907">view</a>]</li>
 <li>Rework testutils.py [<a href="https://github.com/p4lang/p4c/pull/3899">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md240"></a>
-Release v1.2.3.7 [<a href="https://github.com/p4lang/p4c/pull/3909">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md241"></a>
+Release v1.2.3.7 [<a href="https://github.com/p4lang/p4c/pull/3909">view</a>]</h1>
 <ul>
 <li>Test support for wide fields in ActionProfile and ActionSelector [<a href="https://github.com/p4lang/p4c/pull/3908">view</a>]</li>
 <li>Fix up the refers_to parser. [<a href="https://github.com/p4lang/p4c/pull/3906">view</a>]</li>
@@ -749,8 +746,8 @@ Release v1.2.3.7 [<a href="https://github.com/p4lang/p4c/pull/3909">view</a>]</h
 <li>Fix up one-shot-action-selectors with action arguments. Appropriately rename some <a class="el" href="namespace_p4.html">P4</a> table programs. [<a href="https://github.com/p4lang/p4c/pull/3864">view</a>]</li>
 <li>Fix bug in parserUnroll [<a href="https://github.com/p4lang/p4c/pull/3874">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md241"></a>
-Release v1.2.3.6 [<a href="https://github.com/p4lang/p4c/pull/3871">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md242"></a>
+Release v1.2.3.6 [<a href="https://github.com/p4lang/p4c/pull/3871">view</a>]</h1>
 <ul>
 <li>log: Add a format_container helper &amp; use it [<a href="https://github.com/p4lang/p4c/pull/3872">view</a>]</li>
 <li>Unbounded random strategy to pick a branch for test generation [<a href="https://github.com/p4lang/p4c/pull/3873">view</a>]</li>
@@ -799,8 +796,8 @@ Release v1.2.3.6 [<a href="https://github.com/p4lang/p4c/pull/3871">view</a>]</h
 <li>initialize direction metadata at begining of pipeline [<a href="https://github.com/p4lang/p4c/pull/3817">view</a>]</li>
 <li>Fix for STF tests with BMv2 when Scapy 2.5.0 is installed [<a href="https://github.com/p4lang/p4c/pull/3816">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md242"></a>
-Release v1.2.3.5 [<a href="https://github.com/p4lang/p4c/pull/3815">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md243"></a>
+Release v1.2.3.5 [<a href="https://github.com/p4lang/p4c/pull/3815">view</a>]</h1>
 <ul>
 <li>Use big_int for <a class="el" href="structmatch__t.html">match_t</a> so can match wider that 64 bits</li>
 <li>ebpf/PSA: Checksum support for fields wider than 64 bits [<a href="https://github.com/p4lang/p4c/pull/3801">view</a>]</li>
@@ -836,8 +833,8 @@ Release v1.2.3.5 [<a href="https://github.com/p4lang/p4c/pull/3815">view</a>]</h
 <li>Clean up the includes in the IR folder [<a href="https://github.com/p4lang/p4c/pull/3701">view</a>]</li>
 <li>Disallow Type_Control as a tuple argument [<a href="https://github.com/p4lang/p4c/pull/3753">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md243"></a>
-Release v1.2.3.4 [<a href="https://github.com/p4lang/p4c/pull/3747">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md244"></a>
+Release v1.2.3.4 [<a href="https://github.com/p4lang/p4c/pull/3747">view</a>]</h1>
 <ul>
 <li>Propagate def files upwards in the correct order from extensions and modules. [<a href="https://github.com/p4lang/p4c/pull/3744">view</a>]</li>
 <li>List contributors to <a class="el" href="namespace_p4_tools.html">P4Tools</a> backend [<a href="https://github.com/p4lang/p4c/pull/3742">view</a>]</li>
@@ -907,8 +904,8 @@ Release v1.2.3.4 [<a href="https://github.com/p4lang/p4c/pull/3747">view</a>]</h
 <li>Handle correctly general switch statements when simplifying [<a href="https://github.com/p4lang/p4c/pull/3624">view</a>]</li>
 <li>Allow implicit casts in switch labels; improve error message [<a href="https://github.com/p4lang/p4c/pull/3634">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md244"></a>
-Release v1.2.3.3 [<a href="https://github.com/p4lang/p4c/pull/3648">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md245"></a>
+Release v1.2.3.3 [<a href="https://github.com/p4lang/p4c/pull/3648">view</a>]</h1>
 <ul>
 <li>CI: add sanitizers [<a href="https://github.com/p4lang/p4c/pull/3625">view</a>]</li>
 <li>Fix compilation issues after reachability merge [<a href="https://github.com/p4lang/p4c/pull/3649">view</a>]</li>
@@ -974,8 +971,8 @@ Release v1.2.3.3 [<a href="https://github.com/p4lang/p4c/pull/3648">view</a>]</h
 <li>New class <a class="el" href="class_i_castable.html">ICastable</a>; new type constraint added [<a href="https://github.com/p4lang/p4c/pull/3542">view</a>]</li>
 <li>Add note to <a class="el" href="namespace_d_p_d_k.html">DPDK</a> README that PSA egress is not implemented [<a href="https://github.com/p4lang/p4c/pull/3525">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md245"></a>
-Release v1.2.3.2 [<a href="https://github.com/p4lang/p4c/pull/3546">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md246"></a>
+Release v1.2.3.2 [<a href="https://github.com/p4lang/p4c/pull/3546">view</a>]</h1>
 <ul>
 <li>Run PTF tests under different kernel versions [<a href="https://github.com/p4lang/p4c/pull/3535">view</a>]</li>
 <li>add set_member_id in action list for action selector [<a href="https://github.com/p4lang/p4c/pull/3540">view</a>]</li>
@@ -998,8 +995,8 @@ Release v1.2.3.2 [<a href="https://github.com/p4lang/p4c/pull/3546">view</a>]</h
 <li>Load table action from json without 'name' field for BMV2 [<a href="https://github.com/p4lang/p4c/pull/3435">view</a>]</li>
 <li>Add null check for default action property [<a href="https://github.com/p4lang/p4c/pull/3500">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md246"></a>
-Release v1.2.3.1 [<a href="https://github.com/p4lang/p4c/pull/3505">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md247"></a>
+Release v1.2.3.1 [<a href="https://github.com/p4lang/p4c/pull/3505">view</a>]</h1>
 <ul>
 <li>Update protobuf installation instructions link [<a href="https://github.com/p4lang/p4c/pull/3501">view</a>]</li>
 <li>Handle table.apply()].hit correctly in ubpf backend [<a href="https://github.com/p4lang/p4c/pull/3498">view</a>]</li>
@@ -1021,8 +1018,8 @@ Release v1.2.3.1 [<a href="https://github.com/p4lang/p4c/pull/3505">view</a>]</h
 <li>Remove GMP dependency from BUILD.bazel [<a href="https://github.com/p4lang/p4c/pull/3474">view</a>]</li>
 <li>Dpdk backend: optional and range match kinds translate to wildcard match for dpdk [<a href="https://github.com/p4lang/p4c/pull/3472">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md247"></a>
-Release v1.2.3.0 [<a href="https://github.com/p4lang/p4c/pull/3466">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md248"></a>
+Release v1.2.3.0 [<a href="https://github.com/p4lang/p4c/pull/3466">view</a>]</h1>
 <ul>
 <li>Remove "frontends" from the include directories. [<a href="https://github.com/p4lang/p4c/pull/3467">view</a>]</li>
 <li>Implicit casts between InfInt and Bit are allowed [<a href="https://github.com/p4lang/p4c/pull/3469">view</a>]</li>
@@ -1057,8 +1054,8 @@ Release v1.2.3.0 [<a href="https://github.com/p4lang/p4c/pull/3466">view</a>]</h
 <li>Handle constant folding for tuple/list constants [<a href="https://github.com/p4lang/p4c/pull/3421">view</a>]</li>
 <li>loop unrolling: Use type of original expression [<a href="https://github.com/p4lang/p4c/pull/3420">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md248"></a>
-Release v1.2.2.3 [<a href="https://github.com/p4lang/p4c/pull/3418">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md249"></a>
+Release v1.2.2.3 [<a href="https://github.com/p4lang/p4c/pull/3418">view</a>]</h1>
 <ul>
 <li>Inhibit compiler optimizations in GC malloc()] implementation [<a href="https://github.com/p4lang/p4c/pull/3415">view</a>]</li>
 <li>Fix def-use analysis bug when handling virtual methods [<a href="https://github.com/p4lang/p4c/pull/3419">view</a>]</li>
@@ -1165,8 +1162,8 @@ Release v1.2.2.3 [<a href="https://github.com/p4lang/p4c/pull/3418">view</a>]</h
 <li>p4c: Handle spaces in file name [<a href="https://github.com/p4lang/p4c/pull/3249">view</a>]</li>
 <li>Fix a typo in README [<a href="https://github.com/p4lang/p4c/pull/3248">view</a>]</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md249"></a>
-Release 1.2.2.2 [<a href="https://github.com/p4lang/p4c/pull/3247">view</a>]</h2>
+<h1><a class="anchor" id="autotoc_md250"></a>
+Release 1.2.2.2 [<a href="https://github.com/p4lang/p4c/pull/3247">view</a>]</h1>
 <ul>
 <li>Point to PSA/eBPF implementation in main README [<a href="https://github.com/p4lang/p4c/pull/3244">view</a>]</li>
 <li>Add support for parser value_set to eBPF backend [<a href="https://github.com/p4lang/p4c/pull/3235">view</a>]</li>
@@ -1258,380 +1255,7 @@ Release 1.2.2.2 [<a href="https://github.com/p4lang/p4c/pull/3247">view</a>]</h2
 <li>Preserve some types in constant folding. [<a href="https://github.com/p4lang/p4c/pull/3094">view</a>]</li>
 <li>Emit semicolon after method call [<a href="https://github.com/p4lang/p4c/pull/3093">view</a>]</li>
 <li>Dismantle Mux expression in dpdk [<a href="https://github.com/p4lang/p4c/pull/3087">view</a>]</li>
-<li>Moved FindRecirculated from .cpp to .h [<a href="https://github.com/p4lang/p4c/pull/3088">view</a>]</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md250"></a>
-Release 1.2.2.1 [<a href="https://github.com/p4lang/p4c/pull/3085">view</a>]</h2>
-<ul>
-<li>dpdk: make unique names for header and metadata struct fields [<a href="https://github.com/p4lang/p4c/pull/3080">view</a>]</li>
-<li>default-init Alloc1D/2D [<a href="https://github.com/p4lang/p4c/pull/3081">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Fix action selector and action profile support for PNA architecture [<a href="https://github.com/p4lang/p4c/pull/3079">view</a>]</li>
-<li>Run CI tests with Fedora [<a href="https://github.com/p4lang/p4c/pull/3078">view</a>]</li>
-<li>Solution when p4include may be within the path [<a href="https://github.com/p4lang/p4c/pull/3075">view</a>]</li>
-<li>Switch to CMake. [<a href="https://github.com/p4lang/p4c/pull/3043">view</a>]</li>
-<li>Build improvements after updating to Ubuntu 20.04 [<a href="https://github.com/p4lang/p4c/pull/3076">view</a>]</li>
-<li>Updates for Ubuntu 20.04 [<a href="https://github.com/p4lang/p4c/pull/3074">view</a>]</li>
-<li>Accept const qualified ref for 2nd argument in <a class="el" href="classordered__set.html">ordered_set</a> [<a href="https://github.com/p4lang/p4c/pull/3072">view</a>]</li>
-<li>Support resubmit and recirculate with no arguments in p4-14 [<a href="https://github.com/p4lang/p4c/pull/3069">view</a>]</li>
-<li>Handle implicit serenum casts in more circumstances [<a href="https://github.com/p4lang/p4c/pull/3070">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Add support for general switch statements [<a href="https://github.com/p4lang/p4c/pull/3055">view</a>]</li>
-<li>ir: fix deprecated directive warnings [<a href="https://github.com/p4lang/p4c/pull/3066">view</a>]</li>
-<li>Changes so that -E (only preprocessor run)] does not create the output [<a href="https://github.com/p4lang/p4c/pull/3065">view</a>]</li>
-<li>Solve some problems with cast [<a href="https://github.com/p4lang/p4c/pull/3054">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Fix a bug in handling GEQ and LEQ operations [<a href="https://github.com/p4lang/p4c/pull/3062">view</a>]</li>
-<li>Fix issues in generated learner table and statement for dpdk [<a href="https://github.com/p4lang/p4c/pull/3060">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Add initial support for generating runtime files for PNA architecture [<a href="https://github.com/p4lang/p4c/pull/3059">view</a>]</li>
-<li>Optional parameters may not have initializers [<a href="https://github.com/p4lang/p4c/pull/3052">view</a>]</li>
-<li>Unification for generic types must compare type arguments too [<a href="https://github.com/p4lang/p4c/pull/3047">view</a>]</li>
-<li>Tweak type checking to accomodate generic functions that handle generic structs [<a href="https://github.com/p4lang/p4c/pull/2637">view</a>]</li>
-<li>Do not require explicit types for type variables of optional parameters [<a href="https://github.com/p4lang/p4c/pull/3038">view</a>]</li>
-<li>Proper constant folding in the abstract interpreter [<a href="https://github.com/p4lang/p4c/pull/3046">view</a>]</li>
-<li>Handle packet_in.lookahead in symbolic interpreter [<a href="https://github.com/p4lang/p4c/pull/3042">view</a>]</li>
-<li>Allow empty entries lists for tables [<a href="https://github.com/p4lang/p4c/pull/3035">view</a>]</li>
-<li>Fixed missing types for folded constants [<a href="https://github.com/p4lang/p4c/pull/3040">view</a>]</li>
-<li>More negative tests for select expression type checks [<a href="https://github.com/p4lang/p4c/pull/3039">view</a>]</li>
-<li>Check the types of sub-expressions involved in a select expression [<a href="https://github.com/p4lang/p4c/pull/2918">view</a>]</li>
-<li>docs: add example for running a single test case [<a href="https://github.com/p4lang/p4c/pull/3034">view</a>]</li>
-<li>When doing copyprop use original source position [<a href="https://github.com/p4lang/p4c/pull/3024">view</a>]</li>
-<li>Disallow programs that call tables in the 'actions' table property [<a href="https://github.com/p4lang/p4c/pull/3033">view</a>]</li>
-<li>Update the p4c Docker image periodically [<a href="https://github.com/p4lang/p4c/pull/3032">view</a>]</li>
-<li>dpdk: add simple subparser test for pna architecture [<a href="https://github.com/p4lang/p4c/pull/3031">view</a>]</li>
-<li>dpdk: fix unsupported parser loop bug [<a href="https://github.com/p4lang/p4c/pull/3029">view</a>]</li>
-<li>dpdk: use varbit field size for extract in bytes instead of bits [<a href="https://github.com/p4lang/p4c/pull/3028">view</a>]</li>
-<li>Added evaluation for SerEnums. Added p4runtime info SerEnum support for counters. [<a href="https://github.com/p4lang/p4c/pull/3026">view</a>]</li>
-<li>Support p4runtime info for serenum action arguments [<a href="https://github.com/p4lang/p4c/pull/3025">view</a>]</li>
-<li>Restored optional priority for CONVERT_PRIMITIVE [<a href="https://github.com/p4lang/p4c/pull/3020">view</a>]</li>
-<li>Allow nullptr refmap and typemap in StrenghtReduction. [<a href="https://github.com/p4lang/p4c/pull/3013">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Fixing a regression failure 'not defined on bool and bit&lt;' [<a href="https://github.com/p4lang/p4c/pull/3021">view</a>]</li>
-<li>Inline Alloc{1,2}D storage [<a href="https://github.com/p4lang/p4c/pull/3012">view</a>]<ul>
-<li>SimplifyDefUse does not respect method calls in stack indices in parsers #2957 [<a href="https://github.com/p4lang/p4c/pull/3011">view</a>]</li>
-</ul>
-</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Add support for SelectByDirection PNA extern [<a href="https://github.com/p4lang/p4c/pull/3000">view</a>]</li>
-<li>dpdk: explictly discard upper bits when downcasting [<a href="https://github.com/p4lang/p4c/pull/3007">view</a>]</li>
-<li>Remove BUG_CHECK which is too conservative [<a href="https://github.com/p4lang/p4c/pull/3003">view</a>]</li>
-<li>Switch statement not correctly translated when default case is not present in switch [<a href="https://github.com/p4lang/p4c/pull/3002">view</a>]</li>
-<li>psa: Add missing new line in error message [<a href="https://github.com/p4lang/p4c/pull/2998">view</a>]</li>
-<li>Fixed wrong warning for header union and header union stack [<a href="https://github.com/p4lang/p4c/pull/2999">view</a>]</li>
-<li>dpdk: move definition of main metadata structure to the end [<a href="https://github.com/p4lang/p4c/pull/2997">view</a>]</li>
-<li>dpdk: fix duplicates declaration error [<a href="https://github.com/p4lang/p4c/pull/2996">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Update <a class="el" href="namespace_d_p_d_k.html">DPDK</a> Readme.md [<a href="https://github.com/p4lang/p4c/pull/2991">view</a>]</li>
-<li>Handle nested headers correctly when flattening [<a href="https://github.com/p4lang/p4c/pull/2987">view</a>]</li>
-<li>dpdk: change varbit tests for psa and pna arch [<a href="https://github.com/p4lang/p4c/pull/2993">view</a>]</li>
-<li>Use Status::ok()] accessor [<a href="https://github.com/p4lang/p4c/pull/2992">view</a>]</li>
-<li>Add instructions to README for regenerating all expected test outputs [<a href="https://github.com/p4lang/p4c/pull/2990">view</a>]</li>
-<li>Remember original identifier name if possible [<a href="https://github.com/p4lang/p4c/pull/2988">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Convert error codes to its constant values [<a href="https://github.com/p4lang/p4c/pull/2966">view</a>]</li>
-<li>v1model metadata preservation updates [<a href="https://github.com/p4lang/p4c/pull/2985">view</a>]</li>
-<li>Remove file added by mistake [<a href="https://github.com/p4lang/p4c/pull/2979">view</a>]</li>
-<li>dpdk: fix varbit output to spec [<a href="https://github.com/p4lang/p4c/pull/2976">view</a>]</li>
-<li>Support minSizeInBits and minSizeInBytes for scalars and type names [<a href="https://github.com/p4lang/p4c/pull/2917">view</a>]</li>
-<li>Rebased version of #1698 [<a href="https://github.com/p4lang/p4c/pull/2902">view</a>]</li>
-<li>Continue unrolling for parser after evaluation error [<a href="https://github.com/p4lang/p4c/pull/2962">view</a>]</li>
-<li>Backtrack::trigger::register_for_gc [<a href="https://github.com/p4lang/p4c/pull/2968">view</a>]</li>
-<li>GlobalCopyPropagation is too agressive in switch statements [<a href="https://github.com/p4lang/p4c/pull/2956">view</a>] [<a href="https://github.com/p4lang/p4c/pull/2974">view</a>]</li>
-<li>HS index unroller simple update [<a href="https://github.com/p4lang/p4c/pull/2975">view</a>]</li>
-<li>Elimination of non-concrete indexes for header stacks from controls [<a href="https://github.com/p4lang/p4c/pull/2914">view</a>]</li>
-<li>ci: Auto-build container image [<a href="https://github.com/p4lang/p4c/pull/2973">view</a>]</li>
-<li>Add minWidthBits for Type_Error [<a href="https://github.com/p4lang/p4c/pull/2967">view</a>]</li>
-<li>Add temporary IR nodes to typeMap [<a href="https://github.com/p4lang/p4c/pull/2972">view</a>]</li>
-<li>Compiler Bug : overwriting definitions in defuse [<a href="https://github.com/p4lang/p4c/pull/2900">view</a>] [<a href="https://github.com/p4lang/p4c/pull/2971">view</a>]</li>
-<li>Dpdk: skip ExpandLookAhead pass in dpdk midend. [<a href="https://github.com/p4lang/p4c/pull/2970">view</a>]</li>
-<li>Fix SWX <a class="el" href="namespace_d_p_d_k.html">DPDK</a> typo in README [<a href="https://github.com/p4lang/p4c/pull/2963">view</a>]</li>
-<li>"Null element" errors which are related with HeaderUnion type [<a href="https://github.com/p4lang/p4c/pull/2938">view</a>]</li>
-<li>Fix problems with OutOfBound state creation [<a href="https://github.com/p4lang/p4c/pull/2959">view</a>]</li>
-<li>dpdk: support of PNA extern send_to_port [<a href="https://github.com/p4lang/p4c/pull/2930">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Fix a corner case in handling isValid()] as table key [<a href="https://github.com/p4lang/p4c/pull/2955">view</a>]</li>
-<li>Pragma fix [<a href="https://github.com/p4lang/p4c/pull/2953">view</a>]</li>
-<li>Def-use should not treat array.next as a structure field [<a href="https://github.com/p4lang/p4c/pull/2954">view</a>]</li>
-<li>dpdk: add support for tableonly and defaultonly annotation [<a href="https://github.com/p4lang/p4c/pull/2952">view</a>]</li>
-<li>Minor gtest helper refactor to make it easier to extend [<a href="https://github.com/p4lang/p4c/pull/2949">view</a>]</li>
-<li>Fix minor issues in handling Cast operations [<a href="https://github.com/p4lang/p4c/pull/2948">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Add support for switch statement in p4c-dpdk [<a href="https://github.com/p4lang/p4c/pull/2943">view</a>]</li>
-<li>Fix undefined behavior in GlobalCopyPropagation pass [<a href="https://github.com/p4lang/p4c/pull/2945">view</a>]</li>
-<li>Fix: Issue #2279 - Implementing the GlobalCopyPropagation pass [<a href="https://github.com/p4lang/p4c/pull/2932">view</a>]</li>
-<li>Invalid headers warnings: support for header stacks and unions [<a href="https://github.com/p4lang/p4c/pull/2910">view</a>]</li>
-<li>improve include path to bpf_endian.h [<a href="https://github.com/p4lang/p4c/pull/2936">view</a>]</li>
-<li>readme: Update installation instructions [<a href="https://github.com/p4lang/p4c/pull/2941">view</a>]</li>
-<li>Fix bfRT Json output to add pipe name prefix to table names [<a href="https://github.com/p4lang/p4c/pull/2939">view</a>]</li>
-<li>add support for errors [<a href="https://github.com/p4lang/p4c/pull/2940">view</a>]</li>
-<li>Cleanup override warnings [<a href="https://github.com/p4lang/p4c/pull/2934">view</a>]</li>
-<li>lastIndex support for parserUnroll [<a href="https://github.com/p4lang/p4c/pull/2933">view</a>]</li>
-<li>Throw an error when reference files are missing. [<a href="https://github.com/p4lang/p4c/pull/2926">view</a>]</li>
-<li>Fix context Json generation when table size is explicitly specified [<a href="https://github.com/p4lang/p4c/pull/2931">view</a>]</li>
-<li>Added nullptr checks to changes introduced by commit 51611f0 [<a href="https://github.com/p4lang/p4c/pull/2881">view</a>] [<a href="https://github.com/p4lang/p4c/pull/2923">view</a>]</li>
-<li>Initial support for generating <a class="el" href="namespace_d_p_d_k.html">DPDK</a> context JSON [<a href="https://github.com/p4lang/p4c/pull/2916">view</a>]</li>
-<li>dbg: replace unordered collections with ordered [<a href="https://github.com/p4lang/p4c/pull/2929">view</a>]</li>
-<li>Improve portability of backtrace.cpp [<a href="https://github.com/p4lang/p4c/pull/2924">view</a>]</li>
-<li>Use mmap instead of sbrk [<a href="https://github.com/p4lang/p4c/pull/2925">view</a>]</li>
-<li>Added type for key PathExpression [<a href="https://github.com/p4lang/p4c/pull/2919">view</a>]</li>
-<li>Move cpplint.py to python3 [<a href="https://github.com/p4lang/p4c/pull/2920">view</a>]</li>
-<li>Silence warnings automatically if @nowarn appears in the context [<a href="https://github.com/p4lang/p4c/pull/2911">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Fix verify statement support and few other minor issues [<a href="https://github.com/p4lang/p4c/pull/2909">view</a>]</li>
-<li>Missed optimization: Struct-assignment in action prevents ConstantFolding [<a href="https://github.com/p4lang/p4c/pull/2249">view</a>] [<a href="https://github.com/p4lang/p4c/pull/2842">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> Backend: Fix conditional jumps when condition is LEQ or GEQ [<a href="https://github.com/p4lang/p4c/pull/2912">view</a>]</li>
-<li>readme: Add fedora dependencies [<a href="https://github.com/p4lang/p4c/pull/2908">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a>: add support for varbit and variable length extraction [<a href="https://github.com/p4lang/p4c/pull/2906">view</a>]</li>
-<li>initialize member_id and group_id for action profile and selector [<a href="https://github.com/p4lang/p4c/pull/2907">view</a>]</li>
-<li>[PSA] Hash support for PSA model added [<a href="https://github.com/p4lang/p4c/pull/2896">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a>: add support for add_on_miss table property [<a href="https://github.com/p4lang/p4c/pull/2901">view</a>]</li>
-<li>Remove colors from error messages when redirected to a file [<a href="https://github.com/p4lang/p4c/pull/2888">view</a>]</li>
-<li>Giving warnings on accessing fields of invalid headers [<a href="https://github.com/p4lang/p4c/pull/2881">view</a>]</li>
-<li>Add missing spaces to help of driver command line option [<a href="https://github.com/p4lang/p4c/pull/2899">view</a>]</li>
-<li>dpdk: export egress tables and actions [<a href="https://github.com/p4lang/p4c/pull/2894">view</a>]</li>
-<li>Writes to a header field implicitly read the header valid bit [<a href="https://github.com/p4lang/p4c/pull/2891">view</a>]</li>
-<li>A few small optimizations for zero width values [<a href="https://github.com/p4lang/p4c/pull/2886">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a>: initial support for pna [<a href="https://github.com/p4lang/p4c/pull/2887">view</a>]</li>
-<li>refactoring <a class="el" href="namespace_d_p_d_k.html">DPDK</a> backend to prepare for pna support [<a href="https://github.com/p4lang/p4c/pull/2885">view</a>]</li>
-<li>Detect some incorrect usages of v1model [<a href="https://github.com/p4lang/p4c/pull/2830">view</a>]</li>
-<li>Optimize subparser inlining in specific case [<a href="https://github.com/p4lang/p4c/pull/2803">view</a>]</li>
-<li>Support of Operation_Ternary for ExpressionEvaluator [<a href="https://github.com/p4lang/p4c/pull/2861">view</a>]</li>
-<li>Added HeaderUnion support [<a href="https://github.com/p4lang/p4c/pull/2883">view</a>]</li>
-<li>Improve midend convertEnums pass to allow custom encoding policy by the the backends [<a href="https://github.com/p4lang/p4c/pull/2882">view</a>]</li>
-<li>Print unparsed annotations differently [<a href="https://github.com/p4lang/p4c/pull/2879">view</a>]</li>
-<li>Allow masks in select expressions [<a href="https://github.com/p4lang/p4c/pull/2827">view</a>]</li>
-<li>p4RuntimeArchStandard uses P4V1 but does not include the proper header file [<a href="https://github.com/p4lang/p4c/pull/2878">view</a>]</li>
-<li>[PSA] Internet Checksum support for PSA model added [<a href="https://github.com/p4lang/p4c/pull/2872">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> backend: Add support for using isValid as table key [<a href="https://github.com/p4lang/p4c/pull/2871">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> backend: Fixing couple of issues in counter implementation and extend jump and label optimizations in action body [<a href="https://github.com/p4lang/p4c/pull/2870">view</a>]</li>
-<li>Initial support for BFRuntime Json Generation for <a class="el" href="namespace_d_p_d_k.html">DPDK</a> [<a href="https://github.com/p4lang/p4c/pull/2862">view</a>]</li>
-<li>Fixing table key consolidation criteria [<a href="https://github.com/p4lang/p4c/pull/2867">view</a>]</li>
-<li>initial commit for pna.p4 [<a href="https://github.com/p4lang/p4c/pull/2866">view</a>]</li>
-<li>Fix "dontcare" type method argument [<a href="https://github.com/p4lang/p4c/pull/2863">view</a>]</li>
-<li>dpdk: add reference to the pipeline user guide [<a href="https://github.com/p4lang/p4c/pull/2846">view</a>]</li>
-<li>annotation to disable optimization in a block [<a href="https://github.com/p4lang/p4c/pull/2865">view</a>]</li>
-<li>dpdk: add support for action profile [<a href="https://github.com/p4lang/p4c/pull/2859">view</a>]</li>
-<li>dpdk: add support for verify()] statement [<a href="https://github.com/p4lang/p4c/pull/2858">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> backend: Added error checks for limitations imposed by <a class="el" href="namespace_d_p_d_k.html">DPDK</a> target on table keys. Convert table such that all match keys come from same struct [<a href="https://github.com/p4lang/p4c/pull/2845">view</a>]</li>
-<li>dpdk: add support for action selector [<a href="https://github.com/p4lang/p4c/pull/2847">view</a>]</li>
-<li>update psa.p4 include in output tests [<a href="https://github.com/p4lang/p4c/pull/2852">view</a>]</li>
-<li>Fix install Ubuntu dependencies script. [<a href="https://github.com/p4lang/p4c/pull/2854">view</a>]</li>
-<li>Update README.md [<a href="https://github.com/p4lang/p4c/pull/2853">view</a>]</li>
-<li>Bazel rules for the graphs backend. [<a href="https://github.com/p4lang/p4c/pull/2849">view</a>]</li>
-<li>Allow backend to skip input file check [<a href="https://github.com/p4lang/p4c/pull/2848">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> backend: Add support for tuple expressions in transition select statement [<a href="https://github.com/p4lang/p4c/pull/2836">view</a>]</li>
-<li>remove obsolete p4d2model.p4 [<a href="https://github.com/p4lang/p4c/pull/2843">view</a>]</li>
-<li>Remove unnecessary p4include/psa.p4 [<a href="https://github.com/p4lang/p4c/pull/2837">view</a>]</li>
-<li>Minor updates to BMv2 and <a class="el" href="namespace_d_p_d_k.html">DPDK</a> psa.p4 include files [<a href="https://github.com/p4lang/p4c/pull/2838">view</a>]</li>
-<li>Modernize run-bmv2-test a little [<a href="https://github.com/p4lang/p4c/pull/2833">view</a>]</li>
-<li>Support target-specific customizations of psa.p4 include file [<a href="https://github.com/p4lang/p4c/pull/2818">view</a>]</li>
-<li>Reference outputs that were not updated for merged PR #2805 [<a href="https://github.com/p4lang/p4c/pull/2832">view</a>]</li>
-<li>Expand side-effect computations in table keys [<a href="https://github.com/p4lang/p4c/pull/2805">view</a>]</li>
-<li>Enable automatic release on version change [<a href="https://github.com/p4lang/p4c/pull/2829">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a> backend: Add support for meter and counter extern [<a href="https://github.com/p4lang/p4c/pull/2813">view</a>]</li>
-<li>Fix: Issue #2647 predication condition assignment of value [<a href="https://github.com/p4lang/p4c/pull/2779">view</a>]</li>
-<li>Add C variable initialization [<a href="https://github.com/p4lang/p4c/pull/2826">view</a>]</li>
-<li>Test case for issue #2321 [<a href="https://github.com/p4lang/p4c/pull/2823">view</a>]</li>
-<li>Move RemoveActionParameters pass to frontend [<a href="https://github.com/p4lang/p4c/pull/2820">view</a>]</li>
-<li>Cancel active workflows on new push [<a href="https://github.com/p4lang/p4c/pull/2821">view</a>]</li>
-<li>Fix off-by-one bug in ebpf backend mask computation [<a href="https://github.com/p4lang/p4c/pull/2815">view</a>]</li>
-<li>Update compiled design documentation [<a href="https://github.com/p4lang/p4c/pull/2817">view</a>]</li>
-<li>Typecheck properly casts of header expressions [<a href="https://github.com/p4lang/p4c/pull/2796">view</a>]</li>
-<li>Do not allow function calls in select labels [<a href="https://github.com/p4lang/p4c/pull/2259">view</a>]</li>
-<li>Set table size when entries are known [<a href="https://github.com/p4lang/p4c/pull/2812">view</a>]</li>
-<li>Enable static builds for p4c [<a href="https://github.com/p4lang/p4c/pull/2731">view</a>]</li>
-<li>Refactor error logging [<a href="https://github.com/p4lang/p4c/pull/2804">view</a>]</li>
-<li>support additional search path for p4include directory from backend [<a href="https://github.com/p4lang/p4c/pull/2807">view</a>]</li>
-<li>Add support for mask(&amp;&amp;&amp;)] and range (.. )] operations in dpdk backend and fixed few typos [<a href="https://github.com/p4lang/p4c/pull/2787">view</a>]</li>
-<li>Fix bug in ebpf C code generation for parsers [<a href="https://github.com/p4lang/p4c/pull/2806">view</a>]</li>
-<li>Optimize usages of "not" [<a href="https://github.com/p4lang/p4c/pull/2798">view</a>]</li>
-<li>Update build status badge. [<a href="https://github.com/p4lang/p4c/pull/2801">view</a>]</li>
-<li>Ci Edits. [<a href="https://github.com/p4lang/p4c/pull/2799">view</a>]</li>
-<li>keep unused method declaration [<a href="https://github.com/p4lang/p4c/pull/2789">view</a>]</li>
-<li>Call setInvalid on all uninitialized headers. [<a href="https://github.com/p4lang/p4c/pull/2785">view</a>]</li>
-<li>Support setValid/setInvalid in ebpf parsers [<a href="https://github.com/p4lang/p4c/pull/2788">view</a>]</li>
-<li>Added underscore to "#no.." regex to fix syntax error for "#novisit_children" [<a href="https://github.com/p4lang/p4c/pull/2783">view</a>]</li>
-<li>Expand structs into lists for bmv2 backend computations [<a href="https://github.com/p4lang/p4c/pull/2781">view</a>]</li>
-<li>Conditional operator support in dpdk backend [<a href="https://github.com/p4lang/p4c/pull/2778">view</a>]</li>
-<li>A utility function is added to get the field offset of aggregate type??? [<a href="https://github.com/p4lang/p4c/pull/2774">view</a>]</li>
-<li>Fixing a typo and one minor issue in <a class="el" href="namespace_d_p_d_k.html">DPDK</a> backend [<a href="https://github.com/p4lang/p4c/pull/2773">view</a>]</li>
-<li>Attempt to fix Mac build breakage [<a href="https://github.com/p4lang/p4c/pull/2780">view</a>]</li>
-<li>Features no longer marked as experimental [<a href="https://github.com/p4lang/p4c/pull/2759">view</a>]</li>
-<li>Cleanups to help with resolving methodcalls without a typeMap [<a href="https://github.com/p4lang/p4c/pull/2772">view</a>]</li>
-<li>dpdk:fix registers implementation [<a href="https://github.com/p4lang/p4c/pull/2768">view</a>]</li>
-<li>Fixed nullptr related issues [<a href="https://github.com/p4lang/p4c/pull/2769">view</a>]</li>
-<li>dpdk: Fix default table size to 0x10000 [<a href="https://github.com/p4lang/p4c/pull/2765">view</a>]</li>
-<li>Eliminate redundant validation code. [<a href="https://github.com/p4lang/p4c/pull/2766">view</a>]</li>
-<li>dpdk: fix non-determinism in parser state assembly generation [<a href="https://github.com/p4lang/p4c/pull/2763">view</a>]</li>
-<li>dpdk: implement checksum clear method [<a href="https://github.com/p4lang/p4c/pull/2761">view</a>]</li>
-<li>Test <code>main</code> branch [<a href="https://github.com/p4lang/p4c/pull/2758">view</a>]</li>
-<li>Minor run-dpdk-test improvements [<a href="https://github.com/p4lang/p4c/pull/2757">view</a>]</li>
-<li>Replace "master" with "main" in preparation for change of p4c's primary branch [<a href="https://github.com/p4lang/p4c/pull/2708">view</a>]</li>
-<li>dpdk: fix checksum support [<a href="https://github.com/p4lang/p4c/pull/2756">view</a>]</li>
-<li>Update StrengthReduction pass relative to signed shift left operation [<a href="https://github.com/p4lang/p4c/pull/2754">view</a>]</li>
-<li>Find install_manifest.txt for uninstall target [<a href="https://github.com/p4lang/p4c/pull/2752">view</a>]</li>
-<li>Add match_kind optional to PSA include file [<a href="https://github.com/p4lang/p4c/pull/2696">view</a>]</li>
-<li>Parser unroll gtest now does not modify environment [<a href="https://github.com/p4lang/p4c/pull/2750">view</a>]</li>
-<li>Fix dpdk regression failure: Duplicates declaration [<a href="https://github.com/p4lang/p4c/pull/2744">view</a>]</li>
-<li>Changing relative paths for parsers Unroll gtests [<a href="https://github.com/p4lang/p4c/pull/2748">view</a>]</li>
-<li>Minor updates to a few README files [<a href="https://github.com/p4lang/p4c/pull/2747">view</a>]</li>
-<li>dpdk: add support for header stack [<a href="https://github.com/p4lang/p4c/pull/2745">view</a>]</li>
-<li>Update PSA test programs to always put parsed headers inside a struct [<a href="https://github.com/p4lang/p4c/pull/2746">view</a>]</li>
-<li>dpdk: fix support for bitwise and/or/xor [<a href="https://github.com/p4lang/p4c/pull/2742">view</a>]</li>
-<li>Fix typo in def-use analysis [<a href="https://github.com/p4lang/p4c/pull/2743">view</a>]</li>
-<li>Support serenum types for array indexes [<a href="https://github.com/p4lang/p4c/pull/2738">view</a>]</li>
-<li>Handle typedefs of generic types [<a href="https://github.com/p4lang/p4c/pull/2737">view</a>]</li>
-<li>Added some null pointer checks to clean up the code [<a href="https://github.com/p4lang/p4c/pull/2740">view</a>]</li>
-<li>propagate annotations when inlining blocks [<a href="https://github.com/p4lang/p4c/pull/2727">view</a>] [<a href="https://github.com/p4lang/p4c/pull/2728">view</a>]</li>
-<li>Remove inlined constant from code [<a href="https://github.com/p4lang/p4c/pull/2725">view</a>]</li>
-<li>Move debian build scripts to dedicated folder. [<a href="https://github.com/p4lang/p4c/pull/2730">view</a>]</li>
-<li>Fix dpdk regression failure: declaration not found [<a href="https://github.com/p4lang/p4c/pull/2733">view</a>]</li>
-<li>More options cleanup [<a href="https://github.com/p4lang/p4c/pull/2721">view</a>]</li>
-<li>Support for 0-width bit and varbit [<a href="https://github.com/p4lang/p4c/pull/2724">view</a>]</li>
-<li>dpdk: support drop operation [<a href="https://github.com/p4lang/p4c/pull/2720">view</a>]</li>
-<li>Debian/Ubuntu packaging [<a href="https://github.com/p4lang/p4c/pull/2712">view</a>]</li>
-<li>Algorithm for loop unrolling [<a href="https://github.com/p4lang/p4c/pull/2687">view</a>]</li>
-<li>Missing override keyword [<a href="https://github.com/p4lang/p4c/pull/2719">view</a>]</li>
-<li>dpdk: fix table and action name to be original name, optimize direct action invocation call in apply block [<a href="https://github.com/p4lang/p4c/pull/2722">view</a>]</li>
-<li>Fix unified build check. [<a href="https://github.com/p4lang/p4c/pull/2723">view</a>]</li>
-<li>Upgrade cpplint to Python3 [<a href="https://github.com/p4lang/p4c/pull/2703">view</a>]</li>
-<li>Remove generic types after specialization [<a href="https://github.com/p4lang/p4c/pull/2627">view</a>]</li>
-<li>dpdk: fix variable naming to use originalName [<a href="https://github.com/p4lang/p4c/pull/2718">view</a>]</li>
-<li>Revert "dpdk: translate pkt.emit to conditional emit instruction [[view](https://github.com/p4lang/p4c/pull/2704)]" [<a href="https://github.com/p4lang/p4c/pull/2717">view</a>]</li>
-<li>Give unique names to action directionless parameters [<a href="https://github.com/p4lang/p4c/pull/2715">view</a>]</li>
-<li>Even <code>in</code> arguments must be saved to temporaries if aliased [<a href="https://github.com/p4lang/p4c/pull/2640">view</a>]</li>
-<li>Make model immutable [<a href="https://github.com/p4lang/p4c/pull/2706">view</a>]</li>
-<li>Delete xdp_target.py [<a href="https://github.com/p4lang/p4c/pull/2714">view</a>]</li>
-<li>Some build fixes [<a href="https://github.com/p4lang/p4c/pull/2711">view</a>]</li>
-<li>Added initialization of member variables for SourceInfo [<a href="https://github.com/p4lang/p4c/pull/2709">view</a>]</li>
-<li>Remove <a class="el" href="namespace_p4.html">P4</a> file that was spuriously added to top-level p4c directory. [<a href="https://github.com/p4lang/p4c/pull/2705">view</a>]</li>
-<li>dpdk: translate pkt.emit to conditional emit instruction [<a href="https://github.com/p4lang/p4c/pull/2704">view</a>]</li>
-<li>dpdk: bugfix to use .equiv for comparison [<a href="https://github.com/p4lang/p4c/pull/2702">view</a>]</li>
-<li>Update run-p4-sample.py [<a href="https://github.com/p4lang/p4c/pull/2682">view</a>]</li>
-<li>dpdk: optimization for jump instruction generation [<a href="https://github.com/p4lang/p4c/pull/2701">view</a>]</li>
-<li>Fix uninitialized variable [<a href="https://github.com/p4lang/p4c/pull/2697">view</a>]</li>
-<li>Seperate parser options from frontend options [<a href="https://github.com/p4lang/p4c/pull/2694">view</a>]</li>
-<li>dpdk: support table.apply()].hit and table.apply()].miss expression in ??? [<a href="https://github.com/p4lang/p4c/pull/2693">view</a>]</li>
-<li>Do not dump json when program is null because of an error [<a href="https://github.com/p4lang/p4c/pull/2691">view</a>]</li>
-<li>Fix Gauntlet install. [<a href="https://github.com/p4lang/p4c/pull/2695">view</a>]</li>
-<li>Dpdk: fix bug in isValid handling in if statement condition [<a href="https://github.com/p4lang/p4c/pull/2689">view</a>]</li>
-<li>Missing null pointer check [<a href="https://github.com/p4lang/p4c/pull/2690">view</a>]</li>
-<li>Add regression script for dpdk backend [<a href="https://github.com/p4lang/p4c/pull/2685">view</a>]</li>
-<li>Add correct Bazel cc toolchain dependency [<a href="https://github.com/p4lang/p4c/pull/2683">view</a>]</li>
-<li>Merging PRs broke master; fix it [<a href="https://github.com/p4lang/p4c/pull/2680">view</a>]</li>
-<li>Make declarations global in parser before converting ifs to states [<a href="https://github.com/p4lang/p4c/pull/2644">view</a>]</li>
-<li>Tuple field access using array index operator [<a href="https://github.com/p4lang/p4c/pull/2655">view</a>]</li>
-<li>Update noop tests and reference files. [<a href="https://github.com/p4lang/p4c/pull/2677">view</a>]</li>
-<li>Do not crash when handling unknown externs [<a href="https://github.com/p4lang/p4c/pull/2667">view</a>]</li>
-<li>Fix for p4c Issue 2670 [<a href="https://github.com/p4lang/p4c/pull/2671">view</a>]</li>
-<li>Reference outputs changed [<a href="https://github.com/p4lang/p4c/pull/2676">view</a>]</li>
-<li>Add the Gauntlet tests to p4c [<a href="https://github.com/p4lang/p4c/pull/2661">view</a>]</li>
-<li>Use the type for the original IR node [<a href="https://github.com/p4lang/p4c/pull/2653">view</a>]</li>
-<li>Mask strength-reduction [<a href="https://github.com/p4lang/p4c/pull/2607">view</a>]</li>
-<li>Constant-fold switch statements [<a href="https://github.com/p4lang/p4c/pull/2645">view</a>]</li>
-<li>add return statement to ordered_set::emplace_back [<a href="https://github.com/p4lang/p4c/pull/2673">view</a>]</li>
-<li>SimplifyDefUse removing redundant method calls now, BugFix #2628: [<a href="https://github.com/p4lang/p4c/pull/2662">view</a>]</li>
-<li><a class="el" href="namespace_d_p_d_k.html">DPDK</a>: add support for h.setValid and h.setInvalid [<a href="https://github.com/p4lang/p4c/pull/2669">view</a>]</li>
-<li>Added test case with out-of-bounds index to header stack [<a href="https://github.com/p4lang/p4c/pull/2666">view</a>]</li>
-<li>Add more flexibility to compiler configuration. [<a href="https://github.com/p4lang/p4c/pull/2663">view</a>]</li>
-<li>Allow casts between int and bool [<a href="https://github.com/p4lang/p4c/pull/2658">view</a>]</li>
-<li>Improve Bazel CI build times through smarter caching [<a href="https://github.com/p4lang/p4c/pull/2656">view</a>]</li>
-<li>Revert "Add -o option to p4test backend [[view](https://github.com/p4lang/p4c/pull/2634)]" [<a href="https://github.com/p4lang/p4c/pull/2651">view</a>]</li>
-<li>Fixed warnings about deprecated default copy. [<a href="https://github.com/p4lang/p4c/pull/2649">view</a>]</li>
-<li>P4C-3458: Fixed non-PHV Klocwork "critical" &amp; "error" issues fro 9.4 [<a href="https://github.com/p4lang/p4c/pull/2646">view</a>]</li>
-<li>Add -o option to p4test backend [<a href="https://github.com/p4lang/p4c/pull/2634">view</a>]</li>
-<li>minor bugfix: check for nullptr [<a href="https://github.com/p4lang/p4c/pull/2639">view</a>]</li>
-<li>Set idle timeout behavior based on table property in PSA [<a href="https://github.com/p4lang/p4c/pull/2632">view</a>]</li>
-<li>Add don't cares to the list of type variable bindings [<a href="https://github.com/p4lang/p4c/pull/2633">view</a>]</li>
-<li>Convert SimplifyDefUse to a <a class="el" href="class_pass_repeated.html">PassRepeated</a> [<a href="https://github.com/p4lang/p4c/pull/2610">view</a>] [<a href="https://github.com/p4lang/p4c/pull/2621">view</a>]</li>
-<li>Remove compiler warnings [<a href="https://github.com/p4lang/p4c/pull/2626">view</a>]</li>
-<li>add ceil_log2 to gmputil.h [<a href="https://github.com/p4lang/p4c/pull/2625">view</a>]</li>
-<li>Fixes #2613 predication issue [<a href="https://github.com/p4lang/p4c/pull/2624">view</a>]</li>
-<li>cleanup PassManger construction [<a href="https://github.com/p4lang/p4c/pull/2618">view</a>]</li>
-<li>remove duplicated library function in favor of big_int version [<a href="https://github.com/p4lang/p4c/pull/2622">view</a>]</li>
-<li>Remove redundant slice statements during SimplifyDefUse [<a href="https://github.com/p4lang/p4c/pull/2583">view</a>] [<a href="https://github.com/p4lang/p4c/pull/2610">view</a>]</li>
-<li>Add INode::checkedTo for checked casts. [<a href="https://github.com/p4lang/p4c/pull/2620">view</a>]</li>
-<li>p4c-dpdk: new <a class="el" href="namespace_d_p_d_k.html">DPDK</a> backend for p4c [<a href="https://github.com/p4lang/p4c/pull/2595">view</a>]</li>
-<li>Support for generic structs [<a href="https://github.com/p4lang/p4c/pull/2592">view</a>]</li>
-<li>Improve error messages for errors during type inference [<a href="https://github.com/p4lang/p4c/pull/2603">view</a>]</li>
-<li>Support for general-purpose switch statements [<a href="https://github.com/p4lang/p4c/pull/2575">view</a>]</li>
-<li>Fix off-by-one error in strength-reduction [<a href="https://github.com/p4lang/p4c/pull/2616">view</a>]</li>
-<li>Re-enable MacOS build [<a href="https://github.com/p4lang/p4c/pull/2604">view</a>]</li>
-<li>Default arguments values should be fresh clones [<a href="https://github.com/p4lang/p4c/pull/2608">view</a>]<ul>
-<li>Support lookahead with scalars in ebpf [<a href="https://github.com/p4lang/p4c/pull/2577">view</a>]</li>
-</ul>
-</li>
-<li>Fix validation tests. [<a href="https://github.com/p4lang/p4c/pull/2605">view</a>]</li>
-<li>Do not assume the presence of realpath [<a href="https://github.com/p4lang/p4c/pull/2602">view</a>]</li>
-<li>Migrate to Github actions [<a href="https://github.com/p4lang/p4c/pull/2601">view</a>]</li>
-<li>Do not allow apply calls in actions [<a href="https://github.com/p4lang/p4c/pull/2598">view</a>]</li>
-<li>Separate Gauntlet from the normal P4C tests [<a href="https://github.com/p4lang/p4c/pull/2593">view</a>]</li>
-<li>Declaration resolution fix [<a href="https://github.com/p4lang/p4c/pull/2544">view</a>] [<a href="https://github.com/p4lang/p4c/pull/2589">view</a>]</li>
-<li>Update CI script to improve caching. [<a href="https://github.com/p4lang/p4c/pull/2584">view</a>]</li>
-<li>Small changes for better <a class="el" href="namespace_p4.html">P4</a> symbol naming [<a href="https://github.com/p4lang/p4c/pull/2586">view</a>]</li>
-<li>Reassociation pass; two more strength-reduction optimizations [<a href="https://github.com/p4lang/p4c/pull/2587">view</a>]</li>
-<li>More strength-reduction optimizations [<a href="https://github.com/p4lang/p4c/pull/2566">view</a>]</li>
-<li>Convert deep nested struct initializers [<a href="https://github.com/p4lang/p4c/pull/2581">view</a>]</li>
-<li>Fix bugs related to StructureExpressions [<a href="https://github.com/p4lang/p4c/pull/2552">view</a>]</li>
-<li>Use temporaries for slices use as out arguments [<a href="https://github.com/p4lang/p4c/pull/2579">view</a>]</li>
-<li>Eliminate grammar ambiguity [<a href="https://github.com/p4lang/p4c/pull/2574">view</a>]</li>
-<li>Substitute directionless parameters early in inlining [<a href="https://github.com/p4lang/p4c/pull/2562">view</a>]</li>
-<li>Give error message for unsupported construct [<a href="https://github.com/p4lang/p4c/pull/2559">view</a>]</li>
-<li>Fix EBPF parenthesis issue [<a href="https://github.com/p4lang/p4c/pull/2570">view</a>]</li>
-<li>Do not constant fold structs before typing [<a href="https://github.com/p4lang/p4c/pull/2580">view</a>]</li>
-<li>Drop support for Python 2 [<a href="https://github.com/p4lang/p4c/pull/2578">view</a>]</li>
-<li>Ignore crashes in Gauntlet validation [<a href="https://github.com/p4lang/p4c/pull/2576">view</a>]</li>
-<li>uBPF: support for default action [<a href="https://github.com/p4lang/p4c/pull/2572">view</a>]</li>
-<li>[psa] e2e cloning bmv2 stf tests [<a href="https://github.com/p4lang/p4c/pull/2549">view</a>]</li>
-<li>Fix: Predication issue #2345 [<a href="https://github.com/p4lang/p4c/pull/2564">view</a>]</li>
-<li>Fix: UBPF fails examples <a class="el" href="namespace_p4.html">P4</a> program #2554 [<a href="https://github.com/p4lang/p4c/pull/2567">view</a>]</li>
-<li>ir generator fixes [<a href="https://github.com/p4lang/p4c/pull/2561">view</a>]</li>
-<li>Fix default p4c driver name</li>
-<li>Re-introduce legacy version of <code>warning</code>. [<a href="https://github.com/p4lang/p4c/pull/2556">view</a>]</li>
-<li>Allow customization of driver-script name. [<a href="https://github.com/p4lang/p4c/pull/2555">view</a>]</li>
-<li>Tuple elim [<a href="https://github.com/p4lang/p4c/pull/2451">view</a>]</li>
-<li>Improve error handing and error messages [<a href="https://github.com/p4lang/p4c/pull/2531">view</a>]</li>
-<li>EmptyEnumerator instread of nullptr [<a href="https://github.com/p4lang/p4c/pull/2551">view</a>]</li>
-<li>Check width limits in more places [<a href="https://github.com/p4lang/p4c/pull/2510">view</a>]</li>
-<li>Allow tuples with a single element in key expressions [<a href="https://github.com/p4lang/p4c/pull/2518">view</a>]</li>
-<li>Do not call super::visit [<a href="https://github.com/p4lang/p4c/pull/2547">view</a>]</li>
-<li>Update p4_library Bazel rule to allow workspace-relative include paths. [<a href="https://github.com/p4lang/p4c/pull/2548">view</a>]</li>
-<li>uBPF target: add support for LPM match [<a href="https://github.com/p4lang/p4c/pull/2550">view</a>]</li>
-<li>Fix: don't supply arguments twice in p4_library. [<a href="https://github.com/p4lang/p4c/pull/2540">view</a>]</li>
-<li>Make p4_library more portable, making it work on platforms where cc may not be on the PATH. [<a href="https://github.com/p4lang/p4c/pull/2539">view</a>]</li>
-<li>Remove redundant license comment to avoid future inconsistencies. [<a href="https://github.com/p4lang/p4c/pull/2538">view</a>]</li>
-<li>Replace pointer equality with equiv. [<a href="https://github.com/p4lang/p4c/pull/2537">view</a>]</li>
-<li>Fixes for possible uninit accesses from static analyzer [<a href="https://github.com/p4lang/p4c/pull/2536">view</a>]</li>
-<li>Avoid linking errors. [<a href="https://github.com/p4lang/p4c/pull/2533">view</a>]</li>
-<li>Improved Bazel BUILD file [<a href="https://github.com/p4lang/p4c/pull/2534">view</a>]</li>
-<li>Handle side effect ordering in structure and tuple initializers [<a href="https://github.com/p4lang/p4c/pull/2520">view</a>]</li>
-<li>Fix compiler bug for #1985 [<a href="https://github.com/p4lang/p4c/pull/2500">view</a>]</li>
-<li>Add test case attempting to name an action 'default' [<a href="https://github.com/p4lang/p4c/pull/2530">view</a>]</li>
-<li>Rename ERROR and WARNING macros [<a href="https://github.com/p4lang/p4c/pull/2524">view</a>]</li>
-<li>Rejet switch statements with two default labels [<a href="https://github.com/p4lang/p4c/pull/2529">view</a>]</li>
-<li>Add a test case verifying that p4c gives compile time error for bad switch label [<a href="https://github.com/p4lang/p4c/pull/2526">view</a>]</li>
-<li>[psa] i2e cloning bmv2 stf tests [<a href="https://github.com/p4lang/p4c/pull/2499">view</a>]</li>
-<li>Add checking of class_of_service field to PSA unii- and multicast tests [<a href="https://github.com/p4lang/p4c/pull/2513">view</a>]</li>
-<li>Add tests to verify end-of-ingress behavior of a PSA implementation [<a href="https://github.com/p4lang/p4c/pull/2519">view</a>]</li>
-<li>error and exit if &ndash;help-pragmas used for bmv2 [<a href="https://github.com/p4lang/p4c/pull/2522">view</a>]</li>
-<li>More fixes from static analysis tool [<a href="https://github.com/p4lang/p4c/pull/2517">view</a>]</li>
-<li>Handle Mux when generating struct initializers [<a href="https://github.com/p4lang/p4c/pull/2490">view</a>]</li>
-<li>Add another PSA test of Register extern [<a href="https://github.com/p4lang/p4c/pull/2516">view</a>]</li>
-<li>Enhancement: Issue #2396 duplicated setValid()] call removal [<a href="https://github.com/p4lang/p4c/pull/2503">view</a>]</li>
-<li>Make PSA resubmit test slightly more strict [<a href="https://github.com/p4lang/p4c/pull/2511">view</a>]</li>
-<li>Make PSA recirculate test verify more packet_path values filled in correctly [<a href="https://github.com/p4lang/p4c/pull/2512">view</a>]</li>
-<li>Make stricter PSA tests that verify packet_path and instance fields i??? [<a href="https://github.com/p4lang/p4c/pull/2509">view</a>]</li>
-<li>Added options for p4test [<a href="https://github.com/p4lang/p4c/pull/2508">view</a>]</li>
-<li>Make PSA packet recirculation test more strict [<a href="https://github.com/p4lang/p4c/pull/2505">view</a>]</li>
-<li>Strength-reduce !! [<a href="https://github.com/p4lang/p4c/pull/2497">view</a>]</li>
-<li>Small updates to CMakeLists.txt for PSA test programs [<a href="https://github.com/p4lang/p4c/pull/2504">view</a>]</li>
-<li>Use an older version of python-xdist [<a href="https://github.com/p4lang/p4c/pull/2502">view</a>]</li>
-<li>Infer don't care for type args used only by @optional args [<a href="https://github.com/p4lang/p4c/pull/2494">view</a>]</li>
-<li>Fix warnings about uninitialized fields/vars [<a href="https://github.com/p4lang/p4c/pull/2484">view</a>]</li>
-<li>[Testing] Add Travis Validation Tests for P4C. [<a href="https://github.com/p4lang/p4c/pull/2458">view</a>]</li>
-<li>Fix Range error found with Issue 2485 [<a href="https://github.com/p4lang/p4c/pull/2489">view</a>]<ul>
-<li>Analyze copy-in before calling functions [<a href="https://github.com/p4lang/p4c/pull/2483">view</a>]</li>
-</ul>
-</li>
-<li>Use type inference for constructor type arguments [<a href="https://github.com/p4lang/p4c/pull/2482">view</a>]</li>
-<li>String literals are constants [<a href="https://github.com/p4lang/p4c/pull/2481">view</a>]</li>
-<li>Support regex matching for toP4 dumps. [<a href="https://github.com/p4lang/p4c/pull/2463">view</a>]</li>
-<li>Fix some typos in options.h [<a href="https://github.com/p4lang/p4c/pull/2473">view</a>]</li>
-<li>Substitute type parameters as well in default arguments [<a href="https://github.com/p4lang/p4c/pull/2441">view</a>]</li>
-<li>Support header stacks in lookahead [<a href="https://github.com/p4lang/p4c/pull/2468">view</a>]</li>
-<li>refactor bmv2 backend to reuse more code for psa support [<a href="https://github.com/p4lang/p4c/pull/2453">view</a>]</li>
-<li>Add TCP and UDP Checksum Test [<a href="https://github.com/p4lang/p4c/pull/2474">view</a>]</li>
-<li>let </li>
+<li>Moved FindRecirculated from .cpp to .h [<a href="https://github.com/p4lang/p4c/pull/3088">view</a>] </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
