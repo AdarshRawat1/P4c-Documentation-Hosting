@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['xdp_20based_20design_0',['XDP-based design',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ebpf_2psa_2_r_e_a_d_m_e.html#autotoc_md43',1,'']]],
-  ['xdp2tc_20mode_1',['XDP2TC mode',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ebpf_2psa_2_r_e_a_d_m_e.html#autotoc_md54',1,'']]],
+  ['xdp_20based_20design_0',['XDP-based design',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ebpf_2psa_2_r_e_a_d_m_e.html#autotoc_md77',1,'']]],
+  ['xdp2tc_20mode_1',['XDP2TC mode',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ebpf_2psa_2_r_e_a_d_m_e.html#autotoc_md88',1,'']]],
   ['xdp_5fmodel_2',['Xdp_Model',['../struct_e_b_p_f_1_1_xdp___model.html',1,'EBPF']]],
   ['xdpegressdeparserpsa_3',['XDPEgressDeparserPSA',['../class_e_b_p_f_1_1_x_d_p_egress_deparser_p_s_a.html',1,'EBPF']]],
   ['xdpegresspipeline_4',['XDPEgressPipeline',['../class_e_b_p_f_1_1_x_d_p_egress_pipeline.html',1,'EBPF']]],
@@ -9,5 +9,6 @@ var searchData=
   ['xdpingressdeparserpsa_6',['XDPIngressDeparserPSA',['../class_e_b_p_f_1_1_x_d_p_ingress_deparser_p_s_a.html',1,'EBPF']]],
   ['xdpingresspipeline_7',['XDPIngressPipeline',['../class_e_b_p_f_1_1_x_d_p_ingress_pipeline.html',1,'EBPF']]],
   ['xdptarget_8',['XdpTarget',['../class_e_b_p_f_1_1_xdp_target.html',1,'EBPF']]],
-  ['xor16_9',['xor16',['../namespace_net_hash.html#a02848f7ba3463d7d58e2a405046e8627',1,'NetHash']]]
+  ['xor16_9',['xor16',['../namespace_net_hash.html#a02848f7ba3463d7d58e2a405046e8627',1,'NetHash']]],
+  ['xpm_20dependency_10',['npm/xpm dependency',['../md_doxygen-awesome-css_2_r_e_a_d_m_e.html#autotoc_md42',1,'']]]
 ];

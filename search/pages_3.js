@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['ebpf_20backend_0',['eBPF Backend',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ebpf_2_r_e_a_d_m_e.html',1,'']]],
-  ['ebpf_20backend_1',['PSA implementation for eBPF backend',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ebpf_2psa_2_r_e_a_d_m_e.html',1,'']]]
+  ['deprecated_20list_0',['Deprecated List',['../deprecated.html',1,'']]],
+  ['documentation_1',['Welcome to p4 Compiler&apos;s documentation!',['../index.html',1,'']]],
+  ['doxygen_20awesome_2',['Doxygen Awesome',['../md_doxygen-awesome-css_2_r_e_a_d_m_e.html',1,'']]],
+  ['dpdk_20backend_3',['DPDK backend',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2dpdk_2_r_e_a_d_m_e.html',1,'']]]
 ];
