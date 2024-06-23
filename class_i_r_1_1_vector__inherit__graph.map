@@ -1,43 +1,19 @@
 <map id="IR::Vector&lt; T &gt;" name="IR::Vector&lt; T &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="761,397,884,422"/>
-<area shape="rect" id="Node000009" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="932,5,1125,45"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="822,383,827,318,842,230,856,183,875,137,899,94,930,55,946,43,949,47,934,59,904,97,880,140,861,185,848,231,832,318,827,383"/>
-<area shape="rect" id="Node000010" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="955,69,1102,109"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="824,382,832,328,851,258,864,220,882,184,904,150,930,119,954,103,957,108,934,123,908,153,887,187,869,223,856,259,838,329,829,383"/>
-<area shape="rect" id="Node000011" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="955,133,1102,173"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="827,383,839,340,859,286,889,231,908,206,930,183,954,168,957,173,934,187,912,209,894,234,864,289,844,341,832,384"/>
-<area shape="rect" id="Node000012" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="955,197,1102,237"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="832,383,869,316,897,279,930,247,954,234,956,238,934,251,901,282,874,319,837,385"/>
-<area shape="rect" id="Node000013" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="955,261,1102,301"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="843,384,882,347,931,311,956,299,958,304,933,316,885,351,847,388"/>
-<area shape="rect" id="Node000014" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="954,325,1103,365"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="877,390,963,363,964,368,878,395"/>
-<area shape="rect" id="Node000015" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="955,389,1102,429"/>
-<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="898,407,955,407,955,412,898,412"/>
-<area shape="rect" id="Node000016" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="955,453,1102,493"/>
-<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="878,424,964,451,963,456,877,429"/>
-<area shape="rect" id="Node000017" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="955,517,1102,557"/>
-<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="847,431,885,468,933,503,958,515,956,520,931,508,882,472,843,434"/>
-<area shape="rect" id="Node000018" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="943,581,1114,621"/>
-<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="837,433,874,500,901,536,934,567,953,579,950,583,930,571,897,540,869,503,832,436"/>
-<area shape="rect" id="Node000019" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="955,645,1102,685"/>
-<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="832,434,844,477,864,530,894,585,912,609,934,631,957,646,954,650,930,635,908,613,889,587,859,532,839,479,827,436"/>
-<area shape="rect" id="Node000020" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="955,709,1102,749"/>
-<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="829,435,838,489,856,559,869,596,887,632,908,666,934,695,957,711,954,715,930,699,904,669,882,635,864,598,851,561,832,491,824,436"/>
-<area shape="rect" id="Node000021" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="942,774,1115,799"/>
-<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="827,436,831,501,846,588,859,635,878,680,903,722,934,759,952,772,949,776,930,763,898,726,873,683,854,637,841,590,825,502,821,436"/>
-<area shape="rect" id="Node000002" href="$class_i_r_1_1_vector_base.html" title=" " alt="" coords="597,397,713,422"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="727,407,761,407,761,412,727,412"/>
-<area shape="rect" id="Node000003" href="$class_i_r_1_1_node.html" title=" " alt="" coords="472,397,549,422"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="563,407,597,407,597,412,563,412"/>
-<area shape="rect" id="Node000004" href="$class_i_r_1_1_i_node.html" title=" " alt="" coords="343,397,424,422"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="438,407,472,407,472,412,438,412"/>
-<area shape="rect" id="Node000005" href="$class_util_1_1_i_has_source_info.html" title=" " alt="" coords="144,347,295,373"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="276,374,343,395,341,400,275,379"/>
-<area shape="rect" id="Node000006" href="$class_i_has_db_print.html" title=" " alt="" coords="170,397,269,422"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="283,407,342,407,342,412,283,412"/>
-<area shape="rect" id="Node000007" href="$class_i_castable.html" title=" " alt="" coords="178,446,261,471"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="274,440,341,419,343,424,275,445"/>
-<area shape="rect" id="Node000008" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="5,446,96,471"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="110,456,178,456,178,461,110,461"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="169,372,291,397"/>
+<area shape="rect" id="Node000009" href="$class_i_r_1_1_indexed_vector.html" title=" " alt="" coords="143,445,317,471"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="233,411,233,445,227,445,227,411"/>
+<area shape="rect" id="Node000002" href="$class_i_r_1_1_vector_base.html" title=" " alt="" coords="172,299,288,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,338,233,372,227,372,227,338"/>
+<area shape="rect" id="Node000003" href="$class_i_r_1_1_node.html" title=" " alt="" coords="191,225,269,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="233,264,233,299,227,299,227,264"/>
+<area shape="rect" id="Node000004" href="$class_i_r_1_1_i_node.html" title=" " alt="" coords="189,152,271,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="233,191,233,225,227,225,227,191"/>
+<area shape="rect" id="Node000005" href="$class_util_1_1_i_has_source_info.html" title=" " alt="" coords="5,79,156,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="118,107,207,149,204,154,116,112"/>
+<area shape="rect" id="Node000006" href="$class_i_has_db_print.html" title=" " alt="" coords="181,79,279,104"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="233,118,233,152,227,152,227,118"/>
+<area shape="rect" id="Node000007" href="$class_i_castable.html" title=" " alt="" coords="303,79,386,104"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="316,113,250,154,247,150,313,109"/>
+<area shape="rect" id="Node000008" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="299,5,390,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="347,44,347,79,342,79,342,44"/>
 </map>
