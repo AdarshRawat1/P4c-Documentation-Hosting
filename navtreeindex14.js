@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"md_doxygen-awesome-css_2docs_2extensions.html#autotoc_md23":[6,1,0],
 "md_doxygen-awesome-css_2docs_2extensions.html#autotoc_md24":[6,1,1],
 "md_doxygen-awesome-css_2docs_2extensions.html#autotoc_md25":[6,2,0],
 "md_doxygen-awesome-css_2docs_2extensions.html#autotoc_md26":[6,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "struct_half_open_range.html#a3f34cab503959ebf2f7cded63eb4b7bb":[36,0,55,14],
 "struct_half_open_range.html#a44fcc8cd975fe7e886af4fb8460ce05c":[36,0,55,10],
 "struct_half_open_range.html#a45fdc30da34a90c723a2d627b1a9725c":[36,0,55,18],
-"struct_half_open_range.html#a5402ffffab4f6549ca01ae72326f13f3":[36,0,55,7],
-"struct_half_open_range.html#a5da5cba2495aa277e2c4428d9fe6db6a":[36,0,55,13]
+"struct_half_open_range.html#a5402ffffab4f6549ca01ae72326f13f3":[36,0,55,7]
 };

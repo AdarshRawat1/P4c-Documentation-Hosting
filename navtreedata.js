@@ -26,19 +26,20 @@ var NAVTREE =
 [
   [ "P4C", "index.html", [
     [ "Welcome to p4 Compiler's documentation!", "index.html", "index" ],
-    [ "Repository", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_r_e_a_d_m_e.html", null ],
-    [ "Repository5 )", "_repository5.html", [
-      [ "Compiler source code organization", "_repository5.html#autotoc_md1", null ],
-      [ "Additional documentation", "_repository5.html#autotoc_md2", null ],
-      [ "How to contribute", "_repository5.html#autotoc_md3", null ],
-      [ "Writing documentation", "_repository5.html#autotoc_md4", [
-        [ "Git usage", "_repository5.html#autotoc_md5", null ],
-        [ "Debugging", "_repository5.html#autotoc_md6", null ],
-        [ "Testing", "_repository5.html#autotoc_md7", [
-          [ "Adding new test data", "_repository5.html#autotoc_md8", null ]
+    [ "README", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_r_e_a_d_m_e.html", null ],
+    [ "Repository5 )", "_sample.html", [
+      [ "Repository", "_sample.html#autotoc_md0", null ],
+      [ "Compiler source code organization", "_sample.html#autotoc_md1", null ],
+      [ "Additional documentation", "_sample.html#autotoc_md2", null ],
+      [ "How to contribute", "_sample.html#autotoc_md3", null ],
+      [ "Writing documentation", "_sample.html#autotoc_md4", [
+        [ "Git usage", "_sample.html#autotoc_md5", null ],
+        [ "Debugging", "_sample.html#autotoc_md6", null ],
+        [ "Testing", "_sample.html#autotoc_md7", [
+          [ "Adding new test data", "_sample.html#autotoc_md8", null ]
         ] ],
-        [ "Coding conventions", "_repository5.html#autotoc_md9", null ],
-        [ "Compiler Driver", "_repository5.html#autotoc_md10", null ]
+        [ "Coding conventions", "_sample.html#autotoc_md9", null ],
+        [ "Compiler Driver", "_sample.html#autotoc_md10", null ]
       ] ]
     ] ],
     [ "Revision History", "md_00__revision__history.html", null ],
@@ -377,23 +378,23 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_repository5.html",
+"_sample.html",
 "class_d_p_d_k_1_1_emit_dpdk_table_config.html",
 "class_p4_1_1_abstract_parser_driver.html",
 "class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_symbol_table_iface.html#ab46f248f8fe56a4c164334c84721b1bf",
 "class_p4_1_1_duplicate_actions.html",
 "class_p4_1_1_parameter_substitution.html",
-"class_p4_1_1_simplify_switch.html",
-"class_p4_tools_1_1_abstract_execution_state.html#a007d44c33c732d0788f6d55cfa5cabcb",
-"class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_action_profile.html#a3eab7e373f6436127990e64117122d74",
-"class_p4_tools_1_1_p4_testgen_1_1_execution_state_1_1_stack_frame.html#a200a8df9f4d03ddc033cc8bc567cdacf",
-"class_p4_tools_1_1_p4_testgen_1_1_test_framework.html#a14a7cebe8d115fc8548fd086bc3d0028",
-"class_p4_tools_1_1_z3_solver.html#ac9d82af9ed27f3aa69c390d5e19c197e",
-"class_u_b_p_f_1_1_ubpf_code_builder.html",
-"functions_vars_o.html",
-"md_doxygen-awesome-css_2docs_2extensions.html#autotoc_md24",
-"struct_half_open_range.html#a655f6c015ca1a87704b5c1db3b6e3ae3",
-"struct_p4_tools_1_1_p4_testgen_1_1_continuation_1_1_return.html"
+"class_p4_1_1_simplify_select_list.html",
+"class_p4_tools_1_1_abstract_execution_state.html",
+"class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_action_profile.html#a38cb933b4a512851b432ceebfc23098e",
+"class_p4_tools_1_1_p4_testgen_1_1_execution_state_1_1_stack_frame.html",
+"class_p4_tools_1_1_p4_testgen_1_1_test_framework.html",
+"class_p4_tools_1_1_z3_solver.html#abf5b9c62f7b10b38e50ded797d0d7ff5",
+"class_u_b_p_f_1_1_u_b_p_f_type_factory.html",
+"functions_vars_n.html",
+"md_doxygen-awesome-css_2docs_2extensions.html#autotoc_md23",
+"struct_half_open_range.html#a5da5cba2495aa277e2c4428d9fe6db6a",
+"struct_p4_tools_1_1_p4_testgen_1_1_continuation_1_1_property_update.html#ab7a6962b814f969d40ad64c51c4f07a7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

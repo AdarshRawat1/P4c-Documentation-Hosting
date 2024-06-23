@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"class_u_b_p_f_1_1_u_b_p_f_type_factory.html":[36,0,20,25],
 "class_u_b_p_f_1_1_ubpf_code_builder.html":[36,0,20,8],
 "class_u_b_p_f_1_1_ubpf_target.html":[36,0,20,24],
 "class_util_1_1_as_enumerator.html":[36,0,21,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "functions_vars_i.html":[36,3,2,8],
 "functions_vars_k.html":[36,3,2,9],
 "functions_vars_l.html":[36,3,2,10],
-"functions_vars_m.html":[36,3,2,11],
-"functions_vars_n.html":[36,3,2,12]
+"functions_vars_m.html":[36,3,2,11]
 };

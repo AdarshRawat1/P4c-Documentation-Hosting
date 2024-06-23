@@ -95,7 +95,7 @@ var searchData=
   ['history_92',['History',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2p46de9f6af8eb5fdfd3b5d3b668d29328.html#autotoc_md151',1,'History'],['../md_00__revision__history.html',1,'Revision History']]],
   ['hook_93',['hook',['../class_p4_1_1_constant_folding_policy.html#a6ecdc32eff3b3baf1c96b005630ab343',1,'P4::ConstantFoldingPolicy']]],
   ['hooks_94',['Kernel hooks',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ebpf_2_r_e_a_d_m_e.html#autotoc_md124',1,'']]],
-  ['how_20to_20contribute_95',['How to contribute',['../_repository5.html#autotoc_md3',1,'']]],
+  ['how_20to_20contribute_95',['How to contribute',['../_sample.html#autotoc_md3',1,'']]],
   ['how_20to_20inject_20custom_20extern_20function_20to_20the_20generated_20ebpf_20program_96',['How to inject custom extern function to the generated eBPF program?',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ebpf_2_r_e_a_d_m_e.html#autotoc_md138',1,'']]],
   ['how_20to_20run_20tests_3a_97',['How to Run tests:',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2p7377e0eb44616b2d2394556f0385995a.html#autotoc_md176',1,'']]],
   ['how_20to_20run_20the_20generated_20ebpf_20program_98',['How to run the generated eBPF program',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ebpf_2_r_e_a_d_m_e.html#autotoc_md137',1,'']]],

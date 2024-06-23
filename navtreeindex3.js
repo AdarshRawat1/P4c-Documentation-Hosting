@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_symbol_table_iface.html#ab46f248f8fe56a4c164334c84721b1bf":[35,0,3,0,14,0],
 "class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_symbol_table_iface.html#ab46f248f8fe56a4c164334c84721b1bf":[36,0,11,1,14,0],
 "class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_symbol_type.html":[35,0,3,0,15],
 "class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_symbol_type.html":[36,0,11,1,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "class_p4_1_1_do_table_key_names.html":[35,0,3,116],
 "class_p4_1_1_do_table_key_names.html":[36,0,11,117],
 "class_p4_1_1_dontcare_args.html":[35,0,3,88],
-"class_p4_1_1_dontcare_args.html":[36,0,11,89],
-"class_p4_1_1_duplicate_actions.html":[35,0,3,117]
+"class_p4_1_1_dontcare_args.html":[36,0,11,89]
 };

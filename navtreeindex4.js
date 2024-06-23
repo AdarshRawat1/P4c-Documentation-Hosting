@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"class_p4_1_1_duplicate_actions.html":[35,0,3,117],
 "class_p4_1_1_duplicate_actions.html":[36,0,11,118],
 "class_p4_1_1_eliminate_invalid_headers.html":[35,0,3,118],
 "class_p4_1_1_eliminate_invalid_headers.html":[36,0,11,119],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "class_p4_1_1_packet_in.html":[35,0,3,223],
 "class_p4_1_1_packet_in.html":[36,0,11,224],
 "class_p4_1_1_packet_out.html":[35,0,3,224],
-"class_p4_1_1_packet_out.html":[36,0,11,225],
-"class_p4_1_1_parameter_substitution.html":[35,0,3,225]
+"class_p4_1_1_packet_out.html":[36,0,11,225]
 };
