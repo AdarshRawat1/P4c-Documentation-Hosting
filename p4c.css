@@ -9,3 +9,29 @@ html.dark-mode {
 	--primary-dark-color : #4b6c21;
 	--primary-light-color : #c4f0a1 ;
 }
+
+/* Flow  */
+
+.flow {
+  stroke-dasharray: 5;
+  animation: flow-animation 2s linear infinite;
+}
+@keyframes flow-animation {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -10;
+  }
+}
+#toggle {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+  padding: 25px 70px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0; /* Make the button invisible */
+}

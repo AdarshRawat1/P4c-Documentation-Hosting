@@ -124,7 +124,32 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Welcome to p4 Compiler's documentation! </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md__doxymain"></a> </p><div style="float: right;"> <img src="./arcitecture5.svg" alt="" style="pointer-events: none;" width="600" height="400" class="inline"/> </div><p><code>p4c</code> is a reference compiler for the <a class="el" href="namespace_p4.html">P4</a> programming language. It supports both P4-14 and P4-16; you can find more information about <a class="el" href="namespace_p4.html">P4</a> in our carefully curated.</p>
+<div class="textblock"><p><a class="anchor" id="md__doxymain"></a></p>
+<p><code>p4c</code> is a reference compiler for the <a class="el" href="namespace_p4.html">P4</a> programming language. It supports both P4-14 and P4-16; you can find more information about <a class="el" href="namespace_p4.html">P4</a> in our carefully curated.</p>
+<p> 
+<div style="float: right; width: 600px; height: 400px;">
+<!-- draw.io diagram -->
+<div class="mxgraph" style="" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;edit&quot;:&quot;_blank&quot;,&quot;url&quot;:&quot;https://drive.google.com/uc?id=16X8Z_4-J8mHQPxuxm9HjWppPMTTXZdZ6&amp;export=download&quot;}"></div>
+<script type="text/javascript" src="https://viewer.diagrams.net/embed2.js?&fetch=https%3A%2F%2Fdrive.google.
+com%2Fuc%3Fid%3D16X8Z_4-J8mHQPxuxm9HjWppPMTTXZdZ6%26export%3Ddownload"></script>
+
+<button id="toggle" onclick="toggleFlow()">Toggle</button>
+
+<script>
+ function toggleFlow() {
+        const svgDocument = document.querySelector('.mxgraph svg');
+        if (svgDocument) {
+            // Select edges
+            const edges = svgDocument.querySelectorAll('path:not([marker-end])'); 
+            edges.forEach(edge => {
+                edge.classList.toggle('flow');
+            });
+        }
+    }
+</script>
+</div>
+
+</p>
 <p><br  />
 <br  />
 <br  />
@@ -140,6 +165,7 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 <br  />
 </p>
 <p> 
+
 <!-- https://www.svgrepo.com/collection/scarlab-oval-line-icons/ -->
 <div class="card-container">
 
