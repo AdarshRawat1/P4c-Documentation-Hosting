@@ -390,6 +390,15 @@ var NAVTREE =
       [ "Release v1.2.2.3 [view]", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_h_a_n_g_e_l_o_g.html#autotoc_md314", null ],
       [ "Release 1.2.2.2 [view]", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_h_a_n_g_e_l_o_g.html#autotoc_md315", null ]
     ] ],
+    [ "Contributing to the P4 Compiler Project (P4C)", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html", [
+      [ "Coding Standard Philosophy", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md317", null ],
+      [ "How to Contribute", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md318", [
+        [ "Guidelines", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md319", null ],
+        [ "Finding a Task", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md320", null ]
+      ] ],
+      [ "Reporting Issues", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md321", null ],
+      [ "Feature Requests", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md322", null ]
+    ] ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Topics", "topics.html", "topics" ],
@@ -436,9 +445,9 @@ var NAVTREEINDEX =
 "class_p4_tools_1_1_z3_solver.html#abf5b9c62f7b10b38e50ded797d0d7ff5",
 "class_u_b_p_f_1_1_u_b_p_f_type_factory.html",
 "functions_vars_n.html",
-"md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_i_r.html#autotoc_md84",
-"struct_d_p_d_k_1_1_convert_lookahead.html",
-"struct_p4_1_1_struct_type_replacement.html#ab726ca045e7d9f7708f2ee34cbf01f42"
+"md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2ubpf_2docs_2_e_x_a_m_p_l_e_s.html#autotoc_md227",
+"struct_compile_context_stack.html",
+"struct_p4_1_1_specialization_info.html#aa4591f2fcc504bdc0ffcab94ab1982c8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

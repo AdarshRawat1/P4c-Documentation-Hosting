@@ -6,6 +6,8 @@ var searchData=
   ['cmake_20files_3a_3',['CMake Files:',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2p7377e0eb44616b2d2394556f0385995a.html',1,'']]],
   ['common_20utilities_4',['Common Utilities',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2lib_2_r_e_a_d_m_e.html',1,'']]],
   ['compiler_20intermediate_20representation_5',['P4 Compiler Intermediate representation',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_i_r.html',1,'']]],
-  ['compiler_20s_20documentation_6',['Welcome to p4 Compiler&apos;s documentation!',['../index.html',1,'']]],
-  ['customization_7',['Customization',['../md_doxygen-awesome-css_2docs_2customization.html',1,'']]]
+  ['compiler_20project_20p4c_6',['Contributing to the P4 Compiler Project (P4C)',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]],
+  ['compiler_20s_20documentation_7',['Welcome to p4 Compiler&apos;s documentation!',['../index.html',1,'']]],
+  ['contributing_20to_20the_20p4_20compiler_20project_20p4c_8',['Contributing to the P4 Compiler Project (P4C)',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]],
+  ['customization_9',['Customization',['../md_doxygen-awesome-css_2docs_2customization.html',1,'']]]
 ];
