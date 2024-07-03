@@ -14,8 +14,8 @@
 
 .card-item:hover {
   box-shadow: 0 8px 16px rgb(114, 86, 185);
-  z-index: 2; /* Ensure it's above other cards */
   transform: translateY(-5px); /* Slightly lift the card */
+  z-index: 2; /* Ensure it's above other cards */
 }
 
 .card-content {
@@ -76,7 +76,6 @@
   fill: var(--page-background-color);
   /* stroke-width: 1.5; */
 }
-
 
 /* small devices */
 @media (max-width: 700px) {
