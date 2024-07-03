@@ -124,10 +124,10 @@ $(function(){initNavTree('_sample.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Repository5 )</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md0"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md39"></a>
 Repository</h1>
 <p>This folder contains documentation for the P4_16 prototype compiler. The code and documentation are hosted in the following repository: <a href="https://github.com/p4lang/p4c">https://github.com/p4lang/p4c</a></p>
-<h1><a class="anchor" id="autotoc_md1"></a>
+<h1><a class="anchor" id="autotoc_md40"></a>
 Compiler source code organization</h1>
 <div class="fragment"><div class="line">p4c</div>
 <div class="line">├── build                     -- recommended place to build binary</div>
@@ -179,7 +179,7 @@ Compiler source code organization</h1>
 <div class="line">    ├── p4_14_samples         -- P4_14 input test programs</div>
 <div class="line">    ├── p4_14_samples_outputs -- Expected outputs from P4_14 tests</div>
 <div class="line">    └── p4_14_errors          -- P4_14 negative input test programs</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md2"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md41"></a>
 Additional documentation</h1>
 <ul>
 <li>the P4_14 and P4_16 languages are described in their respective specifications, available <a href="https://p4.org/specs">here</a>.</li>
@@ -202,7 +202,7 @@ Additional documentation</h1>
 </li>
 <li>Check out the <a href="https://github.com/TakeshiTseng/IntelliJ-P4-Plugin">IntelliJ P4 plugin</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3"></a>
+<h1><a class="anchor" id="autotoc_md42"></a>
 How to contribute</h1>
 <ul>
 <li>do write unit test code</li>
@@ -211,14 +211,14 @@ How to contribute</h1>
 <li>make sure <code>make cpplint</code> produces no errors (<code>make check</code> will also run this)</li>
 <li>write documentation</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md43"></a>
 Writing documentation</h1>
 <p>Documenting the workings of the compiler is a never-ending (many times overlooked) job. We can always write better documentation!</p>
 <p>In P4C, documentation is generated using Doxygen (<a href="http://www.stack.nl/~dimitri/doxygen/index.html">http://www.stack.nl/~dimitri/doxygen/index.html</a>). There are two main sources from which we generate documentation: comments in the code and markup documents in the docs/doxygen directory.</p>
 <p>Code comments should capture the main intent of the implementation and the "why", rather than the "how". The how can be read from the code, however, documenting the reasons why a certain implementation was chosen will help other contributors understand the design choices and enable them to reuse your code. Also important in the context of the compiler is to document the invariants for each pass (or groups of passes), since it is likely that other developers will need to insert additional passes, and they should understand the effects that the pass ordering has on the AST.</p>
 <p>Documentation in the markup documents is intended for higher level design documentation. The files will be automatically captured in the documentation in the order implied by their naming: XX_my_doc.md where XX is a number between 02-99. Currently, 00_revision_history.md contains the documentation revision history, and 01_overview.md is the overview of the compiler goals and architecture.</p>
 <p>Happy writing! Should you have any questions, please don't hesitate to ask.</p>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md44"></a>
 Git usage</h2>
 <ul>
 <li>To contribute: fork the p4lang/p4c repository on github (see <a href="https://help.github.com/articles/fork-a-repo/">https://help.github.com/articles/fork-a-repo/</a>)</li>
@@ -231,7 +231,7 @@ Git usage</h2>
 <li>After committing changes, create a pull request (using the github web UI)</li>
 <li>Follow these <a href="CodingStandardPhilosophy.md#Git-commits-and-pull-requests">guidelines</a> to write commit messages and open pull requests.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md6"></a>
+<h2><a class="anchor" id="autotoc_md45"></a>
 Debugging</h2>
 <ul>
 <li>To debug the build process you can run <code>make V=1</code></li>
@@ -249,7 +249,7 @@ Debugging</h2>
 <p class="startli">To execute LOG statements in a header file you must supply the complete name of the header file, e.g.: <code>-TfunctionsInlining.h:3</code>.</p>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md46"></a>
 Testing</h2>
 <p>The testing infrastructure is based on small python and shell scripts.</p>
 <ul>
@@ -268,7 +268,7 @@ Testing</h2>
 <ul>
 <li><a href="https://hub.docker.com/r/p4lang/behavioral-model/builds">https://hub.docker.com/r/p4lang/behavioral-model/builds</a></li>
 </ul>
-<h3><a class="anchor" id="autotoc_md8"></a>
+<h3><a class="anchor" id="autotoc_md47"></a>
 Adding new test data</h3>
 <p>To add a new input test with a sample <a class="el" href="namespace_p4.html">P4</a> code file (under <code>testdata/p4_16_samples/</code> for example), one needs to:</p>
 <ul>
@@ -285,7 +285,7 @@ Adding new test data</h3>
 </li>
 <li>The reference files for each test will be updated after running the tests.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md48"></a>
 Coding conventions</h2>
 <ul>
 <li>Coding style is guided by the following rules.</li>
@@ -311,7 +311,7 @@ Coding conventions</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md49"></a>
 Compiler Driver</h2>
 <p><b>p4c</b> is a compiler driver. The goal is to provide a consistent user interface across different p4 backends and work flows. The compiler driver is written in Python. It can be extended for custom backends.</p>
 <p>The usage of the driver is as follows: </p><div class="fragment"><div class="line">usage: p4c [-h] [-V] [-v] [-###] [-Xpreprocessor &lt;arg&gt;] [-Xp4c &lt;arg&gt;]</div>
