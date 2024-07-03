@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"struct_p4_1_1_struct_type_replacement.html#ab726ca045e7d9f7708f2ee34cbf01f42":[38,0,11,317,0],
+"struct_p4_1_1_type_specialization.html":[37,0,3,354],
 "struct_p4_1_1_type_specialization.html":[38,0,11,355],
 "struct_p4_1_1_type_specialization.html#a0d55056c470fda5556a0378a3140a594":[37,0,3,354,0],
 "struct_p4_1_1_type_specialization.html#a0d55056c470fda5556a0378a3140a594":[38,0,11,355,0],
