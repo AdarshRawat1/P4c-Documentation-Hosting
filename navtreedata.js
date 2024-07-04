@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "P4C", "index.html", [
-    [ "Welcome to p4 Compiler's documentation!", "index.html", null ],
+    [ "P4 Compiler Documentation", "index.html", null ],
     [ "Revision History", "md_00__revision__history.html", null ],
     [ "Overview", "md_01__overview.html", [
       [ "Additional documentation", "md_01__overview.html#autotoc_md2", null ]
