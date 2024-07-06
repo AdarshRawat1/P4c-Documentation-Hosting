@@ -390,7 +390,7 @@ var NAVTREE =
       [ "Release v1.2.2.3 [view]", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_h_a_n_g_e_l_o_g.html#autotoc_md315", null ],
       [ "Release 1.2.2.2 [view]", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_h_a_n_g_e_l_o_g.html#autotoc_md316", null ]
     ] ],
-    [ "Contributing to the P4 Compiler Project (P4C)", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html", [
+    [ "Contribute to the P4 Compiler", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html", [
       [ "Coding Standard Philosophy", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md318", null ],
       [ "How to Contribute", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md319", [
         [ "Guidelines", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md320", null ],
