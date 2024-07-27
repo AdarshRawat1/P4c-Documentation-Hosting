@@ -1,10 +1,10 @@
 name: Build Doxygen and Deploy to GitHub Pages
 
-permissions:
-  actions: read
-  contents: write
-  pages: write
-  issues: write 
+# permissions:
+#   actions: read
+#   contents: write
+#   pages: write
+#   issues: write 
 
 on:
   push:
