@@ -1,26 +1,40 @@
 name: Build Doxygen and Deploy to GitHub Pages
 
-permissions:
-  actions: read
-  contents: write
-  pages: write
+# permissions:
+#   actions: read
+#   contents: write
+#   pages: write
+#   issues: write 
 
 on:
   push:
     branches:
       - Deploy-branch-Awsome-CSS
   pull_request:
-    types: [opened, synchronize]
+    # types: [opened, synchronize]
 
-env:
-  DOXYGEN_VERSION: 1.11.0
-  DOXYGEN_AWESOME_VERSION: 2.3.3
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      DOXYGEN_VERSION: 1.11.0
+      DOXYGEN_AWESOME_VERSION: 2.3.3
+      PR_PATH: pr-preview/${{github.event.number}}
+      DOMAIN: ${{github.actor}}.github.io
+
     concurrency: ci-${{ github.ref }}
     steps:
+      - name: Comment on PR
+        uses: hasura/comment-progress@v2.2.0
+        if: github.ref != 'refs/heads/Deploy-branch-Awsome-CSS'
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          number: ${{ github.event.number }}
+          id: deploy-preview
+          message: "Starting deployment of preview ⏳..."
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -65,27 +79,25 @@ jobs:
           folder: docs/doxygen/build/html
           clean: true
           clean-exclude: |
-            pr-previews/**
+            pr-preview/**
 
-      - name: Set base URL for PR preview
-        if: github.event_name == 'pull_request'
-        run: echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-${{ github.event.number }}/" >> $GITHUB_ENV
 
       - name: Deploy to PR preview
-        if: github.event_name == 'pull_request'
+        if: github.ref != 'refs/heads/Deploy-branch-Awsome-CSS'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: docs/doxygen/build/html
-          target-folder: pr-${{ github.event.number }}
+          target-folder: ${{ env.PR_PATH }} 
           clean: false
-          clean-exclude: |
-            pr-previews/**
 
       - name: Comment on PR with preview link
-        if: github.event_name == 'pull_request'
-        uses: marocchino/sticky-pull-request-comment@v2
+        if: github.ref != 'refs/heads/Deploy-branch-Awsome-CSS'
+        uses: hasura/comment-progress@v2.2.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          message: "A preview of this PR is available at: [Preview Link](${env.BASE_URL})"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          number: ${{ github.event.pull_request.number }}
+          id: deploy-preview
+          message: "A preview of this PR is available at: [Preview Link](https://${{ env.DOMAIN }}/${{ github.event.repository.name }}/pr-${{ github.event.number }}/)\n\nChanges may take a few minutes to propagate. Since this is a preview of production, content with `draft: true` will not be rendered. The source is here: https://github.com/${{ github.repository }}/tree/gh-pages/pr-${{ github.event.number }}/"
