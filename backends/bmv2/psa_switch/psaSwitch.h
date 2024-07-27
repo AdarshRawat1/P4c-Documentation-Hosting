@@ -25,7 +25,8 @@ limitations under the License.
 #include "backends/bmv2/common/helpers.h"
 #include "backends/bmv2/common/lower.h"
 #include "backends/bmv2/common/parser.h"
-#include "backends/bmv2/common/programStructure.h"
+#include "backends/common/programStructure.h"
+#include "backends/common/psaProgramStructure.h"
 #include "frontends/common/constantFolding.h"
 #include "frontends/common/resolveReferences/referenceMap.h"
 #include "frontends/p4/coreLibrary.h"
@@ -39,14 +40,13 @@ limitations under the License.
 #include "ir/ir.h"
 #include "lib/big_int_util.h"
 #include "lib/json.h"
-#include "psaProgramStructure.h"
 
 namespace BMV2 {
 
 class PsaSwitchExpressionConverter : public ExpressionConverter {
  public:
     PsaSwitchExpressionConverter(P4::ReferenceMap *refMap, P4::TypeMap *typeMap,
-                                 ProgramStructure *structure, cstring scalarsName)
+                                 P4::ProgramStructure *structure, cstring scalarsName)
         : BMV2::ExpressionConverter(refMap, typeMap, structure, scalarsName) {}
 
     void modelError(const char *format, const cstring field) {
@@ -56,32 +56,33 @@ class PsaSwitchExpressionConverter : public ExpressionConverter {
 
     Util::IJson *convertParam(UNUSED const IR::Parameter *param, cstring fieldName) override {
         cstring ptName = param->type->toString();
-        if (PsaProgramStructure::isCounterMetadata(ptName)) {  // check if its counter metadata
+        if (P4::PsaProgramStructure::isCounterMetadata(ptName)) {  // check if its counter metadata
             auto jsn = new Util::JsonObject();
-            jsn->emplace("name"_cs, param->toString());
-            jsn->emplace("type"_cs, "hexstr");
+            jsn->emplace("name", param->toString());
+            jsn->emplace("type", "hexstr");
             auto bitwidth = param->type->width_bits();
 
             // encode the counter type from enum -> int
             if (fieldName == "BYTES") {
                 cstring repr = BMV2::stringRepr(0, ROUNDUP(bitwidth, 32));
-                jsn->emplace("value"_cs, repr);
+                jsn->emplace("value", repr);
             } else if (fieldName == "PACKETS") {
                 cstring repr = BMV2::stringRepr(1, ROUNDUP(bitwidth, 32));
-                jsn->emplace("value"_cs, repr);
+                jsn->emplace("value", repr);
             } else if (fieldName == "PACKETS_AND_BYTES") {
                 cstring repr = BMV2::stringRepr(2, ROUNDUP(bitwidth, 32));
-                jsn->emplace("value"_cs, repr);
+                jsn->emplace("value", repr);
             } else {
                 modelError("%1%: Exptected a PSA_CounterType_t", fieldName);
                 return nullptr;
             }
             return jsn;
-        } else if (PsaProgramStructure::isStandardMetadata(ptName)) {  // check if its psa metadata
+        } else if (P4::PsaProgramStructure::isStandardMetadata(
+                       ptName)) {  // check if its psa metadata
             auto jsn = new Util::JsonObject();
 
             // encode the metadata type and field in json
-            jsn->emplace("type"_cs, "field");
+            jsn->emplace("type", "field");
             auto a = mkArrayField(jsn, "value"_cs);
             a->append(ptName.exceptLast(2));
             a->append(fieldName);
@@ -94,10 +95,10 @@ class PsaSwitchExpressionConverter : public ExpressionConverter {
     }
 };
 
-class PsaCodeGenerator : public PsaProgramStructure {
+class PsaCodeGenerator : public P4::PsaProgramStructure {
  public:
     PsaCodeGenerator(P4::ReferenceMap *refMap, P4::TypeMap *typeMap)
-        : PsaProgramStructure(refMap, typeMap) {}
+        : P4::PsaProgramStructure(refMap, typeMap) {}
 
     void create(ConversionContext *ctxt);
     void createStructLike(ConversionContext *ctxt, const IR::Type_StructLike *st);

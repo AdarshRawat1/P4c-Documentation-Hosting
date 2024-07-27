@@ -21,12 +21,12 @@ p4tools_add_xfail_reason(
 
 p4tools_add_xfail_reason(
   "testgen-p4c-bmv2-protobuf-ir"
-  "Unknown or unimplemented extern method: recirculate_preserving_field_list"
+  "Unknown or unimplemented extern method: .*[.]recirculate_preserving_field_list"
 )
 
 p4tools_add_xfail_reason(
   "testgen-p4c-bmv2-protobuf-ir"
-  "Unknown or unimplemented extern method: extract"
+  "Unknown or unimplemented extern method: .*[.]extract"
 )
 
 p4tools_add_xfail_reason(
@@ -74,6 +74,12 @@ p4tools_add_xfail_reason(
   parser-unroll-test10.p4
 )
 
+p4tools_add_xfail_reason(
+  "testgen-p4c-bmv2-protobuf-ir"
+  "Unhandled node type in Bmv2V1ModelCmdStepper: ForStatement"
+  issue4739.p4
+)
+
 ####################################################################################################
 # 3. WONTFIX
 ####################################################################################################
@@ -110,14 +116,14 @@ p4tools_add_xfail_reason(
 
 p4tools_add_xfail_reason(
   "testgen-p4c-bmv2-protobuf-ir"
-  "Unknown or unimplemented extern method: increment"
+  "Unknown or unimplemented extern method: .*[.]increment"
   issue1882-1-bmv2.p4  # user defined extern
   issue1882-bmv2.p4  # user defined extern
 )
 
 p4tools_add_xfail_reason(
   "testgen-p4c-bmv2-protobuf-ir"
-  "Unknown or unimplemented extern method: update"
+  "Unknown or unimplemented extern method: .*[.]update"
   issue2664-bmv2.p4  # user defined extern
 )
 

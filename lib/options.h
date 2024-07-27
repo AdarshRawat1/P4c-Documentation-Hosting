@@ -49,7 +49,7 @@ class Options {
     };
 
     // return true if processing is successful
-    typedef std::function<bool(const char *optarg)> OptionProcessor;
+    using OptionProcessor = std::function<bool(const char *)>;
 
  protected:
     struct Option {
@@ -85,6 +85,10 @@ class Options {
     explicit Options(std::string_view message)
         : binaryName(nullptr), message(message), compileCommand("") {}
 
+    /// Checks if parsed options make sense with respect to each-other.
+    /// @returns true if the validation was successful and false otherwise.
+    [[nodiscard]] virtual bool validateOptions() const;
+
  public:
     /**
      * Process options; return list of remaining options.
@@ -96,7 +100,7 @@ class Options {
      */
     virtual std::vector<const char *> *process(int argc, char *const argv[]);
 
-    virtual const char *getIncludePath() = 0;
+    [[nodiscard]] virtual const char *getIncludePath() const = 0;
     cstring getCompileCommand() { return compileCommand; }
     cstring getBuildDate() { return buildDate; }
     cstring getBinaryName() { return cstring(binaryName); }

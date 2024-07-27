@@ -11,18 +11,32 @@ on:
     branches:
       - Deploy-branch-Awsome-CSS
   pull_request:
-    types: [opened, synchronize]
+    # types: [opened, synchronize]
 
-env:
-  DOXYGEN_VERSION: 1.11.0
-  DOXYGEN_AWESOME_VERSION: 2.3.3
-  DOMAIN: ${{ github.actor }}.github.io  # Default GitHub Pages domain
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      DOXYGEN_VERSION: 1.11.0
+      DOXYGEN_AWESOME_VERSION: 2.3.3
+      PR_PATH: pr-preview/${{github.event.number}}
+      DOMAIN: ${{github.actor}}.github.io
+      LOADING: <img src="https://github.com/user-attachments/assets/bc1b11f6-0e74-40df-a78a-fb7191e5beed" alt="githubloading" width="30"/>
+      CELEBRATION: <img src="https://github.com/user-attachments/assets/86eb8470-c597-4f8b-a77d-a54036075271" alt="githubloading" width="30"/>
+
     concurrency: ci-${{ github.ref }}
     steps:
+      - name: Comment on PR
+        uses: hasura/comment-progress@v2.2.0
+        if: github.ref != 'refs/heads/Deploy-branch-Awsome-CSS'
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          number: ${{ github.event.number }}
+          id: deploy-preview
+          message: "${{ env.lOADING }} **Deployment of preview started...**"
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -67,28 +81,25 @@ jobs:
           folder: docs/doxygen/build/html
           clean: true
           clean-exclude: |
-            pr-previews/**
+            pr-preview/
 
-      - name: Set base URL for PR preview
-        if: github.event_name == 'pull_request'
-        run: echo "BASE_URL=https://${{ env.DOMAIN }}/${{ github.event.repository.name }}/pr-${{ github.event.number }}/" >> $GITHUB_ENV
 
       - name: Deploy to PR preview
-        if: github.event_name == 'pull_request'
+        if: github.ref != 'refs/heads/Deploy-branch-Awsome-CSS'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: docs/doxygen/build/html
-          target-folder: pr-${{ github.event.number }}  # Corrected typo and added missing parameter
+          target-folder: ${{ env.PR_PATH }} 
           clean: false
 
       - name: Comment on PR with preview link
-        if: github.event_name == 'pull_request'
+        if: github.ref != 'refs/heads/Deploy-branch-Awsome-CSS'
         uses: hasura/comment-progress@v2.2.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           number: ${{ github.event.pull_request.number }}
           id: deploy-preview
-          message: "A preview of this PR is available at: [Preview Link](${ env.BASE_URL })\n\nChanges may take a few minutes to propagate. Since this is a preview of production, content with `draft: true` will not be rendered. The source is here: https://github.com/${{ github.repository }}/tree/gh-pages/pr-${{ github.event.number }}/"
+          message: "A preview of this PR is available at: [Preview Link](https://${{ env.DOMAIN }}/${{ github.event.repository.name }}/${{ env.PR_PATH}}/) ${{ env.CELEBRATION }}\n\n 📂 **View the source code here:** https://github.com/${{ github.repository }}/tree/gh-pages/pr-${{ github.event.number }}/"
