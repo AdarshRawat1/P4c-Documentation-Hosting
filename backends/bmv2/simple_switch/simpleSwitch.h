@@ -29,8 +29,8 @@ limitations under the License.
 #include "backends/bmv2/common/header.h"
 #include "backends/bmv2/common/options.h"
 #include "backends/bmv2/common/parser.h"
-#include "backends/bmv2/common/programStructure.h"
 #include "backends/bmv2/common/sharedActionSelectorCheck.h"
+#include "backends/common/programStructure.h"
 #include "frontends/common/constantFolding.h"
 #include "frontends/p4/evaluator/evaluator.h"
 #include "frontends/p4/fromv1.0/v1model.h"
@@ -40,7 +40,7 @@ limitations under the License.
 
 namespace BMV2 {
 
-class V1ProgramStructure : public ProgramStructure {
+class V1ProgramStructure : public P4::ProgramStructure {
  public:
     std::set<cstring> pipeline_controls;
     std::set<cstring> non_pipeline_controls;
@@ -112,13 +112,13 @@ class SimpleSwitchExpressionConverter : public ExpressionConverter {
         if (isStandardMetadataParameter(param)) {
             auto result = new Util::JsonObject();
             if (fieldName != "") {
-                result->emplace("type"_cs, "field");
+                result->emplace("type", "field");
                 auto e = BMV2::mkArrayField(result, "value"_cs);
                 e->append("standard_metadata");
                 e->append(fieldName);
             } else {
-                result->emplace("type"_cs, "header");
-                result->emplace("value"_cs, "standard_metadata");
+                result->emplace("type", "header");
+                result->emplace("value", "standard_metadata");
             }
             return result;
         }
