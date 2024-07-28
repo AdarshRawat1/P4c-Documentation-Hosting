@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "P4C", "index.html", [
-    [ "P4 Compiler Documentation", "index.html", "index" ],
+    [ "P4 Compiler Documentation fron External PR", "index.html", "index" ],
     [ "Repository", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_r_e_a_d_m_e.html", [
       [ "Compiler source code organization", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_r_e_a_d_m_e.html#compiler-source-code-organization", null ],
       [ "Additional documentation", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_r_e_a_d_m_e.html#additional-documentation", null ],
