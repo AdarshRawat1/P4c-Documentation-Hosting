@@ -40,7 +40,7 @@ var NAVTREE =
         [ "Compiler Driver", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_r_e_a_d_m_e.html#compiler-driver", null ]
       ] ]
     ] ],
-    [ "P4C", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_r_e_a_d_m_e.html", [
+    [ "P4C for Test", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_r_e_a_d_m_e.html", [
       [ "Getting started", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_r_e_a_d_m_e.html#getting-started", [
         [ "Installing packaged versions of P4C", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_r_e_a_d_m_e.html#installing-packaged-versions-of-p4c", [
           [ "Ubuntu", "md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_r_e_a_d_m_e.html#ubuntu", null ],
