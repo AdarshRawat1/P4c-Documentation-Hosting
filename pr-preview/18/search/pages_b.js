@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['p4_20compiler_20documentation_0',['P4 Compiler Documentation',['../index.html',1,'']]],
+  ['p4_20compiler_20documentation_20with_20test_0',['P4 Compiler Documentation with test',['../index.html',1,'']]],
   ['p4_20compiler_20intermediate_20representation_1',['P4 Compiler Intermediate representation',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_i_r.html',1,'']]],
   ['p4_20compiler_20project_2',['Contribute to the P4 Compiler Project',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]],
   ['p4_20formatter_3',['p4fmt (P4 Formatter)',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2backends_2p4fmt_2_r_e_a_d_m_e.html',1,'']]],

@@ -168,7 +168,7 @@ var searchData=
   ['compilecontextstack_165',['CompileContextStack',['../struct_compile_context_stack.html',1,'']]],
   ['compileemitfield_166',['compileEmitField',['../class_e_b_p_f_1_1_control_body_translator.html#aa0a95cbb71d655c588cb5295d00837c0',1,'EBPF::ControlBodyTranslator']]],
   ['compiler_20core_167',['Compiler Core',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_h_a_n_g_e_l_o_g.html#changes-to-the-compiler-core',1,'Changes to the Compiler Core'],['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_h_a_n_g_e_l_o_g.html#changes-to-the-compiler-core-1',1,'Changes to the Compiler Core'],['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_c_h_a_n_g_e_l_o_g.html#changes-to-the-compiler-core-2',1,'Changes to the Compiler Core']]],
-  ['compiler_20documentation_168',['P4 Compiler Documentation',['../index.html',1,'']]],
+  ['compiler_20documentation_20with_20test_168',['P4 Compiler Documentation with test',['../index.html',1,'']]],
   ['compiler_20driver_169',['Compiler Driver',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_r_e_a_d_m_e.html#compiler-driver',1,'']]],
   ['compiler_20intermediate_20representation_170',['P4 Compiler Intermediate representation',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2docs_2_i_r.html',1,'']]],
   ['compiler_20onboarding_171',['P4 Compiler Onboarding',['../md__2home_2runner_2work_2_p4c-_documentation-_hosting_2_p4c-_documentation-_hosting_2_r_e_a_d_m_e.html#p4-compiler-onboarding',1,'']]],
