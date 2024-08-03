@@ -35,6 +35,7 @@ set (GTEST_UNITTEST_SOURCES
   gtest/helpers.cpp
   gtest/hash.cpp
   gtest/hvec_map.cpp
+  gtest/hvec_set.cpp
   gtest/indexed_vector.cpp
   gtest/json_test.cpp
   gtest/map.cpp
@@ -47,6 +48,7 @@ set (GTEST_UNITTEST_SOURCES
   gtest/ordered_set.cpp
   gtest/parser_unroll.cpp
   gtest/p4runtime.cpp
+  gtest/remove_dontcare_args_test.cpp
   gtest/source_file_test.cpp
   gtest/strength_reduction.cpp
   gtest/string_map.cpp
