@@ -140,60 +140,62 @@ Directory Structure</h1>
 <div class="line"> └─  modules         ── P4Tools extensions.</div>
 <div class="line">    ├─ smith       ── P4Smith: a random P4 program generator.</div>
 <div class="line">    └─ testgen       ── P4Testgen: a test-case generator for P4 programs.</div>
-<div class="line">``</div>
-<div class="line"> </div>
-<div class="line">## Building</div>
-<div class="line">Please see the general installation instructions [here](https://github.com/p4lang/p4c#installing-p4c-from-source). P4Tools can be built using the following CMAKE configuration in the P4C repository.</div>
-</div><!-- fragment --><p> mkdir build cd build cmake .. -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DENABLE_TEST_TOOLS=ON make </p><div class="fragment"><div class="line">## Dependencies</div>
-<div class="line">* [z3](https://github.com/Z3Prover/z3) SMT solver to compute path constraints.</div>
-<div class="line">    * Important: We currently only support Z3 versions 4.8.14 to 4.12.0.</div>
-<div class="line"> </div>
-<div class="line">These dependencies are automatically installed via CMakelist&#39;s [FetchContent](https://cmake.org/cmake/help/latest/module/FetchContent.html) module.</div>
-<div class="line"> </div>
-<div class="line">## Development Style</div>
-<div class="line">Currently, each C++ source directory has a few subdirectories, including:</div>
-<div class="line">* `core`, containing the core functionality of the submodule; and</div>
-<div class="line">* `lib`, containing supporting data structures.</div>
-<div class="line"> </div>
-<div class="line">The distinction between the two can be fuzzy. Here are some guiding principles</div>
-<div class="line">for where to find/put what:</div>
-<div class="line">* If it depends on anything in `core`, it belongs in `core`.</div>
-<div class="line">* If it&#39;s something that resembles a general-purpose data structure (e.g., an</div>
-<div class="line">  environment or a symbol table), it&#39;s probably in `lib`.</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">### C++ Coding style</div>
-<div class="line"> </div>
-<div class="line">P4Tools in general follows the [P4C coding style](https://github.com/p4lang/p4c/blob/main/docs/README.md#coding-conventions). Some deviations from the Style Guide are highlighted below.</div>
-<div class="line"> </div>
-<div class="line">* Comments are important. The Style Guide&#39;s [section on comments](https://google.github.io/styleguide/cppguide.html#Comments) is</div>
-<div class="line">  required reading.</div>
-<div class="line">    * Classes, methods, and fields are documented with triple-slash</div>
-<div class="line">      Doxygen-style comments:</div>
-</div><!-- fragment --><p> /// An example class demonstrating a documentation comment. class C {}; ``<code></p><ul>
+</div><!-- fragment --><h1><a class="anchor" id="building"></a>
+Building</h1>
+<p>Please see the general installation instructions <a href="https://github.com/p4lang/p4c#installing-p4c-from-source">here</a>. <a class="el" href="namespace_p4_tools.html">P4Tools</a> can be built using the following CMAKE configuration in the P4C repository.</p>
+<div class="fragment"><div class="line">mkdir build</div>
+<div class="line">cd build</div>
+<div class="line">cmake .. -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DENABLE_TEST_TOOLS=ON</div>
+<div class="line">make</div>
+</div><!-- fragment --><h1><a class="anchor" id="dependencies-4"></a>
+Dependencies</h1>
+<ul>
+<li><a href="https://github.com/Z3Prover/z3">z3</a> SMT solver to compute path constraints.<ul>
+<li>Important: We currently only support Z3 versions 4.8.14 to 4.12.0.</li>
+</ul>
+</li>
+</ul>
+<p>These dependencies are automatically installed via CMakelist's <a href="https://cmake.org/cmake/help/latest/module/FetchContent.html">FetchContent</a> module.</p>
+<h1><a class="anchor" id="development-style"></a>
+Development Style</h1>
+<p>Currently, each C++ source directory has a few subdirectories, including:</p><ul>
+<li><code>core</code>, containing the core functionality of the submodule; and</li>
+<li><code>lib</code>, containing supporting data structures.</li>
+</ul>
+<p>The distinction between the two can be fuzzy. Here are some guiding principles for where to find/put what:</p><ul>
+<li>If it depends on anything in <code>core</code>, it belongs in <code>core</code>.</li>
+<li>If it's something that resembles a general-purpose data structure (e.g., an environment or a symbol table), it's probably in <code>lib</code>.</li>
+</ul>
+<h2><a class="anchor" id="c-coding-style"></a>
+C++ Coding style</h2>
+<p><a class="el" href="namespace_p4_tools.html">P4Tools</a> in general follows the <a href="https://github.com/p4lang/p4c/blob/main/docs/README.md#coding-conventions">P4C coding style</a>. Some deviations from the Style Guide are highlighted below.</p>
+<ul>
+<li>Comments are important. The Style Guide's <a href="https://google.github.io/styleguide/cppguide.html#Comments">section on comments</a> is required reading.<ul>
+<li>Classes, methods, and fields are documented with triple-slash Doxygen-style comments: <code> /// An example class demonstrating a documentation comment. class C {}; </code></li>
 <li>We do not use copyright headers or license boilerplate in our source files. Where needed, these will be auto-generated during release packaging.</li>
 </ul>
-<p></code></p>
-<p><code>Generally prefer a single class declaration per</code>.h<code>file, unless providing a library of related classes. Multiple classes may be declared in a</code>.cpp` file.</p>
-<div class="fragment"><div class="line"># P4Tools Contributors</div>
-<div class="line"> </div>
-<div class="line">P4Testgen is a test oracle for the P4 language. Given a P4_16 program and a specification of the underlying architecture, it automatically generates a comprehensive set of input/output tests that can be executed to validate a target device.</div>
-<div class="line"> </div>
-<div class="line"># Core Developers</div>
-<div class="line"> </div>
-<div class="line">* @fruffy (NYU)</div>
-<div class="line">* @liujed (Akita Software)</div>
-<div class="line">* @pkotikal (Intel)</div>
-<div class="line">* @vhavel (Intel)</div>
-<div class="line">* @hannelita (Intel)</div>
-<div class="line">* @vladyslav-dubina (Litsoft)</div>
-<div class="line">* @VolodymyrPeschanenko (Litsoft)</div>
-<div class="line">* @jnfoster (Cornell and Intel)</div>
-<div class="line"> </div>
-<div class="line"># History</div>
-<div class="line"> </div>
-<div class="line">Jed Liu was the original architect of P4Testgen and designed the abstract machine that allows using P4C&#39;s visitors to implement arbitrary traversals of the program IR. Building on Jed&#39;s design, Fabian Ruffy completed the symbolic interpreter for P4_16&#39;s core features and designed extensions for common open-source architectures. He also developed the model of packets, taint tracking, and concolic execution. Prathima Kotikalapudi developed the extensible test backend, with instantiations for PTF and STF. Vojtěch Havel assisted with the implementation of the symbolic interpreter and the development of P4Testgen extensions for several Intel architectures. Hanneli Tavante added support for strategies that guide the exploration of paths that maximize various notions of coverage. Volodymyr Peschanenko, and Vlad Dubina developed the SMT-LIB interface to Z3, implemented front-end and mid-end passes such as parser unrolling, and completed the back end for the V1Model architecture on the BMv2 simple switch. Nate Foster guided the design of P4Testgen and contributed to various aspects of the symbolic interpreter.</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+</li>
+<li>Generally prefer a single class declaration per <code>.h</code> file, unless providing a library of related classes. Multiple classes may be declared in a <code>.cpp</code> file.</li>
+</ul>
+<h1><a class="anchor" id="p4tools-contributors"></a>
+P4Tools Contributors</h1>
+<p>P4Testgen is a test oracle for the <a class="el" href="namespace_p4.html" title="TODO: this is not really specific to BMV2, it should reside somewhere else.">P4</a> language. Given a P4_16 program and a specification of the underlying architecture, it automatically generates a comprehensive set of input/output tests that can be executed to validate a target device.</p>
+<h1><a class="anchor" id="core-developers"></a>
+Core Developers</h1>
+<ul>
+<li>@fruffy (NYU)</li>
+<li>@liujed (Akita Software)</li>
+<li>@pkotikal (Intel)</li>
+<li>@vhavel (Intel)</li>
+<li>@hannelita (Intel)</li>
+<li>@vladyslav-dubina (Litsoft)</li>
+<li>@VolodymyrPeschanenko (Litsoft)</li>
+<li>@jnfoster (Cornell and Intel)</li>
+</ul>
+<h1><a class="anchor" id="history"></a>
+History</h1>
+<p>Jed Liu was the original architect of P4Testgen and designed the abstract machine that allows using P4C's visitors to implement arbitrary traversals of the program IR. Building on Jed's design, Fabian Ruffy completed the symbolic interpreter for P4_16's core features and designed extensions for common open-source architectures. He also developed the model of packets, taint tracking, and concolic execution. Prathima Kotikalapudi developed the extensible test backend, with instantiations for PTF and STF. Vojtěch Havel assisted with the implementation of the symbolic interpreter and the development of P4Testgen extensions for several Intel architectures. Hanneli Tavante added support for strategies that guide the exploration of paths that maximize various notions of coverage. Volodymyr Peschanenko, and Vlad Dubina developed the SMT-LIB interface to Z3, implemented front-end and mid-end passes such as parser unrolling, and completed the back end for the V1Model architecture on the BMv2 simple switch. Nate Foster guided the design of P4Testgen and contributed to various aspects of the symbolic interpreter.</p>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
