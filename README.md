@@ -5,6 +5,9 @@
 [![Bazel Build](https://github.com/p4lang/p4c/actions/workflows/ci-bazel.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-bazel.yml)
 [![Validation](https://github.com/p4lang/p4c/actions/workflows/ci-validation-nightly.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-validation-nightly.yml)
 
+[![Docker Container](https://github.com/p4lang/p4c/actions/workflows/ci-container-image.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-container-image.yml)
+
+
 * [Getting started](#getting-started)
    * [Installing packaged versions of P4C](#installing-packaged-versions-of-p4c)
    * [Installing P4C from source](#installing-p4c-from-source)
@@ -27,7 +30,7 @@
 * [P4 Compiler Onboarding](#p4-compiler-onboarding)
 * [Contact](#contact)
 
-P4C is a reference compiler for the P4 programming language. 
+P4C is a reference compiler for the P4 programming language.
 It supports both P4-14 and P4-16; you can find more information about P4
 [here](http://p4.org) and the specifications for both versions of the language
 [here](https://p4.org/specs).
@@ -178,7 +181,7 @@ sudo dpkg -i /path/to/package.deb
 2.  Install [dependencies](#dependencies). You can find specific instructions
     for Ubuntu 20.04 [here](#ubuntu-dependencies) and for macOS 11
     [here](#macos-dependencies).  You can also look at the
-    [CI installation script](tools/ci-build.sh).
+    [CI installation script](https://github.com/p4lang/p4c/blob/main/tools/ci-build.sh).
 
 3.  Build. Building should also take place in a subdirectory named `build`.
     ```
@@ -262,9 +265,8 @@ use them, but YMMV.
 
 - Python 3 for scripting and running tests
 
-- Optional: Documentation generation (enabled when configuring with
-  --enable-doxygen-doc) requires Doxygen (1.8.10 or higher) and Graphviz
-  (2.38.0 or higher).
+- Optional: Documentation generation requires Doxygen (1.8.10 or
+  higher) and Graphviz (2.38.0 or higher).
 
 Backends may have additional dependencies. The dependencies for the backends
 included with `P4C` are documented here:
@@ -289,7 +291,7 @@ pip3 install --user -r requirements.txt
 
 **Tools**
 ```bash
-sudo apt-get install -y doxygen graphviz texlive-full
+sudo apt-get install -y doxygen graphviz
 ```
 **Theme** 
 ```bash
@@ -329,14 +331,14 @@ sudo pip3 install -r requirements.txt
 
 **Tools**
 ```bash
-sudo dnf install -y doxygen graphviz texlive-scheme-full
+sudo dnf install -y doxygen graphviz
 ```
 **Theme**
 ```bash
 git clone --depth 1 -b v2.3.3 https://github.com/jothepro/doxygen-awesome-css ./docs/doxygen/awesome_css
 ```
 
-You can also look at the [dependencies installation script](tools/install_fedora_deps.sh)
+You can also look at the [dependencies installation script](https://github.com/p4lang/p4c/blob/main/tools/install_fedora_deps.sh)
 for a fresh Fedora instance.
 
 ### macOS dependencies
@@ -433,10 +435,16 @@ etags` generate tags for vi and Emacs respectively.  (Make sure that you are
 using the correct version of ctags; there are several competing programs with
 the same name in existence.)
 
-To enable building code documentation, please run `cmake
-.. -DENABLE_DOCS=ON`.  This enables the `make docs` rule to generate
-documentation. The HTML output is available in
-`build/doxygen-out/html/index.html`.
+To build code documentation, after installing Doxygen and the other
+required packages:
+
+```bash
+# Starting from root directory of your copy of p4c repo
+cd docs/doxygen
+doxygen doxygen.cfg
+```
+The HTML output is available in
+`docs/doxygen/build/html/index.html`.
 
 ### Git setup
 
@@ -472,10 +480,10 @@ bazel build //...
 We run continuous integration to ensure this works with the latest version of
 Bazel.
 
-We also provide a [`p4_library` rule](bazel/p4_library.bzl) for invoking
+We also provide a [`p4_library` rule](https://github.com/p4lang/p4c/blob/main/bazel/p4_library.bzl) for invoking
 P4C during the build process of 3rd party Bazel projects.
 
-See [bazel/example](bazel/example) for an example of how to use or extend P4C in
+See [bazel/example](https://github.com/p4lang/p4c/tree/main/bazel/example) for an example of how to use or extend P4C in
 your own Bazel project. You may use it as a template to get you started.
 
 ## Build system

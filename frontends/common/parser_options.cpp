@@ -23,6 +23,7 @@ limitations under the License.
 #include <sys/types.h>
 #include <sys/wait.h>
 
+#include <memory>
 #include <regex>
 #include <unordered_set>
 
@@ -43,11 +44,25 @@ limitations under the License.
 const char *p4includePath = CONFIG_PKGDATADIR "/p4include";
 const char *p4_14includePath = CONFIG_PKGDATADIR "/p4_14include";
 
-const char *ParserOptions::defaultMessage = "Compile a P4 program";
-
 using namespace P4::literals;
 
-ParserOptions::ParserOptions() : Util::Options(defaultMessage) {
+void ParserOptions::closeFile(FILE *file) {
+    if (file == nullptr) {
+        return;
+    }
+    int exitCode = pclose(file);
+    if (WIFEXITED(exitCode) && WEXITSTATUS(exitCode) == 4) {
+        ::error(ErrorType::ERR_IO, "input file does not exist");
+        return;
+    }
+    if (exitCode != 0) {
+        ::error(ErrorType::ERR_IO, "Preprocessor returned exit code %d; aborting compilation",
+                exitCode);
+        return;
+    }
+}
+
+ParserOptions::ParserOptions(std::string_view defaultMessage) : Util::Options(defaultMessage) {
     registerOption(
         "--help", nullptr,
         [this](const char *) {
@@ -383,13 +398,13 @@ std::vector<const char *> *ParserOptions::process(int argc, char *const argv[]) 
                          exename(argv[0]));
 
     auto remainingOptions = Util::Options::process(argc, argv);
-    validateOptions();
+    if (!validateOptions()) {
+        return nullptr;
+    }
     return remainingOptions;
 }
 
-void ParserOptions::validateOptions() const {}
-
-const char *ParserOptions::getIncludePath() {
+const char *ParserOptions::getIncludePath() const {
     cstring path = cstring::empty;
     // the p4c driver sets environment variables for include
     // paths.  check the environment and add these to the command
@@ -402,11 +417,10 @@ const char *ParserOptions::getIncludePath() {
     return path.c_str();
 }
 
-FILE *ParserOptions::preprocess() {
+std::optional<ParserOptions::PreprocessorResult> ParserOptions::preprocess() const {
     FILE *in = nullptr;
 
     if (file == "-") {
-        file = "<stdin>";
         in = stdin;
     } else {
 #ifdef __clang__
@@ -423,32 +437,21 @@ FILE *ParserOptions::preprocess() {
         if (in == nullptr) {
             ::error(ErrorType::ERR_IO, "Error invoking preprocessor");
             perror("");
-            return nullptr;
+            return std::nullopt;
         }
-        close_input = true;
     }
 
     if (doNotCompile) {
-        char *line = NULL;
+        char *line = nullptr;
         size_t len = 0;
-        ssize_t read;
+        ssize_t read = 0;
 
-        while ((read = getline(&line, &len, in)) != -1) printf("%s", line);
-        closePreprocessedInput(in);
-        return nullptr;
+        while ((read = getline(&line, &len, in)) != -1) {
+            printf("%s", line);
+        }
+        return std::nullopt;
     }
-    return in;
-}
-
-void ParserOptions::closePreprocessedInput(FILE *inputStream) const {
-    if (close_input) {
-        int exitCode = pclose(inputStream);
-        if (WIFEXITED(exitCode) && WEXITSTATUS(exitCode) == 4)
-            ::error(ErrorType::ERR_IO, "input file %s does not exist", file);
-        else if (exitCode != 0)
-            ::error(ErrorType::ERR_IO, "Preprocessor returned exit code %d; aborting compilation",
-                    exitCode);
-    }
+    return ParserOptions::PreprocessorResult(in, &closeFile);
 }
 
 // From (folder, file.ext, suffix)  returns
@@ -537,5 +540,4 @@ bool P4CContext::isRecognizedDiagnostic(cstring diagnostic) {
 
     return recognizedDiagnostics.count(diagnostic);
 }
-
 const P4CConfiguration &P4CContext::getConfigImpl() { return DefaultP4CConfiguration::get(); }

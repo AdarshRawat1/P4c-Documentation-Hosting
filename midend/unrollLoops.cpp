@@ -26,6 +26,8 @@ static IR::AssignmentStatement *setFlag(cstring name, bool val) {
 
 namespace P4 {
 
+using namespace literals;
+
 /** transform to remove break and continue statements from the body of a loop
  * This pass is designed to run on just the body of a loop, generally returning a
  * new BlockStatement with the break and continue statements removed and replaced
@@ -122,47 +124,49 @@ class ReplaceIndexRefs : public Transform, P4WriteContext {
     ReplaceIndexRefs(cstring iv, long v) : indexVar(iv), value(v) { forceClone = true; }
 };
 
-static long evalLoop(const IR::Expression *exp, cstring index, long val, bool &fail) {
+long UnrollLoops::evalLoop(const IR::Expression *exp, long val,
+                           const ComputeDefUse::locset_t &idefs, bool &fail) {
+    if (fail) return 1;
     if (auto *pe = exp->to<IR::PathExpression>()) {
-        if (pe->path->name != index) fail = true;
+        if (defUse->getDefs(pe) != idefs) fail = true;
         return val;
     } else if (auto *k = exp->to<IR::Constant>()) {
         return k->asLong();
     } else if (auto *e = exp->to<IR::Leq>()) {
-        return evalLoop(e->left, index, val, fail) <= evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) <= evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Lss>()) {
-        return evalLoop(e->left, index, val, fail) < evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) < evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Geq>()) {
-        return evalLoop(e->left, index, val, fail) >= evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) >= evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Grt>()) {
-        return evalLoop(e->left, index, val, fail) > evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) > evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Equ>()) {
-        return evalLoop(e->left, index, val, fail) == evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) == evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Neq>()) {
-        return evalLoop(e->left, index, val, fail) != evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) != evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Add>()) {
-        return evalLoop(e->left, index, val, fail) + evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) + evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Sub>()) {
-        return evalLoop(e->left, index, val, fail) - evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) - evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Mul>()) {
-        return evalLoop(e->left, index, val, fail) * evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) * evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Div>()) {
-        return evalLoop(e->left, index, val, fail) / evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) / evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Mod>()) {
-        return evalLoop(e->left, index, val, fail) % evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) % evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Shl>()) {
-        return evalLoop(e->left, index, val, fail) << evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) << evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Shr>()) {
-        return evalLoop(e->left, index, val, fail) >> evalLoop(e->right, index, val, fail);
+        return evalLoop(e->left, val, idefs, fail) >> evalLoop(e->right, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Neg>()) {
-        return -evalLoop(e->expr, index, val, fail);
+        return -evalLoop(e->expr, val, idefs, fail);
     } else if (auto *e = exp->to<IR::Cmpl>()) {
-        return ~evalLoop(e->expr, index, val, fail);
+        return ~evalLoop(e->expr, val, idefs, fail);
     } else if (auto *e = exp->to<IR::LNot>()) {
-        return !evalLoop(e->expr, index, val, fail);
+        return !evalLoop(e->expr, val, idefs, fail);
     }
     fail = true;
-    return 0;
+    return 1;
 }
 
 bool UnrollLoops::findLoopBounds(IR::ForStatement *fstmt, loop_bounds_t &bounds) {
@@ -172,33 +176,27 @@ bool UnrollLoops::findLoopBounds(IR::ForStatement *fstmt, loop_bounds_t &bounds)
         auto d = resolveUnique(v->path->name, P4::ResolutionType::Any);
         bounds.index = d ? d->to<IR::Declaration_Variable>() : nullptr;
         if (!bounds.index) return false;
-        auto &defs = defUse->getDefs(v);
         const IR::AssignmentStatement *init = nullptr, *incr = nullptr;
-        for (auto *d : defs) {
-            bool ok = false;
-            for (auto *a : fstmt->init) {
-                if (a == d->parent->node) {
-                    init = a->to<IR::AssignmentStatement>();
-                    ok = true;
-                    break;
-                }
-            }
-            for (auto *a : fstmt->updates) {
-                if (a == d->parent->node) {
-                    incr = a->to<IR::AssignmentStatement>();
-                    ok = true;
-                    break;
-                }
-            }
-            if (!ok) return false;
+        const IR::Constant *initval = nullptr;
+        auto &index_defs = defUse->getDefs(v);
+        if (index_defs.size() != 2) {
+            // must be exactly 2 defs -- one to a constant before the loop and one
+            // to a non-constant in the loop
+            return false;
+        } else if ((init = index_defs.front()->parent->node->to<IR::AssignmentStatement>()) &&
+                   (initval = init->right->to<IR::Constant>())) {
+            incr = index_defs.back()->parent->node->to<IR::AssignmentStatement>();
+        } else if ((init = index_defs.back()->parent->node->to<IR::AssignmentStatement>()) &&
+                   (initval = init->right->to<IR::Constant>())) {
+            incr = index_defs.front()->parent->node->to<IR::AssignmentStatement>();
+        } else {
+            return false;
         }
-        if (!init || !incr) return false;
-        auto initval = init->right->to<IR::Constant>();
-        if (!initval) return false;
+        if (!incr) return false;
         bool fail = false;
         for (long val = initval->asLong();
-             evalLoop(fstmt->condition, bounds.index->name, val, fail) && !fail;
-             val = evalLoop(incr->right, bounds.index->name, val, fail)) {
+             evalLoop(fstmt->condition, val, index_defs, fail) && !fail;
+             val = evalLoop(incr->right, val, index_defs, fail)) {
             if (bounds.indexes.size() > 1000) {
                 fail = true;
                 break;
@@ -261,8 +259,10 @@ const IR::Statement *UnrollLoops::doUnroll(const loop_bounds_t &bounds, const IR
 
 const IR::Statement *UnrollLoops::preorder(IR::ForStatement *fstmt) {
     loop_bounds_t bounds;
-    if (findLoopBounds(fstmt, bounds)) {
-        LOG4("Unrolling loop" << Log::indent << Log::endl << fstmt << Log::unindent);
+    bool canUnroll = findLoopBounds(fstmt, bounds);
+    bool shouldUnroll = policy(fstmt, canUnroll, bounds);
+    if (canUnroll && shouldUnroll) {
+        LOG3("Unrolling loop" << Log::indent << Log::endl << fstmt << Log::unindent);
         auto *rv = new IR::BlockStatement;
         for (auto *i : fstmt->init) rv->append(i);
         rv->append(doUnroll(bounds, fstmt->body, &fstmt->updates));
@@ -274,12 +274,28 @@ const IR::Statement *UnrollLoops::preorder(IR::ForStatement *fstmt) {
 
 const IR::Statement *UnrollLoops::preorder(IR::ForInStatement *fstmt) {
     loop_bounds_t bounds;
-    if (findLoopBounds(fstmt, bounds)) {
-        LOG4("Unrolling loop" << Log::indent << Log::endl << fstmt << Log::unindent);
+    bool canUnroll = findLoopBounds(fstmt, bounds);
+    bool shouldUnroll = policy(fstmt, canUnroll, bounds);
+    if (canUnroll && shouldUnroll) {
+        LOG3("Unrolling loop" << Log::indent << Log::endl << fstmt << Log::unindent);
         auto rv = doUnroll(bounds, fstmt->body);
         LOG4("Unrolled loop" << Log::indent << Log::endl << rv << Log::unindent);
         return rv;
     }
     return fstmt;
 }
+
+UnrollLoops::Policy UnrollLoops::default_unroll(true);
+UnrollLoops::Policy UnrollLoops::default_nounroll(false);
+
+bool UnrollLoops::Policy::operator()(const IR::LoopStatement *loop, bool canUnroll,
+                                     const loop_bounds_t &) {
+    if (loop->getAnnotation("unroll"_cs)) {
+        if (!canUnroll) warning(ErrorType::WARN_UNSUPPORTED, "Can't unroll loop: %1%", loop);
+        return true;
+    }
+    if (loop->getAnnotation("nounroll"_cs)) return false;
+    return unroll_default;
+}
+
 }  // namespace P4
