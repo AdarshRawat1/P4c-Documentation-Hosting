@@ -1,4 +1,4 @@
-# %P4 Compiler Documentation
+# %P4 Compiler Documentation for simpler tag check 
 
 @htmlonly
 <div class="diagram-container">
