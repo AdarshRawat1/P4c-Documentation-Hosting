@@ -1,7 +1,6 @@
 #ifndef BACKENDS_P4TOOLS_COMMON_OPTIONS_H_
 #define BACKENDS_P4TOOLS_COMMON_OPTIONS_H_
 
-// Boost
 #include <cstdint>
 #include <optional>
 #include <tuple>
@@ -34,17 +33,17 @@ class AbstractP4cToolOptions : protected Util::Options {
     /// @returns a compilation context on success, std::nullopt on error.
     std::optional<ICompileContext *> process(const std::vector<const char *> &args);
 
-    // No copy constructor and no self-assignments.
-    AbstractP4cToolOptions(const AbstractP4cToolOptions &) = delete;
-
-    AbstractP4cToolOptions &operator=(const AbstractP4cToolOptions &) = delete;
-
- protected:
     /// Command-line arguments to be sent to the compiler. Populated by @process.
     std::vector<const char *> compilerArgs;
 
     /// Hook for customizing options processing.
     std::vector<const char *> *process(int argc, char *const argv[]) override;
+
+ protected:
+    // Self-assignments and copy constructor can only be used by other options.
+    AbstractP4cToolOptions &operator=(const AbstractP4cToolOptions &) = default;
+    AbstractP4cToolOptions(const AbstractP4cToolOptions &) = default;
+    AbstractP4cToolOptions(AbstractP4cToolOptions &&) = default;
 
     [[nodiscard]] bool validateOptions() const override;
 

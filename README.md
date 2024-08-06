@@ -5,7 +5,6 @@
 [![Bazel Build](https://github.com/p4lang/p4c/actions/workflows/ci-bazel.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-bazel.yml)
 [![Validation](https://github.com/p4lang/p4c/actions/workflows/ci-validation-nightly.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-validation-nightly.yml)
 [![Docker Container](https://github.com/p4lang/p4c/actions/workflows/ci-container-image.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-container-image.yml)
- 
 
 * [Getting started](#getting-started)
    * [Installing packaged versions of P4C](#installing-packaged-versions-of-p4c)
@@ -41,6 +40,8 @@ compiler.
 P4C is modular; it provides a standard frontend and midend which can be combined
 with a target-specific backend to create a complete P4 compiler. The goal is to
 make adding new backends easy.
+
+\include{doc} "../docs/doxygen/01_overview.md"
 
 The code contains seven sample backends:
 * p4c-bm2-ss: can be used to target the P4 `simple_switch` written using
