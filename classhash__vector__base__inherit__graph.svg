@@ -7,7 +7,8 @@
 <svg width="313pt" height="301pt"
  viewBox="0.00 0.00 313.00 301.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
-<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+
 <style type="text/css"><![CDATA[
 .node, .edge {opacity: 0.7;}
 .node.selected, .edge.selected {opacity: 1;}
@@ -89,10 +90,10 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:href="classhvec__map.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="283,-137.5 162,-137.5 162,-96.5 283,-96.5 283,-137.5"/>
-<text text-anchor="start" x="170" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">hvec_map&lt; const IR</text>
-<text text-anchor="start" x="170" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">::IDeclaration *, P4</text>
-<text text-anchor="middle" x="222.5" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00">::StorageLocation * &gt;</text>
+<polygon fill="white" stroke="#bfbfbf" points="290.5,-137.5 154.5,-137.5 154.5,-96.5 290.5,-96.5 290.5,-137.5"/>
+<text text-anchor="start" x="162.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">hvec_map&lt; const P4</text>
+<text text-anchor="start" x="162.5" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">::IR::IDeclaration *,</text>
+<text text-anchor="middle" x="222.5" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00"> P4::StorageLocation * &gt;</text>
 </a>
 </g>
 </g>
@@ -100,7 +101,7 @@
 <g id="edge4_Node000001_Node000005" class="edge">
 <title>Node1&#45;&gt;Node5</title>
 <g id="a_edge4_Node000001_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#8b1a1a" d="M114.04,-135.49C129.6,-132.82 146.29,-129.94 161.78,-127.28"/>
+<path fill="none" stroke="#8b1a1a" d="M113.9,-135.52C127.08,-133.25 141.08,-130.84 154.47,-128.54"/>
 <polygon fill="#8b1a1a" stroke="#8b1a1a" points="113.27,-132.07 104.01,-137.22 114.46,-138.97 113.27,-132.07"/>
 </a>
 </g>
@@ -110,7 +111,7 @@
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:href="classhvec__map.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="305,-78 140,-78 140,-48 305,-48 305,-78"/>
-<text text-anchor="start" x="148" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">hvec_map&lt; cstring,</text>
+<text text-anchor="start" x="148" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">hvec_map&lt; P4::cstring,</text>
 <text text-anchor="middle" x="222.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00"> const P4::StorageLocation * &gt;</text>
 </a>
 </g>

@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,254,117,279"/>
+<area shape="rect" id="Node000001" href="$struct_i_r_1_1has__static__type__name_3_01_t_00_01std_1_1void__t_3_01decltype_07_t_1_1static__type__name_07_08_08_4_01_4.html" title=" " alt="" coords="208,5,369,75"/>
+<area shape="poly" id="edge1163_Node000000_Node000001" title=" " alt="" coords="69,240,82,205,102,164,129,122,164,85,184,70,206,59,209,64,187,75,167,89,134,125,107,166,87,207,74,242"/>
+<area shape="rect" id="Node000002" href="$struct_p4_1_1_i_r_1_1has__static__type__name_3_01_t_00_01std_1_1void__t_3_01decltype_07_t_1_1static__type__name_07_08_08_4_01_4.html" title=" " alt="" coords="194,99,383,168"/>
+<area shape="poly" id="edge1164_Node000000_Node000002" title=" " alt="" coords="83,242,119,210,164,178,193,163,195,168,167,182,123,214,86,246"/>
+<area shape="rect" id="Node000003" href="$struct_p4_1_1_util_1_1has__to_string_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_acb3d703214236ac0dfb06e6517d195f.html" title=" " alt="" coords="165,193,412,247"/>
+<area shape="poly" id="edge1165_Node000000_Node000003" title=" " alt="" coords="130,250,165,243,166,248,132,255"/>
+<area shape="rect" id="Node000004" href="$struct_p4_1_1has__dbprint_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_01_t_01_4_012206707ff62b52b5f3b6b59b578fd59.html" title=" " alt="" coords="189,271,389,355"/>
+<area shape="poly" id="edge1166_Node000000_Node000004" title=" " alt="" coords="132,278,189,290,188,295,130,283"/>
+<area shape="rect" id="Node000005" href="$struct_util_1_1has__to_string_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_01_t_01db18fd97bde90a9bd53b0bfce41e6e9b.html" title=" " alt="" coords="165,379,412,434"/>
+<area shape="poly" id="edge1167_Node000000_Node000005" title=" " alt="" coords="83,288,120,327,167,364,191,377,188,382,164,369,116,331,79,292"/>
+<area shape="rect" id="Node000006" href="$structhas__dbprint_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_01_t_01_4_07_08_8d058dfba8a3a311378325dce114a1ecb1.html" title=" " alt="" coords="189,458,388,542"/>
+<area shape="poly" id="edge1168_Node000000_Node000006" title=" " alt="" coords="74,291,108,366,135,407,167,443,191,461,188,465,164,447,130,410,103,368,69,294"/>
+</map>
