@@ -1,0 +1,9 @@
+<map id="P4Tools::P4Testgen::Bmv2::Bmv2V1ModelCloneInfo" name="P4Tools::P4Testgen::Bmv2::Bmv2V1ModelCloneInfo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,245,211,288"/>
+<area shape="rect" id="Node000002" href="$class_p4_tools_1_1_p4_testgen_1_1_test_object.html" title=" " alt="" coords="39,155,177,197"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,213,111,245,105,245,105,213"/>
+<area shape="rect" id="Node000003" href="$class_i_castable.html" title=" " alt="" coords="70,80,146,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,122,111,154,105,154,105,122"/>
+<area shape="rect" id="Node000004" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="65,5,151,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="111,48,111,80,105,80,105,48"/>
+</map>

@@ -1,10 +1,10 @@
 <map id="P4::CheckCoreMethods" name="P4::CheckCoreMethods">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,177,251"/>
-<area shape="rect" id="Node000002" href="$class_p4_1_1_pass_manager.html" title=" " alt="" coords="25,152,157,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,191,94,225,89,225,89,191"/>
-<area shape="rect" id="Node000003" href="$class_p4_1_1_visitor.html" title=" " alt="" coords="47,5,135,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,44,74,73,73,104,88,151,83,153,67,104,68,72,77,42"/>
-<area shape="rect" id="Node000004" href="$class_p4_1_1_backtrack.html" title=" " alt="" coords="83,79,193,104"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="109,41,133,77,128,80,104,44"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="125,117,101,153,97,150,121,114"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,165,256"/>
+<area shape="rect" id="Node000002" href="$class_p4_1_1_pass_manager.html" title=" " alt="" coords="22,155,148,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,197,88,229,82,229,82,197"/>
+<area shape="rect" id="Node000003" href="$class_p4_1_1_visitor.html" title=" " alt="" coords="44,5,126,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,47,70,76,69,106,82,153,77,155,64,107,64,75,72,46"/>
+<area shape="rect" id="Node000004" href="$class_p4_1_1_backtrack.html" title=" " alt="" coords="78,80,183,107"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="103,44,125,78,120,81,99,47"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="117,122,95,156,91,153,112,119"/>
 </map>
