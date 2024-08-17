@@ -1,0 +1,13 @@
+<map id="P4::TC::DeparserHdrEmitTranslatorPNA" name="P4::TC::DeparserHdrEmitTranslatorPNA">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,395,258,421"/>
+<area shape="rect" id="Node000002" href="$class_p4_1_1_e_b_p_f_1_1_deparser_prepare_buffer_translator.html" title="This translator emits buffer preparation (eg. which headers will be emitted)" alt="" coords="39,304,224,347"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,363,134,394,129,394,129,363"/>
+<area shape="rect" id="Node000003" href="$class_p4_1_1_e_b_p_f_1_1_control_body_translator.html" title=" " alt="" coords="23,229,240,256"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,272,134,304,129,304,129,272"/>
+<area shape="rect" id="Node000004" href="$class_p4_1_1_e_b_p_f_1_1_code_gen_inspector.html" title=" " alt="" coords="34,155,229,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,197,134,229,129,229,129,197"/>
+<area shape="rect" id="Node000005" href="$class_p4_1_1_inspector.html" title=" " alt="" coords="82,80,181,107"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="134,122,134,154,129,154,129,122"/>
+<area shape="rect" id="Node000006" href="$class_p4_1_1_visitor.html" title=" " alt="" coords="90,5,173,32"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="134,48,134,80,129,80,129,48"/>
+</map>

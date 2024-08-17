@@ -1,4 +1,4 @@
-<!-- HTML header for doxygen 1.11.0-->
+<!-- HTML header for doxygen 1.12.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -6,8 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>P4C: ClosedRange&lt; Unit, Order &gt; Struct Template Reference</title>
-<link rel="icon" href="p4-fav.svg" type="image/svg+xml"  />
+<title>P4 Compiler Documentation (P4C): ClosedRange&lt; Unit, Order &gt; Struct Template Reference</title>
+<link rel="icon" href="p4-fav.svg" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -274,9 +274,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>hash_value</b> (con
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;RangeUnit Unit, Endian Order&gt;<br />
-struct ClosedRange&lt; Unit, Order &gt;</div><p>A closed range of bits or bytes - <code>[lo, hi]</code> specified in terms of a specific endian order. Closed ranges include both <code>lo</code> and <code>hi</code>, so <code><a class="el" href="struct_closed_range.html">ClosedRange(3, 5)</a></code> contains <code>3</code>, <code>4</code>, and <code>5</code>.</p>
+struct ClosedRange&lt; Unit, Order &gt;</div><p>A closed range of bits or bytes - <code>[lo, hi]</code> specified in terms of a specific endian order. Closed ranges include both <code>lo</code> and <code>hi</code>, so <code>ClosedRange(3, 5)</code> contains <code>3</code>, <code>4</code>, and <code>5</code>.</p>
 <p>Use a closed range when you want to forbid the possibility of an empty range. Using a closed range may also make certain algorithms easier to express.</p>
-<p>XXX: <a class="el" href="struct_closed_range.html">ClosedRange</a>'s interface is very similar to <a class="el" href="struct_half_open_range.html">HalfOpenRange</a>, but they have almost totally different implementations, and the limitations of C++ templates make sharing the things they do have in common challenging. Most of the benefit would have come from sharing documentation; as a compromise, most of the methods in <a class="el" href="struct_closed_range.html">ClosedRange</a> just reference <a class="el" href="struct_half_open_range.html">HalfOpenRange</a>'s documentation.</p>
+<p>XXX: ClosedRange's interface is very similar to HalfOpenRange, but they have almost totally different implementations, and the limitations of C++ templates make sharing the things they do have in common challenging. Most of the benefit would have come from sharing documentation; as a compromise, most of the methods in ClosedRange just reference HalfOpenRange's documentation.</p>
 <p>XXX: Currently, for backwards compatibility, it's possible to construct ranges where <code>lo</code> is greater than or equal to <code>hi</code>. We should enforce that ranges are consistent; we'll add the necessary checks after the existing code has been audited.</p>
 <p>XXX: We should also add checks to avoid integer overflow. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -304,7 +304,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a328cf13ba10067ee5e27e169368f9233">HalfOpenRange::contains()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::contains(). </dd></dl>
 
 </div>
 </div>
@@ -332,7 +332,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a328cf13ba10067ee5e27e169368f9233">HalfOpenRange::contains()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::contains(). </dd></dl>
 
 </div>
 </div>
@@ -360,7 +360,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Formats this range as <a class="el" href="namespace_p4.html">P4</a> syntax by converting to a little-endian range of bits, and formatting the result as "[hi:lo]". </p>
+<p>Formats this range as P4 syntax by converting to a little-endian range of bits, and formatting the result as "[hi:lo]". </p>
 
 </div>
 </div>
@@ -388,7 +388,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#aa6acc2b730a759ff33784bd46a8e53c0">HalfOpenRange::hiByte()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::hiByte(). </dd></dl>
 
 </div>
 </div>
@@ -416,7 +416,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>a range which contains all the bits which are included in both this range and the provided range, or an empty range if there are no bits in common. Because the resulting range may be empty, this method returns a <a class="el" href="struct_half_open_range.html">HalfOpenRange</a>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a range which contains all the bits which are included in both this range and the provided range, or an empty range if there are no bits in common. Because the resulting range may be empty, this method returns a HalfOpenRange. </dd></dl>
 
 </div>
 </div>
@@ -444,7 +444,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a9435c1d2c6490f3f3e8a441d355c2ac1">HalfOpenRange::isHiAligned()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::isHiAligned(). </dd></dl>
 
 </div>
 </div>
@@ -472,7 +472,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a5402ffffab4f6549ca01ae72326f13f3">HalfOpenRange::isLoAligned()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::isLoAligned(). </dd></dl>
 
 </div>
 </div>
@@ -500,7 +500,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#af30531d17fda05e0f73f46b91ccee216">HalfOpenRange::loByte()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::loByte(). </dd></dl>
 
 </div>
 </div>
@@ -528,7 +528,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#aaa53726a09442e73591b72790505e40d">HalfOpenRange::nextByte()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::nextByte(). </dd></dl>
 
 </div>
 </div>
@@ -556,7 +556,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a44fcc8cd975fe7e886af4fb8460ce05c" title="Total ordering, first by lo, then by hi.">HalfOpenRange::operator&lt;</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::operator&lt;. </dd></dl>
 
 </div>
 </div>
@@ -584,7 +584,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#ac9b3a39d1c3dce06af76391fc5181ec0">HalfOpenRange::overlaps()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::overlaps(). </dd></dl>
 
 </div>
 </div>
@@ -612,7 +612,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#aa14754aee362e88e4966be2d4a8b4b5e">HalfOpenRange::resizedToBits()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::resizedToBits(). </dd></dl>
 
 </div>
 </div>
@@ -640,7 +640,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a5da5cba2495aa277e2c4428d9fe6db6a">HalfOpenRange::resizedToBytes()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::resizedToBytes(). </dd></dl>
 
 </div>
 </div>
@@ -668,7 +668,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a3f34cab503959ebf2f7cded63eb4b7bb">HalfOpenRange::shiftedByBits()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::shiftedByBits(). </dd></dl>
 
 </div>
 </div>
@@ -696,7 +696,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a0ecc7315fa52e24ed06acd5eec07be17">HalfOpenRange::shiftedByBytes()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::shiftedByBytes(). </dd></dl>
 
 </div>
 </div>
@@ -724,7 +724,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a0b7c732bd05b0d46fc44716be9205bd5">HalfOpenRange::size()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::size(). </dd></dl>
 
 </div>
 </div>
@@ -754,7 +754,7 @@ template&lt;Endian DestOrder&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a45fdc30da34a90c723a2d627b1a9725c">HalfOpenRange::toOrder()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::toOrder(). </dd></dl>
 
 </div>
 </div>
@@ -784,7 +784,7 @@ template&lt;RangeUnit DestUnit&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#a871e14edbd0ecea28b688a8d35fa9de3">HalfOpenRange::toUnit()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::toUnit(). </dd></dl>
 
 </div>
 </div>
@@ -812,7 +812,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_half_open_range.html#ae0c35948cd096b4d823326e137024495">HalfOpenRange::unionWith()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>HalfOpenRange::unionWith(). </dd></dl>
 
 </div>
 </div>
@@ -853,7 +853,7 @@ template&lt;RangeUnit Unit, Endian Order&gt; </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- HTML footer for doxygen 1.11.0-->
+<!-- HTML footer for doxygen 1.12.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

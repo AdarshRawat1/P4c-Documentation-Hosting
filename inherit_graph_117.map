@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classordered__map.html" title=" " alt="" coords="5,5,193,45"/>
+<area shape="rect" id="Node000000" href="$class_p4_1_1_d_b_print_1_1setflags__helper.html" title=" " alt="" coords="5,48,149,91"/>
+<area shape="rect" id="Node000001" href="$struct_p4_1_1_d_b_print_1_1clrflag.html" title=" " alt="" coords="201,5,334,32"/>
+<area shape="poly" id="edge61_Node000000_Node000001" title=" " alt="" coords="163,44,214,30,215,35,164,49"/>
+<area shape="rect" id="Node000002" href="$struct_p4_1_1_d_b_print_1_1setflag.html" title=" " alt="" coords="199,56,336,83"/>
+<area shape="poly" id="edge62_Node000000_Node000002" title=" " alt="" coords="164,67,199,67,199,72,164,72"/>
+<area shape="rect" id="Node000003" href="$struct_p4_1_1_d_b_print_1_1setprec.html" title=" " alt="" coords="197,107,338,133"/>
+<area shape="poly" id="edge63_Node000000_Node000003" title=" " alt="" coords="164,90,215,103,214,109,163,95"/>
 </map>

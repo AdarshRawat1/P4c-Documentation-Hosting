@@ -1,4 +1,4 @@
-<!-- HTML header for doxygen 1.11.0-->
+<!-- HTML header for doxygen 1.12.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -6,8 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>P4C: P4Tools::P4Testgen::TableStepper Class Reference</title>
-<link rel="icon" href="p4-fav.svg" type="image/svg+xml"  />
+<title>P4 Compiler Documentation (P4C): P4Tools::P4Testgen::TableStepper Class Reference</title>
+<link rel="icon" href="p4-fav.svg" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -138,7 +138,7 @@ $(function(){initNavTree('class_p4_tools_1_1_p4_testgen_1_1_table_stepper.html',
 <div class="dynheader">
 Inheritance diagram for P4Tools::P4Testgen::TableStepper:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_p4_tools_1_1_p4_testgen_1_1_table_stepper__inherit__graph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_p4_tools_1_1_p4_testgen_1_1_table_stepper__inherit__graph.svg" width="663" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -208,7 +208,7 @@ Static Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ac9175100ad076e0f7faa29dcdc2b2c11" id="r_ac9175100ad076e0f7faa29dcdc2b2c11"><td class="memItemLeft" align="right" valign="top"><a id="ac9175100ad076e0f7faa29dcdc2b2c11" name="ac9175100ad076e0f7faa29dcdc2b2c11"></a>
 <a class="el" href="struct_p4_tools_1_1_table_utils_1_1_table_properties.html">TableUtils::TableProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><b>properties</b></td></tr>
-<tr class="memdesc:ac9175100ad076e0f7faa29dcdc2b2c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic table properties that are set when initializing the <a class="el" href="class_p4_tools_1_1_p4_testgen_1_1_table_stepper.html" title="Implements small-step operational semantics for tables.">TableStepper</a>. <br /></td></tr>
+<tr class="memdesc:ac9175100ad076e0f7faa29dcdc2b2c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic table properties that are set when initializing the TableStepper. <br /></td></tr>
 <tr class="separator:ac9175100ad076e0f7faa29dcdc2b2c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16f873dfa8e2bc7f778b746c3a67244a" id="r_a16f873dfa8e2bc7f778b746c3a67244a"><td class="memItemLeft" align="right" valign="top"><a id="a16f873dfa8e2bc7f778b746c3a67244a" name="a16f873dfa8e2bc7f778b746c3a67244a"></a>
 <a class="el" href="class_p4_tools_1_1_p4_testgen_1_1_expr_stepper.html">ExprStepper</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>stepper</b></td></tr>
@@ -244,7 +244,7 @@ const IR::P4Table *&#160;</td><td class="memItemRight" valign="bottom"><b>table<
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Collects properties that may be set per table. <a class="el" href="class_p4_tools_1_1_target.html">Target</a> back end may have different semantics for table execution that need to be collect before evaluation the table. </p>
+<p>Collects properties that may be set per table. Target back end may have different semantics for table execution that need to be collect before evaluation the table. </p>
 
 <p>Reimplemented in <a class="el" href="class_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_v1_model_table_stepper.html#aedd34e7c4308db6038117d24780472ab">P4Tools::P4Testgen::Bmv2::Bmv2V1ModelTableStepper</a>, <a class="el" href="class_p4_tools_1_1_p4_testgen_1_1_e_b_p_f_1_1_e_b_p_f_table_stepper.html#ac8ffb7c1e36da80582cd46228feaefa9">P4Tools::P4Testgen::EBPF::EBPFTableStepper</a>, and <a class="el" href="class_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_table_stepper.html#a9cb67997551c6a09db88fd999f5076a3">P4Tools::P4Testgen::Pna::SharedPnaTableStepper</a>.</p>
 
@@ -327,7 +327,7 @@ const IR::P4Table *&#160;</td><td class="memItemRight" valign="bottom"><b>table<
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Table implementations in <a class="el" href="namespace_p4.html">P4</a> are rather flexible. Eval is a delegation function that chooses the right implementation depending on the properties of the table. For example, immutable tables can not be programmed using the control plane. If an table key is tainted, we can also not predict, which action is tainted. Some frameworks may have implementation details such as annotations, action profiles/selectors that may alter semantics, too. </p>
+<p>Table implementations in P4 are rather flexible. Eval is a delegation function that chooses the right implementation depending on the properties of the table. For example, immutable tables can not be programmed using the control plane. If an table key is tainted, we can also not predict, which action is tainted. Some frameworks may have implementation details such as annotations, action profiles/selectors that may alter semantics, too. </p>
 
 </div>
 </div>
@@ -709,7 +709,7 @@ const IR::P4Table *&#160;</td><td class="memItemRight" valign="bottom"><b>table<
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- HTML footer for doxygen 1.11.0-->
+<!-- HTML footer for doxygen 1.12.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

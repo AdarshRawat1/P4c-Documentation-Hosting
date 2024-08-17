@@ -1,3 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_p4_1_1_b_f_r_t_1_1_type_spec_parser.html" title=" " alt="" coords="5,5,192,31"/>
+<area shape="rect" id="Node000000" href="$class_p4_1_1_i_compile_context.html" title=" " alt="" coords="5,72,146,99"/>
+<area shape="rect" id="Node000001" href="$class_p4_1_1_base_compile_context.html" title=" " alt="" coords="194,72,361,99"/>
+<area shape="poly" id="edge990_Node000000_Node000001" title=" " alt="" coords="161,83,193,83,193,88,161,88"/>
+<area shape="rect" id="Node000002" href="$class_p4_1_1_p4_c_context.html" title=" " alt="" coords="413,47,528,73"/>
+<area shape="poly" id="edge991_Node000001_Node000002" title=" " alt="" coords="376,70,412,65,412,70,377,75"/>
+<area shape="rect" id="Node000005" href="$class_ref_check_context.html" title=" " alt="" coords="409,97,531,124"/>
+<area shape="poly" id="edge994_Node000001_Node000005" title=" " alt="" coords="377,96,409,100,408,105,376,101"/>
+<area shape="rect" id="Node000003" href="$class_p4_1_1_p4_c_context_with_options.html" title=" " alt="" coords="582,5,769,48"/>
+<area shape="poly" id="edge992_Node000002_Node000003" title=" " alt="" coords="543,46,581,39,582,45,544,51"/>
+<area shape="rect" id="Node000004" href="$class_p4_1_1_p4_tools_1_1_compile_context.html" title="A compilation context for P4Tools that provides a custom compiler configuration." alt="" coords="579,72,772,115"/>
+<area shape="poly" id="edge993_Node000002_Node000004" title=" " alt="" coords="544,69,579,75,578,80,543,74"/>
 </map>

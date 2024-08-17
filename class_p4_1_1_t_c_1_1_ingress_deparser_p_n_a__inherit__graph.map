@@ -1,0 +1,15 @@
+<map id="P4::TC::IngressDeparserPNA" name="P4::TC::IngressDeparserPNA">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,453,202,480"/>
+<area shape="rect" id="Node000002" href="$class_p4_1_1_e_b_p_f_1_1_e_b_p_f_deparser_p_s_a.html" title=" " alt="" coords="5,379,208,405"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,421,109,453,104,453,104,421"/>
+<area shape="rect" id="Node000003" href="$class_p4_1_1_e_b_p_f_1_1_e_b_p_f_deparser.html" title=" " alt="" coords="19,304,194,331"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,346,109,378,104,378,104,346"/>
+<area shape="rect" id="Node000004" href="$class_p4_1_1_e_b_p_f_1_1_e_b_p_f_control.html" title=" " alt="" coords="24,229,189,256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="109,272,109,304,104,304,104,272"/>
+<area shape="rect" id="Node000005" href="$class_p4_1_1_e_b_p_f_1_1_e_b_p_f_object.html" title="Base class for EBPF objects." alt="" coords="26,155,187,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="109,197,109,229,104,229,104,197"/>
+<area shape="rect" id="Node000006" href="$class_p4_1_1_i_castable.html" title=" " alt="" coords="57,80,156,107"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="109,122,109,154,104,154,104,122"/>
+<area shape="rect" id="Node000007" href="$struct_p4_1_1_r_t_t_i_1_1_base.html" title=" " alt="" coords="52,5,161,32"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="109,48,109,80,104,80,104,48"/>
+</map>
