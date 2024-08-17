@@ -1,0 +1,35 @@
+<map id="EBPF::IHasWidth" name="EBPF::IHasWidth">
+<area shape="rect" id="Node000001" title=" " alt="" coords="262,183,386,209"/>
+<area shape="rect" id="Node000004" href="$class_e_b_p_f_1_1_e_b_p_f_bool_type.html" title=" " alt="" coords="440,5,593,32"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="336,168,373,105,401,71,433,42,454,30,456,35,436,46,404,75,378,108,340,170"/>
+<area shape="rect" id="Node000006" href="$class_e_b_p_f_1_1_e_b_p_f_enum_type.html" title=" " alt="" coords="436,56,597,83"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="345,169,383,130,433,92,458,81,461,86,436,97,387,134,349,173"/>
+<area shape="rect" id="Node000008" href="$class_e_b_p_f_1_1_e_b_p_f_error_type.html" title=" " alt="" coords="439,107,594,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="365,173,433,143,466,131,468,136,435,148,368,178"/>
+<area shape="rect" id="Node000010" href="$class_e_b_p_f_1_1_e_b_p_f_scalar_type.html" title=" " alt="" coords="434,157,599,184"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="401,183,433,179,434,184,402,188"/>
+<area shape="rect" id="Node000013" href="$class_e_b_p_f_1_1_e_b_p_f_stack_type.html" title=" " alt="" coords="436,208,597,235"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="402,203,436,208,435,213,401,209"/>
+<area shape="rect" id="Node000014" href="$class_e_b_p_f_1_1_e_b_p_f_struct_type.html" title="Also represents headers and unions." alt="" coords="435,259,598,285"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="368,214,435,244,468,256,466,261,433,249,365,219"/>
+<area shape="rect" id="Node000016" href="$class_e_b_p_f_1_1_e_b_p_f_type_name.html" title="This should not always implement IHasWidth, but it may..." alt="" coords="436,309,597,336"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="349,219,387,258,436,295,461,306,458,311,433,300,383,262,345,223"/>
+<area shape="rect" id="Node000017" href="$class_u_b_p_f_1_1_u_b_p_f_list_type.html" title=" " alt="" coords="442,360,591,387"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="340,222,378,284,404,317,436,346,456,357,454,362,433,350,401,321,373,287,336,224"/>
+<area shape="rect" id="Node000002" href="$class_i_castable.html" title=" " alt="" coords="139,183,214,209"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,193,261,193,261,199,229,199"/>
+<area shape="rect" id="Node000003" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="5,183,91,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,193,138,193,138,199,106,199"/>
+<area shape="rect" id="Node000005" href="$class_u_b_p_f_1_1_u_b_p_f_bool_type.html" title=" " alt="" coords="653,5,806,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="609,16,652,16,652,21,609,21"/>
+<area shape="rect" id="Node000007" href="$class_u_b_p_f_1_1_u_b_p_f_enum_type.html" title=" " alt="" coords="649,56,810,83"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="612,67,648,67,648,72,612,72"/>
+<area shape="rect" id="Node000009" href="$class_u_b_p_f_1_1_u_b_p_f_error_type.html" title=" " alt="" coords="652,107,807,133"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="609,117,651,117,651,123,609,123"/>
+<area shape="rect" id="Node000011" href="$class_u_b_p_f_1_1_u_b_p_f_extern_type.html" title=" " alt="" coords="647,157,812,184"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="614,168,646,168,646,173,614,173"/>
+<area shape="rect" id="Node000012" href="$class_u_b_p_f_1_1_u_b_p_f_scalar_type.html" title=" " alt="" coords="647,208,812,235"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="591,186,671,205,670,210,590,191"/>
+<area shape="rect" id="Node000015" href="$class_u_b_p_f_1_1_u_b_p_f_struct_type.html" title=" " alt="" coords="648,259,811,285"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="613,269,648,269,648,275,613,275"/>
+</map>

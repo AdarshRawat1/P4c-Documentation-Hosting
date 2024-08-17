@@ -1,0 +1,9 @@
+<map id="P4V1::CloneType_Model" name="P4V1::CloneType_Model">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,170,256"/>
+<area shape="rect" id="Node000002" href="$struct_model_1_1_enum___model.html" title="Enum_Model : Type_Model." alt="" coords="17,155,158,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,197,90,229,85,229,85,197"/>
+<area shape="rect" id="Node000003" href="$struct_model_1_1_type___model.html" title=" " alt="" coords="20,80,155,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,122,90,154,85,154,85,122"/>
+<area shape="rect" id="Node000004" href="$struct_model_1_1_elem.html" title=" " alt="" coords="40,5,135,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,48,90,80,85,80,85,48"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="P4Tools::P4Smith::SmithTarget" name="P4Tools::P4Smith::SmithTarget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="377,180,581,207"/>
+<area shape="rect" id="Node000004" href="$class_p4_tools_1_1_p4_smith_1_1_b_mv2_1_1_abstract_b_mv2_smith_target.html" title=" " alt="" coords="636,72,816,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="522,171,628,124,659,113,661,118,630,129,524,176"/>
+<area shape="rect" id="Node000007" href="$class_p4_tools_1_1_p4_smith_1_1_generic_1_1_abstract_generic_smith_target.html" title=" " alt="" coords="629,139,823,181"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="597,175,629,170,629,176,597,180"/>
+<area shape="rect" id="Node000009" href="$class_p4_tools_1_1_p4_smith_1_1_nic_1_1_abstract_nic_smith_target.html" title=" " alt="" coords="642,205,810,248"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="597,207,642,213,641,218,597,212"/>
+<area shape="rect" id="Node000011" href="$class_p4_tools_1_1_p4_smith_1_1_tofino_1_1_abstract_tofino_smith_target.html" title=" " alt="" coords="635,272,817,315"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="524,211,630,258,661,269,659,274,628,262,522,216"/>
+<area shape="rect" id="Node000002" href="$class_p4_tools_1_1_compiler_target.html" title="Encapsulates the details of invoking the P4 compiler for a target device and architecture." alt="" coords="166,180,329,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="345,191,376,191,376,196,345,196"/>
+<area shape="rect" id="Node000003" href="$class_p4_tools_1_1_target.html" title=" " alt="" coords="5,180,118,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,191,165,191,165,196,134,196"/>
+<area shape="rect" id="Node000005" href="$class_p4_tools_1_1_p4_smith_1_1_b_mv2_1_1_bmv2_psa_smith_target.html" title=" " alt="" coords="879,5,1045,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="818,65,883,46,884,51,819,70"/>
+<area shape="rect" id="Node000006" href="$class_p4_tools_1_1_p4_smith_1_1_b_mv2_1_1_bmv2_v1model_smith_target.html" title=" " alt="" coords="871,72,1053,115"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="832,91,870,91,870,96,832,96"/>
+<area shape="rect" id="Node000008" href="$class_p4_tools_1_1_p4_smith_1_1_generic_1_1_generic_core_smith_target.html" title=" " alt="" coords="872,139,1052,181"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="838,157,872,157,872,163,838,163"/>
+<area shape="rect" id="Node000010" href="$class_p4_tools_1_1_p4_smith_1_1_nic_1_1_dpdk_pna_smith_target.html" title=" " alt="" coords="885,205,1039,248"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="825,224,885,224,885,229,825,229"/>
+<area shape="rect" id="Node000012" href="$class_p4_tools_1_1_p4_smith_1_1_tofino_1_1_tofino_tna_smith_target.html" title=" " alt="" coords="878,272,1046,315"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="833,291,877,291,877,296,833,296"/>
+</map>
