@@ -1,7 +1,0 @@
-<map id="TC::PNAErrorCodesGen" name="TC::PNAErrorCodesGen">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,167,181"/>
-<area shape="rect" id="Node000002" href="$class_inspector.html" title=" " alt="" coords="49,80,123,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,122,89,154,83,154,83,122"/>
-<area shape="rect" id="Node000003" href="$class_visitor.html" title=" " alt="" coords="57,5,115,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,48,89,80,83,80,83,48"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="P4::TypeCheck::InferActionArgsBottomUp" name="P4::TypeCheck::InferActionArgsBottomUp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,185,197"/>
-<area shape="rect" id="Node000002" href="$class_p4_1_1_inspector.html" title=" " alt="" coords="46,80,144,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,122,98,154,92,154,92,122"/>
-<area shape="rect" id="Node000003" href="$class_p4_1_1_visitor.html" title=" " alt="" coords="54,5,136,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,48,98,80,92,80,92,48"/>
-</map>

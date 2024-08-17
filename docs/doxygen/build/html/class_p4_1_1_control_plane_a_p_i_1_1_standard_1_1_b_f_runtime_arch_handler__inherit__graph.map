@@ -1,7 +1,0 @@
-<map id="P4::ControlPlaneAPI::Standard::BFRuntimeArchHandler&lt; arch &gt;" name="P4::ControlPlaneAPI::Standard::BFRuntimeArchHandler&lt; arch &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,203,231,261"/>
-<area shape="rect" id="Node000002" href="$class_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_p4_runtime_arch_handler_common.html" title=" " alt="" coords="6,96,230,155"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,170,121,202,115,202,115,170"/>
-<area shape="rect" id="Node000003" href="$class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_arch_handler_iface.html" title=" " alt="" coords="22,5,214,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,63,121,96,115,96,115,63"/>
-</map>

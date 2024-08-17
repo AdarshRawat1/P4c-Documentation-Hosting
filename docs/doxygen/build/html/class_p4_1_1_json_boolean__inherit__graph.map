@@ -1,9 +1,0 @@
-<map id="P4::JsonBoolean" name="P4::JsonBoolean">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,125,256"/>
-<area shape="rect" id="Node000002" href="$class_p4_1_1_json_data.html" title=" " alt="" coords="15,155,115,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,197,68,229,62,229,62,197"/>
-<area shape="rect" id="Node000003" href="$class_p4_1_1_i_castable.html" title=" " alt="" coords="15,80,115,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="68,122,68,154,62,154,62,122"/>
-<area shape="rect" id="Node000004" href="$struct_p4_1_1_r_t_t_i_1_1_base.html" title=" " alt="" coords="10,5,120,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="68,48,68,80,62,80,62,48"/>
-</map>

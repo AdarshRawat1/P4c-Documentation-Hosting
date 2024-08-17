@@ -1,9 +1,0 @@
-<map id="Util::JsonValue" name="Util::JsonValue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,114,256"/>
-<area shape="rect" id="Node000002" href="$class_util_1_1_i_json.html" title=" " alt="" coords="20,155,99,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,197,62,229,57,229,57,197"/>
-<area shape="rect" id="Node000003" href="$class_i_castable.html" title=" " alt="" coords="22,80,97,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="62,122,62,154,57,154,57,122"/>
-<area shape="rect" id="Node000004" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="17,5,102,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="62,48,62,80,57,80,57,48"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="P4Tools::P4Testgen::Bmv2::Bmv2V1ModelActionSelector" name="P4Tools::P4Testgen::Bmv2::Bmv2V1ModelActionSelector">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,245,243,288"/>
-<area shape="rect" id="Node000002" href="$class_p4_tools_1_1_p4_testgen_1_1_test_object.html" title=" " alt="" coords="55,155,193,197"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,213,127,245,121,245,121,213"/>
-<area shape="rect" id="Node000003" href="$class_i_castable.html" title=" " alt="" coords="86,80,162,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,122,127,154,121,154,121,122"/>
-<area shape="rect" id="Node000004" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="81,5,167,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="127,48,127,80,121,80,121,48"/>
-</map>

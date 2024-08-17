@@ -1,9 +1,0 @@
-<map id="P4::P4Tools::TraceEvents::ExtractSuccess" name="P4::P4Tools::TraceEvents::ExtractSuccess">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,177,272"/>
-<area shape="rect" id="Node000002" href="$class_p4_1_1_p4_tools_1_1_trace_event.html" title="An event in a trace of the execution of a P4 program." alt="" coords="9,155,173,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,197,94,229,88,229,88,197"/>
-<area shape="rect" id="Node000003" href="$class_p4_1_1_i_castable.html" title=" " alt="" coords="41,80,141,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,122,94,154,88,154,88,122"/>
-<area shape="rect" id="Node000004" href="$struct_p4_1_1_r_t_t_i_1_1_base.html" title=" " alt="" coords="36,5,146,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,48,94,80,88,80,88,48"/>
-</map>

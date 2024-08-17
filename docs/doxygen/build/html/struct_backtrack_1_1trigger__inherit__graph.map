@@ -1,7 +1,0 @@
-<map id="Backtrack::trigger" name="Backtrack::trigger">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,130,181"/>
-<area shape="rect" id="Node000002" href="$class_i_castable.html" title=" " alt="" coords="30,80,105,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,122,70,154,65,154,65,122"/>
-<area shape="rect" id="Node000003" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="25,5,110,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="70,48,70,80,65,80,65,48"/>
-</map>
