@@ -1,9 +1,0 @@
-<map id="TC::TCOptions" name="TC::TCOptions">
-<area shape="rect" id="Node000001" title=" " alt="" coords="11,229,117,256"/>
-<area shape="rect" id="Node000002" href="$class_compiler_options.html" title=" " alt="" coords="5,155,123,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,197,67,229,61,229,61,197"/>
-<area shape="rect" id="Node000003" href="$class_parser_options.html" title=" " alt="" coords="12,80,116,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,122,67,154,61,154,61,122"/>
-<area shape="rect" id="Node000004" href="$class_util_1_1_options.html" title=" " alt="" coords="17,5,111,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="67,48,67,80,61,80,61,48"/>
-</map>
