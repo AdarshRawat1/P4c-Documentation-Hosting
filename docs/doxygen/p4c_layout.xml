@@ -4,8 +4,17 @@
   <!-- Navigation index tabs for HTML output -->
   <navindex>
     <tab type="mainpage" visible="yes" title=""/>
-    <tab type="pages" visible="yes" title="" intro=""/>
-    <tab type="topics" visible="yes" title="" intro=""/>
+    <tab type="pages" visible="no" title="" intro=""/>
+    <tab type="usergroup" title="Backends">
+      <tab type="user" url="@ref behavioral_model_backend" title="Behavioral Model Backend"/>
+      <tab type="user" url="@ref dpdk_backend" title="DPDK Backend"/>
+      <tab type="user" url="@ref ebpf_backend" title="eBPF Backend"/>
+      <tab type="user" url="@ref tc_backend" title="TC Backend"/>
+      <tab type="user" url="@ref ubpf_backend" title="uBPF Backend"/>
+      <tab type="user" url="@ref p4test_backend" title="P4test Backend"/>
+      <tab type="user" url="@ref graphs_backend" title="Graphs Backend"/>
+    </tab>
+    <tab type="topics" visible="no" title="" intro=""/>
     <tab type="modules" visible="yes" title="" intro="">
       <tab type="modulelist" visible="yes" title="" intro=""/>
       <tab type="modulemembers" visible="yes" title="" intro=""/>
@@ -42,7 +51,6 @@
     </tab>
     <tab type="examples" visible="yes" title="" intro=""/>
   </navindex>
-
   <!-- Layout definition for a class page -->
   <class>
     <briefdescription visible="yes"/>
