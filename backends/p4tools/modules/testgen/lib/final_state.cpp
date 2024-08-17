@@ -5,8 +5,6 @@
 #include <variant>
 #include <vector>
 
-#include <boost/container/vector.hpp>
-
 #include "backends/p4tools/common/lib/model.h"
 #include "backends/p4tools/common/lib/symbolic_env.h"
 #include "backends/p4tools/common/lib/trace_event.h"
@@ -21,7 +19,7 @@
 #include "backends/p4tools/modules/testgen/lib/execution_state.h"
 #include "backends/p4tools/modules/testgen/lib/packet_vars.h"
 
-namespace P4Tools::P4Testgen {
+namespace P4::P4Tools::P4Testgen {
 
 FinalState::FinalState(AbstractSolver &solver, const ExecutionState &finalState)
     : solver(solver),
@@ -92,12 +90,12 @@ std::optional<std::reference_wrapper<const FinalState>> FinalState::computeConco
     }
     auto solverResult = solver.get().checkSat(asserts);
     if (!solverResult) {
-        ::warning("Timed out trying to solve this concolic execution path.");
+        ::P4::warning("Timed out trying to solve this concolic execution path.");
         return std::nullopt;
     }
 
     if (!*solverResult) {
-        ::warning("Concolic constraints for this path are unsatisfiable.");
+        ::P4::warning("Concolic constraints for this path are unsatisfiable.");
         return std::nullopt;
     }
     auto &model = processModel(state, *new Model(solver.get().getSymbolicMapping()), false);
@@ -118,4 +116,4 @@ const std::vector<std::reference_wrapper<const TraceEvent>> *FinalState::getTrac
 }
 
 const P4::Coverage::CoverageSet &FinalState::getVisited() const { return state.get().getVisited(); }
-}  // namespace P4Tools::P4Testgen
+}  // namespace P4::P4Tools::P4Testgen

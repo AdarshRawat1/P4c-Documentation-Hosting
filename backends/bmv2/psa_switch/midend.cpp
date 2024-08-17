@@ -62,7 +62,7 @@ limitations under the License.
 #include "midend/tableHit.h"
 #include "midend/validateProperties.h"
 
-namespace BMV2 {
+namespace P4::BMV2 {
 
 using namespace P4::literals;
 
@@ -91,7 +91,7 @@ class PsaEnumOn32Bits : public P4::ChooseEnumRepresentation {
 };
 
 PsaSwitchMidEnd::PsaSwitchMidEnd(CompilerOptions &options, std::ostream *outStream)
-    : MidEnd(options) {
+    : PortableMidEnd(options) {
     auto convertEnums = new P4::ConvertEnums(&refMap, &typeMap, new PsaEnumOn32Bits("psa.p4"_cs));
     auto evaluator = new P4::EvaluatorPass(&refMap, &typeMap);
     std::function<bool(const Context *, const IR::Expression *)> policy =
@@ -187,4 +187,4 @@ PsaSwitchMidEnd::PsaSwitchMidEnd(CompilerOptions &options, std::ostream *outStre
     }
 }
 
-}  // namespace BMV2
+}  // namespace P4::BMV2

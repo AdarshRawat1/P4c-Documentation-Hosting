@@ -21,7 +21,7 @@ and limitations under the License.
 #include "backend.h"
 #include "tcExterns.h"
 
-namespace TC {
+namespace P4::TC {
 
 using namespace P4::literals;
 
@@ -80,8 +80,8 @@ class PNAErrorCodesGen : public Inspector {
 
             // type ParserError_t is u8, which can have values from 0 to 255
             if (id > 255) {
-                ::error(ErrorType::ERR_OVERLIMIT, "%1%: Reached maximum number of possible errors",
-                        decl);
+                ::P4::error(ErrorType::ERR_OVERLIMIT,
+                            "%1%: Reached maximum number of possible errors", decl);
             }
         }
         builder->newline();
@@ -186,11 +186,18 @@ class IngressDeparserPNA : public EBPF::EBPFDeparserPSA {
                        const IR::Parameter *parserHeaders, const IR::Parameter *istd)
         : EBPF::EBPFDeparserPSA(program, control, parserHeaders, istd) {}
 
+    bool addExternDeclaration = false;
     bool build() override;
     void emit(EBPF::CodeBuilder *builder) override;
     void emitPreDeparser(EBPF::CodeBuilder *builder) override;
     void emitDeclaration(EBPF::CodeBuilder *builder, const IR::Declaration *decl) override;
 
+    void emitExternDefinition(EBPF::CodeBuilder *builder) {
+        if (addExternDeclaration) {
+            builder->emitIndent();
+            builder->appendLine("struct p4tc_ext_bpf_params ext_params = {};");
+        }
+    }
     DECLARE_TYPEINFO(IngressDeparserPNA, EBPF::EBPFDeparserPSA);
 };
 
@@ -274,7 +281,7 @@ class EBPFControlPNA : public EBPF::EBPFControlPSA {
         : EBPF::EBPFControlPSA(program, control, parserHeaders) {}
 
     EBPFRegisterPNA *getRegister(cstring name) const {
-        auto result = ::get(pna_registers, name);
+        auto result = ::P4::get(pna_registers, name);
         BUG_CHECK(result != nullptr, "No register named %1%", name);
         return result;
     }
@@ -329,12 +336,17 @@ class ConvertToEBPFDeparserPNA : public Inspector {
     EBPF::EBPFProgram *program;
     const IR::Parameter *parserHeaders;
     const IR::Parameter *istd;
+    const ConvertToBackendIR *tcIR;
     TC::IngressDeparserPNA *deparser;
 
  public:
     ConvertToEBPFDeparserPNA(EBPF::EBPFProgram *program, const IR::Parameter *parserHeaders,
-                             const IR::Parameter *istd)
-        : program(program), parserHeaders(parserHeaders), istd(istd), deparser(nullptr) {}
+                             const IR::Parameter *istd, const ConvertToBackendIR *tcIR)
+        : program(program),
+          parserHeaders(parserHeaders),
+          istd(istd),
+          tcIR(tcIR),
+          deparser(nullptr) {}
 
     bool preorder(const IR::ControlBlock *) override;
     bool preorder(const IR::Declaration_Instance *) override;
@@ -452,6 +464,6 @@ class EBPFHashAlgorithmTypeFactoryPNA : public EBPF::EBPFHashAlgorithmTypeFactor
     EBPF::EBPFHashAlgorithmPSA *create(int type, const EBPF::EBPFProgram *program, cstring name);
 };
 
-}  // namespace TC
+}  // namespace P4::TC
 
 #endif /* BACKENDS_TC_EBPFCODEGEN_H_ */

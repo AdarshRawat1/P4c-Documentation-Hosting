@@ -24,6 +24,8 @@ limitations under the License.
 #include "exceptions.h"
 #include "hashvec.h"
 
+namespace P4 {
+
 template <class KEY, class VAL, class HASH = std::hash<KEY>, class PRED = std::equal_to<KEY>,
           class ALLOC = std::allocator<std::pair<const KEY, VAL>>>
 class hvec_map : hash_vector_base {
@@ -173,6 +175,19 @@ class hvec_map : hash_vector_base {
         hash_vector_base::lookup_cache cache;
         size_t idx = hash_vector_base::find(&k, &cache);
         return idx > 0;
+    }
+
+    VAL &at(const KEY &k) {
+        hash_vector_base::lookup_cache cache;
+        size_t idx = hash_vector_base::find(&k, &cache);
+        if (!idx || erased[idx - 1]) throw std::out_of_range("hvec_map::at");
+        return data[idx - 1].second;
+    }
+    const VAL &at(const KEY &k) const {
+        hash_vector_base::lookup_cache cache;
+        size_t idx = hash_vector_base::find(&k, &cache);
+        if (!idx || erased[idx - 1]) throw std::out_of_range("hvec_map::at");
+        return data[idx - 1].second;
     }
 
     // FIXME -- how to do this without duplicating the code for lvalue/rvalue?
@@ -342,5 +357,7 @@ template <class K, class T, class V, class Comp, class Alloc>
 inline const V *getref(const hvec_map<K, V, Comp, Alloc> *m, T key) {
     return m ? getref(*m, key) : 0;
 }
+
+}  // namespace P4
 
 #endif /* LIB_HVEC_MAP_H_ */

@@ -27,12 +27,16 @@ limitations under the License.
 #include "lib/log.h"
 #include "lib/stringify.h"
 
+namespace P4 {
+
 void IHasDbPrint::print() const {
     dbprint(std::cout);
     std::cout << std::endl;
 }
 
-namespace Util {
+}  // namespace P4
+
+namespace P4::Util {
 SourcePosition::SourcePosition(unsigned lineNumber, unsigned columnNumber)
     : lineNumber(lineNumber), columnNumber(columnNumber) {
     if (lineNumber == 0) BUG("Line numbering should start at one");
@@ -56,6 +60,13 @@ SourceInfo::SourceInfo(const InputSources *sources, SourcePosition start, Source
 cstring SourceInfo::toString() const {
     return absl::StrFormat("(%s)-(%s)", start.toString().string_view(),
                            end.toString().string_view());
+}
+
+std::ostream &operator<<(std::ostream &os, const SourceInfo &info) {
+    // FIXME: implement abseil stringify to skip cstring conversion here
+    os << absl::StrFormat("(%s)-(%s)", info.start.toString().string_view(),
+                          info.end.toString().string_view());
+    return os;
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -313,12 +324,16 @@ cstring SourceFileLine::toString() const {
     return absl::StrFormat("%s(%d)", fileName.string_view(), sourceLine);
 }
 
-}  // namespace Util
+}  // namespace P4::Util
 
 ////////////////////////////////////////////////////////
+
+namespace P4 {
 
 [[gnu::used]]  // ensure linker will not drop function even if unused
 void dbprint(const IHasDbPrint *o) {
     o->dbprint(std::cout);
     std::cout << std::endl << std::flush;
 }
+
+}  // namespace P4

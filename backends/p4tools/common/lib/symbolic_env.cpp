@@ -3,15 +3,13 @@
 #include <algorithm>
 #include <utility>
 
-#include <boost/container/vector.hpp>
-
 #include "backends/p4tools/common/lib/model.h"
 #include "ir/indexed_vector.h"
 #include "ir/vector.h"
 #include "ir/visitor.h"
 #include "lib/exceptions.h"
 
-namespace P4Tools {
+namespace P4::P4Tools {
 
 const IR::Expression *SymbolicEnv::get(const IR::StateVariable &var) const {
     auto it = map.find(var);
@@ -153,4 +151,4 @@ bool SymbolicEnv::isSymbolicValue(const IR::Node *node) {
     return false;
 }
 
-}  // namespace P4Tools
+}  // namespace P4::P4Tools

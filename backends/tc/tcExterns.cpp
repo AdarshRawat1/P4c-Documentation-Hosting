@@ -16,7 +16,7 @@ and limitations under the License.
 
 #include "tcExterns.h"
 
-namespace TC {
+namespace P4::TC {
 
 void EBPFRegisterPNA::emitInitializer(EBPF::CodeBuilder *builder, const P4::ExternMethod *method,
                                       ControlBodyTranslatorPNA *translator) {
@@ -89,7 +89,7 @@ void EBPFCounterPNA::emitDirectMethodInvocation(EBPF::CodeBuilder *builder,
                                                 const P4::ExternMethod *method,
                                                 const ConvertToBackendIR *tcIR) {
     if (method->method->name.name != "count") {
-        ::error(ErrorType::ERR_UNSUPPORTED, "Unexpected method %1%", method->expr);
+        ::P4::error(ErrorType::ERR_UNSUPPORTED, "Unexpected method %1%", method->expr);
         return;
     }
     BUG_CHECK(isDirect, "Bad Counter invocation");
@@ -130,7 +130,7 @@ void EBPFCounterPNA::emitMethodInvocation(EBPF::CodeBuilder *builder,
                                           const P4::ExternMethod *method,
                                           ControlBodyTranslatorPNA *translator) {
     if (method->method->name.name != "count") {
-        ::error(ErrorType::ERR_UNSUPPORTED, "Unexpected method %1%", method->expr);
+        ::P4::error(ErrorType::ERR_UNSUPPORTED, "Unexpected method %1%", method->expr);
         return;
     }
     BUG_CHECK(!isDirect, "DirectCounter used outside of table");
@@ -184,10 +184,10 @@ void EBPFChecksumPNA::init(const EBPF::EBPFProgram *program, cstring name, int t
 
     if (engine == nullptr) {
         if (declaration->arguments->empty())
-            ::error(ErrorType::ERR_UNSUPPORTED, "InternetChecksum not yet implemented");
+            ::P4::error(ErrorType::ERR_UNSUPPORTED, "InternetChecksum not yet implemented");
         else
-            ::error(ErrorType::ERR_UNSUPPORTED, "Hash algorithm not yet implemented: %1%",
-                    declaration->arguments->at(0));
+            ::P4::error(ErrorType::ERR_UNSUPPORTED, "Hash algorithm not yet implemented: %1%",
+                        declaration->arguments->at(0));
     }
 }
 
@@ -208,7 +208,7 @@ void EBPFInternetChecksumPNA::processMethod(EBPF::CodeBuilder *builder, cstring 
     } else if (method == "get") {
         engine->emitGet(builder);
     } else {
-        ::error(ErrorType::ERR_UNEXPECTED, "Unexpected method call %1%", expr);
+        ::P4::error(ErrorType::ERR_UNEXPECTED, "Unexpected method call %1%", expr);
     }
 }
 
@@ -254,7 +254,7 @@ void InternetChecksumAlgorithmPNA::emitGetInternalState(EBPF::CodeBuilder *build
 void InternetChecksumAlgorithmPNA::emitSetInternalState(EBPF::CodeBuilder *builder,
                                                         const IR::MethodCallExpression *expr) {
     if (expr->arguments->size() != 1) {
-        ::error(ErrorType::ERR_UNEXPECTED, "Expected exactly 1 argument %1%", expr);
+        ::P4::error(ErrorType::ERR_UNEXPECTED, "Expected exactly 1 argument %1%", expr);
         return;
     }
     builder->emitIndent();
@@ -283,7 +283,7 @@ void InternetChecksumAlgorithmPNA::updateChecksum(EBPF::CodeBuilder *builder,
     for (auto field : arguments) {
         auto fieldType = field->type->to<IR::Type_Bits>();
         if (fieldType == nullptr) {
-            ::error(ErrorType::ERR_UNSUPPORTED, "Unsupported field type: %1%", field->type);
+            ::P4::error(ErrorType::ERR_UNSUPPORTED, "Unsupported field type: %1%", field->type);
             return;
         }
         const int width = fieldType->width_bits();
@@ -302,15 +302,17 @@ void InternetChecksumAlgorithmPNA::updateChecksum(EBPF::CodeBuilder *builder,
         }
         if (width > 64) {
             if (remainingBits != 16) {
-                ::error(ErrorType::ERR_UNSUPPORTED,
-                        "%1%: field wider than 64 bits must be aligned to 16 bits in input data",
-                        field);
+                ::P4::error(
+                    ErrorType::ERR_UNSUPPORTED,
+                    "%1%: field wider than 64 bits must be aligned to 16 bits in input data",
+                    field);
                 continue;
             }
             if (width % 16 != 0) {
-                ::error(ErrorType::ERR_UNSUPPORTED,
-                        "%1%: field wider than 64 bits must have size in bits multiply of 16 bits",
-                        field);
+                ::P4::error(
+                    ErrorType::ERR_UNSUPPORTED,
+                    "%1%: field wider than 64 bits must have size in bits multiply of 16 bits",
+                    field);
                 continue;
             }
 
@@ -433,4 +435,49 @@ cstring InternetChecksumAlgorithmPNA::getConvertByteOrderFunction(unsigned width
     return emit;
 }
 
-}  // namespace TC
+void EBPFDigestPNA::emitInitializer(EBPF::CodeBuilder *builder) const {
+    builder->newline();
+    builder->emitIndent();
+    builder->appendLine("__builtin_memset(&ext_params, 0, sizeof(struct p4tc_ext_bpf_params));");
+    builder->emitIndent();
+    builder->appendLine("ext_params.pipe_id = p4tc_filter_fields.pipeid;");
+    builder->emitIndent();
+    auto extId = tcIR->getExternId(externName);
+    BUG_CHECK(!extId.isNullOrEmpty(), "Extern ID not found");
+    builder->appendFormat("ext_params.ext_id = %s;", extId);
+    builder->newline();
+    builder->emitIndent();
+    auto instId = tcIR->getExternInstanceId(externName, instanceName);
+    BUG_CHECK(instId != 0, "Extern instance ID not found");
+    builder->appendFormat("ext_params.inst_id = %d;", instId);
+    builder->newline();
+}
+
+void EBPFDigestPNA::emitPushElement(EBPF::CodeBuilder *builder, const IR::Expression *elem,
+                                    Inspector *codegen) const {
+    emitInitializer(builder);
+    builder->newline();
+    builder->emitIndent();
+    builder->append("__builtin_memcpy(ext_params.in_params, &");
+    codegen->visit(elem);
+    builder->append(", sizeof(");
+    this->valueType->declare(builder, cstring::empty, false);
+    builder->append("));");
+    builder->newline();
+    builder->emitIndent();
+    builder->append("bpf_p4tc_extern_digest_pack(skb, &ext_params, sizeof(ext_params))");
+}
+
+void EBPFDigestPNA::emitPushElement(EBPF::CodeBuilder *builder, cstring elem) const {
+    emitInitializer(builder);
+    builder->newline();
+    builder->emitIndent();
+    builder->appendFormat("__builtin_memcpy(ext_params.in_params, &%s, sizeof(", elem);
+    this->valueType->declare(builder, cstring::empty, false);
+    builder->append("));");
+    builder->newline();
+    builder->emitIndent();
+    builder->append("bpf_p4tc_extern_digest_pack(skb, &ext_params, sizeof(ext_params));");
+}
+
+}  // namespace P4::TC

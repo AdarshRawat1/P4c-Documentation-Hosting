@@ -20,9 +20,11 @@ limitations under the License.
 #include <cstddef>
 #include <cstring>
 #include <functional>
+#include <ostream>
 #include <sstream>
 #include <string>
 #include <string_view>
+#include <type_traits>
 
 #include "hash.h"
 
@@ -71,12 +73,15 @@ limitations under the License.
  * that mixing the two types of strings can trigger a lot of implicit copies.
  */
 
+namespace P4 {
 class cstring;
+}  // namespace P4
 
 namespace P4::literals {
 inline cstring operator""_cs(const char *str, std::size_t len);
 }
 
+namespace P4 {
 class cstring {
     const char *str = nullptr;
 
@@ -366,6 +371,9 @@ inline std::string &operator+=(std::string &a, cstring b) {
     return a;
 }
 
+inline cstring cstring::newline = cstring::literal("\n");
+inline cstring cstring::empty = cstring::literal("");
+
 template <class T>
 cstring cstring::make_unique(const T &inuse, cstring base, int &counter, char sep) {
     if (!inuse.count(base)) return base;
@@ -389,6 +397,8 @@ inline std::ostream &operator<<(std::ostream &out, cstring s) {
     return out << (s ? s.c_str() : "<null>");
 }
 
+}  // namespace P4
+
 /// Let's prevent literal clashes. A user wishing to use the literal can do using namespace
 /// P4::literals, similarly as they can do using namespace std::literals for the standard once.
 namespace P4::literals {
@@ -405,21 +415,21 @@ inline cstring operator""_cs(const char *str, std::size_t len) {
 
 namespace std {
 template <>
-struct hash<cstring> {
-    std::size_t operator()(const cstring &c) const {
+struct hash<P4::cstring> {
+    std::size_t operator()(const P4::cstring &c) const {
         // cstrings are internalized, therefore their addresses are unique; we
         // can just use their address to produce hash.
-        return Util::Hash{}(c.c_str());
+        return P4::Util::Hash{}(c.c_str());
     }
 };
 }  // namespace std
 
-namespace Util {
+namespace P4::Util {
 template <>
 struct Hasher<cstring> {
     size_t operator()(const cstring &c) const { return Util::Hash{}(c.c_str()); }
 };
 
-}  // namespace Util
+}  // namespace P4::Util
 
 #endif /* LIB_CSTRING_H_ */

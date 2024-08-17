@@ -22,10 +22,10 @@ limitations under the License.
 #include "lib/hash.h"
 #include "lib/source_file.h"
 
-namespace IR {
+namespace P4::IR {
 
 // An identifier.
-struct ID : Util::IHasSourceInfo {
+struct ID : Util::IHasSourceInfo, public IHasDbPrint {
     Util::SourceInfo srcInfo;
     cstring name = nullptr;
     // We save the original name to show the user on error messages.
@@ -42,7 +42,7 @@ struct ID : Util::IHasSourceInfo {
     ID(cstring n) : ID(Util::SourceInfo(), n) {}               // NOLINT(runtime/explicit)
     ID(std::string n) : ID(Util::SourceInfo(), n) {}           // NOLINT(runtime/explicit)
     ID(cstring n, cstring old) : ID(Util::SourceInfo(), n, old) {}
-    void dbprint(std::ostream &out) const {
+    void dbprint(std::ostream &out) const override {
         out << name;
         if (originalName != nullptr && originalName != name) out << "/" << originalName;
     }
@@ -61,13 +61,13 @@ struct ID : Util::IHasSourceInfo {
     cstring toString() const override { return originalName.isNullOrEmpty() ? name : originalName; }
 };
 
-}  // namespace IR
+}  // namespace P4::IR
 
-namespace Util {
+namespace P4::Util {
 template <>
 struct Hasher<IR::ID> {
     size_t operator()(const IR::ID &id) const { return Util::Hash{}(id.name); }
 };
-}  // namespace Util
+}  // namespace P4::Util
 
 #endif /* IR_ID_H_ */

@@ -31,6 +31,8 @@ limitations under the License.
 #include "error_helper.h"
 #include "exceptions.h"
 
+namespace P4 {
+
 /// An action to take when a diagnostic message is triggered.
 enum class DiagnosticAction {
     Ignore,  /// Take no action and continue compilation.
@@ -71,7 +73,7 @@ class ErrorReporter {
     /// and source info.
     /// If the error has been reported, return true. Otherwise, insert add the error to the
     /// list of seen errors, and return false.
-    bool error_reported(int err, const Util::SourceInfo source) {
+    bool error_reported(int err, Util::SourceInfo source) {
         if (!source.isValid()) return false;
         auto p = errorTracker.emplace(err, source);
         return !p.second;  // if insertion took place, then we have not seen the error.
@@ -97,41 +99,33 @@ class ErrorReporter {
         boost::format fmt(format);
         // FIXME: This will implicitly take location of the first argument having
         // SourceInfo. Not sure if this always desireable or not.
-        return ::bug_helper(fmt, "", "", std::forward<Args>(args)...);
+        return ::P4::bug_helper(fmt, "", "", std::forward<Args>(args)...);
     }
 
     template <typename... Args>
     std::string format_message(const char *format, Args &&...args) {
         boost::format fmt(format);
-        return ::error_helper(fmt, std::forward<Args>(args)...).toString();
+        return ::P4::error_helper(fmt, std::forward<Args>(args)...).toString();
     }
 
-    template <class T, typename = std::enable_if_t<Util::has_SourceInfo_v<T>>, typename... Args>
+    template <class T, typename = decltype(std::declval<T>()->getSourceInfo()), typename... Args>
     void diagnose(DiagnosticAction action, const int errorCode, const char *format,
-                  const char *suffix, const T *node, Args &&...args) {
-        if (node && !error_reported(errorCode, node->getSourceInfo())) {
-            cstring name = get_error_name(errorCode);
-            auto da = getDiagnosticAction(name, action);
-            if (name)
-                diagnose(da, name, format, suffix, node, std::forward<Args>(args)...);
-            else
-                diagnose(action, nullptr, format, suffix, node, std::forward<Args>(args)...);
-        }
-    }
+                  const char *suffix, T node, Args &&...args) {
+        if (!node || error_reported(errorCode, node->getSourceInfo())) return;
 
-    template <class T, typename = std::enable_if_t<Util::has_SourceInfo_v<T>>, typename... Args>
-    void diagnose(DiagnosticAction action, const int errorCode, const char *format,
-                  const char *suffix, const T &node, Args &&...args) {
-        diagnose(action, errorCode, format, suffix, &node, std::forward<Args>(args)...);
+        if (cstring name = get_error_name(errorCode))
+            diagnose(getDiagnosticAction(name, action), name, format, suffix, node,
+                     std::forward<Args>(args)...);
+        else
+            diagnose(action, nullptr, format, suffix, node, std::forward<Args>(args)...);
     }
 
     template <typename... Args>
     void diagnose(DiagnosticAction action, const int errorCode, const char *format,
                   const char *suffix, Args &&...args) {
-        cstring name = get_error_name(errorCode);
-        auto da = getDiagnosticAction(name, action);
-        if (name)
-            diagnose(da, name, format, suffix, std::forward<Args>(args)...);
+        if (cstring name = get_error_name(errorCode))
+            diagnose(getDiagnosticAction(name, action), name, format, suffix,
+                     std::forward<Args>(args)...);
         else
             diagnose(action, nullptr, format, suffix, std::forward<Args>(args)...);
     }
@@ -165,7 +159,7 @@ class ErrorReporter {
 
         boost::format fmt(format);
         ErrorMessage msg(msgType, diagnosticName ? diagnosticName : "", suffix);
-        msg = ::error_helper(fmt, msg, std::forward<Args>(args)...);
+        msg = ::P4::error_helper(fmt, msg, std::forward<Args>(args)...);
         emit_message(msg);
 
         if (errorCount > maxErrorCount)
@@ -249,31 +243,33 @@ class ErrorReporter {
         diagnosticActions[cstring(diagnostic)] = action;
     }
 
-    /// @return the default diagnostic action for calls to `::warning()`.
+    /// @return the default diagnostic action for calls to `::P4::warning()`.
     DiagnosticAction getDefaultWarningDiagnosticAction() { return defaultWarningDiagnosticAction; }
 
-    /// set the default diagnostic action for calls to `::warning()`.
+    /// set the default diagnostic action for calls to `::P4::warning()`.
     void setDefaultWarningDiagnosticAction(DiagnosticAction action) {
         defaultWarningDiagnosticAction = action;
     }
 
-    /// @return the default diagnostic action for calls to `::info()`.
+    /// @return the default diagnostic action for calls to `::P4::info()`.
     DiagnosticAction getDefaultInfoDiagnosticAction() { return defaultInfoDiagnosticAction; }
 
-    /// set the default diagnostic action for calls to `::info()`.
+    /// set the default diagnostic action for calls to `::P4::info()`.
     void setDefaultInfoDiagnosticAction(DiagnosticAction action) {
         defaultInfoDiagnosticAction = action;
     }
 
  private:
-    /// The default diagnostic action for calls to `::info()`.
+    /// The default diagnostic action for calls to `::P4::info()`.
     DiagnosticAction defaultInfoDiagnosticAction;
 
-    /// The default diagnostic action for calls to `::warning()`.
+    /// The default diagnostic action for calls to `::P4::warning()`.
     DiagnosticAction defaultWarningDiagnosticAction;
 
     /// allow filtering of diagnostic actions
     std::unordered_map<cstring, DiagnosticAction> diagnosticActions;
 };
+
+}  // namespace P4
 
 #endif /* LIB_ERROR_REPORTER_H_ */

@@ -1,0 +1,5 @@
+<map id="Util::has_SourceInfo&lt; class, class &gt;" name="Util::has_SourceInfo&lt; class, class &gt;">
+<area shape="rect" id="Node000001" title="SFINAE helper to check if given class has a getSourceInfo method." alt="" coords="5,80,143,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="21,5,127,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,48,77,80,71,80,71,48"/>
+</map>

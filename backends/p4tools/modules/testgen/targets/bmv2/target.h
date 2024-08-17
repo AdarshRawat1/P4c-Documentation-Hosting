@@ -13,7 +13,7 @@
 #include "backends/p4tools/modules/testgen/targets/bmv2/program_info.h"
 #include "backends/p4tools/modules/testgen/targets/bmv2/test_backend.h"
 
-namespace P4Tools::P4Testgen::Bmv2 {
+namespace P4::P4Tools::P4Testgen::Bmv2 {
 
 class Bmv2V1ModelTestgenTarget : public TestgenTarget {
  public:
@@ -40,9 +40,10 @@ class Bmv2V1ModelTestgenTarget : public TestgenTarget {
 
     [[nodiscard]] MidEnd mkMidEnd(const CompilerOptions &options) const override;
 
-    CompilerResultOrError runCompilerImpl(const IR::P4Program *program) const override;
+    CompilerResultOrError runCompilerImpl(const CompilerOptions &options,
+                                          const IR::P4Program *program) const override;
 };
 
-}  // namespace P4Tools::P4Testgen::Bmv2
+}  // namespace P4::P4Tools::P4Testgen::Bmv2
 
 #endif /* BACKENDS_P4TOOLS_MODULES_TESTGEN_TARGETS_BMV2_TARGET_H_ */
