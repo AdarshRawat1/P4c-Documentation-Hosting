@@ -1,9 +1,0 @@
-<map id="P4::BMV2::ParsePnaArchitecture" name="P4::BMV2::ParsePnaArchitecture">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,222,256"/>
-<area shape="rect" id="Node000002" href="$class_p4_1_1_parse_portable_architecture.html" title=" " alt="" coords="15,155,212,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,197,116,229,111,229,111,197"/>
-<area shape="rect" id="Node000003" href="$class_p4_1_1_inspector.html" title=" " alt="" coords="64,80,163,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="116,122,116,154,111,154,111,122"/>
-<area shape="rect" id="Node000004" href="$class_p4_1_1_visitor.html" title=" " alt="" coords="72,5,155,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="116,48,116,80,111,80,111,48"/>
-</map>

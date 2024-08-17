@@ -1,9 +1,0 @@
-<map id="P4::EBPF::PSAEbpfGenerator" name="P4::EBPF::PSAEbpfGenerator">
-<area shape="rect" id="Node000001" title=" " alt="" coords="79,80,277,107"/>
-<area shape="rect" id="Node000003" href="$class_p4_1_1_e_b_p_f_1_1_p_s_a_arch_t_c.html" title=" " alt="" coords="5,155,164,181"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,119,102,156,99,152,148,114"/>
-<area shape="rect" id="Node000004" href="$class_p4_1_1_e_b_p_f_1_1_p_s_a_arch_x_d_p.html" title=" " alt="" coords="188,155,355,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,114,257,152,253,156,204,119"/>
-<area shape="rect" id="Node000002" href="$class_p4_1_1_e_b_p_f_1_1_ebpf_code_generator.html" title=" " alt="" coords="77,5,279,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,48,181,80,175,80,175,48"/>
-</map>

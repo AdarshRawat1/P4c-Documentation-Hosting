@@ -1,9 +1,0 @@
-<map id="P4Tools::TraceEvents::IfStatementCondition" name="P4Tools::TraceEvents::IfStatementCondition">
-<area shape="rect" id="Node000001" title="Represents an if statement condition." alt="" coords="5,229,155,272"/>
-<area shape="rect" id="Node000002" href="$class_p4_tools_1_1_trace_event.html" title="An event in a trace of the execution of a P4 program." alt="" coords="10,155,150,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,197,83,229,77,229,77,197"/>
-<area shape="rect" id="Node000003" href="$class_i_castable.html" title=" " alt="" coords="42,80,118,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,122,83,154,77,154,77,122"/>
-<area shape="rect" id="Node000004" href="$struct_r_t_t_i_1_1_base.html" title=" " alt="" coords="37,5,123,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,48,83,80,77,80,77,48"/>
-</map>

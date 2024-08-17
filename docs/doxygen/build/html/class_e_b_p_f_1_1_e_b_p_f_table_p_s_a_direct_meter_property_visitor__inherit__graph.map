@@ -1,9 +1,0 @@
-<map id="EBPF::EBPFTablePSADirectMeterPropertyVisitor" name="EBPF::EBPFTablePSADirectMeterPropertyVisitor">
-<area shape="rect" id="Node000001" title=" " alt="" coords="11,245,202,288"/>
-<area shape="rect" id="Node000002" href="$class_e_b_p_f_1_1_e_b_p_f_table_psa_property_visitor.html" title=" " alt="" coords="5,155,208,197"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,213,109,245,104,245,104,213"/>
-<area shape="rect" id="Node000003" href="$class_inspector.html" title=" " alt="" coords="69,80,144,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,122,109,154,104,154,104,122"/>
-<area shape="rect" id="Node000004" href="$class_visitor.html" title=" " alt="" coords="77,5,136,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="109,48,109,80,104,80,104,48"/>
-</map>
