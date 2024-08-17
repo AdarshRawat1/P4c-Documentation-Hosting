@@ -1,9 +1,0 @@
-<map id="P4Fmt::P4fmtOptions" name="P4Fmt::P4fmtOptions">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,153,256"/>
-<area shape="rect" id="Node000002" href="$class_compiler_options.html" title=" " alt="" coords="20,155,138,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,197,82,229,76,229,76,197"/>
-<area shape="rect" id="Node000003" href="$class_parser_options.html" title=" " alt="" coords="27,80,131,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,122,82,154,76,154,76,122"/>
-<area shape="rect" id="Node000004" href="$class_util_1_1_options.html" title=" " alt="" coords="32,5,126,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="82,48,82,80,76,80,76,48"/>
-</map>

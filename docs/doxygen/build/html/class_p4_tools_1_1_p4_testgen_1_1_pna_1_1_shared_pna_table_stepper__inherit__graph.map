@@ -1,7 +1,0 @@
-<map id="P4Tools::P4Testgen::Pna::SharedPnaTableStepper" name="P4Tools::P4Testgen::Pna::SharedPnaTableStepper">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,96,206,139"/>
-<area shape="rect" id="Node000003" href="$class_p4_tools_1_1_p4_testgen_1_1_pna_1_1_pna_dpdk_table_stepper.html" title=" " alt="" coords="11,187,200,229"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="108,154,108,186,103,186,103,154"/>
-<area shape="rect" id="Node000002" href="$class_p4_tools_1_1_p4_testgen_1_1_table_stepper.html" title="Implements small&#45;step operational semantics for tables." alt="" coords="36,5,175,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,64,108,96,103,96,103,64"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="TypeCheck::InferActionArgsTopDown" name="TypeCheck::InferActionArgsTopDown">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,188,197"/>
-<area shape="rect" id="Node000002" href="$class_inspector.html" title=" " alt="" coords="59,80,134,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,122,99,154,94,154,94,122"/>
-<area shape="rect" id="Node000003" href="$class_visitor.html" title=" " alt="" coords="67,5,126,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,48,99,80,94,80,94,48"/>
-</map>
