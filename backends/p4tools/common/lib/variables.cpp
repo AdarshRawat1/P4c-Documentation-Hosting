@@ -6,7 +6,7 @@
 
 #include "ir/id.h"
 
-namespace P4Tools::ToolsVariables {
+namespace P4::P4Tools::ToolsVariables {
 
 /// The prefix used for state variables.
 static const IR::PathExpression VAR_PREFIX = IR::PathExpression("p4tools*var");
@@ -34,7 +34,7 @@ const IR::TaintExpression *getTaintExpression(const IR::Type *type) {
     }
     // Only cache bits with width lower than 16 bit to restrict the size of the cache.
     const auto *tb = type->to<IR::Type_Bits>();
-    if (type->width_bits() > 16 || tb == nullptr) {
+    if (tb == nullptr || type->width_bits() > 16) {
         return new IR::TaintExpression(type);
     }
     // Taint expressions are interned. Keys in the intern map is the signedness and width of the
@@ -62,4 +62,4 @@ IR::StateVariable convertReference(const IR::Expression *ref) {
     return path;
 }
 
-}  // namespace P4Tools::ToolsVariables
+}  // namespace P4::P4Tools::ToolsVariables

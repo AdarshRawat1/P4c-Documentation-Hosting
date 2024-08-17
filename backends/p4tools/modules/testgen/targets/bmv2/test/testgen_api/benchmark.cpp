@@ -1,19 +1,25 @@
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
 
+#include "backends/p4tools/common/compiler/context.h"
 #include "backends/p4tools/common/lib/logging.h"
+#include "frontends/common/options.h"
+#include "lib/compile_context.h"
 #include "test/gtest/helpers.h"
 
 #include "backends/p4tools/modules/testgen/core/symbolic_executor/path_selection.h"
 #include "backends/p4tools/modules/testgen/options.h"
 #include "backends/p4tools/modules/testgen/testgen.h"
 
-namespace Test {
+namespace P4::Test {
 
 using namespace P4::literals;
 
 TEST(P4TestgenBenchmark, SuccessfullyGenerate1000Tests) {
-    auto compilerOptions = P4CContextWithOptions<CompilerOptions>::get().options();
+    // Set the compiler options.
+    auto *context = new P4Tools::CompileContext<CompilerOptions>();
+    AutoCompileContext autoContext(context);
+    auto &compilerOptions = context->options();
     compilerOptions.target = "bmv2"_cs;
     compilerOptions.arch = "v1model"_cs;
     auto includePath = P4CTestEnvironment::getProjectRoot() / "p4include";
@@ -35,9 +41,10 @@ TEST(P4TestgenBenchmark, SuccessfullyGenerate1000Tests) {
     // This enables performance printing.
     P4Tools::enablePerformanceLogging();
 
-    P4Tools::P4Testgen::Testgen::generateTests(compilerOptions, testgenOptions);
+    auto testList = P4Tools::P4Testgen::Testgen::generateTests(compilerOptions, testgenOptions);
+    ASSERT_TRUE(testList.has_value());
 
     // Print the report.
     P4Tools::printPerformanceReport();
 }
-}  // namespace Test
+}  // namespace P4::Test

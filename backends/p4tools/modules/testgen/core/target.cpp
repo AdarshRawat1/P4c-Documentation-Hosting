@@ -13,7 +13,7 @@
 #include "backends/p4tools/modules/testgen/core/program_info.h"
 #include "backends/p4tools/modules/testgen/toolname.h"
 
-namespace P4Tools::P4Testgen {
+namespace P4::P4Tools::P4Testgen {
 
 TestgenTarget::TestgenTarget(const std::string &deviceName, const std::string &archName)
     : CompilerTarget(TOOL_NAME, deviceName, archName) {}
@@ -60,13 +60,14 @@ CmdStepper *TestgenTarget::getCmdStepper(ExecutionState &state, AbstractSolver &
     return get().getCmdStepperImpl(state, solver, programInfo);
 }
 
-CompilerResultOrError TestgenTarget::runCompilerImpl(const IR::P4Program *program) const {
-    program = runFrontend(program);
+CompilerResultOrError TestgenTarget::runCompilerImpl(const CompilerOptions &options,
+                                                     const IR::P4Program *program) const {
+    program = runFrontend(options, program);
     if (program == nullptr) {
         return std::nullopt;
     }
 
-    program = runMidEnd(program);
+    program = runMidEnd(options, program);
     if (program == nullptr) {
         return std::nullopt;
     }
@@ -87,4 +88,4 @@ CompilerResultOrError TestgenTarget::runCompilerImpl(const IR::P4Program *progra
         *new TestgenCompilerResult(CompilerResult(*program), coverage.getCoverableNodes(), dcg)};
 }
 
-}  // namespace P4Tools::P4Testgen
+}  // namespace P4::P4Tools::P4Testgen

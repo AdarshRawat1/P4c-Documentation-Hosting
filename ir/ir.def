@@ -298,7 +298,7 @@ class Property : Declaration, IAnnotated {
 
 class TableProperties : ISimpleNamespace {
     optional inline IndexedVector<Property> properties;
-    toString{ return "TableProperties("_cs + Util::toString(properties.size()) + ")"_cs; }
+    toString{ return absl::StrCat("TableProperties(", properties.size(), ")"); }
     Util::Enumerator<IDeclaration>* getDeclarations() const override {
         return properties.getDeclarations(); }
     Property getProperty(cstring name) const {
@@ -332,7 +332,7 @@ class P4Table : Declaration, IAnnotated, IApply {
         if (ap == nullptr)
             return nullptr;
         if (!ap->value->is<IR::ActionList>()) {
-            ::error(ErrorType::ERR_INVALID, "%1%: must be an action list", ap);
+            ::P4::error(ErrorType::ERR_INVALID, "%1%: must be an action list", ap);
             return nullptr; }
         return ap->value->to<IR::ActionList>(); }
     Key getKey() const {
@@ -340,7 +340,7 @@ class P4Table : Declaration, IAnnotated, IApply {
         if (kp == nullptr)
             return nullptr;
         if (!kp->value->is<IR::Key>()) {
-            ::error(ErrorType::ERR_INVALID, "%1%: must be a key", kp);
+            ::P4::error(ErrorType::ERR_INVALID, "%1%: must be a key", kp);
             return nullptr; }
         return kp->value->to<IR::Key>(); }
     Expression getDefaultAction() const {
@@ -348,7 +348,7 @@ class P4Table : Declaration, IAnnotated, IApply {
         if (d == nullptr)
             return nullptr;
         if (!d->value->is<IR::ExpressionValue>()) {
-            ::error(ErrorType::ERR_INVALID, "%1%: must be an expression", d);
+            ::P4::error(ErrorType::ERR_INVALID, "%1%: must be an expression", d);
             return nullptr; }
         return d->value->to<IR::ExpressionValue>()->expression; }
     Constant getConstantProperty(cstring name) const {
@@ -373,7 +373,7 @@ class P4Table : Declaration, IAnnotated, IApply {
         if (ep == nullptr)
             return nullptr;
         if (!ep->value->is<IR::EntriesList>()) {
-            ::error(ErrorType::ERR_INVALID, "%1%: must be a list of entries", ep);
+            ::P4::error(ErrorType::ERR_INVALID, "%1%: must be a list of entries", ep);
             return nullptr;
         }
         return ep->value->to<IR::EntriesList>();
@@ -452,8 +452,9 @@ class ExitStatement : Statement {
 
 class ReturnStatement : Statement {
     NullOK Expression expression;
-    toString{ return "return "_cs +
-                (expression != nullptr ? expression->toString() : ""_cs); }
+    toString{ return absl::StrCat("return ",
+                                  (expression ?
+                                   expression->toString().string_view() : "")); }
 }
 
 class EmptyStatement : Statement {
@@ -463,7 +464,9 @@ class EmptyStatement : Statement {
 class AssignmentStatement : Statement {
     Expression left;
     Expression right;
-    toString{ return left->toString() + " = "_cs + right->toString(); }
+    toString{ return absl::StrCat(left->toString().string_view(),
+                                  " = ",
+                                  right->toString().string_view()); }
 }
 
 class IfStatement : Statement {

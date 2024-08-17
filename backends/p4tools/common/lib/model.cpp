@@ -4,8 +4,6 @@
 #include <string>
 #include <utility>
 
-#include <boost/container/vector.hpp>
-
 #include "frontends/p4/optimizeExpressions.h"
 #include "ir/indexed_vector.h"
 #include "ir/irutils.h"
@@ -14,7 +12,7 @@
 #include "lib/exceptions.h"
 #include "lib/log.h"
 
-namespace P4Tools {
+namespace P4::P4Tools {
 
 Model::SubstVisitor::SubstVisitor(const Model &model, bool doComplete)
     : self(model), doComplete(doComplete) {}
@@ -113,4 +111,4 @@ void Model::mergeMap(const SymbolicMapping &sourceMap) {
     }
 }
 
-}  // namespace P4Tools
+}  // namespace P4::P4Tools

@@ -13,7 +13,7 @@
 
 using namespace P4;
 
-namespace Test {
+namespace P4::Test {
 
 namespace {
 
@@ -80,9 +80,6 @@ struct StrengthReductionPolicy : public P4::FrontEndPolicy {
 TEST_F(StrengthReductionTest, Default) {
     auto test = createStrengthReductionTestCase(P4_SOURCE(R"(headers.h.f1 = headers.h.f1 - 1;)"));
 
-    ReferenceMap refMap;
-    TypeMap typeMap;
-
     Util::SourceCodeBuilder builder;
     ToP4 top4(builder, false);
     test->program->apply(top4);
@@ -99,9 +96,6 @@ TEST_F(StrengthReductionTest, DisableSubConstToAddConst) {
     auto test =
         createStrengthReductionTestCase(P4_SOURCE(R"(headers.h.f1 = headers.h.f1 - 1;)"), &policy);
 
-    ReferenceMap refMap;
-    TypeMap typeMap;
-
     Util::SourceCodeBuilder builder;
     ToP4 top4(builder, false);
     test->program->apply(top4);
@@ -113,4 +107,4 @@ TEST_F(StrengthReductionTest, DisableSubConstToAddConst) {
     EXPECT_FALSE(program_string.find(value2) == std::string::npos);
 }
 
-}  // namespace Test
+}  // namespace P4::Test

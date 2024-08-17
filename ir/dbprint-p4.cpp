@@ -24,6 +24,8 @@ limitations under the License.
 #include "lib/log.h"
 #include "lib/map.h"
 
+namespace P4 {
+
 using namespace DBPrint;
 using namespace IndentCtl;
 
@@ -149,7 +151,7 @@ void IR::P4Action::dbprint(std::ostream &out) const {
 }
 
 void IR::BlockStatement::dbprint(std::ostream &out) const {
-    out << "{" << indent;
+    out << annotations << "{" << indent;
     bool first = true;
     for (auto p : components) {
         if (first) {
@@ -266,3 +268,5 @@ void IR::Declaration_Instance::dbprint(std::ostream &out) const {
         out << " }" << unindent;
     }
 }
+
+}  // namespace P4

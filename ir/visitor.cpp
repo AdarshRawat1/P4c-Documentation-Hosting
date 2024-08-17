@@ -16,6 +16,7 @@ limitations under the License.
 
 #include "visitor.h"
 
+#include <config.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -24,6 +25,10 @@ limitations under the License.
 #include "absl/time/time.h"
 #include "ir/ir-generated.h"
 #include "lib/hash.h"
+
+#if HAVE_CXXABI_H
+#include <cxxabi.h>
+#endif
 
 #if HAVE_LIBGC
 #include <gc.h>
@@ -38,6 +43,8 @@ limitations under the License.
 #include "lib/indent.h"
 #include "lib/log.h"
 #include "lib/map.h"
+
+namespace P4 {
 
 enum class VisitStatus : unsigned { New, Revisit, Busy, Done };
 
@@ -770,10 +777,7 @@ std::ostream &operator<<(std::ostream &out, const IR::Vector<IR::Expression> *v)
     return v ? out << *v : out << "<null>";
 }
 
-#include <config.h>
 #if HAVE_CXXABI_H
-#include <cxxabi.h>
-
 cstring Visitor::demangle(const char *str) {
     int status;
     cstring rv;
@@ -822,18 +826,28 @@ void Backtrack::trigger::register_for_gc(size_t
 
 Backtrack::trigger::~trigger() {
 #if HAVE_LIBGC
-    if (auto sz = ::get(trigger_gc_roots, this)) {
+    if (auto sz = ::P4::get(trigger_gc_roots, this)) {
         GC_remove_roots(this, reinterpret_cast<char *>(this) + sz);
         trigger_gc_roots.erase(this);
     }
 #endif /* HAVE_LIBGC */
 }
 
+std::ostream &operator<<(std::ostream &out, const Backtrack::trigger &trigger) {
+    trigger.dbprint(out);
+    return out;
+}
+
+std::ostream &operator<<(std::ostream &out, const SplitFlowVisit_base &split) {
+    split.dbprint(out);
+    return out;
+}
+
 std::ostream &operator<<(std::ostream &out, const ControlFlowVisitor::flow_join_info_t &info) {
     if (info.vclone) out << Visitor::demangle(typeid(*info.vclone).name()) << " ";
     out << "count=" << info.count << "  done=" << info.done;
 #if DEBUG_FLOW_JOIN
-    using namespace DBPrint;
+    using namespace P4::DBPrint;
     auto flags = dbgetflags(out);
     out << Brief;
     for (auto &i : info.parents) {
@@ -847,7 +861,7 @@ std::ostream &operator<<(std::ostream &out, const ControlFlowVisitor::flow_join_
 }
 
 std::ostream &operator<<(std::ostream &out, const ControlFlowVisitor::flow_join_points_t &fjp) {
-    using namespace DBPrint;
+    using namespace P4::DBPrint;
     auto flags = dbgetflags(out);
     out << Brief;
     bool first = true;
@@ -870,3 +884,5 @@ void dump(const SplitFlowVisit_base *split) {
         split = split->prev;
     }
 }
+
+}  // namespace P4

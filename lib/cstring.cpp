@@ -29,13 +29,19 @@ limitations under the License.
 
 #include <algorithm>
 #include <cctype>
+#include <cstddef>
+#include <cstring>
+#include <functional>
 #include <iomanip>
 #include <ios>
+#include <sstream>
 #include <string>
+#include <string_view>
 #include <unordered_set>
 
 #include "hash.h"
 
+namespace P4 {
 namespace {
 enum class table_entry_flags {
     none,
@@ -215,9 +221,6 @@ size_t cstring::cache_size(size_t &count) {
     return rv;
 }
 
-cstring cstring::newline = cstring::literal("\n");
-cstring cstring::empty = cstring::literal("");
-
 bool cstring::startsWith(std::string_view prefix) const {
     if (prefix.empty()) return true;
     return size() >= prefix.size() && memcmp(str, prefix.data(), prefix.size()) == 0;
@@ -322,3 +325,5 @@ cstring cstring::capitalize() const {
     st[0] = ::toupper(st[0]);
     return cstring(st);
 }
+
+}  // namespace P4

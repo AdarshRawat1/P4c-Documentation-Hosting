@@ -22,6 +22,7 @@ limitations under the License.
 #define LIB_SOURCE_FILE_H_
 
 #include <map>
+#include <sstream>
 #include <string_view>
 #include <vector>
 
@@ -33,11 +34,11 @@ limitations under the License.
 #include "gtest/gtest_prod.h"
 #endif
 
-namespace Test {
+namespace P4::Test {
 class UtilSourceFile;
 }
 
-namespace Util {
+namespace P4::Util {
 using namespace P4::literals;
 
 struct SourceFileLine;
@@ -201,6 +202,8 @@ class SourceInfo final {
     inline bool operator<=(const SourceInfo &rhs) const { return !this->operator>(rhs); }
     inline bool operator>=(const SourceInfo &rhs) const { return !this->operator<(rhs); }
 
+    friend std::ostream &operator<<(std::ostream &os, const SourceInfo &info);
+
  private:
     const InputSources *sources = nullptr;
     SourcePosition start = SourcePosition();
@@ -214,8 +217,16 @@ class IHasSourceInfo {
     virtual ~IHasSourceInfo() {}
 };
 
+/// SFINAE helper to check if given class has a `getSourceInfo` method.
+template <class, class = void>
+struct has_SourceInfo : std::false_type {};
+
 template <class T>
-inline constexpr bool has_SourceInfo_v = std::is_base_of_v<Util::IHasSourceInfo, T>;
+struct has_SourceInfo<T, std::void_t<decltype(std::declval<T>().getSourceInfo())>>
+    : std::true_type {};
+
+template <class T>
+inline constexpr bool has_SourceInfo_v = has_SourceInfo<T>::value;
 
 /** A line in a source file */
 struct SourceFileLine {
@@ -238,16 +249,18 @@ class Comment final : IHasDbPrint {
     Comment(SourceInfo srcInfo, bool singleLine, cstring body)
         : srcInfo(srcInfo), singleLine(singleLine), body(body) {}
     cstring toString() const {
-        std::string result;
-        if (singleLine)
-            result = "//";
-        else
-            result = "/*";
-        result += body;
-        if (!singleLine) result += "*/";
-        return result;
+        std::stringstream str;
+        dbprint(str);
+        return str.str();
     }
-    void dbprint(std::ostream &out) const { out << toString(); }
+    void dbprint(std::ostream &out) const override {
+        if (singleLine)
+            out << "//";
+        else
+            out << "/*";
+        out << body;
+        if (!singleLine) out << "*/";
+    }
 };
 
 /**
@@ -316,8 +329,12 @@ class InputSources final {
     std::vector<Comment *> comments;
 };
 
-}  // namespace Util
+}  // namespace P4::Util
+
+namespace P4 {
 
 void dbprint(const IHasDbPrint *o);
+
+}  // namespace P4
 
 #endif /* LIB_SOURCE_FILE_H_ */

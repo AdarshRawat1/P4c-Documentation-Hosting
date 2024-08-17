@@ -30,7 +30,7 @@
 #include "backends/p4tools/modules/testgen/targets/bmv2/test_backend/stf.h"
 #include "backends/p4tools/modules/testgen/targets/bmv2/test_spec.h"
 
-namespace P4Tools::P4Testgen::Bmv2 {
+namespace P4::P4Tools::P4Testgen::Bmv2 {
 
 const big_int Bmv2TestBackend::ZERO_PKT_VAL = 0x2000000;
 const big_int Bmv2TestBackend::ZERO_PKT_MAX = 0xffffffff;
@@ -43,7 +43,7 @@ Bmv2TestBackend::Bmv2TestBackend(const Bmv2V1ModelProgramInfo &programInfo,
     : TestBackEnd(programInfo, testBackendConfiguration, symbex) {
     cstring testBackendString = TestgenOptions::get().testBackend;
     if (testBackendString.isNullOrEmpty()) {
-        ::error(
+        ::P4::error(
             "No test back end provided. Please provide a test back end using the --test-backend "
             "parameter. Supported back ends are %1%.",
             Utils::containerToString(SUPPORTED_BACKENDS));
@@ -75,7 +75,8 @@ TestBackEnd::TestInfo Bmv2TestBackend::produceTestInfo(
                                                  outputPortExpr, programTraces);
     // This is a hack to deal with a behavioral model quirk.
     // Packets that are too small are truncated to 02000000 (in hex) with width 32 bit.
-    if (testInfo.outputPacket->type->width_bits() == 0) {
+    if (testInfo.outputPacket->type->width_bits() == 0 &&
+        TestgenOptions::get().testBackend == "STF") {
         int outPktSize = ZERO_PKT_WIDTH;
         testInfo.outputPacket =
             IR::Constant::get(IR::Type_Bits::get(outPktSize), Bmv2TestBackend::ZERO_PKT_VAL);
@@ -164,4 +165,4 @@ const TestSpec *Bmv2TestBackend::createTestSpec(const ExecutionState *executionS
     return testSpec;
 }
 
-}  // namespace P4Tools::P4Testgen::Bmv2
+}  // namespace P4::P4Tools::P4Testgen::Bmv2

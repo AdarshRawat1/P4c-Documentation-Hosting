@@ -16,9 +16,7 @@
 #include "lib/log.h"
 #include "nlohmann/json.hpp"
 
-#include "backends/p4tools/modules/testgen/options.h"
-
-namespace P4Tools::P4Testgen::Bmv2 {
+namespace P4::P4Tools::P4Testgen::Bmv2 {
 
 PTF::PTF(const TestBackendConfiguration &testBackendConfiguration)
     : Bmv2TestFramework(testBackendConfiguration) {}
@@ -26,6 +24,9 @@ PTF::PTF(const TestBackendConfiguration &testBackendConfiguration)
 std::vector<std::pair<size_t, size_t>> PTF::getIgnoreMasks(const IR::Constant *mask) {
     std::vector<std::pair<size_t, size_t>> ignoreMasks;
     if (mask == nullptr) {
+        return ignoreMasks;
+    }
+    if (mask->type->width_bits() == 0) {
         return ignoreMasks;
     }
     auto maskBinStr = formatBinExpr(mask, {false, true, false});
@@ -310,4 +311,4 @@ void PTF::writeTestToFile(const TestSpec *testSpec, cstring selectedBranches, si
     emitTestcase(testSpec, selectedBranches, testId, testCase, currentCoverage);
 }
 
-}  // namespace P4Tools::P4Testgen::Bmv2
+}  // namespace P4::P4Tools::P4Testgen::Bmv2

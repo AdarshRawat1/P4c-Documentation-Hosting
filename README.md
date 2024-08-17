@@ -1,5 +1,14 @@
+<!--!
+\page getting_started Getting Started                                    
+-->
+<!--!
+\internal
+-->
 # P4C
-<!--! 
+<!--!
+\endinternal
+-->
+<!--!
 [TOC]
 -->
 [![Main Build](https://github.com/p4lang/p4c/actions/workflows/ci-test-debian.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-test-debian.yml)
@@ -8,8 +17,11 @@
 [![Bazel Build](https://github.com/p4lang/p4c/actions/workflows/ci-bazel.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-bazel.yml)
 [![Validation](https://github.com/p4lang/p4c/actions/workflows/ci-validation-nightly.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-validation-nightly.yml)
 [![Docker Container](https://github.com/p4lang/p4c/actions/workflows/ci-container-image.yml/badge.svg)](https://github.com/p4lang/p4c/actions/workflows/ci-container-image.yml)
- 
 
+<!--!
+\internal
+-->
+* [Sample Backends in P4C](#sample-backends-in-p4c)
 * [Getting started](#getting-started)
    * [Installing packaged versions of P4C](#installing-packaged-versions-of-p4c)
    * [Installing P4C from source](#installing-p4c-from-source)
@@ -31,7 +43,9 @@
 * [How to Contribute](#how-to-contribute)
 * [P4 Compiler Onboarding](#p4-compiler-onboarding)
 * [Contact](#contact)
-
+<!--!
+\endinternal
+-->
 P4C is a reference compiler for the P4 programming language.
 It supports both P4-14 and P4-16; you can find more information about P4
 [here](http://p4.org) and the specifications for both versions of the language
@@ -45,7 +59,11 @@ P4C is modular; it provides a standard frontend and midend which can be combined
 with a target-specific backend to create a complete P4 compiler. The goal is to
 make adding new backends easy.
 
-The code contains seven sample backends:
+<!--!
+\include{doc} "../docs/doxygen/01_overview.md"
+-->
+## Sample Backends in P4C
+P4C includes seven sample backends, catering to different target architectures and use cases:
 * p4c-bm2-ss: can be used to target the P4 `simple_switch` written using
   the [BMv2 behavioral model](https://github.com/p4lang/behavioral-model),
 * p4c-dpdk: can be used to target the [DPDK software switch (SWX) pipeline](https://doc.dpdk.org/guides/rel_notes/release_20_11.html),
@@ -267,8 +285,7 @@ use them, but YMMV.
 
 - Python 3 for scripting and running tests
 
-- Optional: Documentation generation requires Doxygen (1.8.10 or
-  higher) and Graphviz (2.38.0 or higher).
+- Optional: Documentation generation requires Doxygen (1.12.0) and Graphviz (2.38.0 or higher).
 
 Backends may have additional dependencies. The dependencies for the backends
 included with `P4C` are documented here:
@@ -292,13 +309,24 @@ pip3 install --user -r requirements.txt
 **For documentation building:**
 
 **Tools**
+- Download the Doxygen 1.12.0 binary 
 ```bash
-sudo apt-get install -y doxygen graphviz
+wget https://github.com/doxygen/doxygen/releases/download/Release_1_12_0/doxygen-1.12.0.linux.bin.tar.gz
+```
+- Extract and install Doxygen 
+```bash
+tar xzvf doxygen-1.12.0.linux.bin.tar.gz
+cd doxygen-1.12.0
+sudo make install
+cd .. 
+```
+- Install Graphviz
+```bash
+sudo apt-get install -y graphviz
 ```
 **Theme** 
 ```bash
 git clone --depth 1 -b v2.3.3 https://github.com/jothepro/doxygen-awesome-css ./docs/doxygen/awesome_css
-
 ```
 
 `P4C` also depends on Google Protocol Buffers (Protobuf). `P4C` requires version
@@ -332,8 +360,20 @@ sudo pip3 install -r requirements.txt
 **For documentation building:**
 
 **Tools**
+- Download the Doxygen 1.12.0 binary
+```bash 
+wget https://github.com/doxygen/doxygen/releases/download/Release_1_12_0/doxygen-1.12.0.linux.bin.tar.gz
+```
+- Extract and install Doxygen
 ```bash
-sudo dnf install -y doxygen graphviz
+tar xzvf doxygen-1.12.0.linux.bin.tar.gz
+cd doxygen-1.12.0
+sudo make install
+cd ..
+```
+- Install Graphviz
+```bash
+sudo dnf install -y graphviz
 ```
 **Theme**
 ```bash
@@ -378,11 +418,13 @@ Installing on macOS:
   brew link --force bison
   ```
 
-  Optional documentation building tools:
+  **Optional documentation building tools:**
+  -  Download and install the Doxygen 1.12.0 DMG file from [here](https://github.com/doxygen/doxygen/releases/download/Release_1_12_0/Doxygen-1.12.0.dmg).
+  - Install Graphviz
   ```
-  brew install doxygen graphviz
+  brew install graphviz
   ```
-  Optional Documentation theme: 
+  **Optional Documentation theme:** 
   ```
   git clone --depth 1 -b v2.3.3 https://github.com/jothepro/doxygen-awesome-css ./docs/doxygen/awesome_css
   ```
@@ -632,6 +674,9 @@ install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/driver/p4c.mybackend.cfg
   DESTINATION ${P4C_ARTIFACTS_OUTPUT_DIRECTORY}/p4c_src)
 ```
 
+<!--!
+\include{doc} "../lib/README.md"
+-->
 ## Known issues
 
 Issues with the compiler are tracked on

@@ -45,6 +45,7 @@ abstract Operation_Binary : Operation {
         if (type->is<Type::Unknown>() && left && right && left->type == right->type)
             type = left->type; }
     toString {
+        // FIXME: Do not use debug printing to render user-side strings
         std::stringstream tmp;
         tmp << DBPrint::Prec_Low;
         dbprint(tmp);
@@ -233,25 +234,25 @@ class Constant : Literal {
     bool fitsInt64() const { return value >= INT64_MIN && value <= INT64_MAX; }
     long asLong() const {
         if (!fitsLong())
-            ::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for long", this);
+            ::P4::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for long", this);
         return static_cast<long>(value); }
     int asInt() const {
         if (!fitsInt())
-            ::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for int", this);
+            ::P4::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for int", this);
         return static_cast<int>(value); }
     unsigned asUnsigned() const {
         if (!fitsUint())
-            ::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for unsigned int", this);
+            ::P4::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for unsigned int", this);
         return static_cast<unsigned>(value);
     }
     uint64_t asUint64() const {
         if (!fitsUint64())
-            ::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for uint64", this);
+            ::P4::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for uint64", this);
         return static_cast<uint64_t>(value);
     }
     int64_t asInt64() const {
         if (!fitsInt64())
-            ::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for int64", this);
+            ::P4::error(ErrorType::ERR_OVERLIMIT, "%1$x: Value too large for int64", this);
         return static_cast<int64_t>(value);
     }
     // The following operators are only used in special circumstances.
@@ -270,8 +271,8 @@ class Constant : Literal {
         unsigned width;
         bool sign;
         if (const IR::Type_Bits* tb = type->to<IR::Type_Bits>()) {
-             width = tb->size;
-             sign = tb->isSigned;
+            width = tb->size;
+            sign = tb->isSigned;
         } else {
             width = 0;
             sign = false;
@@ -292,7 +293,7 @@ class BoolLiteral : Literal {
 class StringLiteral : Literal {
     cstring value;
     validate{ if (value.isNull()) BUG("null StringLiteral"); }
-    toString{ return "\""_cs + value.escapeJson() + "\""_cs; }
+    toString{ return absl::StrCat("\"", value.escapeJson().string_view(), "\""); }
     StringLiteral(ID v) : Literal(v.srcInfo), value(v.name) {}
 #emit
     operator IR::ID() const { return IR::ID(srcInfo, value); }
@@ -321,13 +322,15 @@ class TypeNameExpression : Expression {
     dbprint{ out << typeName; }
     toString { return typeName->toString(); }
     validate { BUG_CHECK(typeName->is<Type_Name>() || typeName->is<Type_Specialized>(),
-                         "%1 unexpected type in TypeNameExpression", typeName); }
+                         "%1% unexpected type in TypeNameExpression", typeName); }
 }
 
 class Slice : Operation_Ternary {
     precedence = DBPrint::Prec_Postfix;
     stringOp = "[:]";
-    toString{ return e0->toString() + "["_cs + e1->toString() + ":"_cs + e2->toString() + "]"_cs; }
+    toString{ return absl::StrCat(e0->toString().string_view(),
+                                  "[", e1->toString().string_view(), ":",
+                                       e2->toString().string_view(), "]"); }
     // After type checking e1 and e2 will be constants
     unsigned getH() const { return e1->to<IR::Constant>()->asUnsigned(); }
     unsigned getL() const { return e2->to<IR::Constant>()->asUnsigned(); }
@@ -349,7 +352,7 @@ class Member : Operation_Unary {
     int lsb() const;
     int msb() const;
     stringOp = ".";
-    toString{ return expr->toString() + "."_cs + member; }
+    toString{ return absl::StrCat(expr->toString().string_view(), ".", member.string_view()); }
 }
 
 class Concat : Operation_Binary {
@@ -369,7 +372,7 @@ class ArrayIndex : Operation_Binary {
     ArrayIndex {
         if (auto st = left ? left->type->to<IR::Type_Stack>() : nullptr)
             type = st->elementType; }
-    toString{ return left->toString() + "["_cs + right->toString() + "]"_cs; }
+    toString{ return absl::StrCat(left->toString().string_view(), "[", right->toString().string_view(), "]"); }
 }
 
 class Range : Operation_Binary {
@@ -413,7 +416,7 @@ class Cast : Operation_Unary {
     /// type, and 'type' will only be updated later when type inferencing occurs
     precedence = DBPrint::Prec_Prefix;
     stringOp = "(cast)";
-    toString{ return "("_cs + destType->toString() + ")"_cs + expr->toString(); }
+    toString{ return absl::StrCat("(", destType->toString().string_view(), ")", expr->toString().string_view()); }
     validate{ BUG_CHECK(!destType->is<Type_Unknown>(), "%1%: Cannot cast to unknown type", this); }
 }
 
@@ -436,14 +439,13 @@ class MethodCallExpression : Expression {
     optional Vector<Type>       typeArguments = new Vector<Type>;
     optional Vector<Argument>   arguments = new Vector<Argument>;
     toString {
-        std::string str = method->toString() + "(";
-        if (!arguments->empty()) {
-            str += arguments->at(0)->toString();
-        }
-        for (unsigned i = 1; i < arguments->size(); i++) {
-            str += ", " + arguments->at(i)->toString();
-        }
-        return str + ")";
+        return
+            absl::StrCat(method->toString().string_view(), "(",
+                         absl::StrJoin(*arguments, ", ",
+                                       [](std::string *out, const Argument *arg) {
+                                           absl::StrAppend(out, arg->toString().string_view());
+                                       }),
+                         ")");
     }
     validate{ typeArguments->check_null(); arguments->check_null(); }
     MethodCallExpression(Util::SourceInfo si, IR::ID m, const std::initializer_list<Argument> &a)
@@ -480,14 +482,13 @@ class BaseListExpression : Expression {
         return components.at(size - 1)->is<IR::Dots>();
     }
     toString {
-        std::string str = "{";
-        if (!components.empty()) {
-            str += " " + components.at(0)->toString();
-        }
-        for (unsigned i = 1; i < size(); i++) {
-            str += ", " + components.at(i)->toString();
-        }
-        return str + " }";
+        return components.empty() ? "{}" :
+            absl::StrCat("{ ",
+                         absl::StrJoin(components, ", ",
+                                       [](std::string *out, const Expression *comp)  {
+                                           absl::StrAppend(out, comp->toString().string_view());
+                                       }),
+                         " }");
     }
 #nodbprint
 }
@@ -535,16 +536,16 @@ class StructExpression : Expression {
         return components.at(size - 1)->is<IR::NamedDots>();
     }
     toString {
-        std::string str = "{";
-        if (!components.empty()) {
-            cstring exprStr = components.at(0)->expression->toString();
-            str += " " + components.at(0)->toString() + " = " + exprStr;
-        }
-        for (unsigned i = 1; i < size(); i++) {
-            cstring exprStr = components.at(i)->expression->toString();
-            str += ", " + components.at(i)->toString() + " = " + exprStr;
-        }
-        return str + " }";
+        return components.empty() ? "{}" :
+            absl::StrCat("{ ",
+                         absl::StrJoin(components, ", ",
+                                       [](std::string *out, const NamedExpression *comp)  {
+                                           absl::StrAppend(out,
+                                                           comp->toString().string_view(),
+                                                           " = ",
+                                                           comp->expression->toString().string_view());
+                                       }),
+                         " }");
     }
 }
 
@@ -609,6 +610,27 @@ class CompileTimeMethodCall : MethodCallExpression, CompileTimeValue {
         for (auto v : *arguments)
             BUG_CHECK(v->is<CompileTimeValue>(), "%1%: not a compile-time value", v); }
 #nodbprint
+}
+
+/// Signifies that a particular expression is a symbolic variable with a label.
+/// These variables are intended to be consumed by SMT/SAT solvers.
+class SymbolicVariable : Expression {
+#noconstructor
+
+    /// The label of the symbolic variable.
+    cstring label;
+
+    /// A symbolic variable always has a type and no source info.
+    SymbolicVariable(Type type, cstring label) : Expression(type), label(label) {}
+
+    /// Implements comparisons so that SymbolicVariables can be used as map keys.
+    bool operator<(const SymbolicVariable &other) const {
+        return label < other.label;
+    }
+
+    toString { return absl::StrCat("|", label.string_view(), "(", type->toString().string_view(), ")|"); }
+
+    dbprint { out << "|" + label +"(" << type << ")|"; }
 }
 
 /** @} *//* end group irdefs */
