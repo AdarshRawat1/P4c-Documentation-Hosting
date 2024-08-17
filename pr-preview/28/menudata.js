@@ -24,6 +24,9 @@
 */
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
+{text:"P4C Repository Organization",url:"repository_structure.html"},
+{text:"Getting Started",url:"getting_started.html"},
+{text:"P4C Intermediate Representation (IR)",url:"intermediate_representation_ir.html"},
 {text:"Backends",url:"usergroup0.html",children:[
 {text:"Behavioral Model Backend",url:"behavioral_model_backend.html"},
 {text:"DPDK Backend",url:"dpdk_backend.html"},
@@ -32,6 +35,12 @@ var menudata={children:[
 {text:"uBPF Backend",url:"ubpf_backend.html"},
 {text:"P4test Backend",url:"p4test_backend.html"},
 {text:"Graphs Backend",url:"graphs_backend.html"}]},
+{text:"p4fmt (P4 Formatter)",url:"p4fmt.html"},
+{text:"P4Tools",url:"p4tools.html"},
+{text:"P4Smith",url:"p4smith.html"},
+{text:"P4Testgen",url:"p4testgen.html"},
+{text:"Contribute to the P4 Compiler Project",url:"contribute.html"},
+{text:"Releases",url:"changelog.html"},
 {text:"Namespaces",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[

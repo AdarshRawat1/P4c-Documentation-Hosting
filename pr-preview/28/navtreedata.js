@@ -25,6 +25,9 @@
 var NAVTREE =
 [
   [ "P4 Compiler Documentation (P4C)", "index.html", [
+    [ "P4C Repository Organization", "repository_structure.html", null ],
+    [ "Getting Started", "getting_started.html", null ],
+    [ "P4C Intermediate Representation (IR)", "intermediate_representation_ir.html", null ],
     [ "Backends", "usergroup0.html", [
       [ "Behavioral Model Backend", "behavioral_model_backend.html", null ],
       [ "DPDK Backend", "dpdk_backend.html", null ],
@@ -34,6 +37,12 @@ var NAVTREE =
       [ "P4test Backend", "p4test_backend.html", null ],
       [ "Graphs Backend", "graphs_backend.html", null ]
     ] ],
+    [ "p4fmt (P4 Formatter)", "p4fmt.html", null ],
+    [ "P4Tools", "p4tools.html", null ],
+    [ "P4Smith", "p4smith.html", null ],
+    [ "P4Testgen", "p4testgen.html", null ],
+    [ "Contribute to the P4 Compiler Project", "contribute.html", null ],
+    [ "Releases", "changelog.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -64,8 +73,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_p4_1_1_b_m_v2_1_1_pna_nic_backend.html",
-"class_p4_1_1_control_plane_a_p_i_1_1_p4_info_maps.html#ae66c42a97f9980ced4fdb8c3cc6f4f8e",
+"class_p4_1_1_b_m_v2_1_1_pna_enum_on32_bits.html",
+"class_p4_1_1_control_plane_a_p_i_1_1_p4_info_maps.html#a906a59a9170c1ae6fcccab61f006cac7",
 "class_p4_1_1_d_p_d_k_1_1_direction_to_reg_read.html#a13185144f9542dd94b567f316f0d088e",
 "class_p4_1_1_do_convert_errors.html",
 "class_p4_1_1_e_b_p_f_1_1_e_b_p_f_hash_p_s_a.html#a04c71d4e53f8536089d0b1079c57c9ac",
@@ -78,14 +87,14 @@ var NAVTREEINDEX =
 "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_program_info.html#aeb2ee22471989aa047f509c4d7c6d1a9",
 "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_test_framework.html#abc35f8e3e43c46a81b8111aee85b5577",
 "class_p4_1_1_p4_tools_1_1_trace_events_1_1_packet.html",
-"class_p4_1_1_pass_manager_1_1_visitor_ref.html",
-"class_p4_1_1_simplify_select_cases.html",
-"class_p4_1_1_test_1_1_z3_solver_test.html",
-"class_p4_1_1_validate_parsed_program.html",
-"functions_r.html",
-"namespace_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna.html",
-"struct_p4_1_1_diagnostic_count_info_state.html",
-"struct_p4_1_1_specialization_info.html#a6b31fa3c61b974d54e51cba63e5d8554"
+"class_p4_1_1_pass_manager.html",
+"class_p4_1_1_simplify_parsers.html",
+"class_p4_1_1_test_1_1_z3_solver_satisfiability_checks.html#a120645e79bc3bdaf2adc5ecbfefe90cb",
+"class_p4_1_1_validate_match_annotations.html",
+"functions_o.html",
+"namespace_p4_1_1_p4_tools_1_1_p4_testgen_1_1_bmv2.html#ad5a48f3d178f3dcac8ff95677434bc40",
+"struct_p4_1_1_diagnostic_count_info.html#a9ef3639182cd95e75114d3f3fde77535",
+"struct_p4_1_1_specialization_info.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
