@@ -46,10 +46,12 @@ jobs:
 
       - name: Update changelog.md
         run: |
+          # Define the new changelog content
           NEW_CHANGELOG="## Version v${{ env.VERSION }}\n\n${{ steps.changelog.outputs.content }}\n"
-        
+          
           # Insert new changelog before the first release section
-          awk '/^## Release /{print NEW_CHANGELOG; NEW_CHANGELOG="";} 1' NEW_CHANGELOG="$NEW_CHANGELOG" changelog.md > temp && mv temp changelog.md
+          awk -v new_changelog="$NEW_CHANGELOG" '/^## Release /{print new_changelog; new_changelog="";} 1' changelog.md > temp && mv temp changelog.md
+
 
       - name: Commit and push changelog
         run: |
