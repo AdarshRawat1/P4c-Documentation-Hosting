@@ -53,7 +53,7 @@ var searchData=
   ['use_50',['Exception Use',['../intermediate_representation_ir.html#exception-use',1,'']]],
   ['use_51',['How to use?',['../ubpf_backend.html#how-to-use',1,'']]],
   ['use_20it_52',['use it',['../dpdk_backend.html#how-to-use-it',1,'How to use it?'],['../tc_backend.html#how-to-use-it-1',1,'How to use it?']]],
-  ['usedname_53',['usedName',['../class_p4_1_1_reference_map.html#a79c9be4e360d6d7094cfb34a428f4aba',1,'P4::ReferenceMap']]],
+  ['usedname_53',['usedName',['../class_p4_1_1_reference_map.html#a79c9be4e360d6d7094cfb34a428f4aba',1,'P4::ReferenceMap::usedName()'],['../class_reference_map.html#a79c9be4e360d6d7094cfb34a428f4aba',1,'ReferenceMap::usedName()']]],
   ['usednames_54',['usedNames',['../class_p4_1_1_p4_tools_1_1_p4_smith_1_1_p4_scope.html#aedd6186c9f44261f9b82111c6e4eb69a',1,'P4::P4Tools::P4Smith::P4Scope']]],
   ['uselesscasts_55',['UselessCasts',['../class_p4_1_1_useless_casts.html',1,'P4']]],
   ['useprefix_56',['usePrefix',['../namespace_p4_1_1_p4_tools.html#ac8b401ad76e79a9a1a3dca220de0eb30',1,'P4::P4Tools::FormatOptions']]],

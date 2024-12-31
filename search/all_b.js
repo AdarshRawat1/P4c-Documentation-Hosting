@@ -82,7 +82,7 @@ var searchData=
   ['buildp4infomaps_79',['buildP4InfoMaps',['../class_p4_1_1_control_plane_a_p_i_1_1_p4_info_maps.html#a75be747c5b0f32b7f77ebd127bcc5adb',1,'P4::ControlPlaneAPI::P4InfoMaps']]],
   ['buildresourcemap_80',['BuildResourceMap',['../class_p4_1_1_build_resource_map.html',1,'P4']]],
   ['buildtableactionlist_81',['buildTableActionList',['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_table_stepper.html#aa4d706cf9596683abcd64fa32ee65472',1,'P4::P4Tools::P4Testgen::TableStepper']]],
-  ['buildtaintmask_82',['buildTaintMask',['../class_p4_1_1_p4_tools_1_1_taint.html#a8855ea5b12e60e64b143e7d6e5d2b83e',1,'P4::P4Tools::Taint']]],
+  ['buildtaintmask_82',['buildTaintMask',['../class_p4_1_1_p4_tools_1_1_taint.html#a8855ea5b12e60e64b143e7d6e5d2b83e',1,'P4::P4Tools::Taint::buildTaintMask()'],['../class_p4_1_1_test_1_1_taint.html#a8855ea5b12e60e64b143e7d6e5d2b83e',1,'P4::Test::Taint::buildTaintMask()']]],
   ['builtinmethod_83',['BuiltInMethod',['../class_p4_1_1_built_in_method.html',1,'P4']]],
   ['busy_84',['busy',['../class_p4_1_1_visitor_1_1_change_tracker.html#afdb84718ba8bb1c25d7bd34981b92597',1,'P4::Visitor::ChangeTracker::busy()'],['../class_p4_1_1_visitor_1_1_tracker.html#ad5149aa401fcc21a11b43ea1a0530413',1,'P4::Visitor::Tracker::busy()']]],
   ['bytealignment_85',['ByteAlignment',['../struct_p4_1_1_d_p_d_k_1_1_byte_alignment.html',1,'P4::DPDK']]]

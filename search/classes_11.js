@@ -34,7 +34,7 @@ var searchData=
   ['safe_5fvector_3c_20struct_20p4_3a_3atc_3a_3akeyfieldattributes_20_2a_20_3e_31',['safe_vector&lt; struct P4::TC::KeyFieldAttributes * &gt;',['../class_p4_1_1safe__vector.html',1,'P4']]],
   ['safe_5fvector_3c_20struct_20p4_3a_3atc_3a_3atableattributes_20_2a_20_3e_32',['safe_vector&lt; struct P4::TC::TableAttributes * &gt;',['../class_p4_1_1safe__vector.html',1,'P4']]],
   ['sameexpression_33',['SameExpression',['../class_p4_1_1_same_expression.html',1,'P4']]],
-  ['saturationelim_34',['SaturationElim',['../class_p4_1_1_saturation_elim.html',1,'P4']]],
+  ['saturationelim_34',['SaturationElim',['../class_p4_1_1_saturation_elim.html',1,'P4::SaturationElim'],['../class_p4_1_1_test_1_1_saturation_elim.html',1,'P4::Test::SaturationElim']]],
   ['saturationtransform_35',['SaturationTransform',['../class_p4_1_1_test_1_1_arithm_test_1_1_saturation_transform.html',1,'P4::Test::ArithmTest']]],
   ['saveglobal_36',['SaveGlobal',['../class_p4_1_1_control_flow_visitor_1_1_save_global.html',1,'P4::ControlFlowVisitor']]],
   ['scalarvalue_37',['ScalarValue',['../class_p4_1_1_scalar_value.html',1,'P4']]],

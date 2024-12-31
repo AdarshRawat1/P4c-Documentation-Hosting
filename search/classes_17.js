@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['z3solver_0',['Z3Solver',['../class_p4_1_1_p4_tools_1_1_z3_solver.html',1,'P4::P4Tools']]],
-  ['z3solveraccessor_1',['Z3SolverAccessor',['../class_p4_1_1_p4_tools_1_1_z3_solver_accessor.html',1,'P4::P4Tools']]],
+  ['z3solver_0',['Z3Solver',['../class_p4_1_1_p4_tools_1_1_z3_solver.html',1,'P4::P4Tools::Z3Solver'],['../class_p4_1_1_test_1_1_z3_solver.html',1,'P4::Test::Z3Solver']]],
+  ['z3solveraccessor_1',['Z3SolverAccessor',['../class_p4_1_1_p4_tools_1_1_z3_solver_accessor.html',1,'P4::P4Tools::Z3SolverAccessor'],['../class_p4_1_1_test_1_1_z3_solver_accessor.html',1,'P4::Test::Z3SolverAccessor']]],
   ['z3solveradd_2',['Z3SolverAdd',['../class_p4_1_1_test_1_1_z3_test_1_1_z3_solver_add.html',1,'P4::Test::Z3Test']]],
   ['z3solveraddsat01_3',['Z3SolverAddSat01',['../class_p4_1_1_test_1_1_arithm_test_1_1_z3_solver_add_sat01.html',1,'P4::Test::ArithmTest']]],
   ['z3solveraddsat02_4',['Z3SolverAddSat02',['../class_p4_1_1_test_1_1_arithm_test_1_1_z3_solver_add_sat02.html',1,'P4::Test::ArithmTest']]],

@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_extern_3_01_stan065feea6f31853d1b18f3a83ac0a2886.html" target="_top" xlink:title="CounterlikeTraits&lt;&gt; specialization for MeterExtern for PSA">
+<g id="a_Node000000"><a xlink:href="struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html" target="_top" xlink:title="CounterlikeTraits&lt;&gt; specialization for MeterExtern for PSA">
 <polygon fill="white" stroke="#666666" points="153,-52 0,-52 0,0 153,0 153,-52"/>
 <text text-anchor="start" x="8" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">P4::BMV2::Helpers::</text>
 <text text-anchor="start" x="8" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">CounterlikeTraits&lt; Standard</text>
@@ -23,7 +23,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_extern_3_01_stan9dd45fa69b4489f84f36a803f363fd1b.html" target="_top" xlink:title="CounterlikeTraits&lt;&gt; specialization for MeterExtern for PNA">
+<g id="a_Node000001"><a xlink:href="struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html" target="_top" xlink:title="CounterlikeTraits&lt;&gt; specialization for MeterExtern for PNA">
 <polygon fill="white" stroke="#666666" points="342,-52 189,-52 189,0 342,0 342,-52"/>
 <text text-anchor="start" x="197" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">P4::BMV2::Helpers::</text>
 <text text-anchor="start" x="197" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">CounterlikeTraits&lt; Standard</text>

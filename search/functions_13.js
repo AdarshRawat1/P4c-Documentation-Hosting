@@ -9,5 +9,5 @@ var searchData=
   ['updateheadermetadata_6',['UpdateHeaderMetadata',['../class_p4_1_1_d_p_d_k_1_1_convert_to_dpdk_program.html#a5f7dc7896f573e1e6908d057d1e3d8f0',1,'P4::DPDK::ConvertToDpdkProgram']]],
   ['updatenodecoverage_7',['updateNodeCoverage',['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_coverable_nodes_scanner.html#a3cbb5a592003742d16f923ba5eebfd0f',1,'P4::P4Tools::P4Testgen::CoverableNodesScanner']]],
   ['updatevisitednodes_8',['updateVisitedNodes',['../class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_symbolic_executor.html#a5ab6d6aad25d8892f4e1d9fbb93d7ab8',1,'P4::P4Tools::P4Testgen::SymbolicExecutor']]],
-  ['usedname_9',['usedName',['../class_p4_1_1_reference_map.html#a79c9be4e360d6d7094cfb34a428f4aba',1,'P4::ReferenceMap']]]
+  ['usedname_9',['usedName',['../class_p4_1_1_reference_map.html#a79c9be4e360d6d7094cfb34a428f4aba',1,'P4::ReferenceMap::usedName()'],['../class_reference_map.html#a79c9be4e360d6d7094cfb34a428f4aba',1,'ReferenceMap::usedName()']]]
 ];
