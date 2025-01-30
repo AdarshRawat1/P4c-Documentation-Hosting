@@ -297,6 +297,6 @@ var searchData=
   ['gtp_294',['GPRS Tunneling Protocol (GTP)',['../ubpf_backend.html#gprs-tunneling-protocol-gtp',1,'']]],
   ['guard_295',['Guard',['../struct_p4_1_1_p4_tools_1_1_p4_testgen_1_1_continuation_1_1_guard.html',1,'P4::P4Tools::P4Testgen::Continuation']]],
   ['guardglobal_296',['GuardGlobal',['../class_p4_1_1_control_flow_visitor_1_1_guard_global.html',1,'P4::ControlFlowVisitor']]],
-  ['guide_297',['Documentation Comments Style Guide',['../repository_structure.html#documentation-comments-style-guide',1,'']]],
+  ['guide_297',['Guide',['../repository_structure.html#cc-documentation-comments-style-guide',1,'C/C++ Documentation Comments Style Guide'],['../repository_structure.html#doxygen-comments-style-guide',1,'Doxygen Comments Style Guide']]],
   ['guidelines_298',['Guidelines',['../contribute.html#guidelines',1,'']]]
 ];
