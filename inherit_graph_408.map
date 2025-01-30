@@ -1,5 +1,29 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html" title=" " alt="" coords="5,5,179,45"/>
-<area shape="rect" id="Node000001" href="$struct_p4_1_1_util_1_1_hasher.html" title=" " alt="" coords="227,5,408,45"/>
-<area shape="poly" id="edge1099_Node000000_Node000001" title=" " alt="" coords="192,23,226,23,226,28,192,28"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,422,124,447"/>
+<area shape="rect" id="Node000001" href="$struct_p4_1_1_i_r_1_1has__static__type__name_3_01_t_00_01std_1_1void__t_3_01decltype_07_t_1_1static__type__name_07_08_08_4_01_4.html" title=" " alt="" coords="220,99,409,168"/>
+<area shape="poly" id="edge1166_Node000000_Node000001" title=" " alt="" coords="71,408,114,284,142,220,156,195,170,178,193,161,219,149,221,154,196,166,174,182,161,198,147,223,119,286,76,410"/>
+<area shape="rect" id="Node000003" href="$struct_p4_1_1_util_1_1has___source_info_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declvaleceb1e5b41b0ceab45c2091dafb42308.html" title=" " alt="" coords="172,193,457,247"/>
+<area shape="poly" id="edge1167_Node000000_Node000003" title=" " alt="" coords="72,408,86,374,107,333,135,293,170,258,191,245,193,250,174,262,139,296,112,336,91,376,77,410"/>
+<area shape="rect" id="Node000004" href="$struct_p4_1_1_util_1_1has__to_string_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_acb3d703214236ac0dfb06e6517d195f.html" title=" " alt="" coords="191,271,438,326"/>
+<area shape="poly" id="edge1168_Node000000_Node000004" title=" " alt="" coords="84,409,122,372,171,336,198,324,200,328,173,341,125,376,88,413"/>
+<area shape="rect" id="Node000005" href="$struct_p4_1_1has__dbprint_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_01_t_01_4_012206707ff62b52b5f3b6b59b578fd59.html" title=" " alt="" coords="215,350,415,434"/>
+<area shape="poly" id="edge1169_Node000000_Node000005" title=" " alt="" coords="137,420,214,406,215,412,138,425"/>
+<area shape="rect" id="Node000006" href="$struct_p4_1_1has__ostream__operator_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_0b23eeecb7e72d387dfbaa930aade2e05.html" title=" " alt="" coords="194,5,435,75"/>
+<area shape="poly" id="edge1170_Node000000_Node000006" title=" " alt="" coords="71,408,121,245,131,198,134,159,143,123,154,104,170,85,192,67,196,71,174,89,158,107,148,125,139,160,136,199,127,246,77,409"/>
+<area shape="rect" id="Node000007" href="$struct_p4_1_1_i_r_1_1has__static__type__name.html" title=" " alt="" coords="211,459,418,499"/>
+<area shape="poly" id="edge1171_Node000000_Node000007" title=" " alt="" coords="139,445,212,458,211,463,138,450"/>
+<area shape="rect" id="Node000008" href="$struct_p4_1_1_util_1_1has___source_info.html" title="SFINAE helper to check if given class has a getSourceInfo method." alt="" coords="227,523,403,563"/>
+<area shape="poly" id="edge1172_Node000000_Node000008" title=" " alt="" coords="92,454,129,483,173,508,227,526,226,531,171,513,126,487,89,458"/>
+<area shape="rect" id="Node000009" href="$struct_p4_1_1_util_1_1has__to_string.html" title="SFINAE helper to check if given class has a toString method." alt="" coords="235,587,394,627"/>
+<area shape="poly" id="edge1173_Node000000_Node000009" title=" " alt="" coords="80,458,117,517,143,547,173,572,203,587,236,596,234,602,201,592,171,577,139,551,112,520,76,461"/>
+<area shape="rect" id="Node000010" href="$struct_p4_1_1has__dbprint.html" title=" " alt="" coords="227,651,402,691"/>
+<area shape="poly" id="edge1174_Node000000_Node000010" title=" " alt="" coords="74,460,87,500,106,548,135,596,153,618,174,637,199,651,228,661,226,666,197,656,170,641,149,622,131,599,102,550,82,501,69,461"/>
+<area shape="rect" id="Node000011" href="$struct_p4_1_1has__ostream__operator.html" title=" " alt="" coords="219,715,411,755"/>
+<area shape="poly" id="edge1175_Node000000_Node000011" title=" " alt="" coords="71,461,79,512,97,577,111,611,128,644,148,674,174,701,195,715,219,724,217,729,193,719,170,705,144,678,123,647,106,613,92,579,74,513,66,461"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,207,121,233"/>
+<area shape="poly" id="edge1176_Node000002_Node000001" title=" " alt="" coords="111,200,171,177,219,161,221,166,173,183,113,205"/>
+<area shape="poly" id="edge1177_Node000002_Node000003" title=" " alt="" coords="134,217,172,217,172,223,134,223"/>
+<area shape="poly" id="edge1178_Node000002_Node000004" title=" " alt="" coords="111,235,173,257,210,269,208,274,171,263,109,240"/>
+<area shape="poly" id="edge1179_Node000002_Node000005" title=" " alt="" coords="84,243,122,290,146,315,173,336,216,359,213,364,171,341,143,319,118,293,80,246"/>
+<area shape="poly" id="edge1180_Node000002_Node000006" title=" " alt="" coords="77,194,115,139,141,110,170,84,192,72,195,76,174,89,144,114,119,142,82,197"/>
 </map>

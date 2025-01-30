@@ -54,16 +54,16 @@ var hierarchy =
     [ "P4::BMV2::ConversionContext", "struct_p4_1_1_b_m_v2_1_1_conversion_context.html", null ],
     [ "P4::BMV2::ExternConverter", "class_p4_1_1_b_m_v2_1_1_extern_converter.html", null ],
     [ "P4::BMV2::Helpers::CounterlikeTraits< Kind >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", null ],
-    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::PSA > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", [
-      [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::PNA > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", null ]
+    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::PSA > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_counter_extern_3_01_st1322a69414f620e76e7f30e0ec680188.html", [
+      [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::PNA > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_counter_extern_3_01_sta0136555201f55da098a85711b433ac9.html", null ]
     ] ],
-    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::V1MODEL > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", null ],
-    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::V1MODEL2020 > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", null ],
-    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::PSA > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", [
-      [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::PNA > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", null ]
+    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::V1MODEL > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_counter_extern_3_01_ste958726fa88b1d2455cc5cc072b4688e.html", null ],
+    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::V1MODEL2020 > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_counter_extern_3_01_stda9c30113a2eccbb56f74bdd94f918dc.html", null ],
+    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::PSA > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_extern_3_01_stan065feea6f31853d1b18f3a83ac0a2886.html", [
+      [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::PNA > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_extern_3_01_stan9dd45fa69b4489f84f36a803f363fd1b.html", null ]
     ] ],
-    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::V1MODEL > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", null ],
-    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::V1MODEL2020 > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits.html", null ],
+    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::V1MODEL > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_extern_3_01_stan0e7f2bd41fb20ae16e6df4aa3a5ccea8.html", null ],
+    [ "P4::BMV2::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::V1MODEL2020 > >", "struct_p4_1_1_b_m_v2_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_extern_3_01_stan01b1106c7bcb19b48625129200a629a0.html", null ],
     [ "P4::BMV2::JsonObjects", "class_p4_1_1_b_m_v2_1_1_json_objects.html", null ],
     [ "P4::BMV2::MatchImplementation", "class_p4_1_1_b_m_v2_1_1_match_implementation.html", null ],
     [ "P4::BMV2::PortableCodeGenerator", "class_p4_1_1_b_m_v2_1_1_portable_code_generator.html", [
@@ -71,37 +71,37 @@ var hierarchy =
       [ "P4::BMV2::PsaCodeGenerator", "class_p4_1_1_b_m_v2_1_1_psa_code_generator.html", null ]
     ] ],
     [ "P4::BMV2::Standard::ActionProfileTraits< arch >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_profile_traits.html", null ],
-    [ "P4::BMV2::Standard::ActionProfileTraits< Arch::PSA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_profile_traits.html", [
-      [ "P4::BMV2::Standard::ActionProfileTraits< Arch::PNA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_profile_traits.html", null ],
-      [ "P4::BMV2::Standard::ActionSelectorTraits< Arch::PSA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_selector_traits.html", [
-        [ "P4::BMV2::Standard::ActionSelectorTraits< Arch::PNA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_selector_traits.html", null ]
+    [ "P4::BMV2::Standard::ActionProfileTraits< Arch::PSA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_p_s_a_01_4.html", [
+      [ "P4::BMV2::Standard::ActionProfileTraits< Arch::PNA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_p_n_a_01_4.html", null ],
+      [ "P4::BMV2::Standard::ActionSelectorTraits< Arch::PSA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_p_s_a_01_4.html", [
+        [ "P4::BMV2::Standard::ActionSelectorTraits< Arch::PNA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_p_n_a_01_4.html", null ]
       ] ]
     ] ],
-    [ "P4::BMV2::Standard::ActionProfileTraits< Arch::V1MODEL >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_profile_traits.html", [
-      [ "P4::BMV2::Standard::ActionProfileTraits< Arch::V1MODEL2020 >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_profile_traits.html", [
-        [ "P4::BMV2::Standard::ActionSelectorTraits< Arch::V1MODEL2020 >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_selector_traits.html", null ]
+    [ "P4::BMV2::Standard::ActionProfileTraits< Arch::V1MODEL >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_v1_m_o_d_e_l_01_4.html", [
+      [ "P4::BMV2::Standard::ActionProfileTraits< Arch::V1MODEL2020 >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_v1_m_o_d_e_l2020_01_4.html", [
+        [ "P4::BMV2::Standard::ActionSelectorTraits< Arch::V1MODEL2020 >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_v1_m_o_d_e_l2020_01_4.html", null ]
       ] ],
-      [ "P4::BMV2::Standard::ActionSelectorTraits< Arch::V1MODEL >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_selector_traits.html", null ]
+      [ "P4::BMV2::Standard::ActionSelectorTraits< Arch::V1MODEL >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_v1_m_o_d_e_l_01_4.html", null ]
     ] ],
     [ "P4::BMV2::Standard::ActionSelectorTraits< arch >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_action_selector_traits.html", null ],
     [ "P4::BMV2::Standard::CounterExtern< arch >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_counter_extern.html", null ],
     [ "P4::BMV2::Standard::MeterExtern< arch >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_meter_extern.html", null ],
     [ "P4::BMV2::Standard::RegisterTraits< arch >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_register_traits.html", null ],
-    [ "P4::BMV2::Standard::RegisterTraits< Arch::PSA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_register_traits.html", [
-      [ "P4::BMV2::Standard::RegisterTraits< Arch::PNA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_register_traits.html", null ]
+    [ "P4::BMV2::Standard::RegisterTraits< Arch::PSA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_register_traits_3_01_arch_1_1_p_s_a_01_4.html", [
+      [ "P4::BMV2::Standard::RegisterTraits< Arch::PNA >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_register_traits_3_01_arch_1_1_p_n_a_01_4.html", null ]
     ] ],
-    [ "P4::BMV2::Standard::RegisterTraits< Arch::V1MODEL >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_register_traits.html", [
-      [ "P4::BMV2::Standard::RegisterTraits< Arch::V1MODEL2020 >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_register_traits.html", null ]
+    [ "P4::BMV2::Standard::RegisterTraits< Arch::V1MODEL >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_register_traits_3_01_arch_1_1_v1_m_o_d_e_l_01_4.html", [
+      [ "P4::BMV2::Standard::RegisterTraits< Arch::V1MODEL2020 >", "struct_p4_1_1_b_m_v2_1_1_standard_1_1_register_traits_3_01_arch_1_1_v1_m_o_d_e_l2020_01_4.html", null ]
     ] ],
     [ "P4::BMV2::TableAttributes", "class_p4_1_1_b_m_v2_1_1_table_attributes.html", null ],
     [ "P4::BMV2::V1ModelProperties", "class_p4_1_1_b_m_v2_1_1_v1_model_properties.html", null ],
     [ "P4::CallGraph< T >", "class_p4_1_1_call_graph.html", [
+      [ "P4::P4Tools::ExtendedCallGraph< DCGVertexType >", "class_p4_1_1_p4_tools_1_1_extended_call_graph.html", null ],
       [ "P4::P4Tools::ExtendedCallGraph< T >", "class_p4_1_1_p4_tools_1_1_extended_call_graph.html", null ]
     ] ],
     [ "P4::CallGraph< T >::Loop", "class_p4_1_1_call_graph_1_1_loop.html", null ],
     [ "P4::CallGraph< T >::Loops", "struct_p4_1_1_call_graph_1_1_loops.html", null ],
     [ "P4::CallGraph< T >::sccInfo", "struct_p4_1_1_call_graph_1_1scc_info.html", null ],
-    [ "P4::CallGraph< P4::cstring >", "class_p4_1_1_call_graph.html", null ],
     [ "P4::ChooseEnumRepresentation", "class_p4_1_1_choose_enum_representation.html", [
       [ "P4::BMV2::EnumOn32Bits", "class_p4_1_1_b_m_v2_1_1_enum_on32_bits.html", null ],
       [ "P4::BMV2::PnaEnumOn32Bits", "class_p4_1_1_b_m_v2_1_1_pna_enum_on32_bits.html", null ],
@@ -129,14 +129,14 @@ var hierarchy =
     [ "P4::ControlPlaneAPI::FlattenHeader", "class_p4_1_1_control_plane_a_p_i_1_1_flatten_header.html", null ],
     [ "P4::ControlPlaneAPI::Helpers::Counterlike< Kind >", "struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike.html", null ],
     [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Kind >", "namespace_p4_1_1_control_plane_a_p_i_1_1_helpers.html#struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike_traits", null ],
-    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::PNA > >", "namespace_p4_1_1_control_plane_a_p_i_1_1_helpers.html", null ],
-    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::PSA > >", "namespace_p4_1_1_control_plane_a_p_i_1_1_helpers.html", null ],
-    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::V1MODEL > >", "namespace_p4_1_1_control_plane_a_p_i_1_1_helpers.html", null ],
-    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::V1MODEL2020 > >", "namespace_p4_1_1_control_plane_a_p_i_1_1_helpers.html", null ],
-    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::PNA > >", "namespace_p4_1_1_control_plane_a_p_i_1_1_helpers.html", null ],
-    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::PSA > >", "namespace_p4_1_1_control_plane_a_p_i_1_1_helpers.html", null ],
-    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::V1MODEL > >", "namespace_p4_1_1_control_plane_a_p_i_1_1_helpers.html", null ],
-    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::V1MODEL2020 > >", "namespace_p4_1_1_control_plane_a_p_i_1_1_helpers.html", null ],
+    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::PNA > >", "struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_counter_ebb50c582c5dd33c5846215ba73dfabae.html", null ],
+    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::PSA > >", "struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_counter_e6437b271dee81710718c4ad614e8af47.html", null ],
+    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::V1MODEL > >", "struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_counter_e248b4300a59b419bebe327cb298ec982.html", null ],
+    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::CounterExtern< Standard::Arch::V1MODEL2020 > >", "struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_counter_e1f6c98c2aec817f75f1c612757de5d9e.html", null ],
+    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::PNA > >", "struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_exte7410394ea83dab77c27e91b74c2885a.html", null ],
+    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::PSA > >", "struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_ext13b908381663fa82ab86377f6c8cedcd.html", null ],
+    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::V1MODEL > >", "struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_ext9534506db731af7e7b2ecd0cea82709d.html", null ],
+    [ "P4::ControlPlaneAPI::Helpers::CounterlikeTraits< Standard::MeterExtern< Standard::Arch::V1MODEL2020 > >", "struct_p4_1_1_control_plane_a_p_i_1_1_helpers_1_1_counterlike_traits_3_01_standard_1_1_meter_extab6d2347add15d90ee663718d90b5fa9.html", null ],
     [ "P4::ControlPlaneAPI::MatchField", "namespace_p4_1_1_control_plane_a_p_i.html#struct_p4_1_1_control_plane_a_p_i_1_1_match_field", null ],
     [ "P4::ControlPlaneAPI::P4InfoMaps", "class_p4_1_1_control_plane_a_p_i_1_1_p4_info_maps.html", null ],
     [ "P4::ControlPlaneAPI::P4RuntimeAnalyzer", "class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_analyzer.html", null ],
@@ -184,17 +184,17 @@ var hierarchy =
     [ "P4::ControlPlaneAPI::P4SymbolSuffixSet", "struct_p4_1_1_control_plane_a_p_i_1_1_p4_symbol_suffix_set.html", null ],
     [ "P4::ControlPlaneAPI::Standard::ActionProfile", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_profile.html", null ],
     [ "P4::ControlPlaneAPI::Standard::ActionProfileTraits< arch >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html#struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_profile_traits", null ],
-    [ "P4::ControlPlaneAPI::Standard::ActionProfileTraits< Arch::PNA >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", [
-      [ "P4::ControlPlaneAPI::Standard::ActionSelectorTraits< Arch::PNA >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", null ]
+    [ "P4::ControlPlaneAPI::Standard::ActionProfileTraits< Arch::PNA >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_p_n_a_01_4.html", [
+      [ "P4::ControlPlaneAPI::Standard::ActionSelectorTraits< Arch::PNA >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_p_n_a_01_4.html", null ]
     ] ],
-    [ "P4::ControlPlaneAPI::Standard::ActionProfileTraits< Arch::PSA >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", [
-      [ "P4::ControlPlaneAPI::Standard::ActionSelectorTraits< Arch::PSA >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", null ]
+    [ "P4::ControlPlaneAPI::Standard::ActionProfileTraits< Arch::PSA >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_p_s_a_01_4.html", [
+      [ "P4::ControlPlaneAPI::Standard::ActionSelectorTraits< Arch::PSA >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_p_s_a_01_4.html", null ]
     ] ],
-    [ "P4::ControlPlaneAPI::Standard::ActionProfileTraits< Arch::V1MODEL >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", [
-      [ "P4::ControlPlaneAPI::Standard::ActionSelectorTraits< Arch::V1MODEL >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", null ]
+    [ "P4::ControlPlaneAPI::Standard::ActionProfileTraits< Arch::V1MODEL >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_v1_m_o_d_e_l_01_4.html", [
+      [ "P4::ControlPlaneAPI::Standard::ActionSelectorTraits< Arch::V1MODEL >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_v1_m_o_d_e_l_01_4.html", null ]
     ] ],
-    [ "P4::ControlPlaneAPI::Standard::ActionProfileTraits< Arch::V1MODEL2020 >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", [
-      [ "P4::ControlPlaneAPI::Standard::ActionSelectorTraits< Arch::V1MODEL2020 >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", null ]
+    [ "P4::ControlPlaneAPI::Standard::ActionProfileTraits< Arch::V1MODEL2020 >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_profile_traits_3_01_arch_1_1_v1_m_o_d_e_l2020_01_4.html", [
+      [ "P4::ControlPlaneAPI::Standard::ActionSelectorTraits< Arch::V1MODEL2020 >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_selector_traits_3_01_arch_1_1_v1_m_o_d_e_l2020_01_4.html", null ]
     ] ],
     [ "P4::ControlPlaneAPI::Standard::ActionSelector", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_selector.html", null ],
     [ "P4::ControlPlaneAPI::Standard::ActionSelectorTraits< arch >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html#struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_action_selector_traits", null ],
@@ -203,10 +203,10 @@ var hierarchy =
     [ "P4::ControlPlaneAPI::Standard::MeterExtern< arch >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html#struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_meter_extern", null ],
     [ "P4::ControlPlaneAPI::Standard::Register", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_register.html", null ],
     [ "P4::ControlPlaneAPI::Standard::RegisterTraits< arch >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html#struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_register_traits", null ],
-    [ "P4::ControlPlaneAPI::Standard::RegisterTraits< Arch::PNA >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", null ],
-    [ "P4::ControlPlaneAPI::Standard::RegisterTraits< Arch::PSA >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", null ],
-    [ "P4::ControlPlaneAPI::Standard::RegisterTraits< Arch::V1MODEL >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", null ],
-    [ "P4::ControlPlaneAPI::Standard::RegisterTraits< Arch::V1MODEL2020 >", "namespace_p4_1_1_control_plane_a_p_i_1_1_standard.html", null ],
+    [ "P4::ControlPlaneAPI::Standard::RegisterTraits< Arch::PNA >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_register_traits_3_01_arch_1_1_p_n_a_01_4.html", null ],
+    [ "P4::ControlPlaneAPI::Standard::RegisterTraits< Arch::PSA >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_register_traits_3_01_arch_1_1_p_s_a_01_4.html", null ],
+    [ "P4::ControlPlaneAPI::Standard::RegisterTraits< Arch::V1MODEL >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_register_traits_3_01_arch_1_1_v1_m_o_d_e_l_01_4.html", null ],
+    [ "P4::ControlPlaneAPI::Standard::RegisterTraits< Arch::V1MODEL2020 >", "struct_p4_1_1_control_plane_a_p_i_1_1_standard_1_1_register_traits_3_01_arch_1_1_v1_m_o_d_e_l2020_01_4.html", null ],
     [ "P4::ControlPlaneAPI::TranslationAnnotation", "namespace_p4_1_1_control_plane_a_p_i.html#struct_p4_1_1_control_plane_a_p_i_1_1_translation_annotation", null ],
     [ "P4::Coverage::CoverageOptions", "namespace_p4_1_1_coverage.html#struct_p4_1_1_coverage_1_1_coverage_options", null ],
     [ "P4::Coverage::SourceIdCmp", "struct_p4_1_1_coverage_1_1_source_id_cmp.html", null ],
@@ -345,7 +345,7 @@ var hierarchy =
     [ "P4::hash_vector_base", "class_p4_1_1hash__vector__base.html", [
       [ "P4::hvec_map< P4::ProgramPoint, P4::Definitions * >", "class_p4_1_1hvec__map.html", null ],
       [ "P4::hvec_map< const P4::IR::IDeclaration *, def_info_t >", "class_p4_1_1hvec__map.html", null ],
-      [ "P4::hvec_map< const P4::IR::Node *, P4::hvec_set >", "class_p4_1_1hvec__map.html", null ],
+      [ "P4::hvec_map< const P4::IR::Node *, P4::hvec_set< const loc_t * > >", "class_p4_1_1hvec__map.html", null ],
       [ "P4::hvec_map< P4::loc_t, const P4::LocationSet * >", "class_p4_1_1hvec__map.html", null ],
       [ "P4::hvec_map< const P4::BaseLocation *, const P4::ProgramPoints * >", "class_p4_1_1hvec__map.html", null ],
       [ "P4::hvec_map< const P4::IR::IDeclaration *, P4::StorageLocation * >", "class_p4_1_1hvec__map.html", null ],
@@ -362,6 +362,17 @@ var hierarchy =
     [ "P4::ICompileContext", "class_p4_1_1_i_compile_context.html", [
       [ "P4::BaseCompileContext", "class_p4_1_1_base_compile_context.html", [
         [ "P4::P4CContext", "class_p4_1_1_p4_c_context.html", [
+          [ "P4::P4CContextWithOptions< BMV2Options >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< PnaNicOptions >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< PsaSwitchOptions >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< SimpleSwitchOptions >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< DpdkOptions >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< EbpfOptions >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< Options >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< P4fmtOptions >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< P4TestOptions >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< P4ReachabilityOptions >", "class_p4_1_1_p4_c_context_with_options.html", null ],
+          [ "P4::P4CContextWithOptions< TCOptions >", "class_p4_1_1_p4_c_context_with_options.html", null ],
           [ "P4::P4CContextWithOptions< OptionsType >", "class_p4_1_1_p4_c_context_with_options.html", null ],
           [ "P4::P4Tools::CompileContext< OptionsType >", "class_p4_1_1_p4_tools_1_1_compile_context.html", null ]
         ] ],
@@ -373,6 +384,10 @@ var hierarchy =
       [ "P4::EvaluatorPass", "class_p4_1_1_evaluator_pass.html", null ]
     ] ],
     [ "P4::IHasDbPrint", "class_p4_1_1_i_has_db_print.html", [
+      [ "P4::SimpleCallInfo< IR::P4Action, IR::MethodCallStatement >", "class_p4_1_1_simple_call_info.html", null ],
+      [ "P4::SimpleCallInfo< IR::Node, IR::Statement >", "class_p4_1_1_simple_call_info.html", null ],
+      [ "P4::SimpleInlineWorkList< ActionCallInfo >", "class_p4_1_1_simple_inline_work_list.html", null ],
+      [ "P4::SimpleInlineWorkList< FunctionCallInfo >", "class_p4_1_1_simple_inline_work_list.html", null ],
       [ "P4::StructTypeReplacement< IR::Type_Struct >", "struct_p4_1_1_struct_type_replacement.html", null ],
       [ "P4::TypeSubstitution< const IR::ITypeVar * >", "class_p4_1_1_type_substitution.html", [
         [ "P4::TypeVariableSubstitution", "class_p4_1_1_type_variable_substitution.html", null ]
@@ -399,6 +414,7 @@ var hierarchy =
           [ "P4::IR::NameMap< T, MAP, COMP, ALLOC >", "class_p4_1_1_i_r_1_1_name_map.html", null ],
           [ "P4::IR::NodeMap< KEY, VALUE, MAP, COMP, ALLOC >", "class_p4_1_1_i_r_1_1_node_map.html", null ],
           [ "P4::IR::VectorBase", "class_p4_1_1_i_r_1_1_vector_base.html", [
+            [ "P4::IR::iterator< T >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< IR::Type >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< IR::DpdkAsmStatement >", "class_p4_1_1_i_r_1_1_vector.html", [
               [ "P4::IR::IndexedVector< IR::DpdkAsmStatement >", "class_p4_1_1_i_r_1_1_indexed_vector.html", null ]
@@ -408,9 +424,6 @@ var hierarchy =
             ] ],
             [ "P4::IR::Vector< IR::Declaration >", "class_p4_1_1_i_r_1_1_vector.html", [
               [ "P4::IR::IndexedVector< IR::Declaration >", "class_p4_1_1_i_r_1_1_indexed_vector.html", null ]
-            ] ],
-            [ "P4::IR::Vector< IR::StatOrDecl >", "class_p4_1_1_i_r_1_1_vector.html", [
-              [ "P4::IR::IndexedVector< IR::StatOrDecl >", "class_p4_1_1_i_r_1_1_indexed_vector.html", null ]
             ] ],
             [ "P4::IR::Vector< IR::DpdkTable >", "class_p4_1_1_i_r_1_1_vector.html", [
               [ "P4::IR::IndexedVector< IR::DpdkTable >", "class_p4_1_1_i_r_1_1_indexed_vector.html", null ]
@@ -439,6 +452,9 @@ var hierarchy =
             ] ],
             [ "P4::IR::Vector< IR::SelectCase >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< IR::Expression >", "class_p4_1_1_i_r_1_1_vector.html", null ],
+            [ "P4::IR::Vector< IR::StatOrDecl >", "class_p4_1_1_i_r_1_1_vector.html", [
+              [ "P4::IR::IndexedVector< IR::StatOrDecl >", "class_p4_1_1_i_r_1_1_indexed_vector.html", null ]
+            ] ],
             [ "P4::IR::Vector< N >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< IR::Annotation >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< T >", "class_p4_1_1_i_r_1_1_vector.html", [
@@ -601,76 +617,10 @@ var hierarchy =
     [ "P4::NetHash::Reflect", "struct_p4_1_1_net_hash_1_1_reflect.html", null ],
     [ "P4::ordered_map< K, V, COMP, ALLOC >", "class_p4_1_1ordered__map.html", null ],
     [ "P4::ordered_map< K, V, COMP, ALLOC >::value_compare", "class_p4_1_1ordered__map_1_1value__compare.html", null ],
-    [ "P4::ordered_map< const IR::ConstructorCallExpression *, P4::cstring >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::Declaration_Instance *, P4::CallInfo * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::Declaration_Variable *, const P4::cstring >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::ITypeVar *, const IR::Type * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::MethodCallExpression *, P4::FunctionSpecialization * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::Node *, const IR::CompileTimeValue * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::P4Action *, const IR::P4Action * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::P4Action *, const IR::P4Control * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::P4Action *, unsigned >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::P4Control *, P4::cstring >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::P4Parser *, P4::cstring >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::Parameter *, unsigned >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::Type *, const IR::Type_Struct * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::Type *, P4::StructTypeReplacement< IR::Type_Struct > * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::Type_Enum *, P4::EnumRepresentation * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const IR::Type_Specialized *, P4::TypeSpecialization * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const P4::IR::IDeclaration *, unsigned int >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const P4::IR::Node *, block_t >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const P4::IR::Node *, const IR::P4Action * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const P4::IR::Node *, P4::SpecializationInfo * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const P4::IR::Node *, pna_block_t >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< const P4::IR::Node *, std::pair< gress_t, block_t > >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< cstring, const TestObject * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Declaration_Instance * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Declaration_Variable * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Member * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::P4Action * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::P4Control * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::P4Parser * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::P4Table * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::P4ValueSet * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Type_Declaration * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Type_Enum * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Type_Error * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Type_Header * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Type_HeaderUnion * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Type_Struct * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, const IR::Type_StructLike * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, enum InternalTableType >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, int >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, IR::ParameterList * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, P4::ComplexValues::Component * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, P4::cstring >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, P4::ordered_map< uint, std::list< std::pair< std::vector< P4::cstring >, MethodImpl > > > >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, P4::StructTypeReplacement< IR::Type_StructLike > * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, std::pair< P4::cstring, P4::cstring > * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, std::vector< P4::cstring > * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, std::vector< P4::cstring > >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, std::vector< struct P4::hdrFieldInfo > >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, struct P4::DPDK::fieldInfo >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< P4::cstring, struct P4::TC::ConvertToBackendIR::ExternBlock * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< std::pair< P4::cstring, P4::cstring >, P4::cstring >", "class_p4_1_1ordered__map.html", null ],
     [ "P4::ordered_map< std::string, JsonData * >", "class_p4_1_1ordered__map.html", [
       [ "P4::JsonObject", "class_p4_1_1_json_object.html", null ]
     ] ],
-    [ "P4::ordered_map< std::string, unsigned >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< std::variant< IR::ConcolicVariable, const IR::Expression * >, const IR::Expression * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< T, const IR::Type * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< T, std::vector< T > * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< unsigned, const IR::MethodCallStatement * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< unsigned, const IR::SymbolicVariable * >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< unsigned, P4::cstring >", "class_p4_1_1ordered__map.html", null ],
-    [ "P4::ordered_map< unsigned, unsigned >", "class_p4_1_1ordered__map.html", null ],
     [ "P4::ordered_set< T, COMP, ALLOC >", "class_p4_1_1ordered__set.html", null ],
-    [ "P4::ordered_set< const IR::FieldList * >", "class_p4_1_1ordered__set.html", null ],
-    [ "P4::ordered_set< const IR::Parameter * >", "class_p4_1_1ordered__set.html", null ],
-    [ "P4::ordered_set< const P4::StorageLocation * >", "class_p4_1_1ordered__set.html", null ],
-    [ "P4::ordered_set< P4::BMV2::CFG::Edge * >", "class_p4_1_1ordered__set.html", null ],
-    [ "P4::ordered_set< P4::BMV2::CFG::Node * >", "class_p4_1_1ordered__set.html", null ],
-    [ "P4::ordered_set< P4::cstring >", "class_p4_1_1ordered__set.html", null ],
     [ "P4::P4CConfiguration", "class_p4_1_1_p4_c_configuration.html", [
       [ "P4::DefaultP4CConfiguration", "class_p4_1_1_default_p4_c_configuration.html", [
         [ "P4::P4Tools::CompilerConfiguration", "class_p4_1_1_p4_tools_1_1_compiler_configuration.html", null ]
@@ -726,7 +676,6 @@ var hierarchy =
     [ "P4::P4Tools::P4Testgen::EBPF::EBPFConstants", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_e_b_p_f_1_1_e_b_p_f_constants.html", null ],
     [ "P4::P4Tools::P4Testgen::ExecutionState::StackFrame", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_execution_state_1_1_stack_frame.html", null ],
     [ "P4::P4Tools::P4Testgen::ExprStepper::ExternMethodImpls< StepperType >", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_expr_stepper_1_1_extern_method_impls.html", null ],
-    [ "P4::P4Tools::P4Testgen::ExprStepper::ExternMethodImpls< P4::P4Tools::P4Testgen::ExprStepper >", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_expr_stepper_1_1_extern_method_impls.html", null ],
     [ "P4::P4Tools::P4Testgen::ExprStepper::PacketCursorAdvanceInfo", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_expr_stepper.html#struct_p4_1_1_p4_tools_1_1_p4_testgen_1_1_expr_stepper_1_1_packet_cursor_advance_info", null ],
     [ "P4::P4Tools::P4Testgen::ExternInfo", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_extern_info.html", null ],
     [ "P4::P4Tools::P4Testgen::FinalState", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_final_state.html", null ],
@@ -1089,14 +1038,12 @@ var hierarchy =
     [ "P4::RTTI::Detail::IsType< Targets >", "struct_p4_1_1_r_t_t_i_1_1_detail_1_1_is_type.html", null ],
     [ "P4::RTTI::Detail::ToType< To, typename >", "struct_p4_1_1_r_t_t_i_1_1_detail_1_1_to_type.html", null ],
     [ "P4::RTTI::detail::TypeIdResolver< T, typename >", "struct_p4_1_1_r_t_t_i_1_1detail_1_1_type_id_resolver.html", null ],
-    [ "P4::RTTI::detail::TypeIdResolver< T, std::void_t< decltype(T::static_typeId)> >", "struct_p4_1_1_r_t_t_i_1_1detail_1_1_type_id_resolver.html", null ],
+    [ "P4::RTTI::detail::TypeIdResolver< T, std::void_t< decltype(T::static_typeId)> >", "struct_p4_1_1_r_t_t_i_1_1detail_1_1_type_id_resolver_3_01_t_00_01std_1_1void__t_3_01decltype_07_t_1_1static__type_id_08_4_01_4.html", null ],
     [ "P4::RTTI::detail::TypeNameHolder", "struct_p4_1_1_r_t_t_i_1_1detail_1_1_type_name_holder.html", null ],
     [ "P4::RTTI::TypeInfo< This, Parents >", "struct_p4_1_1_r_t_t_i_1_1_type_info.html", null ],
     [ "P4::SameExpression", "class_p4_1_1_same_expression.html", null ],
     [ "P4::SaturationElim", "class_p4_1_1_saturation_elim.html", null ],
     [ "P4::SimpleInlineList< Callable, CallInfo, InlineWorkList >", "class_p4_1_1_simple_inline_list.html", null ],
-    [ "P4::SimpleInlineList< IR::Node, FunctionCallInfo, FunctionsInlineWorkList >", "class_p4_1_1_simple_inline_list.html", null ],
-    [ "P4::SimpleInlineList< IR::P4Action, ActionCallInfo, AInlineWorkList >", "class_p4_1_1_simple_inline_list.html", null ],
     [ "P4::SpecializationInfo", "struct_p4_1_1_specialization_info.html", null ],
     [ "P4::SpecializationMap", "class_p4_1_1_specialization_map.html", null ],
     [ "P4::SplitFlowVisit_base", "class_p4_1_1_split_flow_visit__base.html", [
@@ -1107,7 +1054,6 @@ var hierarchy =
     [ "P4::StackVariableHash", "class_p4_1_1_stack_variable_hash.html", null ],
     [ "P4::StorageFactory", "class_p4_1_1_storage_factory.html", null ],
     [ "P4::string_map< V >", "class_p4_1_1string__map.html", null ],
-    [ "P4::string_map< const P4::IR::IDeclaration * >", "class_p4_1_1string__map.html", null ],
     [ "P4::string_map< IJson * >", "class_p4_1_1string__map.html", [
       [ "P4::Util::JsonObject", "class_p4_1_1_util_1_1_json_object.html", null ]
     ] ],
@@ -1142,50 +1088,50 @@ var hierarchy =
     [ "P4::Util::BitRange", "struct_p4_1_1_util_1_1_bit_range.html", null ],
     [ "P4::Util::Detail::FloatHasher< Float >", "struct_p4_1_1_util_1_1_detail_1_1_float_hasher.html", null ],
     [ "P4::Util::Detail::FloatHasher< double >", "struct_p4_1_1_util_1_1_detail_1_1_float_hasher.html", [
-      [ "P4::Util::Hasher< double >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< double >", "struct_p4_1_1_util_1_1_hasher_3_01double_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::FloatHasher< float >", "struct_p4_1_1_util_1_1_detail_1_1_float_hasher.html", [
-      [ "P4::Util::Hasher< float >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< float >", "struct_p4_1_1_util_1_1_hasher_3_01float_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< Int >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", null ],
     [ "P4::Util::Detail::IntegerHasher< char >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< char >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< char >", "struct_p4_1_1_util_1_1_hasher_3_01char_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< signed char >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< signed char >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< signed char >", "struct_p4_1_1_util_1_1_hasher_3_01signed_01char_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< signed int >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< signed int >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< signed int >", "struct_p4_1_1_util_1_1_hasher_3_01signed_01int_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< signed long >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< signed long >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< signed long >", "struct_p4_1_1_util_1_1_hasher_3_01signed_01long_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< signed long long >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< signed long long >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< signed long long >", "struct_p4_1_1_util_1_1_hasher_3_01signed_01long_01long_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< signed short >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< signed short >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< signed short >", "struct_p4_1_1_util_1_1_hasher_3_01signed_01short_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< unsigned char >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< unsigned char >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< unsigned char >", "struct_p4_1_1_util_1_1_hasher_3_01unsigned_01char_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< unsigned int >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< unsigned int >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< unsigned int >", "struct_p4_1_1_util_1_1_hasher_3_01unsigned_01int_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< unsigned long >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< unsigned long >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< unsigned long >", "struct_p4_1_1_util_1_1_hasher_3_01unsigned_01long_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< unsigned long long >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< unsigned long long >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< unsigned long long >", "struct_p4_1_1_util_1_1_hasher_3_01unsigned_01long_01long_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::IntegerHasher< unsigned short >", "struct_p4_1_1_util_1_1_detail_1_1_integer_hasher.html", [
-      [ "P4::Util::Hasher< unsigned short >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< unsigned short >", "struct_p4_1_1_util_1_1_hasher_3_01unsigned_01short_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::StdHasher", "class_p4_1_1_util_1_1_detail_1_1_std_hasher.html", [
-      [ "P4::Util::Hasher< big_int >", "struct_p4_1_1_util_1_1_hasher.html", null ]
+      [ "P4::Util::Hasher< big_int >", "struct_p4_1_1_util_1_1_hasher_3_01big__int_01_4.html", null ]
     ] ],
     [ "P4::Util::Detail::TupleHasher< index, Types >", "struct_p4_1_1_util_1_1_detail_1_1_tuple_hasher.html", null ],
-    [ "P4::Util::Detail::TupleHasher< 0, Types... >", "struct_p4_1_1_util_1_1_detail_1_1_tuple_hasher.html", null ],
+    [ "P4::Util::Detail::TupleHasher< 0, Types... >", "struct_p4_1_1_util_1_1_detail_1_1_tuple_hasher_3_010_00_01_types_8_8_8_01_4.html", null ],
     [ "P4::Util::Enumerator< T >", "class_p4_1_1_util_1_1_enumerator.html", [
       [ "P4::Util::ConcatEnumerator< T >", "class_p4_1_1_util_1_1_concat_enumerator.html", null ],
       [ "P4::Util::EmptyEnumerator< T >", "class_p4_1_1_util_1_1_empty_enumerator.html", null ],
@@ -1202,19 +1148,19 @@ var hierarchy =
     [ "P4::Util::EnumeratorHandle< T >", "class_p4_1_1_util_1_1_enumerator_handle.html", null ],
     [ "P4::Util::Hash", "struct_p4_1_1_util_1_1_hash.html", null ],
     [ "P4::Util::Hasher< Key, Enable >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< bool >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< ClosedRange< Unit, Order > >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< cstring >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< HalfOpenRange< Unit, Order > >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< IR::ID >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< P4::ProgramPoint >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< std::pair< T1, T2 > >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< std::shared_ptr< T > >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< std::string >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< std::string_view >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< std::tuple< Types... > >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< std::unique_ptr< T > >", "struct_p4_1_1_util_1_1_hasher.html", null ],
-    [ "P4::Util::Hasher< T * >", "struct_p4_1_1_util_1_1_hasher.html", null ],
+    [ "P4::Util::Hasher< bool >", "struct_p4_1_1_util_1_1_hasher_3_01bool_01_4.html", null ],
+    [ "P4::Util::Hasher< ClosedRange< Unit, Order > >", "struct_p4_1_1_util_1_1_hasher_3_01_closed_range_3_01_unit_00_01_order_01_4_01_4.html", null ],
+    [ "P4::Util::Hasher< cstring >", "struct_p4_1_1_util_1_1_hasher_3_01cstring_01_4.html", null ],
+    [ "P4::Util::Hasher< HalfOpenRange< Unit, Order > >", "struct_p4_1_1_util_1_1_hasher_3_01_half_open_range_3_01_unit_00_01_order_01_4_01_4.html", null ],
+    [ "P4::Util::Hasher< IR::ID >", "struct_p4_1_1_util_1_1_hasher_3_01_i_r_1_1_i_d_01_4.html", null ],
+    [ "P4::Util::Hasher< P4::ProgramPoint >", "struct_p4_1_1_util_1_1_hasher_3_01_p4_1_1_program_point_01_4.html", null ],
+    [ "P4::Util::Hasher< std::pair< T1, T2 > >", "struct_p4_1_1_util_1_1_hasher_3_01std_1_1pair_3_01_t1_00_01_t2_01_4_01_4.html", null ],
+    [ "P4::Util::Hasher< std::shared_ptr< T > >", "struct_p4_1_1_util_1_1_hasher_3_01std_1_1shared__ptr_3_01_t_01_4_01_4.html", null ],
+    [ "P4::Util::Hasher< std::string >", "struct_p4_1_1_util_1_1_hasher_3_01std_1_1string_01_4.html", null ],
+    [ "P4::Util::Hasher< std::string_view >", "struct_p4_1_1_util_1_1_hasher_3_01std_1_1string__view_01_4.html", null ],
+    [ "P4::Util::Hasher< std::tuple< Types... > >", "struct_p4_1_1_util_1_1_hasher_3_01std_1_1tuple_3_01_types_8_8_8_01_4_01_4.html", null ],
+    [ "P4::Util::Hasher< std::unique_ptr< T > >", "struct_p4_1_1_util_1_1_hasher_3_01std_1_1unique__ptr_3_01_t_01_4_01_4.html", null ],
+    [ "P4::Util::Hasher< T * >", "struct_p4_1_1_util_1_1_hasher_3_01_t_01_5_01_4.html", null ],
     [ "P4::Util::IHasSourceInfo", "class_p4_1_1_util_1_1_i_has_source_info.html", [
       [ "P4::IR::ID", "struct_p4_1_1_i_r_1_1_i_d.html", null ],
       [ "P4::IR::INode", "class_p4_1_1_i_r_1_1_i_node.html", null ]
@@ -1261,6 +1207,8 @@ var hierarchy =
     [ "P4::Util::TimerEntry", "struct_p4_1_1_util_1_1_timer_entry.html", null ],
     [ "P4::VisitedKey", "struct_p4_1_1_visited_key.html", null ],
     [ "P4::Visitor", "class_p4_1_1_visitor.html", [
+      [ "P4::InlineDriver< ActionsInlineList, AInlineWorkList >", "class_p4_1_1_inline_driver.html", null ],
+      [ "P4::InlineDriver< FunctionsInlineList, FunctionsInlineWorkList >", "class_p4_1_1_inline_driver.html", null ],
       [ "P4::Backtrack", "class_p4_1_1_backtrack.html", [
         [ "P4::OnBacktrack< T >", "class_p4_1_1_on_backtrack.html", null ],
         [ "P4::PassManager", "class_p4_1_1_pass_manager.html", [
@@ -1854,11 +1802,11 @@ var hierarchy =
       ] ]
     ] ],
     [ "std::false_type", null, [
-      [ "P4::IR::has_static_type_name< T, std::void_t< decltype(T::static_type_name())> >", "struct_p4_1_1_i_r_1_1has__static__type__name.html", null ],
-      [ "P4::Util::has_SourceInfo< T, std::void_t< decltype(std::declval< T >().getSourceInfo())> >", "struct_p4_1_1_util_1_1has___source_info.html", null ],
-      [ "P4::Util::has_toString< T, std::void_t< decltype(std::declval< T >().toString())> >", "struct_p4_1_1_util_1_1has__to_string.html", null ],
-      [ "P4::has_dbprint< T, std::void_t< decltype(std::declval< T >().dbprint(std::declval< std::ostream & >()))> >", "struct_p4_1_1has__dbprint.html", null ],
-      [ "P4::has_ostream_operator< T, std::void_t< decltype(std::declval< std::ostream & >()<< std::declval< T >())> >", "struct_p4_1_1has__ostream__operator.html", null ],
+      [ "P4::IR::has_static_type_name< T, std::void_t< decltype(T::static_type_name())> >", "struct_p4_1_1_i_r_1_1has__static__type__name_3_01_t_00_01std_1_1void__t_3_01decltype_07_t_1_1static__type__name_07_08_08_4_01_4.html", null ],
+      [ "P4::Util::has_SourceInfo< T, std::void_t< decltype(std::declval< T >().getSourceInfo())> >", "struct_p4_1_1_util_1_1has___source_info_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declvaleceb1e5b41b0ceab45c2091dafb42308.html", null ],
+      [ "P4::Util::has_toString< T, std::void_t< decltype(std::declval< T >().toString())> >", "struct_p4_1_1_util_1_1has__to_string_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_acb3d703214236ac0dfb06e6517d195f.html", null ],
+      [ "P4::has_dbprint< T, std::void_t< decltype(std::declval< T >().dbprint(std::declval< std::ostream & >()))> >", "struct_p4_1_1has__dbprint_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_01_t_01_4_012206707ff62b52b5f3b6b59b578fd59.html", null ],
+      [ "P4::has_ostream_operator< T, std::void_t< decltype(std::declval< std::ostream & >()<< std::declval< T >())> >", "struct_p4_1_1has__ostream__operator_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_0b23eeecb7e72d387dfbaa930aade2e05.html", null ],
       [ "P4::IR::has_static_type_name< class, class >", "struct_p4_1_1_i_r_1_1has__static__type__name.html", null ],
       [ "P4::Util::has_SourceInfo< class, class >", "struct_p4_1_1_util_1_1has___source_info.html", null ],
       [ "P4::Util::has_toString< class, class >", "struct_p4_1_1_util_1_1has__to_string.html", null ],
@@ -1876,6 +1824,7 @@ var hierarchy =
     [ "std::ios_base", null, [
       [ "std::basic_ios< Char >", null, [
         [ "std::basic_ostream< Char >", null, [
+          [ "P4::onullstream< char >", "class_p4_1_1onullstream.html", null ],
           [ "P4::onullstream< cT, traits >", "class_p4_1_1onullstream.html", null ]
         ] ]
       ] ]
@@ -1887,18 +1836,19 @@ var hierarchy =
       [ "P4::ordered_set< T, COMP, ALLOC >::sorted_iterator", "class_p4_1_1ordered__set_1_1sorted__iterator.html", null ]
     ] ],
     [ "std::true_type", null, [
-      [ "P4::IR::has_static_type_name< T, std::void_t< decltype(T::static_type_name())> >", "struct_p4_1_1_i_r_1_1has__static__type__name.html", null ],
-      [ "P4::Util::has_SourceInfo< T, std::void_t< decltype(std::declval< T >().getSourceInfo())> >", "struct_p4_1_1_util_1_1has___source_info.html", null ],
-      [ "P4::Util::has_toString< T, std::void_t< decltype(std::declval< T >().toString())> >", "struct_p4_1_1_util_1_1has__to_string.html", null ],
-      [ "P4::has_dbprint< T, std::void_t< decltype(std::declval< T >().dbprint(std::declval< std::ostream & >()))> >", "struct_p4_1_1has__dbprint.html", null ],
-      [ "P4::has_ostream_operator< T, std::void_t< decltype(std::declval< std::ostream & >()<< std::declval< T >())> >", "struct_p4_1_1has__ostream__operator.html", null ]
+      [ "P4::IR::has_static_type_name< T, std::void_t< decltype(T::static_type_name())> >", "struct_p4_1_1_i_r_1_1has__static__type__name_3_01_t_00_01std_1_1void__t_3_01decltype_07_t_1_1static__type__name_07_08_08_4_01_4.html", null ],
+      [ "P4::Util::has_SourceInfo< T, std::void_t< decltype(std::declval< T >().getSourceInfo())> >", "struct_p4_1_1_util_1_1has___source_info_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declvaleceb1e5b41b0ceab45c2091dafb42308.html", null ],
+      [ "P4::Util::has_toString< T, std::void_t< decltype(std::declval< T >().toString())> >", "struct_p4_1_1_util_1_1has__to_string_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_acb3d703214236ac0dfb06e6517d195f.html", null ],
+      [ "P4::has_dbprint< T, std::void_t< decltype(std::declval< T >().dbprint(std::declval< std::ostream & >()))> >", "struct_p4_1_1has__dbprint_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_01_t_01_4_012206707ff62b52b5f3b6b59b578fd59.html", null ],
+      [ "P4::has_ostream_operator< T, std::void_t< decltype(std::declval< std::ostream & >()<< std::declval< T >())> >", "struct_p4_1_1has__ostream__operator_3_01_t_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_0b23eeecb7e72d387dfbaa930aade2e05.html", null ]
     ] ],
     [ "std::vector< T >", null, [
+      [ "P4::iterator<>", "class_p4_1_1safe__vector.html", null ],
+      [ "P4::const_iterator<>", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::Type * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::DpdkAsmStatement * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const P4::IR::Node * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::Declaration * >", "class_p4_1_1safe__vector.html", null ],
-      [ "P4::safe_vector< const IR::StatOrDecl * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::DpdkTable * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::DpdkSelector * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const IR::DpdkLearner * >", "class_p4_1_1safe__vector.html", null ],
@@ -1914,6 +1864,7 @@ var hierarchy =
       [ "P4::safe_vector< const IR::Expression * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< DebugHook >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< P4::Visitor * >", "class_p4_1_1safe__vector.html", null ],
+      [ "P4::safe_vector< const IR::StatOrDecl * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const N * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< struct P4::TC::Annotation * >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< struct P4::TC::ActionParam * >", "class_p4_1_1safe__vector.html", null ],
