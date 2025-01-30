@@ -130,8 +130,10 @@ overlooked) job. We can always write better documentation!
 
 In P4C, documentation is generated using Doxygen. The generated documentation depends on [Doxygen Awesome CSS](https://github.com/jothepro/doxygen-awesome-css). The documentation is dynamically updated and deployed on [GitHub Pages](https://p4lang.github.io/p4c/).
 
-There are two main sources from which we generate documentation: comments
-in the code and markup documents in the docs/doxygen directory.
+Documentation is generated from two main sources: README files distributed 
+across the repository and comments within the code. The README files are 
+tagged with documentation inclusion notes to indicate their integration into 
+the P4 compiler documentation.
 
 Code comments should capture the main intent of the implementation and
 the "why", rather than the "how". The how can be read from the code,
@@ -150,14 +152,45 @@ XX is a number between 02-99. Currently, 00_revision_history.md
 contains the documentation revision history, and 01_overview.md is the
 overview of the compiler goals and architecture.
 
-## Documentation Comments Style Guide 
+## C/C++ Documentation Comments Style Guide 
 - Use triple slashes `///` for documenting functions and classes in files.
 - Double slashes `//` should be used for "internal" comments within functions.
 - Double slashes `//` should be used for inline comment.
 - For rare occasions such as adding comments to multi-line macros, you may use `/* ... */` style comments.
-- There should be no space at the end of the comment.
-- First letter of the comment should be a capital letter.
-- Each comment should end with a period.
+- Formatting:
+  - There should be no space at the end of the comment.
+  - First letter of the comment should be a capital letter.
+  - Each comment should end with a period.
+
+## Building the Doxygen documentation
+- Doxygen is configured in `docs/doxygen/doxygen.cfg`.
+- The main HTML page is configured in `docs/doxygen/Doxymain.md`:
+  - CSS for the card effect is in `docs/assets/css/card.css`.
+  - The effect for the Easter egg toggle is defined in `docs/assets/css/flow.css`. 
+  - The homepage P4C architecture is rendered using `docs/assets/architecture_unanimated.html`, with the editable draw file available at `docs/assets/Architecture.drawio`.
+- Add pages and subpages manually to the sidebar (see `docs/doxygen/p4c_layout.xml`).
+- TOCs in markdown files are created with the `[TOC]` command.
+- The base style for Doxygen Awesome is described in the [Doxygen Awesome Documentation](https://jothepro.github.io/doxygen-awesome-css/) and the updated color scheme is defined in [`docs\assets\css\p4c_custom.css`](https://github.com/p4lang/p4c/blob/main/docs/assets/css/p4c_custom.css).
+
+### Doxygen Comments Style Guide
+- Comment Markup and Documentation Commands
+  -  `<!-- ... -->` is used for adding documentation inclusion notes. This content is hidden from both the rendered Markdown and Doxygen, but visible in the raw view on GitHub.
+  - Use HTML comments with an exclamation mark to add instructions for Doxygen. These comments are hidden in GitHub's Markdown but processed by Doxygen. For example:
+``` 
+<!--!
+\page changelog Releases
+-->
+```
+  -  `\internal` and `\endinternal` commands within comments can be used to hide information from Doxygen while still displaying it on GitHub.
+```
+<!--!
+\internal
+-->
+This section is hidden from Doxygen but will be visible on GitHub.
+<!--!
+\endinternal
+-->
+```
 
 Happy writing! Should you have any questions, please don't hesitate to ask.
 
@@ -177,6 +210,23 @@ git push -f
 * Follow these
   [guidelines](CodingStandardPhilosophy.md#git-commits-and-pull-requests)
   to write commit messages and open pull requests.
+
++ For every pull request opened, a standard set of CI tests will run
+  automatically.  If any of these fail, look at the Github page for
+  your pull request for the list of tests that have been run.  There
+  should be "Details" links there for any tests that have failed.  Ask
+  for help via messages in comments on your PR if you are not able to
+  determine the cause of the failures.
+
++ There are several CI tests that are not run on every pull request
+  automatically, but only via following the steps below, in order to
+  reduce the compute resources used on every pull request.  If you
+  wish to run one or more of these, look through the list of Github
+  labels for the p4c project
+  [here](https://github.com/p4lang/p4c/labels) for labels whose name
+  begins with "run-".  Add one or more of those labels to your PR.
+  On all future pushes to the branch of that PR, those additional CI
+  runs should run.
 
 ## Debugging
 
